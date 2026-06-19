@@ -96,15 +96,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "The Adventures of Elliot: The Millennium Tales Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "The Adventures of Elliot: The Millennium Tales wiki covering walkthroughs, weapons, magicite builds, Faie magic, the four ages, bosses, demo bonuses, platforms, and story lore for the HD-2D action RPG.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "The Adventures of Elliot: The Millennium Tales - HD-2D Action RPG",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -115,11 +115,9 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "The Adventures of Elliot: The Millennium Tales Wiki",
+        alternateName: "Elliot Millennium Tales Wiki",
         url: siteUrl,
-        description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -131,21 +129,22 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "The Adventures of Elliot: The Millennium Tales - HD-2D Action RPG",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/",
+          "https://steamcommunity.com/app/3483510",
+          "https://www.nintendo.com/us/store/products/the-adventures-of-elliot-the-millennium-tales-switch-2/",
+          "https://www.youtube.com/@squareenixna",
+          "https://www.square-enix.com/the-adventures-of-elliot-the-millennium-tales/en-us/",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "The Adventures of Elliot: The Millennium Tales",
+        gamePlatform: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X/S", "PC (Steam)"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Action RPG", "Action-Adventure", "HD-2D"],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
@@ -154,7 +153,7 @@ export default function HomePageClient({
           "@type": "Offer",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/",
         },
       },
       {
@@ -1326,21 +1325,21 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://steamcommunity.com/app/3483510"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    <MessageCircle className="w-4 h-4" /> Discord{" "}
+                    <MessageCircle className="w-4 h-4" /> Steam Community{" "}
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://www.square-enix.com/the-adventures-of-elliot-the-millennium-tales/en-us/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Official Website <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -1401,27 +1400,17 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.discord}
+                    {t.footer.steamStore}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.twitter}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://steamcommunity.com/app/3483510"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1431,12 +1420,22 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://www.youtube.com/@squareenixna"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.steamStore}
+                    {t.footer.youtube}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.square-enix.com/the-adventures-of-elliot-the-millennium-tales/en-us/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.officialSite}
                   </a>
                 </li>
               </ul>
