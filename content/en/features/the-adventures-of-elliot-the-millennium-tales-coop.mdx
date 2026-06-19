@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Adventures of Elliot the Millennium Tales Coop: Guide",
+  description: "Learn how local co-op works in The Adventures of Elliot: The Millennium Tales. Discover Faie's support magic, 2-player combat tips, and setup steps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=Co-op+Guide",
+  date: "2026-06-19",
+  author: "the adventures of elliot the millennium tales Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cooperative Play**: Experience **the adventures of elliot the millennium tales coop** locally with one player controlling Elliot and the other managing Faie.
+- **Asymmetric Roles**: Player 1 focuses on real-time weapon switching and melee combat, while Player 2 provides tactical ranged magic support.
+- **Unlockable Spells**: Visit Shrines of the Mystic to unlock game-changing spells like Warp, Ignite, Vacuum, and Copy for Faie.
+- **Dungeon Efficiency**: Use Faie's independent movement to safely scout traps, retrieve items, and solve complex environmental puzzles.
+- **Revival Mechanic**: Keep Elliot alive in tough boss battles by spending collected tul to trigger Faie's recovery abilities.
+</Callout>
+
+<Section icon={Swords} title="The Adventures of Elliot the Millennium Tales Coop Overview">
+
+The Adventures of Elliot: The Millennium Tales, developed by Square Enix and Claytechworks, offers a uniquely integrated local 1-2 player experience. If you are looking to share your journey across the four distinct eras, diving into **the adventures of elliot the millennium tales coop** is the ultimate way to play. Unlike traditional cooperative RPGs where both players control identical warriors, this game features an asymmetric co-op structure. 
+
+Player 1 takes the role of the red-hatted adventurer Elliot, commanding a robust arsenal of seven weapon types, executing perfect blocks, and customizing builds with Magicite. Player 2 commands Faie, Elliot’s loyal fairy companion, utilizing specialized support magic, scouting hazardous environments, and manipulating the battlefield in real time. This dynamic transforms every dungeon crawl, boss encounter, and puzzle sequence into a collaborative tactical exercise.
+
+| Feature | Player 1: Elliot | Player 2: Faie |
+| |---|---|
+| **Role** | Main Combatant / Melee Specialist | Support / Scout / Magic Specialist |
+| **Controls** | Left Stick, Face Buttons (Combat) | Right Stick (or Player 2 Controller) |
+| **Primary Actions** | Weapon Switching, Guarding, Dodging | Scouting, Item Retrieval, Magic Casting |
+| **Progression** | Leveling up, Weapon Upgrades, Magicite | Unlocking Spells at Shrines of the Mystic |
+| **Health Pool** | Standard Vitality (can be knocked out) | Invulnerable (spends tul to revive Elliot) |
+
+<Callout type="warning" title="Local Co-op Only">
+The cooperative mode in this title is strictly limited to offline local play (couch co-op) on supported platforms. Online matchmaking or network play is not natively supported.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Faie's Magic and Cooperative Combat Strategies">
+
+In co-op play, Faie's abilities expand significantly beyond her single-player utility. By utilizing a second controller, Player 2 can independently fly around the screen, distracting enemies and preparing magical setups for Player 1 to detonate or exploit. Faie's magic is unlocked by discovering ancient Shrines of the Mystic throughout the time-traveling campaign. 
+
+The synergy between Elliot's physical weapons—such as the Sword and Shield, Hammer, Bow, Boomerang, Spear, Bomb, and Chains and Sickles—and Faie's support spells is the key to conquering high-difficulty encounters.
+
+| Spell Type | Core Effect | Elliot's Best Pairing | Tactical Synergy |
+|---|---|---|---|
+| **Warp** | Teleports Elliot to Faie's location | Hammer / Spear | Instantly close gaps or escape deadly boss area-of-effect attacks |
+| **Ignite** | Lights torches, melts ice, detonates | Bomb | Set timed explosives, then detonate them instantly with fire |
+| **Vacuum** | Pulls enemies and loot together | Chains and Sickles / Bomb | Group enemies for massive area-of-effect sweep attacks |
+| **Copy** | Mimics Elliot's weapon actions | Boomerang / Bow | Double projectile output for superior ranged pressure |
+
+<CardGrid cols={2}>
+  <Card title="Warp Magic">
+    - **Repositioning**: Instantly teleports Elliot to Faie's current floating coordinates.
+    - **Evasion**: Safely bypasses floor traps, bottomless pits, and sweeping boss attacks.
+    - **Puzzle Solving**: Accesses high ledges or isolated pressure plates with ease.
+  </Card>
+  <Card title="Ignite Magic">
+    - **Environmental Interaction**: Lights unlit torches and melts blockages of solid ice.
+    - **Explosive Detonation**: Instantly ignites Elliot's placed bombs for manual burst damage.
+    - **Elemental Damage**: Applies a burning status effect to vulnerable fantasy monsters.
+  </Card>
+  <Card title="Vacuum Magic">
+    - **Crowd Control**: Generates a localized vortex drawing nearby enemies to Faie.
+    - **Loot Farming**: Automatically gathers dropped tul, materials, and Magicite fragments.
+    - **Combo Setup**: Clusters targets tightly together, maximizing Elliot's heavy charge attacks.
+  </Card>
+  <Card title="Copy Magic">
+    - **Action Mirroring**: Replicates Elliot's physical movements and projectile paths.
+    - **Synchronized Switches**: Activates dual-switch mechanisms simultaneously in ruins.
+    - **Damage Multiplication**: Projects secondary slashes and arrows during combat.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Detonation Timing">
+When playing as Faie, coordinate with Player 1 to detonate Bombs immediately upon contact with fast-moving bosses. This prevents enemies from escaping the blast radius.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Setup Steps for Local Multiplayer Play">
+
+Setting up local multiplayer is straightforward but varies slightly depending on your platform of choice. Whether you are playing on PlayStation 5, Xbox Series X|S, Nintendo Switch 2, or PC via Steam, the second player can drop in easily. Follow these steps to establish your local cooperative session.
+
+<Steps>
+  <Step num="1" title="Connect a Second Controller">
+    Ensure a second compatible input device is powered on and synced to your console or PC. For PC players on Steam, ensure Steam Input is configured to recognize both controllers.
+  </Step>
+  <Step num="2" title="Launch the Game and Load a Save">
+    Boot up the game and load your current adventure file. Co-op can be activated during active gameplay once you have completed the brief opening tutorial segment.
+  </Step>
+  <Step num="3" title="Press the Drop-In Button">
+    On the second controller, press the designated start or options button. The game will display a prompt confirming that Player 2 has successfully taken direct control of Faie.
+  </Step>
+  <Step num="4" title="Configure Input Preferences">
+    Navigate to the settings menu to adjust control sensitivity, camera tracking, and accessibility features for both players to optimize comfort.
+  </Step>
+</Steps>
+
+| Platform | Player Count | Controller Support | Resolution / Target FPS | Unique Features |
+|---|---|---|---|---|
+| **PlayStation 5** | 1-2 Offline | DualSense Wireless | Up to 4K @ 60 FPS | DualSense vibration, 21 accessibility options |
+| **Xbox Series X** | 1-2 Offline | Xbox Wireless Controller | Up to 4K @ 60 FPS+ | Xbox Play Anywhere, Cloud Gaming enabled |
+| **Nintendo Switch 2** | 1-2 Local | Joy-Con / Pro Controller | Up to 1080p (TV Mode) | Tabletop, Handheld, and TV mode support |
+| **Steam PC** | 1-2 Local | Selectable Gamepads / KB+M | Up to 4K @ 120 FPS | Steam Cloud, Family Sharing, custom keybinds |
+
+<Callout type="success" title="Instant Drop-In">
+Player 2 can join or leave the game at any point during exploration without interrupting Player 1's progress or requiring a game reboot.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dungeon Exploration and Puzzle Solving Guide">
+
+Navigating the ancient Doorway of Time and traveling through the four distinct eras—the Age of Safekeeping, Reconstruction, Magic, and Budding—presents players with intricate environmental puzzles. Having a dedicated second player controlling Faie simplifies these challenges significantly. Faie is not bound by gravity or physical obstacles, allowing her to float across chasms, scout dark corridors, and interact with objects that Elliot cannot physically reach.
+
+<Checklist
+  id="coop-exploration-checklist"
+  title="Co-op Dungeon Checklist:"
+  items={[
+    "Use Faie to scout ahead into blind corridors to trigger enemy spawns safely",
+    "Identify cracked walls and coordinate Bomb placements with Ignite magic",
+    "Retrieve distant chests and floating Magicite fragments using Faie's interaction",
+    "Utilize the Warp spell to bypass complex floor-trap patterns and pressure plates",
+    "Synchronize switch-pulling puzzles using the Copy magic to unlock locked gates"
+  ]}
+/>
+
+<Callout type="info" title="Scouting Safety">
+Faie is completely invulnerable to enemy attacks and environmental hazards. Use her to scout dangerous territory ahead of Elliot to avoid surprise ambushes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cooperative Campaign Progression and Rewards">
+
+While playing in co-op, campaign progression is tied entirely to Player 1's profile. However, both players benefit directly from the gear, accessories, and Magicite builds accumulated along the way. If you played the Prologue Demo, your save data can be carried over seamlessly into the full game, giving you an early advantage in cooperative play. Additionally, linking save data from previous Square Enix titles unlocks powerful exclusive bonuses.
+
+| Bonus Source | Reward Name | Item Type | Core Gameplay Effect |
+|---|---|---|---|
+| **Preorder Bonus** | Departure Brooch | Accessory | Increases tul and Magicite fragment drops slightly |
+| **OCTOPATH TRAVELER 0** | Guidance of the Sacred Flame | Sword Magicite | +10% sword damage to enemies under 30% vitality |
+| **DRAGON QUEST I & II Remake** | Critical Hit | Sword Magicite | Increases sword critical-hit rate by 6% |
+| **BRAVELY DEFAULT FLYING FAIRY** | Brave | Sword Magicite | +10% sword damage / increases shield stamina cost |
+| **TRIANGLE STRATEGY** | Counter Stance | Sword Magicite | +10% sword damage when shield stamina is above 90% |
+| **VARIOUS DAYLIFE** | Expeditionary Wisdom | Sword Magicite | Reduces sword charge time by 10% |
+| **Trials of Mana** | Laurentian Plumage | Quest Item | Ornamental feathers that trigger a town encounter |
+
+<Callout type="warning" title="Claiming Your Rewards">
+To claim these bonuses, complete the title screen Promotional Bonus flow. Then, visit the desk on the second floor of the orphanage in the Age of Safekeeping once it becomes accessible.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+To ensure you have the best possible experience while tackling the cooperative campaign, we have compiled answers to the most common questions players ask about the multiplayer systems.
+
+<FAQ items={[
+  {
+    question: "Does the second player get to keep their own character progression?",
+    answer: "No. Because Faie is a support companion, all progression, including unlocked spells, level stats, and Magicite upgrades, is saved directly to Player 1's game file. Player 2 can drop in and out of Player 1's campaign seamlessly."
+  },
+  {
+    question: "Is there any online multiplayer support for this game?",
+    answer: "The game is designed strictly for local couch co-op (1-2 players on a single system). There is no official online matchmaking or network co-op supported natively."
+  },
+  {
+    question: "What happens if Elliot runs out of health during co-op play?",
+    answer: "If Elliot is knocked out, Player 2 controlling Faie can revive him. This is done by spending a set amount of collected tul. If you run out of tul, the team must restart from the last active adventuring guidepost."
+  },
+  {
+    question: "Can Player 2 customize Faie's abilities and magic loadout?",
+    answer: "Faie's magic spells are unlocked by visiting Shrines of the Mystic scattered across the four eras. Once unlocked, Player 2 can freely cast Warp, Ignite, Vacuum, or Copy during exploration and combat to support Player 1."
+  }
+]} />
+
+<Callout type="tip" title="Tul Management">
+Always keep a healthy reserve of tul in your inventory during difficult dungeons. Since Faie relies on tul to revive Elliot, running completely broke can lead to sudden game-over screens.
+</Callout>
+
+</Section>

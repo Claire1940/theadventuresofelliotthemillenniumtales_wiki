@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Wrench, AlertTriangle, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "the adventures of elliot the millennium tales demo wont start crash on start up: Guía de resolución de problemas para PC",
+  description: "Soluciona los problemas de inicio del demo del prólogo de The Adventures of Elliot. Aprende a resolver bloqueos al arrancar, errores de Denuvo y problemas de compatibilidad con DirectX 12.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15A7D0/fff?text=Troubleshooting+Guide",
+  date: "2026-06-19",
+  author: "Equipo de la Wiki de the adventures of elliot the millennium tales"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Palabra clave principal**: Si **the adventures of elliot the millennium tales demo wont start crash on start up**, verifica primero tu sistema operativo.
+- **Mecánica clave**: El juego requiere estrictamente **Windows 11 de 64 bits**; los usuarios de Windows 10 experimentarán fallos de inicio inmediatos.
+- **Mejor estrategia**: Siempre **Verifica la integridad de los archivos del juego** a través de Steam antes de intentar revertir controladores complejos.
+- **Consejo crítico**: **Denuvo Anti-tamper** está activo y puede ser bloqueado por software antivirus de terceros demasiado agresivo.
+- **Mejor opción**: Limita la tasa de fotogramas a **60 FPS** en el panel de control de tu GPU si el juego se cierra durante la pantalla inicial del logotipo de Square Enix.
+</Callout>
+
+<Section icon={Monitor} title="Verificar los requisitos oficiales del sistema para PC">
+
+Cuando los jugadores informan que **the adventures of elliot the millennium tales demo wont start crash on start up**, el culpable más común es el hardware incompatible o un sistema operativo desactualizado. La versión para PC de este RPG de acción HD-2D, desarrollado por Square Enix y Claytechworks, tiene requisitos mínimos sorprendentemente estrictos para un juego con estilo pixel-art. 
+
+Debido a que el demo del prólogo utiliza exactamente el mismo motor y recursos que el lanzamiento final del 18 de junio de 2026, no cumplir con estas especificaciones garantizará un cierre inesperado antes de que se cargue el menú principal.
+
+<CardGrid cols={3}>
+  <Card title="Sistema operativo">
+    - **Solo Windows 11 de 64 bits**
+    - Windows 10 no es compatible
+    - Causa cierres silenciosos instantáneos
+  </Card>
+  <Card title="Memoria del sistema">
+    - **Mínimo de 16 GB de RAM**
+    - Los sistemas con 8 GB sufrirán cuellos de botella
+    - Causa errores de asignación de memoria
+  </Card>
+  <Card title="Espacio de almacenamiento">
+    - **20 GB de espacio disponible**
+    - SSD altamente recomendado
+    - Evita tirones (stuttering) en la carga de recursos
+  </Card>
+</CardGrid>
+
+Muchos jugadores asumen erróneamente que, debido a que el juego utiliza una estética HD-2D similar a la de títulos más antiguos, puede ejecutarse en máquinas heredadas. Sin embargo, la iluminación avanzada, las mecánicas de cambio de armas en tiempo real y los sistemas de magia cargados de partículas de Faie requieren una arquitectura moderna. 
+
+Revisa las especificaciones oficiales de hardware a continuación para asegurarte de que tu equipo sea capaz de ejecutar el archivo ejecutable.
+
+| Componente | Requisito mínimo (720p / Bajo / 60 FPS) | Configuración recomendada (1080p / Alto / 60 FPS) |
+|---|---|---|
+| SO | Windows 11 de 64 bits | Windows 11 de 64 bits |
+| Procesador | AMD Ryzen 3 3100 / Intel Core i3-8100 | AMD Ryzen 3 3100 / Intel Core i5-8600K |
+| Memoria | 16 GB de RAM | 16 GB de RAM |
+| Gráficos | Radeon RX 5500 XT / Arc A580 / GTX 1650 | Radeon RX 5600 XT / Arc A580 / GTX 1660 Ti |
+| DirectX | Versión 12 | Versión 12 |
+
+<Callout type="warning" title="Requisito de Windows 11">
+No ignores el requisito del sistema operativo. La documentación oficial de Steam confirma que Windows 11 de 64 bits es el mínimo absoluto. Intentar forzar la ejecución del juego en Windows 10 mediante modos de compatibilidad provocará un fallo fatal al iniciar debido a la falta de enlaces de la API moderna de DirectX 12.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Identificar causas comunes de los fallos al iniciar">
+
+Si tu hardware cumple o supera los requisitos enumerados anteriormente, el problema radica en tu entorno de software. Los entornos de juego en PC son muy variables, y los conflictos entre las aplicaciones en segundo plano y el ejecutable del juego son frecuentes. 
+
+El demo del prólogo incluye varias tecnologías específicas en segundo plano, como la sincronización de Steam Cloud y la gestión de derechos digitales (DRM), que pueden activar falsos positivos en tu sistema.
+
+<Checklist
+  id="crash-causes"
+  title="Lista de verificación previa a la resolución de problemas:"
+  items={[
+    "Confirma que Windows 11 esté completamente actualizado a la última compilación",
+    "Comprueba si tu antivirus está bloqueando Denuvo Anti-tamper",
+    "Asegúrate de que tu monitor principal esté conectado directamente a tu GPU dedicada",
+    "Desactiva las superposiciones (overlays) de RivaTuner, MSI Afterburner o Discord",
+    "Verifica que tengas al menos 20 GB de espacio libre en tu unidad de instalación"
+  ]}
+/>
+
+Uno de los elementos más comentados del lanzamiento para PC es la inclusión de Denuvo Anti-tamper. Aunque está diseñado para proteger el ejecutable del juego, Denuvo requiere una verificación periódica de tokens en línea. Si tu cortafuegos impide que el juego se comunique con el servidor de autenticación durante su inicio inicial, la aplicación simplemente se cerrará sola sin mostrar ningún código de error.
+
+Además, los redistribuibles visuales corruptos pueden hacer que el juego falle al inicializar el motor de renderizado. Utiliza la siguiente tabla para asociar el síntoma específico de tu fallo con su causa más probable.
+
+| Síntoma del fallo | Causa más probable | Acción inicial |
+|---|---|---|
+| Se cierra instantáneamente después de pulsar "Jugar" | Denuvo bloqueado / Falta DX12 | Añadir la carpeta a las exclusiones del antivirus |
+| Pantalla negra con audio de fondo | Tiempo de espera agotado del controlador de la GPU / Error de resolución | Forzar el modo de ventana a través de Steam |
+| Se congela en el logotipo de Square Enix | Conflicto de superposición (Discord/Steam) | Desactivar todas las superposiciones en el juego |
+| Ventana emergente de error fatal "Out of Memory" | RAM insuficiente / Archivo de paginación desactivado | Aumentar la memoria virtual de Windows |
+
+<Callout type="tip" title="Comprueba la cuarentena de tu antivirus">
+Antes de proceder con soluciones complejas, abre Windows Defender o tu software antivirus de terceros y revisa el historial de protección. Si ves `ElliotDemo.exe` en la lista como una amenaza bloqueada, restaura el archivo y añade toda la carpeta de instalación de Steam a la lista de permitidos (whitelist).
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Guía paso a paso para solucionar los problemas del demo del prólogo">
+
+Ahora que entendemos la base del hardware y los posibles conflictos de software, podemos aplicar soluciones específicas. Sigue estos pasos de manera secuencial. Están ordenados desde el menos invasivo hasta el más completo, lo que garantiza que no pierdas tiempo reinstalando todo el paquete de 20 GB a menos que sea absolutamente necesario.
+
+<Steps>
+  <Step num="1" title="Verificar la integridad de los archivos del juego">
+    Las descargas corruptas son la causa principal de los fallos al iniciar. Abre tu biblioteca de Steam, haz clic derecho en The Adventures of Elliot Prologue Demo, selecciona **Propiedades**, navega a la pestaña **Archivos instalados** y haz clic en **Verificar integridad de los archivos del demo**. Steam escaneará tu instalación y volverá a descargar automáticamente cualquier textura HD-2D o archivo ejecutable que falte o esté dañado.
+  </Step>
+  <Step num="2" title="Realizar una instalación limpia de los controladores de la GPU">
+    El motor de iluminación del juego depende en gran medida de controladores actualizados. No uses solo Windows Update. Visita el sitio web oficial de AMD, NVIDIA o Intel para descargar el paquete de controladores más reciente. Durante la instalación, selecciona la opción **Personalizada (Avanzada)** y marca la casilla **Realizar una instalación limpia**. Esto eliminará los perfiles de controladores antiguos y en conflicto de tu registro.
+  </Step>
+  <Step num="3" title="Ejecutar el archivo ejecutable como administrador">
+    A veces, Steam carece de los permisos de Windows necesarios para crear las carpetas de datos de guardado requeridas en tu directorio de Documentos. Haz clic derecho en el juego en Steam, ve a **Administrar > Explorar archivos locales**. Haz clic derecho en el ejecutable principal, selecciona **Propiedades**, ve a la pestaña **Compatibilidad** y marca **Ejecutar este programa como administrador**.
+  </Step>
+  <Step num="4" title="Borrar la caché de descargas de Steam">
+    Si el demo se actualizó recientemente y no se inicia, es posible que la caché de descargas esté desincronizada. Abre la configuración de Steam, navega a la pestaña **Descargas** y haz clic en **Borrar caché**. Tendrás que volver a iniciar sesión en Steam después de esto, pero forzará una conexión nueva a la red de distribución de contenido.
+  </Step>
+  <Step num="5" title="Forzar DirectX 12 a través de las opciones de lanzamiento">
+    Si tu GPU tiene dificultades para inicializar la API automáticamente, puedes forzar el comando. Haz clic derecho en el demo en Steam, selecciona **Propiedades** y, en la pestaña **General** bajo **Parámetros de lanzamiento**, escribe `-dx12`. Cierra la ventana e intenta iniciar el juego de nuevo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Seguridad de los datos de guardado">
+No te preocupes por perder tu progreso mientras resuelves los problemas. El demo del prólogo es compatible con Steam Cloud, y tus datos de guardado se almacenan por separado del directorio de instalación. Una vez que soluciones el fallo, podrás reanudar tu exploración y eventualmente transferir esos datos de guardado al lanzamiento completo del 18 de junio.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Ajustes avanzados de pantalla y rendimiento">
+
+Si has logrado superar el fallo inicial pero el juego es muy inestable o se cierra poco después de llegar al menú principal, es posible que debas ajustar las configuraciones de pantalla fuera del juego.
+
+La documentación oficial señala que el juego es compatible con V-sync activado (hasta 120 fps) y V-sync desactivado (seleccionable a 30, 60 o 120 fps). Sin embargo, permitir que la tasa de fotogramas aumente de forma descontrolada durante las pantallas de carga puede activar apagados de seguridad de la GPU, provocando un cierre inesperado al escritorio.
+
+| Ajuste | Valor recomendado | Por qué ayuda a prevenir fallos |
+|---|---|---|
+| Tasa máxima de fotogramas | 60 FPS | Evita el sobrecalentamiento de la GPU durante las pantallas de menú sin límite de FPS |
+| V-Sync | Activado (Sí) | Estabiliza el ritmo de los fotogramas (frame pacing) y se sincroniza con la tasa de refresco del monitor |
+| Modo de pantalla | Ventana sin bordes | Evita fallos de DirectX 12 al usar Alt+Tab en pantalla completa exclusiva |
+| Programación de GPU acelerada por hardware | Activado (Configuración de Windows) | Mejora la asignación de recursos para el canal de renderizado HD-2D |
+
+Para aplicar un límite estricto a la tasa de fotogramas sin acceder al menú del juego (al cual no puedes llegar si el juego se cierra), abre el **Panel de control de NVIDIA** o **AMD Software: Adrenalin Edition**. Navega a la configuración de aplicaciones 3D, añade manualmente el ejecutable del juego y establece el límite de tasa máxima de fotogramas en 60 FPS.
+
+Además, si estás utilizando una configuración de varios monitores con diferentes tasas de refresco, desactiva temporalmente tus monitores secundarios presionando `Tecla Windows + P` y seleccionando "Solo pantalla de PC". Algunas aplicaciones de DX12 tienen dificultades para inicializarse al consultar múltiples pantallas con valores de Hz en conflicto.
+
+<Callout type="info" title="Conflictos con dispositivos de audio">
+En raras ocasiones, el juego puede cerrarse si no detecta un dispositivo de salida de audio válido. Asegúrate de que tus auriculares o altavoces estén conectados, configurados como el dispositivo predeterminado en Windows 11, y que las funciones de sonido espacial (como Windows Sonic o Dolby Atmos) estén desactivadas temporalmente durante tu primer inicio.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Los jugadores que se enfrentan a problemas técnicos a menudo tienen preocupaciones secundarias sobre el progreso del juego, los objetos de bonificación y la transición al lanzamiento completo. Hemos recopilado las respuestas más críticas basadas en las pautas oficiales de la plataforma.
+
+<FAQ items={[
+  {
+    question: "¿Si reinstalo el demo para solucionar los fallos, perderé mis bonificaciones de datos de guardado?",
+    answer: "No. Las bonificaciones de datos de guardado (como la magicita 'Guía de la Llama Sagrada' de OCTOPATH TRAVELER o la magicita 'Golpe crítico' de DRAGON QUEST III HD-2D Remake) se verifican buscando en tu sistema los archivos de guardado de esos juegos específicos. Reinstalar el demo de Elliot no elimina los archivos de guardado de tus otros juegos."
+  },
+  {
+    question: "¿Por qué el juego se cierra inmediatamente en Windows 10?",
+    answer: "The Adventures of Elliot requiere oficialmente Windows 11 de 64 bits. Los desarrolladores de Claytechworks optimizaron el motor utilizando funciones de administración de memoria y APIs exclusivas de Windows 11. No se admite omitir este requisito y esto provocará errores de inicio fatales."
+  },
+  {
+    question: "¿Tendrá el juego completo los mismos fallos al iniciar que el demo del prólogo?",
+    answer: "El demo del prólogo está construido a partir del mismo contenido final y utiliza la misma implementación de Denuvo Anti-tamper que el lanzamiento completo. Si un conflicto de software (como el bloqueo de un antivirus) está provocando el cierre de tu demo, es probable que también cierre el juego completo de $59.99. Se recomienda encarecidamente resolver estos problemas primero en el demo gratuito."
+  },
+  {
+    question: "¿El cambio de armas hace que el juego sufra tirones o se cierre?",
+    answer: "Las caídas de rendimiento en el juego al cambiar de arma o al usar la magia Ígnea de Faie suelen indicar un cuello de botella en la RAM o VRAM. Asegúrate de que tu sistema cumpla con el mínimo de 16 GB de RAM y de que ninguna aplicación pesada en segundo plano (como navegadores web con muchas pestañas abiertas) esté consumiendo memoria."
+  }
+]} />
+
+<Callout type="tip" title="Canales de soporte oficiales">
+Si has verificado tu sistema operativo Windows 11, actualizado tus controladores y confirmado que Denuvo no está bloqueado, pero los problemas de **the adventures of elliot the millennium tales demo wont start crash on start up** persisten, considera revisar el Punto de encuentro de la comunidad de Steam. El soporte de Square Enix supervisa estos foros para detectar errores generalizados específicos de hardware durante el periodo de lanzamiento.
+</Callout>
+
+</Section>

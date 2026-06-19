@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía del modo cooperativo de The Adventures of Elliot: The Millennium Tales",
+  description: "Aprende cómo funciona el modo cooperativo local en The Adventures of Elliot: The Millennium Tales. Descubre la magia de apoyo de Faie, consejos de combate para 2 jugadores y los pasos de configuración.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=Co-op+Guide",
+  date: "2026-06-19",
+  author: "Equipo de la Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Juego cooperativo**: Experimenta **el modo cooperativo de The Adventures of Elliot: The Millennium Tales** de forma local con un jugador controlando a Elliot y el otro manejando a Faie.
+- **Roles asimétricos**: El jugador 1 se centra en el cambio de armas en tiempo real y el combate cuerpo a cuerpo, mientras que el jugador 2 proporciona apoyo táctico de magia a distancia.
+- **Hechizos desbloqueables**: Visita los Santuarios de lo Místico para desbloquear hechizos que cambian el juego como Warp, Ignite, Vacuum y Copy para Faie.
+- **Eficiencia en mazmorras**: Usa el movimiento independiente de Faie para explorar trampas de forma segura, recuperar objetos y resolver complejos acertijos ambientales.
+- **Mecánica de resurrección**: Mantén a Elliot con vida en las difíciles batallas de jefes gastando el tul recolectado para activar las habilidades de recuperación de Faie.
+</Callout>
+
+<Section icon={Swords} title="Resumen del modo cooperativo de The Adventures of Elliot: The Millennium Tales">
+
+The Adventures of Elliot: The Millennium Tales, desarrollado por Square Enix y Claytechworks, ofrece una experiencia local de 1 a 2 jugadores integrada de forma única. Si buscas compartir tu viaje a través de las cuatro eras distintas, sumergirte en **el modo cooperativo de The Adventures of Elliot: The Millennium Tales** es la mejor manera de jugar. A diferencia de los RPG cooperativos tradicionales donde ambos jugadores controlan a guerreros idénticos, este juego presenta una estructura cooperativa asimétrica.
+
+El jugador 1 asume el papel del aventurero del sombrero rojo, Elliot, comandando un sólido arsenal de siete tipos de armas, ejecutando bloqueos perfectos y personalizando configuraciones con Magicita. El jugador 2 controla a Faie, la leal compañera hada de Elliot, utilizando magia de apoyo especializada, explorando entornos peligrosos y manipulando el campo de batalla en tiempo real. Esta dinámica transforma cada exploración de mazmorras, encuentro con jefes y secuencia de acertijos en un ejercicio táctico colaborativo.
+
+| Característica | Jugador 1: Elliot | Jugador 2: Faie |
+| |---|---|
+| **Rol** | Combatiente principal / Especialista cuerpo a cuerpo | Apoyo / Explorador / Especialista en magia |
+| **Controles** | Joystick izquierdo, botones frontales (combate) | Joystick derecho (o mando del jugador 2) |
+| **Acciones principales** | Cambio de armas, guardia, esquivar | Exploración, recuperación de objetos, lanzamiento de magia |
+| **Progresión** | Subida de nivel, mejoras de armas, Magicita | Desbloqueo de hechizos en los Santuarios de lo Místico |
+| **Salud** | Vitalidad estándar (puede ser noqueado) | Invulnerable (gasta tul para revivir a Elliot) |
+
+<Callout type="warning" title="Solo cooperativo local">
+El modo cooperativo en este título está estrictamente limitado al juego local sin conexión (cooperativo de sofá) en las plataformas compatibles. El emparejamiento en línea o el juego en red no son compatibles de forma nativa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="La magia de Faie y estrategias de combate cooperativo">
+
+En el juego cooperativo, las habilidades de Faie se expanden significativamente más allá de su utilidad en el modo para un jugador. Al utilizar un segundo mando, el jugador 2 puede volar de forma independiente por la pantalla, distrayendo a los enemigos y preparando configuraciones mágicas para que el jugador 1 las detone o las aproveche. La magia de Faie se desbloquea al descubrir los antiguos Santuarios de lo Místico a lo largo de la campaña de viajes en el tiempo.
+
+La sinergia entre las armas físicas de Elliot —como la espada y el escudo, el martillo, el arco, el bumerán, la lanza, la bomba y las cadenas y hoces— y los hechizos de apoyo de Faie es la clave para conquistar los encuentros de alta dificultad.
+
+| Tipo de hechizo | Efecto principal | Mejor combinación para Elliot | Sinergia táctica |
+|---|---|---|---|
+| **Warp** | Teletransporta a Elliot a la ubicación de Faie | Martillo / Lanza | Cierra distancias al instante o escapa de los ataques de área mortales de los jefes |
+| **Ignite** | Enciende antorchas, derrite hielo, detona | Bomba | Coloca explosivos temporizados y detónalos al instante con fuego |
+| **Vacuum** | Atrae a los enemigos y el botín | Cadenas y hoces / Bomba | Agrupa a los enemigos para realizar ataques de barrido de área masivos |
+| **Copy** | Imita las acciones de armas de Elliot | Bumerán / Arco | Duplica la salida de proyectiles para una presión a distancia superior |
+
+<CardGrid cols={2}>
+  <Card title="Magia Warp">
+    - **Reposicionamiento**: Teletransporta instantáneamente a Elliot a las coordenadas flotantes actuales de Faie.
+    - **Evasión**: Evita de forma segura las trampas del suelo, los abismos sin fondo y los ataques de barrido de los jefes.
+    - **Resolución de acertijos**: Accede con facilidad a repisas elevadas o placas de presión aisladas.
+  </Card>
+  <Card title="Magia Ignite">
+    - **Interacción ambiental**: Enciende antorchas apagadas y derrite bloqueos de hielo sólido.
+    - **Detonación explosiva**: Enciende instantáneamente las bombas colocadas por Elliot para causar daño de ráfaga manual.
+    - **Elemental Damage**: Aplica un estado de quemadura a los monstruos de fantasía vulnerables.
+  </Card>
+  <Card title="Magia Vacuum">
+    - **Control de masas**: Genera un vórtice localizado que atrae a los enemigos cercanos hacia Faie.
+    - **Recolección de botín**: Reúne automáticamente el tul caído, los materiales y los fragmentos de Magicita.
+    - **Preparación de combos**: Agrupa a los objetivos estrechamente, maximizando los ataques cargados pesados de Elliot.
+  </Card>
+  <Card title="Magia Copy">
+    - **Reflejo de acciones**: Replica los movimientos físicos y las trayectorias de los proyectiles de Elliot.
+    - **Interruptores sincronizados**: Activa mecanismos de doble interruptor simultáneamente en las ruinas.
+    - **Multiplicación de daño**: Proyecta cortes y flechas secundarias durante el combate.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Sincronización de la detonación">
+Cuando juegues como Faie, coordínate con el jugador 1 para detonar las bombas inmediatamente al entrar en contacto con jefes rápidos. Esto evita que los enemigos escapen del radio de explosión.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Pasos de configuración para el juego multijugador local">
+
+Configurar el multijugador local es sencillo, pero varía ligeramente según la plataforma de tu elección. Ya sea que juegues en PlayStation 5, Xbox Series X|S, Nintendo Switch 2 o PC a través de Steam, el segundo jugador puede unirse fácilmente. Sigue estos pasos para establecer tu sesión cooperativa local.
+
+<Steps>
+  <Step num="1" title="Conecta un segundo mando">
+    Asegúrate de que un segundo dispositivo de entrada compatible esté encendido y sincronizado con tu consola o PC. Para los jugadores de PC en Steam, asegúrate de que Steam Input esté configurado para reconocer ambos mandos.
+  </Step>
+  <Step num="2" title="Inicia el juego y carga una partida guardada">
+    Inicia el juego y carga tu archivo de aventura actual. El modo cooperativo se puede activar durante el juego una vez que hayas completado el breve segmento del tutorial inicial.
+  </Step>
+  <Step num="3" title="Presiona el botón para unirse">
+    En el segundo mando, presiona el botón de inicio (start) u opciones designado. El juego mostrará un aviso confirmando que el jugador 2 ha tomado el control directo de Faie con éxito.
+  </Step>
+  <Step num="4" title="Configura las preferencias de entrada">
+    Navega al menú de ajustes para ajustar la sensibilidad del control, el seguimiento de la cámara y las funciones de accesibilidad para ambos jugadores con el fin de optimizar la comodidad.
+  </Step>
+</Steps>
+
+| Plataforma | Número de jugadores | Soporte de mando | Resolución / FPS objetivo | Características únicas |
+|---|---|---|---|---|
+| **PlayStation 5** | 1-2 sin conexión | DualSense inalámbrico | Hasta 4K a 60 FPS | Vibración DualSense, 21 opciones de accesibilidad |
+| **Xbox Series X** | 1-2 sin conexión | Mando inalámbrico Xbox | Hasta 4K a 60 FPS+ | Xbox Play Anywhere, juego en la nube habilitado |
+| **Nintendo Switch 2** | 1-2 local | Joy-Con / Mando Pro | Hasta 1080p (modo TV) | Soporte para modo sobremesa, portátil y TV |
+| **Steam PC** | 1-2 local | Gamepads seleccionables / teclado y ratón | Hasta 4K a 120 FPS | Steam Cloud, préstamo familiar, asignación de teclas personalizada |
+
+<Callout type="success" title="Incorporación instantánea">
+El jugador 2 puede unirse o abandonar el juego en cualquier momento durante la exploración sin interrumpir el progreso del jugador 1 ni requerir reiniciar el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guía de exploración de mazmorras y resolución de acertijos">
+
+Navegar por el antiguo Portal del Tiempo y viajar a través de las cuatro eras distintas (la Era de la Custodia, la Reconstrucción, la Magia y el Florecimiento) presenta a los jugadores complejos acertijos ambientales. Tener a un segundo jugador dedicado a controlar a Faie simplifica estos desafíos significativamente. Faie no está limitada por la gravedad ni por obstáculos físicos, lo que le permite flotar a través de abismos, explorar pasillos oscuros e interactuar con objetos que Elliot no puede alcanzar físicamente.
+
+<Checklist
+  id="coop-exploration-checklist"
+  title="Lista de verificación cooperativa para mazmorras:"
+  items={[
+    "Usa a Faie para explorar pasillos a ciegas y activar la aparición de enemigos de forma segura",
+    "Identifica paredes agrietadas y coordina la colocación de bombas con la magia Ignite",
+    "Recupera cofres lejanos y fragmentos flotantes de Magicita usando la interacción de Faie",
+    "Utiliza el hechizo Warp para evitar patrones complejos de trampas en el suelo y placas de presión",
+    "Sincroniza los acertijos de tirar de interruptores usando la magia Copy para abrir puertas cerradas"
+  ]}
+/>
+
+<Callout type="info" title="Seguridad al explorar">
+Faie es completamente invulnerable a los ataques enemigos y a los peligros ambientales. Úsala para explorar territorio peligroso por delante de Elliot para evitar emboscadas sorpresa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión de la campaña cooperativa y recompensas">
+
+Mientras juegas en cooperativo, la progresión de la campaña está vinculada por completo al perfil del jugador 1. Sin embargo, ambos jugadores se benefician directamente del equipo, los accesorios y las configuraciones de Magicita acumulados en el camino. Si jugaste la demo del prólogo, tus datos de guardado se pueden transferir sin problemas al juego completo, lo que te dará una ventaja temprana en el juego cooperativo. Además, vincular los datos de guardado de títulos anteriores de Square Enix desbloquea poderosas bonificaciones exclusivas.
+
+| Origen de la bonificación | Nombre de la recompensa | Tipo de objeto | Efecto principal en el juego |
+|---|---|---|---|
+| **Bonificación por reserva** | Departure Brooch (Broche de partida) | Accesorio | Aumenta ligeramente la obtención de tul y fragmentos de Magicita |
+| **OCTOPATH TRAVELER 0** | Guidance of the Sacred Flame (Guía de la Llama Sagrada) | Magicita de espada | +10% de daño de espada a enemigos con menos del 30% de vitalidad |
+| **DRAGON QUEST I & II Remake** | Critical Hit (Golpe crítico) | Magicita de espada | Aumenta la tasa de golpes críticos de espada en un 6% |
+| **BRAVELY DEFAULT FLYING FAIRY** | Brave | Magicita de espada | +10% de daño de espada / aumenta el coste de resistencia del escudo |
+| **TRIANGLE STRATEGY** | Counter Stance (Postura de contraataque) | Magicita de espada | +10% de daño de espada cuando la resistencia del escudo está por encima del 90% |
+| **VARIOUS DAYLIFE** | Expeditionary Wisdom (Sabiduría expedicionaria) | Magicita de espada | Reduce el tiempo de carga de la espada en un 10% |
+| **Trials of Mana** | Laurentian Plumage (Plumaje laurentino) | Objeto de misión | Plumas ornamentales que activan un encuentro en la ciudad |
+
+<Callout type="warning" title="Cómo reclamar tus recompensas">
+Para reclamar estas bonificaciones, completa el proceso de Bonificación Promocional en la pantalla de título. Luego, visita el escritorio en el segundo piso del orfanato en la Era de la Custodia una vez que sea accesible.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Para asegurarte de tener la mejor experiencia posible mientras abordas la campaña cooperativa, hemos recopilado respuestas a las preguntas más comunes que los jugadores hacen sobre los sistemas multijugador.
+
+<FAQ items={[
+  {
+    question: "¿Conserva el segundo jugador su propia progresión de personaje?",
+    answer: "No. Debido a que Faie es una compañera de apoyo, toda la progresión, incluidos los hechizos desbloqueados, las estadísticas de nivel y las mejoras de Magicita, se guarda directamente en el archivo de juego del jugador 1. El jugador 2 puede unirse y salir de la campaña del jugador 1 sin problemas."
+  },
+  {
+    question: "¿Hay algún tipo de soporte multijugador en línea para este juego?",
+    answer: "El juego está diseñado estrictamente para el modo cooperativo local (1 o 2 jugadores en un solo sistema). No hay emparejamiento oficial en línea ni modo cooperativo en red compatible de forma nativa."
+  },
+  {
+    question: "¿Qué pasa si Elliot se queda sin salud durante el juego cooperativo?",
+    answer: "Si Elliot es noqueado, el jugador 2 que controla a Faie puede revivirlo. Esto se hace gastando una cantidad determinada del tul recolectado. Si te quedas sin tul, el equipo deberá reiniciar desde el último poste de guía de aventura activo."
+  },
+  {
+    question: "¿Puede el jugador 2 personalizar las habilidades y el conjunto de magia de Faie?",
+    answer: "Los hechizos mágicos de Faie se desbloquean al visitar los Santuarios de lo Místico repartidos por las cuatro eras. Una vez desbloqueados, el jugador 2 puede lanzar libremente Warp, Ignite, Vacuum o Copy durante la exploración y el combate para apoyar al jugador 1."
+  }
+]} />
+
+<Callout type="tip" title="Gestión de tul">
+Mantén siempre una reserva saludable de tul en tu inventario durante las mazmorras difíciles. Dado que Faie depende del tul para revivir a Elliot, quedarse completamente sin blanca puede provocar pantallas de fin de juego repentinas.
+</Callout>
+
+</Section>

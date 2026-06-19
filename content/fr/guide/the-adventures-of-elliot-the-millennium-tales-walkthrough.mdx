@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Solution de The Adventures of Elliot The Millennium Tales : Guide",
+  description: "Maîtrisez cet action-RPG en HD-2D grâce à notre solution pas à pas de The Adventures of Elliot The Millennium Tales, nos conseils sur les armes et nos builds de magicites.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=Elliot+Walkthrough+Guide",
+  date: "2026-06-19",
+  author: "L'équipe du Wiki de The Adventures of Elliot The Millennium Tales"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Solution principale** : Suivez notre **solution pas à pas de The Adventures of Elliot The Millennium Tales** pour déverrouiller toutes les zones du chemin principal.
+- **Mécaniques de combat** : Équipez jusqu'à deux armes simultanément et changez-en en temps réel pour exploiter les faiblesses des ennemis.
+- **Soutien de Faie** : Utilisez les sorts spéciaux de Faie comme Téléportation et Aspiration pour contourner les pièges et regrouper les ennemis.
+- **Personnalisation des magicites** : Insérez des fragments de magicite dans votre équipement pour créer des builds spécialisés et amplifier vos dégâts.
+- **Récompenses de données de sauvegarde** : Récupérez des objets exclusifs sur le bureau de l'orphelinat dans l'Ère de la préservation si vous possédez des fichiers de sauvegarde éligibles.
+</Callout>
+
+<Section icon={Map} title="Aperçu de la solution et bases du jeu">
+
+Bienvenue dans la solution définitive de **The Adventures of Elliot The Millennium Tales**, votre compagnon indispensable pour naviguer dans le magnifique monde fantastique en HD-2D conçu par Square Enix et Claytechworks. Sorti le 18 juin 2026, cet action-RPG mêle l'esthétique pixel classique à des combats en temps réel, des configurations à double arme et des mécaniques complexes de voyage dans le temps s'étendant sur quatre époques distinctes.
+
+Pour commencer, il est important de comprendre les performances du jeu sur les différentes plateformes. Que vous jouiez sur PC, console ou console portable, le moteur offre une expérience très soignée, bien que de légères différences existent en termes d'espace de stockage requis et d'objectifs de performance.
+
+| Plateforme | Stockage | Résolution cible | Fréquence d'images cible | Caractéristiques clés |
+|---|---|---|---|---|
+| PC (Steam) | 20 Go | Jusqu'à 4K | Jusqu'à 120 ips | Succès, Cloud, Partage familial |
+| PlayStation 5 | 15,5 Go | Jusqu'à 4K | 60 ips | Vibrations DualSense, Lecture à distance |
+| Xbox Series X | 16,1 Go | Jusqu'à 4K | 60 ips+ | Play Anywhere, Cloud Gaming |
+| Xbox Series S | 16,1 Go | Jusqu'à 1080p | 60 ips+ | Play Anywhere, Caractéristiques optimisées |
+| Switch 2 | 16,6 Go | Jusqu'à 1080p | 30-60 ips | Modes téléviseur, sur table et portable |
+
+Avant de vous lancer dans l'aventure, assurez-vous de télécharger la démo gratuite du prologue sur la boutique de votre plateforme préférée. Votre progression sera transférée de manière transparente vers la version complète lors de l'achat.
+
+<Callout type="info" title="Conseil de configuration système">
+Les joueurs PC peuvent accéder au jeu via la [boutique Steam](https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/). Assurez-vous que votre système fonctionne sous Windows 11 64 bits et dispose d'au moins 16 Go de RAM pour maintenir un taux stable de 60 images par seconde lors des combats de boss intenses.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solution de The Adventures of Elliot The Millennium Tales : Prologue pas à pas">
+
+Votre aventure commence dans l'Ère de la préservation, une époque paisible qui sert de terrain d'entraînement idéal. Cette **solution pas à pas de The Adventures of Elliot The Millennium Tales** vous guide à travers les premières heures de jeu, de votre réveil à l'orphelinat jusqu'à votre premier affrontement majeur contre un boss aux Ruines du Portail.
+
+| Étape de la quête | Lieu cible | Actions clés | Récompenses déverrouillables |
+|---|---|---|---|
+| 1. Réveil à l'orphelinat | Orphelinat (2e étage) | Rencontrer la directrice, rassembler les fournitures de base, examiner le bureau | Épée de bois, Tul de départ |
+| 2. Ruines du Portail | Entrée des Ruines du Portail | Apprendre le blocage parfait, vaincre les premiers glams, activer le point de repère | Fragment de magicite, Bouclier de bronze |
+| 3. Boss : Gardiens Jumeaux | Sanctuaire intérieur des ruines | Vaincre les gardiens jumeaux en changeant d'arme et avec l'aide de Faie | Cœur de gardien, Clé du temps |
+| 4. Portail du Temps | Portail du Temps | Insérer la Clé du temps, sélectionner l'Ère de la reconstruction | Accès à l'Ère de la reconstruction |
+
+Suivez ces étapes séquentielles pour terminer le prologue et préparer votre personnage aux défis des différentes époques :
+
+<Steps>
+  <Step num="1" title="Réveil à l'orphelinat">
+    Commencez votre voyage au deuxième étage de l'orphelinat. Parlez aux PNJ locaux pour en savoir plus sur le passé d'Elliot, et inspectez le bureau dans votre chambre. Si vous possédez des données de sauvegarde éligibles d'autres titres Square Enix, c'est sur ce bureau que vous pourrez récupérer vos bonus promotionnels plus tard.
+  </Step>
+  <Step num="2" title="Équipez vos premières armes">
+    Récupérez l'Épée de bois et le Bouclier de bronze dans le coffre en bas. Équipez-les tous les deux dans votre configuration principale. Entraînez-vous à manier votre épée et à lever votre bouclier pour bloquer les attaques des mannequins d'entraînement à l'extérieur.
+  </Step>
+  <Step num="3" title="Explorez les Ruines du Portail">
+    Dirigez-vous vers le nord en direction des Ruines du Portail. Activez le premier point de repère d'aventure que vous rencontrez. Ces points de repère font office de réseau de voyage rapide, vous permettant de vous téléporter instantanément vers les lieux découverts de l'ère active.
+  </Step>
+  <Step num="4" title="Vainquez les Gardiens Jumeaux">
+    Pénétrez dans le sanctuaire intérieur des ruines pour affronter votre premier boss, les Gardiens Jumeaux. Utilisez votre bouclier pour bloquer leurs charges frontales synchronisées, puis passez à l'épée pour frapper pendant leur phase de récupération.
+  </Step>
+  <Step num="5" title="Activez le Portail du Temps">
+    Une fois les Gardiens Jumeaux vaincus, récupérez la Clé du temps. Insérez-la dans le piédestal central pour déverrouiller le Portail du Temps, ce qui vous permettra de voyager entre l'Ère de la préservation et l'Ère de la reconstruction.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Transfert des données de sauvegarde">
+Toute la progression réalisée au cours de ces étapes est directement transférée vers le jeu complet. Si vous avez joué à la démo du prologue sur PS5, vous pouvez poursuivre votre aventure de manière transparente sur la version complète achetée sur le [PlayStation Store](https://store.playstation.com/en-us/concept/10007935/).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de combat et configurations d'armes">
+
+Les combats dans cette aventure sont rapides et hautement tactiques. Elliot peut équiper jusqu'à deux armes à la fois et passer de l'une à l'autre instantanément en temps réel. Ce système vous encourage à associer une option de corps à corps fiable à un outil utilitaire ou une arme à distance pour faire face à divers groupes d'ennemis et obstacles environnementaux.
+
+| Type d'arme | Rôle principal en combat | Attaque spéciale | Association recommandée |
+|---|---|---|---|
+| Épée & Bouclier | Défense équilibrée et contre-attaque | Entaille frontale et garde au bouclier | Arc ou Bombe |
+| Arc | Pression à distance sécurisée et kiting | Tir en éventail de plusieurs flèches | Épée & Bouclier |
+| Bombe | Destruction d'obstacles et dégâts de zone explosifs | Explosion lourde retardée | Boomerang |
+| Boomerang | Récupération d'objets et trajectoires à coups multiples | Lancer de projectile avec retour | Chaîne & Faucille |
+| Lance | Combat au corps à corps à longue portée et gestion de l'espace | Estocade avec charge vers l'avant | Marteau |
+| Marteau | Choc des armures lourdes et enfoncement de piquets | Écrasement lent vers le bas | Épée & Bouclier |
+| Chaîne & Faucille | Contrôle de foule et positionnement des ennemis | Attire les ennemis éloignés | Bombe |
+
+Pour maximiser votre efficacité au combat, vous pouvez utiliser l'une de ces configurations de départ pré-configurées, adaptées à différents styles de jeu :
+
+<CardGrid cols={3}>
+  <Card title="Le gladiateur équilibré">
+    - **Arme principale** : Épée & Bouclier
+    - **Arme secondaire** : Arc
+    - **Tactique** : Utilisez l'arc pour éliminer les ennemis volants et activer les interrupteurs éloignés, puis passez à l'épée et au bouclier lorsque les ennemis se rapprochent.
+  </Card>
+  <Card title="L'expert en démolition">
+    - **Arme principale** : Marteau
+    - **Arme secondaire** : Bombe
+    - **Tactique** : Brisez la garde des ennemis avec les coups lourds du marteau, puis lancez des bombes pour infliger d'importants dégâts de zone aux groupes d'ennemis rassemblés.
+  </Card>
+  <Card title="Le tacticien agile">
+    - **Arme principale** : Lance
+    - **Arme secondaire** : Boomerang
+    - **Tactique** : Gardez les ennemis à distance grâce à la portée supérieure de la lance, et utilisez le boomerang pour infliger des dégâts continus sur sa trajectoire de retour.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil pour le blocage parfait">
+Ne comptez pas uniquement sur l'esquive. Un blocage parfaitement synchronisé avec votre bouclier annule complètement les dégâts subis, déstabilise les ennemis légers et ne consomme pas d'endurance, vous offrant une opportunité immédiate de contre-attaquer.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personnalisation des magicites et builds">
+
+Les fragments de magicite sont de puissantes pierres anciennes qui peuvent être serties dans vos armes pour modifier leurs comportements, améliorer vos statistiques et ajouter des effets élémentaires spéciaux. En combinant différents fragments de magicite, vous pouvez adapter les capacités d'Elliot à votre style de combat préféré.
+
+Si vous êtes un fan de longue date des RPG de Square Enix, vous pouvez débloquer de puissantes récompenses de magicite exclusives en associant les données de sauvegarde des titres éligibles sur votre plateforme.
+
+| Données de sauvegarde éligibles | Objet de récompense | Effet principal | Lieu de récupération |
+|---|---|---|---|
+| OCTOPATH TRAVELER 0 | Guidance de la Flamme sacrée | +10 % de dégâts d'épée aux ennemis ayant moins de 30 % de PV | Bureau de l'orphelinat (Ère de la préservation) |
+| DRAGON QUEST I & II HD-2D Remake | Magicite de coup critique | Augmente le taux de coups critiques à l'épée de 6 % | Bureau de l'orphelinat (Ère de la préservation) |
+| BRAVELY DEFAULT FLYING FAIRY | Magicite Brave | +10 % de dégâts d'épée, augmente le coût en endurance de la garde | Bureau de l'orphelinat (Ère de la préservation) |
+| VARIOUS DAYLIFE | Sagesse expéditionnaire | Réduit le temps de charge de l'attaque à l'épée de 10 % | Bureau de l'orphelinat (Ère de la préservation) |
+| TRIANGLE STRATEGY | Magicite de posture de contre | +10 % de dégâts d'épée lorsque l'endurance du bouclier est supérieure à 90 % | Bureau de l'orphelinat (Ère de la préservation) |
+| Trials of Mana | Plumage laurentien | Plume ornementale qui déclenche une rencontre en ville | Bureau de l'orphelinat (Ère de la préservation) |
+
+Pour récupérer ces bonus, sélectionnez l'option Bonus promotionnel sur l'écran titre du jeu pour vérifier les fichiers de sauvegarde de votre plateforme, puis visitez le bureau de l'orphelinat une fois que vous aurez accès à l'Ère de la préservation.
+
+<Callout type="warning" title="Avertissement d'achat en doublon">
+La précommande de l'Édition Deluxe Numérique sur la [boutique Xbox](https://www.xbox.com/en-US/games/store/the-adventures-of-elliot-the-millennium-tales/9PP9456CW5W3) vous octroie le Pack Deluxe Numérique, qui comprend le Bracelet de fée, la Chevillère de fleur de cerisier et l'Anneau de Roselle. Évitez d'acheter la mise à niveau Deluxe autonome si vous possédez déjà cette édition afin d'éviter les transactions en doublon.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Magie de Faie et tactiques en coop locale">
+
+Faie est la fidèle compagne fée d'Elliot, se révélant être un atout crucial tant pour la résolution d'énigmes que pour les combats en temps réel. Vous pouvez contrôler Faie indépendamment à l'aide du stick analogique droit, ou inviter un second joueur à en prendre le contrôle direct en mode coopératif local pour 1 à 2 joueurs.
+
+En explorant le monde et en découvrant les sanctuaires cachés du Mystique, Faie apprendra de puissants sorts de soutien qui élargiront vos options tactiques.
+
+| Nom du sort | Lieu de déverrouillage | Mécanique principale | Utilisation pratique en exploration |
+|---|---|---|---|
+| Magie de téléportation | Sanctuaire du Mystique (Préservation) | Téléporte Elliot directement à l'emplacement de Faie | Contourner les gouffres, les plaques de pression et les dangers |
+| Magie d'ignition | Sanctuaire du Mystique (Reconstruction) | Allume les torches et fait fondre les blocs de glace | Résoudre des énigmes environnementales et faire exploser des bombes |
+| Magie d'aspiration | Sanctuaire du Mystique (Ère magique) | Attire les ennemis proches et les objets dispersés | Ramasser le butin tombé au sol et regrouper les ennemis pour les bombes |
+| Magie de copie | Sanctuaire du Mystique (Ère bourgeonnante) | Imite les actions physiques et les attaques d'Elliot | Activer des interrupteurs synchronisés et doubler les projectiles |
+
+Pour vous assurer d'être pleinement préparé pour le voyage qui vous attend, gardez un œil sur ces étapes essentielles au fil de votre progression dans l'histoire principale :
+
+<Checklist
+  id="elliot-milestones"
+  title="Étapes essentielles de l'aventure :"
+  items={[
+    "Terminer le prologue et activer le Portail du Temps",
+    "Déverrouiller les sept types d'armes pour maximiser votre flexibilité au combat",
+    "Trouver et activer au moins trois points de repère d'aventure dans chaque ère",
+    "Localiser le Sanctuaire du Mystique pour déverrouiller la Magie de téléportation de Faie",
+    "Récupérer vos bonus de données de sauvegarde éligibles sur le bureau de l'orphelinat"
+  ]}
+/>
+
+<Callout type="info" title="Mécanique de réanimation en coop">
+En mode coopératif local, si Elliot tombe au combat, le joueur qui contrôle Faie peut le réanimer en dépensant une partie des tuls accumulés. Gardez toujours une réserve de monnaie sur vous lorsque vous explorez des donjons de haut niveau.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+Pour vous aider à profiter pleinement de votre voyage, nous avons rassemblé les réponses aux questions les plus fréquemment posées par les joueurs qui débutent leur aventure.
+
+<FAQ items={[
+  {
+    question: "Comment puis-je récupérer mes bonus de précommande et de données de sauvegarde ?",
+    answer: "Tout d'abord, sélectionnez l'option Bonus promotionnel sur l'écran titre pour l'associer à vos fichiers de sauvegarde éligibles. Une fois en jeu, progressez dans le prologue jusqu'à ce que vous puissiez accéder à l'orphelinat dans l'Ère de la préservation. Interagissez avec le bureau au deuxième étage pour récupérer vos accessoires et vos magicites."
+  },
+  {
+    question: "Puis-je jouer à l'intégralité du jeu en mode coopératif local ?",
+    answer: "Oui. Le jeu prend en charge la coop locale pour 1 à 2 joueurs sur toutes les plateformes, y compris la Nintendo Switch 2 et la PS5. Un joueur contrôle les mouvements de combat physique d'Elliot, tandis que le second contrôle le vol et les sorts de soutien de Faie."
+  },
+  {
+    question: "Quel est l'avantage d'utiliser une solution pour ce jeu ?",
+    answer: "L'utilisation de notre solution pas à pas de The Adventures of Elliot The Millennium Tales vous garantit de ne manquer aucun fragment de magicite caché, aucun Sanctuaire du Mystique ni aucun point de repère de voyage rapide à travers les quatre époques du voyage temporel."
+  },
+  {
+    question: "Comment fonctionne le système de durabilité des armes ?",
+    answer: "Les armes ne se brisent pas définitivement, mais le fait de basculer entre vos deux armes équipées pendant le combat permet de gérer leurs taux de récupération individuels et vous évite de vous retrouver sans défense lors des longs affrontements."
+  }
+]} />
+
+<Callout type="success" title="Mises à jour officielles">
+Pour connaître les dernières notes de mise à jour, les événements de la communauté et les actualités de développement, n'hésitez pas à visiter le [site officiel de Square Enix](https://www.square-enix.com/the-adventures-of-elliot-the-millennium-tales/en-us/) et à rejoindre la discussion avec d'autres aventuriers.
+</Callout>
+
+</Section>

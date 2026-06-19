@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de The Adventures of Elliot The Millennium Tales: Recorrido completo",
+  description: "Domina este RPG de acción en HD-2D con nuestra guía paso a paso de The Adventures of Elliot The Millennium Tales, consejos de armas y configuraciones de magicita.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=Elliot+Walkthrough+Guide",
+  date: "2026-06-19",
+  author: "Equipo de la Wiki de The Adventures of Elliot The Millennium Tales"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Recorrido principal**: Sigue nuestra **guía paso a paso de The Adventures of Elliot The Millennium Tales** para desbloquear todas las zonas de la ruta principal.
+- **Mecánicas de combate**: Equipa hasta dos armas simultáneamente y cámbialas en tiempo real para aprovechar las debilidades de los enemigos.
+- **Soporte de Faie**: Usa los hechizos especiales de Faie como Teletransporte y Vacío para esquivar trampas y agrupar grupos de enemigos.
+- **Personalización de magicita**: Engasta fragmentos de magicita en tu equipo para crear configuraciones especializadas y amplificar tu daño.
+- **Recompensas por datos de guardado**: Reclama objetos exclusivos en el escritorio del orfanato en la Era de la Custodia si tienes archivos de guardado compatibles.
+</Callout>
+
+<Section icon={Map} title="Resumen de la guía y fundamentos del juego">
+
+Bienvenido a la guía definitiva de **The Adventures of Elliot The Millennium Tales**, tu compañera esencial para explorar el hermoso mundo de fantasía en HD-2D creado por Square Enix y Claytechworks. Lanzado el 18 de junio de 2026, este RPG de acción combina la estética clásica de píxeles con combates en tiempo real, equipamiento de doble arma e intrincadas mecánicas de viaje en el tiempo a lo largo de cuatro eras distintas.
+
+Para comenzar, es importante entender cómo rinde el juego en las diferentes plataformas. Ya sea que juegues en PC, consola o portátil, el motor ofrece una experiencia muy pulida, aunque existen pequeñas diferencias en los tamaños de descarga y los objetivos de rendimiento.
+
+| Plataforma | Almacenamiento | Resolución objetivo | Tasa de fotogramas objetivo | Características clave |
+|---|---|---|---|---|
+| Steam PC | 20 GB | Hasta 4K | Hasta 120 fps | Logros, nube, préstamo familiar (Family Sharing) |
+| PlayStation 5 | 15.5 GB | Hasta 4K | 60 fps | Vibración DualSense, juego en remoto (Remote Play) |
+| Xbox Series X | 16.1 GB | Hasta 4K | 60 fps+ | Play Anywhere, juego en la nube (Cloud Gaming) |
+| Xbox Series S | 16.1 GB | Hasta 1080p | 60 fps+ | Play Anywhere, especificaciones optimizadas |
+| Switch 2 | 16.6 GB | Hasta 1080p | 30-60 fps | Modos TV, sobremesa y portátil |
+
+Antes de emprender tu viaje, asegúrate de descargar la demo gratuita del prólogo en la tienda de tu plataforma preferida. Tu progreso se transferirá sin problemas a la versión completa tras la compra.
+
+<Callout type="info" title="Consejo de configuración del sistema">
+Los jugadores de PC pueden acceder al juego a través de la [Tienda de Steam](https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/). Asegúrate de que tu sistema ejecute Windows 11 de 64 bits y cuente con al menos 16 GB de RAM para mantener unos 60 fotogramas por segundo estables durante las intensas batallas contra jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de The Adventures of Elliot The Millennium Tales: Prólogo paso a paso">
+
+Tu aventura comienza en la Era de la Custodia, una época pacífica que sirve como el campo de entrenamiento perfecto. Esta **guía paso a paso de The Adventures of Elliot The Millennium Tales** te guiará a través de las primeras horas, desde tu despertar en el orfanato hasta tu primer enfrentamiento importante contra un jefe en las Ruinas del Portal.
+
+| Paso de la misión | Ubicación objetivo | Acciones clave | Recompensas desbloqueables |
+|---|---|---|---|
+| 1. Despertar en el orfanato | Orfanato (2.º piso) | Habla con la directora, reúne suministros básicos, revisa el escritorio | Espada de madera, Tul inicial |
+| 2. Ruinas del Portal | Entrada de las Ruinas del Portal | Aprende el bloqueo perfecto, derrota a los primeros limos, activa el poste de guía | Fragmento de magicita, Escudo de bronce |
+| 3. Jefe: Guardianes del Relevo | Santuario interior de las ruinas | Derrota a los guardianes gemelos alternando armas y usando a Faie | Núcleo de guardián, Llave del tiempo |
+| 4. Portal del Tiempo | Portal del Tiempo | Inserta la Llave del tiempo, selecciona la Era de la Reconstrucción | Acceso a la Era de la Reconstrucción |
+
+Sigue estos pasos secuenciales para completar el prólogo y preparar a tu personaje para los desafíos de las distintas eras:
+
+<Steps>
+  <Step num="1" title="Despierta en el orfanato">
+    Comienza tu viaje en el segundo piso del orfanato. Habla con los PNJ locales para conocer el trasfondo de Elliot e inspecciona el escritorio de tu habitación. Si tienes datos de guardado compatibles de otros títulos de Square Enix, en este escritorio es donde reclamarás tus bonificaciones promocionales más adelante.
+  </Step>
+  <Step num="2" title="Equipa tus primeras armas">
+    Recoge la espada de madera y el escudo de bronce del cofre de la planta baja. Equipa ambos en tu conjunto principal. Practica blandir tu espada y levantar el escudo para bloquear los ataques entrantes de los maniquíes de entrenamiento que están afuera.
+  </Step>
+  <Step num="3" title="Explora las Ruinas del Portal">
+    Dirígete al norte hacia las Ruinas del Portal. Activa el primer poste de guía de aventura que encuentres. Estos postes sirven como tu red de viaje rápido, lo que te permite teletransportarte instantáneamente entre las ubicaciones descubiertas dentro de la era activa.
+  </Step>
+  <Step num="4" title="Defrota a los Guardianes del Relevo">
+    Entra en el santuario interior de las ruinas para enfrentarte a tu primera batalla contra un jefe: los Guardianes del Relevo. Usa tu escudo para bloquear sus ataques frontales sincronizados y luego cambia a tu espada para atacar mientras se recuperan.
+  </Step>
+  <Step num="5" title="Activa el Portal del Tiempo">
+    Una vez derrotados los Guardianes del Relevo, recupera la Llave del tiempo. Insértala en el pedestal central para desbloquear el Portal del Tiempo, lo que te permitirá viajar entre la Era de la Custodia y la Era de la Reconstrucción.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Transferencia de datos de guardado">
+Todo el progreso realizado durante estos pasos se transfiere directamente al juego completo. Si jugaste la demo del prólogo en PS5, puedes continuar tu viaje sin problemas en la versión comercial comprada en la [PlayStation Store](https://store.playstation.com/en-us/concept/10007935/).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de combate y conjuntos de armas">
+
+El combate en esta aventura es rápido y muy táctico. Elliot puede equipar hasta dos armas a la vez y alternar entre ellas al instante en tiempo real. Este sistema te anima a combinar una opción cuerpo a cuerpo confiable con una herramienta de utilidad o un arma a distancia para lidiar con diversos grupos de enemigos y peligros ambientales.
+
+| Tipo de arma | Rol de combate principal | Ataque especial | Combinación recomendada |
+|---|---|---|---|
+| Espada y escudo | Defensa equilibrada y contraataque | Tajo frontal y guardia con escudo | Arco o bomba |
+| Arco | Presión a distancia segura y hostigamiento | Disparo en abanico de múltiples flechas | Espada y escudo |
+| Bomba | Explosión de obstáculos y daño explosivo | Explosión pesada retardada | Búmeran |
+| Búmeran | Recuperación de objetos y trayectorias de múltiples impactos | Lanzamiento de proyectil de retorno | Cadenas y hoces |
+| Lanza | Combate cuerpo a cuerpo de gran alcance y control de espacio | Estocada con carga hacia adelante | Martillo |
+| Martillo | Aturdir armaduras pesadas y golpear postes | Aplastamiento lento hacia abajo | Espada y escudo |
+| Cadenas y hoces | Control de masas y posicionamiento de enemigos | Atrae a enemigos lejanos | Bomba |
+
+Para maximizar tu eficiencia en combate, considera utilizar uno de estos conjuntos iniciales preconfigurados y diseñados para diferentes estilos de juego:
+
+<CardGrid cols={3}>
+  <Card title="El gladiador equilibrado">
+    - **Arma principal**: Espada y escudo
+    - **Arma secundaria**: Arco
+    - **Tácticas**: Usa el arco para eliminar enemigos voladores y activar interruptores lejanos, luego cambia a la espada y el escudo cuando los enemigos se acerquen.
+  </Card>
+  <Card title="El experto en demolición">
+    - **Arma principal**: Martillo
+    - **Arma secundaria**: Bomba
+    - **Tácticas**: Rompe la guardia enemiga con golpes pesados de martillo y luego lanza bombas para infligir un daño masivo en área a los grupos de enemigos.
+  </Card>
+  <Card title="El estratega ágil">
+    - **Arma principal**: Lanza
+    - **Arma secundaria**: Búmeran
+    - **Tácticas**: Mantén a raya a los enemigos con el alcance superior de la lanza y usa el búmeran para infligir daño continuo en su trayectoria de retorno.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo para el bloqueo perfecto">
+No dependas únicamente de esquivar. Un bloqueo perfectamente sincronizado con tu escudo anula por completo el daño entrante, aturde a los enemigos ligeros y no consume resistencia, lo que te brinda una oportunidad inmediata para contraatacar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personalización de magicita y configuraciones">
+
+Los fragmentos de magicita son poderosas piedras antiguas que se pueden engastar en tus armas para alterar sus comportamientos, mejorar tus estadísticas y añadir efectos elementales especiales. Al combinar diferentes fragmentos de magicita, puedes adaptar las habilidades de Elliot a tu estilo de juego preferido.
+
+Si eres un fan de los juegos de rol de Square Enix, puedes desbloquear poderosas y exclusivas recompensas de magicita vinculando los datos de guardado de los títulos compatibles en tu plataforma.
+
+| Datos de guardado compatibles | Objeto de recompensa | Efecto principal | Lugar de reclamación |
+|---|---|---|---|
+| OCTOPATH TRAVELER 0 | Guía de la Llama Sagrada | +10% de daño de espada a enemigos con menos del 30% de PS | Escritorio del orfanato (Era de la Custodia) |
+| DRAGON QUEST I & II HD-2D Remake | Magicita de golpe crítico | Aumenta la probabilidad de golpe crítico de la espada en un 6% | Escritorio del orfanato (Era de la Custodia) |
+| BRAVELY DEFAULT FLYING FAIRY | Magicita Brave | +10% de daño de espada, aumenta el coste de resistencia al bloquear | Escritorio del orfanato (Era de la Custodia) |
+| VARIOUS DAYLIFE | Sabiduría expedicionaria | Reduce el tiempo de ataque cargado de la espada en un 10% | Escritorio del orfanato (Era de la Custodia) |
+| TRIANGLE STRATEGY | Magicita de postura de contraataque | +10% de daño de espada cuando la resistencia del escudo supera el 90% | Escritorio del orfanato (Era de la Custodia) |
+| Trials of Mana | Plumaje laurenciense | Pluma ornamental que activa un encuentro en la ciudad | Escritorio del orfanato (Era de la Custodia) |
+
+Para canjear estas bonificaciones, selecciona la opción de Bonificación Promocional en la pantalla de título del juego para verificar los archivos de guardado de tu plataforma, luego visita el escritorio del orfanato una vez que tengas acceso a la Era de la Custodia.
+
+<Callout type="warning" title="Advertencia sobre compras duplicadas">
+Reservar la Edición Digital Deluxe en la [Tienda de Xbox](https://www.xbox.com/en-US/games/store/the-adventures-of-elliot-the-millennium-tales/9PP9456CW5W3) te otorga el Paquete Digital Deluxe, que incluye el Brazalete de Hada, la Tobillera de Flor de Cerezo y el Anillo de Roselle. Evita comprar la mejora Deluxe por separado si ya posees esta edición para evitar transacciones duplicadas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Magia de Faie y tácticas de cooperativo local">
+
+Faie es la leal compañera hada de Elliot, y sirve como un recurso crucial tanto para resolver acertijos como para el combate en tiempo real. Puedes controlar a Faie de forma independiente usando el joystick analógico derecho, o invitar a un segundo jugador a tomar el control directo de ella en el modo cooperativo local para 1 o 2 jugadores.
+
+A medida que explores el mundo y descubras los Santuarios de la Mística ocultos, Faie aprenderá poderosos hechizos de apoyo que ampliarán tus opciones tácticas.
+
+| Nombre del hechizo | Lugar de desbloqueo | Mecánica principal | Uso práctico en exploración |
+|---|---|---|---|
+| Magia de teletransporte (Warp) | Santuario de la Mística (Custodia) | Teletransporta a Elliot directamente a la ubicación de Faie | Evitar abismos, placas de presión y peligros |
+| Magia de ignición (Ignite) | Santuario de la Mística (Reconstrucción) | Enciende antorchas y derrite bloques de hielo | Resolver acertijos ambientales y detonar bombas |
+| Magia de vacío (Vacuum) | Santuario de la Mística (Era Mágica) | Atrae a los enemigos cercanos y los objetos sueltos | Recoger botín del suelo y agrupar enemigos para las bombas |
+| Magia de copia (Copy) | Santuario de la Mística (Era del Brote) | Imita las acciones físicas y los ataques de Elliot | Activar interruptores sincronizados y duplicar proyectiles |
+
+Para asegurarte de estar completamente preparado para el viaje que te espera, realiza un seguimiento de estos hitos esenciales a medida que avanzas en la historia principal:
+
+<Checklist
+  id="elliot-milestones"
+  title="Hitos esenciales de la aventura:"
+  items={[
+    "Completa el prólogo y activa el Portal del Tiempo",
+    "Desbloquea los siete tipos de armas para maximizar tu flexibilidad en combate",
+    "Encuentra y activa al menos tres postes de guía de aventura en cada era",
+    "Localiza el Santuario de la Mística para desbloquear la Magia de teletransporte de Faie",
+    "Reclama tus bonificaciones de datos de guardado compatibles en el escritorio del orfanato"
+  ]}
+/>
+
+<Callout type="info" title="Mecánica de reanimación en cooperativo">
+En el modo cooperativo local, si Elliot cae en batalla, el jugador que controla a Faie puede revivirlo gastando una parte de los tul recolectados. Mantén siempre una reserva de dinero a mano cuando explores mazmorras de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+Para ayudarte a aprovechar al máximo tu viaje, hemos recopilado respuestas a las preguntas más comunes que se hacen los jugadores al comenzar su aventura.
+
+<FAQ items={[
+  {
+    question: "¿Cómo reclamo mis bonificaciones de reserva y datos de guardado?",
+    answer: "Primero, selecciona la opción de Bonificación Promocional en la pantalla de título para vincular tus archivos de guardado compatibles. Una vez en el juego, avanza en el prólogo hasta que puedas acceder al orfanato en la Era de la Custodia. Interactúa con el escritorio en el segundo piso para recuperar tus accesorios y magicita."
+  },
+  {
+    question: "¿Puedo jugar todo el juego en modo cooperativo local?",
+    answer: "Sí. El juego admite cooperativo local para 1 o 2 jugadores en todas las plataformas, incluidas Nintendo Switch 2 y PS5. Un jugador controla los movimientos de combate físico de Elliot, mientras que el segundo jugador controla el vuelo y los hechizos de apoyo de Faie."
+  },
+  {
+    question: "¿Cuál es la ventaja de usar una guía para este juego?",
+    answer: "Usar nuestra guía paso a paso de The Adventures of Elliot The Millennium Tales garantiza que no te pierdas fragmentos de magicita ocultos, Santuarios de la Mística o postes de guía de viaje rápido a través de las cuatro eras del viaje en el tiempo."
+  },
+  {
+    question: "¿Cómo funciona el sistema de durabilidad de las armas?",
+    answer: "Las armas no se rompen de forma permanente, pero alternar entre tus dos armas equipadas durante el combate ayuda a gestionar sus tasas de recuperación individuales y evita que te quedes indefenso durante enfrentamientos largos."
+  }
+]} />
+
+<Callout type="success" title="Actualizaciones oficiales">
+Para conocer las últimas notas del parche, eventos comunitarios y actualizaciones de desarrollo, asegúrate de visitar el [Sitio web oficial de Square Enix](https://www.square-enix.com/the-adventures-of-elliot-the-millennium-tales/en-us/) y únete a la conversación con otros aventureros.
+</Callout>
+
+</Section>

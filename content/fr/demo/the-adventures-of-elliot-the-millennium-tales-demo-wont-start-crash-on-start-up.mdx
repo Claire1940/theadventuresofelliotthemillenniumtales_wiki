@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Wrench, AlertTriangle, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "la démo de the adventures of elliot the millennium tales ne se lance pas crash au démarrage : Guide de dépannage PC",
+  description: "Résolvez les problèmes de lancement de la démo du prologue de The Adventures of Elliot. Apprenez à corriger les plantages au démarrage, les erreurs Denuvo et les problèmes de compatibilité DirectX 12.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15A7D0/fff?text=Troubleshooting+Guide",
+  date: "2026-06-19",
+  author: "L'équipe du Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Mot-clé principal** : Si **the adventures of elliot the millennium tales demo wont start crash on start up**, vérifiez d'abord votre système d'exploitation.
+- **Mécanique clé** : Le jeu nécessite strictement **Windows 11 64 bits** ; les utilisateurs de Windows 10 connaîtront des échecs de lancement immédiats.
+- **Meilleure stratégie** : Toujours **Vérifier l'intégrité des fichiers du jeu** via Steam avant de tenter des restaurations complexes de pilotes.
+- **Conseil critique** : **Denuvo Anti-tamper** est actif et peut être bloqué par un logiciel antivirus tiers trop agressif.
+- **Meilleur choix** : Limitez votre taux de rafraîchissement à **60 FPS** dans le panneau de configuration de votre GPU si le jeu plante pendant l'écran de logo initial de Square Enix.
+</Callout>
+
+<Section icon={Monitor} title="Vérifier la configuration système officielle sur PC">
+
+Lorsque les joueurs signalent que **the adventures of elliot the millennium tales demo wont start crash on start up**, le coupable le plus courant est un matériel incompatible ou un système d'exploitation obsolète. La version PC de cet Action-RPG en HD-2D, développé par Square Enix et Claytechworks, a des exigences de base étonnamment strictes pour un jeu de style pixel-art. 
+
+Parce que la démo du prologue utilise exactement le même moteur et les mêmes ressources que la version finale du 18 juin 2026, le non-respect de ces spécifications garantira un plantage avant même le chargement du menu principal.
+
+<CardGrid cols={3}>
+  <Card title="Système d'exploitation">
+    - **Windows 11 64 bits uniquement**
+    - Windows 10 n'est pas pris en charge
+    - Provoque des plantages silencieux instantanés
+  </Card>
+  <Card title="Mémoire système">
+    - **16 Go de RAM minimum**
+    - Les systèmes avec 8 Go créeront un goulot d'étranglement
+    - Provoque des erreurs d'allocation de mémoire
+  </Card>
+  <Card title="Espace de stockage">
+    - **20 Go d'espace disponible**
+    - SSD fortement recommandé
+    - Évite les saccades lors du chargement des ressources
+  </Card>
+</CardGrid>
+
+De nombreux joueurs supposent à tort que parce que le jeu utilise une esthétique HD-2D similaire à des titres plus anciens, il peut fonctionner sur des machines obsolètes. Cependant, l'éclairage avancé, les mécanismes de changement d'arme en temps réel et les systèmes de magie riches en particules de Faie nécessitent une architecture moderne. 
+
+Consultez les spécifications matérielles officielles ci-dessous pour vous assurer que votre configuration est capable de lancer l'exécutable.
+
+| Composant | Configuration minimale (720p / Bas / 60 FPS) | Configuration recommandée (1080p / Élevé / 60 FPS) |
+|---|---|---|
+| OS | Windows 11 64 bits | Windows 11 64 bits |
+| Processeur | AMD Ryzen 3 3100 / Intel Core i3-8100 | AMD Ryzen 3 3100 / Intel Core i5-8600K |
+| Mémoire | 16 Go de RAM | 16 Go de RAM |
+| Carte graphique | Radeon RX 5500 XT / Arc A580 / GTX 1650 | Radeon RX 5600 XT / Arc A580 / GTX 1660 Ti |
+| DirectX | Version 12 | Version 12 |
+
+<Callout type="warning" title="Exigence de Windows 11">
+N'ignorez pas l'exigence du système d'exploitation. La documentation officielle de Steam confirme que Windows 11 64 bits est le strict minimum. Tenter de forcer le jeu à s'exécuter sur Windows 10 en utilisant des modes de compatibilité entraînera un plantage fatal au démarrage en raison de l'absence de liaisons d'API DirectX 12 modernes.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Identifier les causes courantes des plantages au démarrage">
+
+Si votre matériel respecte ou dépasse les exigences énumérées ci-dessus, le problème réside dans votre environnement logiciel. Les environnements de jeu sur PC sont très variables, et les conflits entre les applications en arrière-plan et l'exécutable du jeu sont fréquents. 
+
+La démo du prologue comprend plusieurs technologies d'arrière-plan spécifiques, notamment la synchronisation Steam Cloud et la gestion des droits numériques (DRM), qui peuvent déclencher de faux positifs sur votre système.
+
+<Checklist
+  id="crash-causes"
+  title="Liste de vérification avant dépannage :"
+  items={[
+    "Confirmer que Windows 11 est entièrement mis à jour avec la dernière version",
+    "Vérifier si Denuvo Anti-tamper est bloqué par votre antivirus",
+    "S'assurer que votre moniteur principal est branché directement sur votre carte graphique dédiée",
+    "Désactiver les superpositions (overlays) de RivaTuner, MSI Afterburner ou Discord",
+    "Vérifier que vous disposez d'au moins 20 Go d'espace libre sur votre disque d'installation"
+  ]}
+/>
+
+L'un des éléments les plus discutés de la version PC est l'inclusion de Denuvo Anti-tamper. Bien que conçu pour protéger l'exécutable du jeu, Denuvo nécessite une vérification périodique de jeton en ligne. Si votre pare-feu empêche le jeu d'accéder au serveur d'authentification lors de son lancement initial, l'application se fermera simplement sans afficher de code d'erreur.
+
+De plus, des fichiers redistribuables visuels corrompus peuvent empêcher le jeu de s'initialiser lors du lancement du moteur de rendu. Utilisez le tableau ci-dessous pour faire correspondre votre symptôme de plantage spécifique avec sa cause la plus probable.
+
+| Symptôme de plantage | Cause la plus probable | Action initiale |
+|---|---|---|
+| Se ferme instantanément après avoir cliqué sur "Jouer" | Denuvo bloqué / DX12 manquant | Ajouter le dossier aux exclusions de l'antivirus |
+| Écran noir avec audio en arrière-plan | Dépassement de délai du pilote GPU / Erreur de résolution | Forcer le mode fenêtré via Steam |
+| Fige sur le logo Square Enix | Conflit de superposition (Discord/Steam) | Désactiver toutes les superpositions en jeu |
+| Fenêtre contextuelle d'erreur fatale "Mémoire insuffisante" | RAM insuffisante / Fichier d'échange désactivé | Augmenter la mémoire virtuelle de Windows |
+
+<Callout type="tip" title="Vérifier la quarantaine de votre antivirus">
+Avant de procéder à des corrections complexes, ouvrez Windows Defender ou votre logiciel antivirus tiers et vérifiez l'historique de protection. Si vous voyez `ElliotDemo.exe` répertorié comme une menace bloquée, restaurez le fichier et ajoutez l'ensemble du dossier d'installation de Steam à la liste d'exclusion.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Guide étape par étape pour corriger la démo du prologue">
+
+Maintenant que nous comprenons la configuration matérielle de base et les conflits logiciels potentiels, nous pouvons appliquer des correctifs ciblés. Suivez ces étapes de manière séquentielle. Elles sont ordonnées de la moins invasive à la plus complète, vous évitant ainsi de perdre du temps à réinstaller l'intégralité du package de 20 Go sauf si cela est absolument nécessaire.
+
+<Steps>
+  <Step num="1" title="Vérifier l'intégrité des fichiers du jeu">
+    Les téléchargements corrompus sont la principale cause des plantages au démarrage. Ouvrez votre bibliothèque Steam, faites un clic droit sur The Adventures of Elliot Prologue Demo, sélectionnez **Propriétés**, accédez à l'onglet **Fichiers installés**, et cliquez sur **Vérifier l'intégrité des fichiers de la démo**. Steam analysera votre installation et retéléchargera automatiquement toutes les textures HD-2D ou fichiers exécutables manquants ou corrompus.
+  </Step>
+  <Step num="2" title="Effectuer une installation propre des pilotes GPU">
+    Le moteur d'éclairage du jeu dépend fortement de pilotes mis à jour. N'utilisez pas simplement Windows Update. Visitez le site officiel d'AMD, de NVIDIA ou d'Intel pour télécharger le dernier package de pilotes. Lors de l'installation, sélectionnez l'option **Personnalisée (Avancée)** et cochez la case **Effectuer une nouvelle installation**. Cela efface les anciens profils de pilotes conflictuels de votre registre.
+  </Step>
+  <Step num="3" title="Exécuter l'exécutable en tant qu'administrateur">
+    Parfois, Steam ne dispose pas des autorisations Windows nécessaires pour créer les dossiers de données de sauvegarde requis dans votre répertoire Documents. Faites un clic droit sur le jeu dans Steam, allez dans **Gérer > Parcourir les fichiers locaux**. Faites un clic droit sur l'exécutable principal, sélectionnez **Propriétés**, allez dans l'onglet **Compatibilité**, et cochez **Exécuter ce programme en tant qu'administrateur**.
+  </Step>
+  <Step num="4" title="Effacer le cache de téléchargement de Steam">
+    Si la démo a été mise à jour récemment et ne se lance pas, le cache de téléchargement peut être désynchronisé. Ouvrez les paramètres de Steam, accédez à l'onglet **Téléchargements**, et cliquez sur **Effacer le cache**. Vous devrez vous reconnecter à Steam par la suite, mais cela force une nouvelle connexion au réseau de diffusion de contenu.
+  </Step>
+  <Step num="5" title="Forcer DirectX 12 via les options de lancement">
+    Si votre GPU a du mal à initialiser l'API automatiquement, vous pouvez forcer la commande. Faites un clic droit sur la démo dans Steam, sélectionnez **Propriétés**, et dans l'onglet **Général** sous **Options de lancement**, tapez `-dx12`. Fermez la fenêtre et tentez de lancer le jeu à nouveau.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sécurité des données de sauvegarde">
+Ne vous inquiétez pas de perdre votre progression pendant le dépannage. La démo du prologue prend en charge Steam Cloud, et vos données de sauvegarde sont stockées séparément du répertoire d'installation. Une fois le plantage résolu, vous pourrez reprendre votre exploration et éventuellement transférer ces données de sauvegarde vers la version complète du 18 juin.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Ajustements avancés de l'affichage et des performances">
+
+Si vous avez réussi à dépasser le plantage initial mais que le jeu est très instable ou se ferme peu après avoir atteint le menu principal, vous devrez peut-être ajuster vos configurations d'affichage en dehors du jeu. 
+
+La documentation officielle note que le jeu prend en charge la synchronisation verticale (V-sync) activée (jusqu'à 120 fps) et désactivée (30, 60 ou 120 fps sélectionnables). Cependant, laisser le taux de rafraîchissement monter de manière incontrôlée pendant les écrans de chargement peut déclencher des arrêts de sécurité du GPU, entraînant un plantage vers le bureau.
+
+| Paramètre | Valeur recommandée | Pourquoi cela aide à prévenir les plantages |
+|---|---|---|
+| Taux de rafraîchissement max | 60 FPS | Évite la surchauffe du GPU pendant les écrans de menu non limités |
+| V-Sync | Activé (On) | Stabilise le rythme des images et se synchronise avec le taux de rafraîchissement du moniteur |
+| Mode d'affichage | Fenêtré sans bordure | Évite les plantages lors d'un Alt-Tab en plein écran exclusif DX12 |
+| Planification de processeur graphique à accélération matérielle | Activée (Paramètres Windows) | Améliore l'allocation des ressources pour le pipeline de rendu HD-2D |
+
+Pour appliquer une limite stricte de taux de rafraîchissement sans accéder au menu du jeu (que vous ne pouvez pas atteindre si le jeu plante), ouvrez le **Panneau de configuration NVIDIA** ou **AMD Software: Adrenalin Edition**. Accédez aux paramètres de votre application 3D, ajoutez manuellement l'exécutable du jeu et définissez la limite de taux de rafraîchissement maximal sur 60 FPS. 
+
+De plus, si vous utilisez une configuration multi-écrans avec des taux de rafraîchissement différents, désactivez temporairement vos écrans secondaires en utilisant la combinaison `Touche Windows + P` et en sélectionnant "Écran du PC uniquement". Certaines applications DX12 ont du mal à s'initialiser lors de la détection de plusieurs écrans avec des valeurs de Hz conflictuelles.
+
+<Callout type="info" title="Conflits de périphériques audio">
+Dans de rares cas, le jeu peut planter s'il ne détecte pas de périphérique de sortie audio valide. Assurez-vous que vos écouteurs ou haut-parleurs sont branchés, définis comme périphérique par défaut dans Windows 11, et que les fonctionnalités de son spatial (comme Windows Sonic ou Dolby Atmos) sont temporairement désactivées lors de votre premier lancement.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+Les joueurs confrontés à des problèmes techniques ont souvent des préoccupations secondaires concernant leur progression dans le jeu, les objets bonus et la transition vers la version complète. Nous avons rassemblé les réponses les plus importantes basées sur les directives officielles des plateformes.
+
+<FAQ items={[
+  {
+    question: "Si je réinstalle la démo pour corriger les plantages, vais-je perdre mes bonus de données de sauvegarde ?",
+    answer: "Non. Les bonus de données de sauvegarde (tels que la magicite Guide de la flamme sacrée d'OCTOPATH TRAVELER ou la magicite Coup critique de DRAGON QUEST III HD-2D Remake) sont vérifiés en recherchant sur votre système les fichiers de sauvegarde de ces jeux spécifiques. La réinstallation de la démo d'Elliot ne supprime pas les fichiers de sauvegarde de vos autres jeux."
+  },
+  {
+    question: "Pourquoi le jeu plante-t-il immédiatement sur Windows 10 ?",
+    answer: "The Adventures of Elliot nécessite officiellement Windows 11 64 bits. Les développeurs de Claytechworks ont optimisé le moteur en utilisant des API et des fonctionnalités de gestion de la mémoire exclusives à Windows 11. Le contournement de cette exigence n'est pas pris en charge et entraînera des erreurs de démarrage fatales."
+  },
+  {
+    question: "Le jeu complet aura-t-il les mêmes plantages au démarrage que la démo du prologue ?",
+    answer: "La démo du prologue est construite à partir du même contenu de vente au détail et utilise la même implémentation de Denuvo Anti-tamper que la version complète. Si un conflit logiciel (comme un blocage d'antivirus) fait planter votre démo, il fera probablement planter le jeu complet à 59,99 $. Il est fortement recommandé de résoudre ces problèmes d'abord sur la démo gratuite."
+  },
+  {
+    question: "Le changement d'arme provoque-t-il des saccades ou des plantages du jeu ?",
+    answer: "Les baisses de performances en jeu lors du changement d'arme ou de l'utilisation de la magie d'embrasement de Faie indiquent généralement un goulot d'étranglement de la RAM ou de la VRAM. Assurez-vous que votre système respecte le minimum de 16 Go de RAM et qu'aucune application gourmande en arrière-plan (comme des navigateurs Web avec de nombreux onglets) ne consomme de la mémoire."
+  }
+]} />
+
+<Callout type="tip" title="Canaux d'assistance officiels">
+Si vous avez vérifié votre système d'exploitation Windows 11, mis à jour vos pilotes et confirmé que Denuvo n'est pas bloqué, mais que les problèmes de **the adventures of elliot the millennium tales demo wont start crash on start up** persistent, pensez à consulter le hub de la communauté Steam. L'assistance de Square Enix surveille ces forums pour détecter les bogues spécifiques au matériel à grande échelle pendant la période de lancement.
+</Callout>
+
+</Section>

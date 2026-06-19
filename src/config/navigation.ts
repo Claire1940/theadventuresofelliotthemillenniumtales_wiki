@@ -1,3 +1,4 @@
+import { Star, MonitorSmartphone, FlaskConical, Rocket, Package, BookOpen, Users } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
@@ -7,7 +8,15 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{ key: 'review', path: '/review', icon: Star, isContentType: true },
+	{ key: 'platforms', path: '/platforms', icon: MonitorSmartphone, isContentType: true },
+	{ key: 'demo', path: '/demo', icon: FlaskConical, isContentType: true },
+	{ key: 'release', path: '/release', icon: Rocket, isContentType: true },
+	{ key: 'edition', path: '/edition', icon: Package, isContentType: true },
+	{ key: 'guide', path: '/guide', icon: BookOpen, isContentType: true },
+	{ key: 'features', path: '/features', icon: Users, isContentType: true },
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(

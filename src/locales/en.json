@@ -10,7 +10,15 @@
       "twitterDescription": "The Adventures of Elliot: The Millennium Tales wiki - walkthroughs, weapons, magicite builds, Faie magic, bosses, and platforms."
     }
   },
-  "nav": {},
+  "nav": {
+    "review": "Review",
+    "platforms": "Platforms",
+    "demo": "Demo",
+    "release": "Release",
+    "edition": "Edition",
+    "guide": "Guide",
+    "features": "Features"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -886,125 +894,45 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "walkthrough": {
-      "title": "The Adventures of Elliot Walkthrough",
-      "description": "Main-story routes, region progressions, dungeon order, and puzzle solutions for The Adventures of Elliot: The Millennium Tales.",
-      "metaTitle": "The Adventures of Elliot Walkthrough - Story & Dungeon Guide",
-      "metaDescription": "Complete The Adventures of Elliot: The Millennium Tales walkthrough covering main-story routes, dungeon progression, puzzle solutions, and the four ages.",
-      "categoryLabel": "STORY WALKTHROUGH",
-      "whatIs": "What is the Walkthrough?",
-      "whatIsDescription": "Main-story flow, region routes, dungeon progression, and puzzle order across the four ages. Built from the official story setup and platform gameplay descriptions.",
-      "why": "Why follow the walkthrough?",
+    "review": {
+      "title": "The Adventures of Elliot Reviews",
+      "description": "Critic scores, player ratings, and review aggregation for The Adventures of Elliot: The Millennium Tales across Steam, Metacritic, OpenCritic, IGN, and Famitsu.",
+      "metaTitle": "The Adventures of Elliot Reviews - Scores & Critic Reception",
+      "metaDescription": "Read The Adventures of Elliot: The Millennium Tales reviews. Critic scores from IGN and Famitsu, Metacritic and OpenCritic aggregates, and Steam player ratings.",
+      "categoryLabel": "REVIEWS & SCORES",
+      "whatIs": "What are Reviews?",
+      "whatIsDescription": "Professional critic scores and player ratings gathered from Steam, Metacritic, OpenCritic, IGN, Famitsu, and storefront reviews, covering combat, story, HD-2D presentation, and the Faie companion system.",
+      "why": "Why read reviews?",
       "whySteps": {
-        "step1Title": "Follow the Main Story",
-        "step1Description": "Track the critical path through each age and dungeon",
-        "step2Title": "Solve Puzzles in Order",
-        "step2Description": "Open routes and Shrines of the Mystic in the right sequence",
-        "step3Title": "Explore Side Areas",
-        "step3Description": "Find weapons, Magicite, and treasure beyond the main route"
+        "step1Title": "Compare Critic Scores",
+        "step1Description": "Line up IGN, Famitsu, Metacritic, and OpenCritic ratings side by side",
+        "step2Title": "Read Player Ratings",
+        "step2Description": "Check Steam and storefront reviews for real launch-day sentiment",
+        "step3Title": "Spot the Strengths",
+        "step3Description": "See where reviewers praise combat, weapons, and the HD-2D art direction"
       },
       "featured": "Featured & Essential",
-      "all": "All Walkthrough Guides"
+      "all": "All Review Guides"
     },
-    "weapons": {
-      "title": "The Adventures of Elliot Weapons",
-      "description": "All seven weapon types, two-weapon loadouts, weapon switching, and combat roles across The Adventures of Elliot: The Millennium Tales.",
-      "metaTitle": "The Adventures of Elliot Weapons - All 7 Types & Loadouts",
-      "metaDescription": "Master the seven weapon types in The Adventures of Elliot: The Millennium Tales. Learn weapon switching, loadouts, and the best role for each weapon.",
-      "categoryLabel": "WEAPONS",
-      "whatIs": "What are Weapons?",
-      "whatIsDescription": "Guides to the seven weapon types, two-weapon loadouts, real-time switching, and the combat role of each weapon without Magicite detail duplication.",
-      "why": "Why study weapons?",
+    "platforms": {
+      "title": "The Adventures of Elliot Platforms",
+      "description": "Release date, platforms, pricing, editions, system requirements, file size, languages, and performance for The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Platforms - Specs & Performance",
+      "metaDescription": "Compare The Adventures of Elliot: The Millennium Tales across Steam, PS5, Xbox Series X|S, and Nintendo Switch 2. Specs, pricing, languages, and performance.",
+      "categoryLabel": "PLATFORMS & SPECS",
+      "whatIs": "What are the Platforms?",
+      "whatIsDescription": "Buy-before-you-play info: release date, platform list, pricing, editions, system requirements, file size, language support, and platform-specific features.",
+      "why": "Why compare platforms?",
       "whySteps": {
-        "step1Title": "Learn Each Weapon Type",
-        "step1Description": "Understand sword, bow, bomb, boomerang, spear, hammer, and chains",
-        "step2Title": "Build Two-Weapon Loadouts",
-        "step2Description": "Pair a main weapon with a utility weapon for range and puzzles",
-        "step3Title": "Switch in Real Time",
-        "step3Description": "Swap weapons mid-combat to match each encounter"
+        "step1Title": "Check System Requirements",
+        "step1Description": "Confirm your PC meets the Steam minimum and recommended specs",
+        "step2Title": "Compare Consoles",
+        "step2Description": "Weigh resolution, frame rate, and file size across PS5, Xbox, and Switch 2",
+        "step3Title": "Pick the Right Edition",
+        "step3Description": "Choose Standard, Digital Deluxe, Deluxe Upgrade, or Collector's Edition"
       },
       "featured": "Featured & Essential",
-      "all": "All Weapon Guides"
-    },
-    "magicite": {
-      "title": "The Adventures of Elliot Magicite",
-      "description": "Magicite fragments, weapon customization, effect combinations, and early build ideas for The Adventures of Elliot: The Millennium Tales.",
-      "metaTitle": "The Adventures of Elliot Magicite - Builds & Customization",
-      "metaDescription": "Master Magicite customization in The Adventures of Elliot: The Millennium Tales. Learn fragments, weapon effects, and build ideas for every weapon type.",
-      "categoryLabel": "MAGICITE BUILDS",
-      "whatIs": "What is Magicite?",
-      "whatIsDescription": "Magicite fragments customize weapon behavior, stats, and combat effects. Slot them into weapons to shape builds around the way you already play.",
-      "why": "Why customize Magicite?",
-      "whySteps": {
-        "step1Title": "Find Magicite Fragments",
-        "step1Description": "Search dungeons and exploration routes for fragments",
-        "step2Title": "Slot Fragments into Weapons",
-        "step2Description": "Strengthen weapons with effects that match your playstyle",
-        "step3Title": "Build Around a Strategy",
-        "step3Description": "Stack effects for guard, counterattack, range, or burst builds"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Magicite Guides"
-    },
-    "faie": {
-      "title": "The Adventures of Elliot Faie Guide",
-      "description": "Faie support, scouting, item retrieval, magic, and local co-op control across The Adventures of Elliot: The Millennium Tales.",
-      "metaTitle": "The Adventures of Elliot Faie - Magic, Scouting & Co-op",
-      "metaDescription": "Learn how Faie supports exploration in The Adventures of Elliot: The Millennium Tales. Scouting, item retrieval, Warp, Ignite, Vacuum, Copy, and local co-op.",
-      "categoryLabel": "FAIE MAGIC",
-      "whatIs": "What is Faie?",
-      "whatIsDescription": "Faie is Elliot's fairy companion. She scouts, retrieves items, supports combat, learns magic from Shrines of the Mystic, and can be controlled by a second local player.",
-      "why": "Why use Faie?",
-      "whySteps": {
-        "step1Title": "Scout and Retrieve",
-        "step1Description": "Send Faie ahead to check danger and grab distant objects",
-        "step2Title": "Learn Faie Magic",
-        "step2Description": "Unlock Warp, Ignite, Vacuum, and Copy at Shrines of the Mystic",
-        "step3Title": "Play Local Co-op",
-        "step3Description": "Let a second player control Faie for shared exploration"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Faie Guides"
-    },
-    "ages": {
-      "title": "The Adventures of Elliot Four Ages",
-      "description": "The four ages, the Doorway of Time, era differences, and map changes across The Adventures of Elliot: The Millennium Tales.",
-      "metaTitle": "The Adventures of Elliot Four Ages - Doorway of Time Guide",
-      "metaDescription": "Explore the four ages of The Adventures of Elliot: The Millennium Tales. Age of Safekeeping, Reconstruction, Magic, and Budding, plus the Doorway of Time.",
-      "categoryLabel": "FOUR AGES",
-      "whatIs": "What are the Four Ages?",
-      "whatIsDescription": "The Age of Safekeeping, Age of Reconstruction, Age of Magic, and Age of Budding, connected by the Doorway of Time, each with its own map and story differences.",
-      "why": "Why explore the ages?",
-      "whySteps": {
-        "step1Title": "Understand Each Age",
-        "step1Description": "Learn how Safekeeping, Reconstruction, Magic, and Budding differ",
-        "step2Title": "Use the Doorway of Time",
-        "step2Description": "Travel between ages to solve cross-era puzzles",
-        "step3Title": "Track Map Changes",
-        "step3Description": "See how regions transform across the four ages"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Ages Guides"
-    },
-    "bosses": {
-      "title": "The Adventures of Elliot Bosses",
-      "description": "Boss encounters, elite enemies, and dungeon combat strategy across The Adventures of Elliot: The Millennium Tales.",
-      "metaTitle": "The Adventures of Elliot Bosses - Encounters & Strategy",
-      "metaDescription": "Boss and elite-enemy strategy for The Adventures of Elliot: The Millennium Tales. Dungeon encounters, the Tag Guardians, and combat tactics for every fight.",
-      "categoryLabel": "BOSSES & DUNGEONS",
-      "whatIs": "What are Bosses?",
-      "whatIsDescription": "Boss and elite-enemy encounters inside dungeons, including the Tag Guardians at Doorway Ruins, with combat structure and positioning tactics.",
-      "why": "Why study bosses?",
-      "whySteps": {
-        "step1Title": "Learn Attack Patterns",
-        "step1Description": "Read boss tells and time blocks and dodges",
-        "step2Title": "Pick the Right Loadout",
-        "step2Description": "Choose weapons and Magicite that fit each encounter",
-        "step3Title": "Use Faie Support",
-        "step3Description": "Position Faie for safe attacks and Warp repositioning"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Boss Guides"
+      "all": "All Platform Guides"
     },
     "demo": {
       "title": "The Adventures of Elliot Demo Guide",
@@ -1026,25 +954,85 @@
       "featured": "Featured & Essential",
       "all": "All Demo Guides"
     },
-    "platforms": {
-      "title": "The Adventures of Elliot Platforms",
-      "description": "Release date, platforms, pricing, editions, system requirements, file size, languages, and performance for The Adventures of Elliot: The Millennium Tales.",
-      "metaTitle": "The Adventures of Elliot Platforms - Specs & Performance",
-      "metaDescription": "Compare The Adventures of Elliot: The Millennium Tales across Steam, PS5, Xbox Series X|S, Windows, and Nintendo Switch 2. Specs, pricing, languages, and performance.",
-      "categoryLabel": "PLATFORMS & SPECS",
-      "whatIs": "What are the Platforms?",
-      "whatIsDescription": "Buy-before-you-play info: release date, platform list, pricing, editions, system requirements, file size, language support, and platform-specific features.",
-      "why": "Why compare platforms?",
+    "release": {
+      "title": "The Adventures of Elliot Release",
+      "description": "Release date, launch countdown, Steam unlock time, review embargo, and region availability for The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Release Date - Launch & Countdown",
+      "metaDescription": "The Adventures of Elliot: The Millennium Tales release date, Steam unlock time, review embargo, and global launch windows across all platforms.",
+      "categoryLabel": "RELEASE & LAUNCH",
+      "whatIs": "What is the Release?",
+      "whatIsDescription": "Launch details: the official release date, Steam unlock time by region, review embargo lift, and day-one availability on Nintendo Switch 2, PS5, Xbox Series X|S, and PC.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Check System Requirements",
-        "step1Description": "Confirm your PC meets the Steam minimum and recommended specs",
-        "step2Title": "Compare Consoles",
-        "step2Description": "Weigh resolution, frame rate, and file size across PS5, Xbox, and Switch 2",
-        "step3Title": "Pick the Right Edition",
-        "step3Description": "Choose Standard, Digital Deluxe, Deluxe Upgrade, or Collector's Edition"
+        "step1Title": "Mark the Release Date",
+        "step1Description": "Note the global launch day across all four platforms",
+        "step2Title": "Check Unlock Times",
+        "step2Description": "Find your local Steam unlock and console midnight launch window",
+        "step3Title": "Watch the Embargo",
+        "step3Description": "See when critic reviews and first impressions go live"
       },
       "featured": "Featured & Essential",
-      "all": "All Platform Guides"
+      "all": "All Release Guides"
+    },
+    "edition": {
+      "title": "The Adventures of Elliot Editions",
+      "description": "Standard, Digital Deluxe, Collector's, and Amazon Exclusive editions, preorder bonuses, deluxe upgrade, and physical copy options for The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Editions - Deluxe, Collector's & Bonuses",
+      "metaDescription": "Compare The Adventures of Elliot: The Millennium Tales editions: Standard, Digital Deluxe, Collector's, Amazon Exclusive, preorder bonuses, and physical copy contents.",
+      "categoryLabel": "EDITIONS & BONUSES",
+      "whatIs": "What are Editions?",
+      "whatIsDescription": "Every purchasable version of the game: Standard, Digital Deluxe, Deluxe Upgrade, Collector's Edition, Amazon Exclusive Edition, and physical copy, with their included bonuses and extras.",
+      "why": "Why compare editions?",
+      "whySteps": {
+        "step1Title": "Match Editions to Budget",
+        "step1Description": "Compare Standard, Digital Deluxe, and Collector's pricing",
+        "step2Title": "Check Preorder Bonuses",
+        "step2Description": "See what early buyers and Amazon Exclusive editions include",
+        "step3Title": "Pick Digital or Physical",
+        "step3Description": "Weigh digital deluxe upgrades against a physical copy"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Edition Guides"
+    },
+    "guide": {
+      "title": "The Adventures of Elliot Guides",
+      "description": "Walkthroughs, puzzle solutions, weapon locations, Magicite builds, Faie magic, boss strategy, and the four ages for The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Guides - Walkthrough, Weapons & Builds",
+      "metaDescription": "Complete The Adventures of Elliot: The Millennium Tales guides. Main-story walkthrough, all weapon locations, Magicite builds, Faie magic, bosses, and the four ages.",
+      "categoryLabel": "GUIDES & WALKTHROUGH",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "In-depth guides covering the main-story walkthrough, dungeon progression, all seven weapon locations, Magicite builds, Faie magic from Shrines of the Mystic, boss tactics, and exploration of the four ages.",
+      "why": "Why use guides?",
+      "whySteps": {
+        "step1Title": "Follow the Walkthrough",
+        "step1Description": "Track the critical path through each age and dungeon",
+        "step2Title": "Find Every Weapon",
+        "step2Description": "Locate all seven weapons and build two-weapon loadouts",
+        "step3Title": "Master Combat and Bosses",
+        "step3Description": "Learn Magicite builds and tactics for the Tag Guardians"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "features": {
+      "title": "The Adventures of Elliot Features",
+      "description": "Multiplayer, local co-op, Faie second-player control, online features, and core gameplay systems for The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Features - Multiplayer & Co-op",
+      "metaDescription": "Explore The Adventures of Elliot: The Millennium Tales features. Local co-op, Faie second-player control, online support, and the core action RPG systems.",
+      "categoryLabel": "FEATURES & CO-OP",
+      "whatIs": "What are Features?",
+      "whatIsDescription": "The headline gameplay features: local two-player co-op where a second player controls Faie, online connectivity, HD-2D presentation, real-time weapon switching, and the Magicite customization system.",
+      "why": "Why explore features?",
+      "whySteps": {
+        "step1Title": "Play Local Co-op",
+        "step1Description": "Let a second player control Faie for shared exploration",
+        "step2Title": "Understand the Systems",
+        "step2Description": "Learn weapon switching, Magicite, and the four ages",
+        "step3Title": "Check Online Support",
+        "step3Description": "See what online and connectivity features the game offers"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Feature Guides"
     }
   }
 }

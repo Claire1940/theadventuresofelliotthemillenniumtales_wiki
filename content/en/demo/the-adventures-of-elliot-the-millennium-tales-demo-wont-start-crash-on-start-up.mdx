@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Wrench, AlertTriangle, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "the adventures of elliot the millennium tales demo wont start crash on start up: PC Troubleshooting Guide",
+  description: "Fix launch issues for The Adventures of Elliot Prologue Demo. Learn how to resolve startup crashes, Denuvo errors, and DirectX 12 compatibility problems.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15A7D0/fff?text=Troubleshooting+Guide",
+  date: "2026-06-19",
+  author: "the adventures of elliot the millennium tales Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: If **the adventures of elliot the millennium tales demo wont start crash on start up**, verify your OS first.
+- **Key mechanic**: The game strictly requires **Windows 11 64-bit**; Windows 10 users will experience immediate launch failures.
+- **Best strategy**: Always **Verify Integrity of Game Files** via Steam before attempting complex driver rollbacks.
+- **Critical tip**: **Denuvo Anti-tamper** is active and may be blocked by overly aggressive third-party antivirus software.
+- **Top choice**: Cap your frame rate to **60 FPS** in your GPU control panel if the game crashes during the initial Square Enix logo screen.
+</Callout>
+
+<Section icon={Monitor} title="Verify Official PC System Requirements">
+
+When players report that the adventures of elliot the millennium tales demo wont start crash on start up, the most common culprit is incompatible hardware or an outdated operating system. The PC version of this HD-2D action RPG, developed by Square Enix and Claytechworks, has surprisingly strict baseline requirements for a pixel-art style game. 
+
+Because the Prologue Demo uses the exact same engine and assets as the retail release from June 18, 2026, failing to meet these specifications will guarantee a crash before the main menu even loads.
+
+<CardGrid cols={3}>
+  <Card title="Operating System">
+    - **Windows 11 64-bit Only**
+    - Windows 10 is unsupported
+    - Causes instant silent crashes
+  </Card>
+  <Card title="System Memory">
+    - **16 GB RAM Minimum**
+    - 8 GB systems will bottleneck
+    - Causes memory allocation errors
+  </Card>
+  <Card title="Storage Space">
+    - **20 GB Available Space**
+    - SSD highly recommended
+    - Prevents asset streaming stutters
+  </Card>
+</CardGrid>
+
+Many players mistakenly assume that because the game utilizes an HD-2D aesthetic similar to older titles, it can run on legacy machines. However, the advanced lighting, real-time weapon switching mechanics, and Faie's particle-heavy magic systems require modern architecture. 
+
+Review the official hardware specifications below to ensure your rig is capable of launching the executable.
+
+| Component | Minimum Requirement (720p / Low / 60 FPS) | Recommended Setup (1080p / High / 60 FPS) |
+|---|---|---|
+| OS | Windows 11 64-bit | Windows 11 64-bit |
+| Processor | AMD Ryzen 3 3100 / Intel Core i3-8100 | AMD Ryzen 3 3100 / Intel Core i5-8600K |
+| Memory | 16 GB RAM | 16 GB RAM |
+| Graphics | Radeon RX 5500 XT / Arc A580 / GTX 1650 | Radeon RX 5600 XT / Arc A580 / GTX 1660 Ti |
+| DirectX | Version 12 | Version 12 |
+
+<Callout type="warning" title="Windows 11 Requirement">
+Do not ignore the OS requirement. Official Steam documentation confirms that Windows 11 64-bit is the absolute minimum. Attempting to force the game to run on Windows 10 using compatibility modes will result in a fatal crash on startup due to missing modern DirectX 12 API hooks.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Identify Common Causes for Startup Crashes">
+
+If your hardware meets or exceeds the requirements listed above, the issue lies within your software environment. PC gaming environments are highly variable, and conflicts between background applications and the game's executable are frequent. 
+
+The Prologue Demo includes several specific background technologies, including Steam Cloud synchronization and digital rights management, which can trigger false positives on your system.
+
+<Checklist
+  id="crash-causes"
+  title="Pre-Troubleshooting Checklist:"
+  items={[
+    "Confirm Windows 11 is fully updated to the latest build",
+    "Check if Denuvo Anti-tamper is being blocked by your Antivirus",
+    "Ensure your primary monitor is plugged directly into your dedicated GPU",
+    "Disable RivaTuner, MSI Afterburner, or Discord overlays",
+    "Verify you have at least 20 GB of free space on your installation drive"
+  ]}
+/>
+
+One of the most heavily discussed elements of the PC release is the inclusion of Denuvo Anti-tamper. While designed to protect the game's executable, Denuvo requires a periodic online token verification. If your firewall blocks the game from reaching the authentication server during its initial launch, the application will simply close itself without displaying an error code.
+
+Additionally, corrupted visual redistributables can cause the game to fail when initializing the rendering engine. Use the table below to match your specific crash symptom with its most likely cause.
+
+| Crash Symptom | Most Likely Cause | Initial Action |
+|---|---|---|
+| Closes instantly after pressing "Play" | Denuvo blocked / Missing DX12 | Add folder to Antivirus exclusions |
+| Black screen with background audio | GPU driver timeout / Resolution error | Force Windowed mode via Steam |
+| Freezes on the Square Enix logo | Overlay conflict (Discord/Steam) | Disable all in-game overlays |
+| "Out of Memory" fatal error pop-up | Insufficient RAM / Pagefile disabled | Increase Windows Virtual Memory |
+
+<Callout type="tip" title="Check Your Antivirus Quarantine">
+Before proceeding to complex fixes, open Windows Defender or your third-party antivirus software and check the Protection History. If you see `ElliotDemo.exe` listed as a blocked threat, restore the file and whitelist the entire Steam installation folder.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Step-by-Step Guide to Fix the Prologue Demo">
+
+Now that we understand the hardware baseline and potential software conflicts, we can apply targeted fixes. Follow these steps sequentially. They are ordered from the least invasive to the most comprehensive, ensuring you do not waste time reinstalling the entire 20 GB package unless absolutely necessary.
+
+<Steps>
+  <Step num="1" title="Verify Integrity of Game Files">
+    Corrupted downloads are the leading cause of startup crashes. Open your Steam Library, right-click on The Adventures of Elliot Prologue Demo, select **Properties**, navigate to the **Installed Files** tab, and click **Verify integrity of demo files**. Steam will scan your installation and automatically redownload any missing or corrupted HD-2D textures or executable files.
+  </Step>
+  <Step num="2" title="Perform a Clean GPU Driver Installation">
+    The game's lighting engine relies heavily on updated drivers. Do not just use Windows Update. Visit the official AMD, NVIDIA, or Intel website to download the latest driver package. During installation, select the **Custom (Advanced)** option and check the box for **Perform a clean installation**. This wipes old, conflicting driver profiles from your registry.
+  </Step>
+  <Step num="3" title="Run the Executable as Administrator">
+    Sometimes Steam lacks the necessary Windows permissions to create the required save data folders in your Documents directory. Right-click the game in Steam, go to **Manage > Browse local files**. Right-click the main executable, select **Properties**, go to the **Compatibility** tab, and check **Run this program as an administrator**.
+  </Step>
+  <Step num="4" title="Clear the Steam Download Cache">
+    If the demo updated recently and fails to launch, the download cache might be desynchronized. Open Steam settings, navigate to the **Downloads** tab, and click **Clear Cache**. You will need to log back into Steam afterward, but this forces a fresh connection to the content delivery network.
+  </Step>
+  <Step num="5" title="Force DirectX 12 via Launch Options">
+    If your GPU struggles to initialize the API automatically, you can force the command. Right-click the demo in Steam, select **Properties**, and in the **General** tab under **Launch Options**, type `-dx12`. Close the window and attempt to launch the game again.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Save Data Safety">
+Do not worry about losing your progress while troubleshooting. The Prologue Demo supports Steam Cloud, and your save data is stored separately from the installation directory. Once you fix the crash, you can resume your exploration and eventually transfer that save data to the full June 18 release.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Advanced Display and Performance Tweaks">
+
+If you have managed to get past the initial crash but the game is highly unstable or closes shortly after reaching the main menu, you may need to adjust your display configurations outside of the game. 
+
+Official documentation notes that the game supports V-sync on (up to 120 fps) and V-sync off (selectable 30, 60, or 120 fps). However, allowing the frame rate to spike uncontrollably during loading screens can trigger GPU safety shutdowns, resulting in a crash to the desktop.
+
+| Setting | Recommended Value | Why It Helps Prevent Crashes |
+|---|---|---|
+| Max Frame Rate | 60 FPS | Prevents GPU overheating during uncapped menu screens |
+| V-Sync | Enabled (On) | Stabilizes frame pacing and synchronizes with monitor refresh rate |
+| Display Mode | Borderless Windowed | Prevents DX12 exclusive fullscreen alt-tab crashes |
+| Hardware Accelerated GPU Scheduling | Enabled (Windows Settings) | Improves resource allocation for the HD-2D rendering pipeline |
+
+To apply a hard frame rate cap without accessing the in-game menu (which you cannot reach if the game is crashing), open the **NVIDIA Control Panel** or **AMD Software: Adrenalin Edition**. Navigate to your 3D application settings, manually add the game's executable, and set the Max Frame Rate limit to 60 FPS. 
+
+Additionally, if you are using a multi-monitor setup with different refresh rates, temporarily disable your secondary monitors using `Windows Key + P` and selecting "PC screen only." Some DX12 applications struggle to initialize when polling multiple displays with conflicting Hz values.
+
+<Callout type="info" title="Audio Device Conflicts">
+In rare instances, the game may crash if it cannot detect a valid audio output device. Ensure your headphones or speakers are plugged in, set as the default device in Windows 11, and that spatial sound features (like Windows Sonic or Dolby Atmos) are temporarily disabled during your first launch.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+Players dealing with technical issues often have secondary concerns regarding their game progress, bonus items, and the transition to the full release. We have compiled the most critical answers based on official platform guidelines.
+
+<FAQ items={[
+  {
+    question: "If I reinstall the demo to fix crashes, will I lose my save data bonuses?",
+    answer: "No. Save data bonuses (such as the Guidance of the Sacred Flame magicite from OCTOPATH TRAVELER or the Critical Hit magicite from DRAGON QUEST III HD-2D Remake) are verified by checking your system for the save files of those specific games. Reinstalling the Elliot demo does not delete your other games' save files."
+  },
+  {
+    question: "Why does the game crash immediately on Windows 10?",
+    answer: "The Adventures of Elliot officially requires Windows 11 64-bit. The developers at Claytechworks optimized the engine using APIs and memory management features exclusive to Windows 11. Bypassing this requirement is not supported and will result in fatal startup errors."
+  },
+  {
+    question: "Will the full game have the same startup crashes as the Prologue Demo?",
+    answer: "The Prologue Demo is built from the exact same retail content and uses the same Denuvo Anti-tamper implementation as the full release. If a software conflict (like an antivirus block) is crashing your demo, it will likely crash the full $59.99 game. It is highly recommended to resolve these issues on the free demo first."
+  },
+  {
+    question: "Does weapon switching cause the game to stutter or crash?",
+    answer: "In-game performance drops during weapon switching or when using Faie's Ignite magic usually point to a RAM or VRAM bottleneck. Ensure your system meets the 16 GB RAM minimum and that no heavy background applications (like web browsers with many tabs) are consuming memory."
+  }
+]} />
+
+<Callout type="tip" title="Official Support Channels">
+If you have verified your Windows 11 OS, updated your drivers, and confirmed Denuvo is not blocked, but the adventures of elliot the millennium tales demo wont start crash on start up issues persist, consider checking the Steam Community Hub. Square Enix support monitors these boards for widespread hardware-specific bugs during the launch window.
+</Callout>
+
+</Section>

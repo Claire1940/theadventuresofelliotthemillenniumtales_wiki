@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Comment sauvegarder dans The Adventures of Elliot: The Millennium Tales : Astuces",
+  description: "Maîtrisez les mécaniques de sauvegarde dans The Adventures of Elliot: The Millennium Tales. Apprenez à sauvegarder, transférer les données de la démo et récupérer les bonus.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=How+to+Save+Guide",
+  date: "2026-06-19",
+  author: "L'équipe du Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Apprenez le processus de **sauvegarde dans The Adventures of Elliot: The Millennium Tales** à l'aide des sauvegardes automatiques et des stèles de voyage.
+- Les **sauvegardes automatiques** se déclenchent automatiquement lors des transitions d'époque, des entrées de donjon et de la complétion des quêtes.
+- Les **sauvegardes manuelles** nécessitent d'interagir avec les stèles de voyage (Adventuring Guideposts) déverrouillées à travers les quatre époques.
+- La **progression de la démo** est transférée vers le jeu complet sur la même famille de plateformes.
+- Les **bonus de sauvegarde** se récupèrent au premier étage de l'orphelinat dans l'Ère de la préservation (Age of Safekeeping).
+</Callout>
+
+<Section icon={Shield} title="Guide de sauvegarde pour The Adventures of Elliot: The Millennium Tales">
+
+Dans le vaste monde en HD-2D du dernier RPG d'action de Square Enix, protéger votre progression durement acquise à travers plusieurs époques est primordial. Comprendre le système de **sauvegarde dans The Adventures of Elliot: The Millennium Tales** vous assure de ne jamais perdre vos améliorations d'armes, vos configurations de Magicite ou votre progression dans l'histoire. Le jeu utilise un système de sauvegarde hybride qui combine une sauvegarde automatique robuste avec des points de contrôle manuels traditionnels.
+
+Les sauvegardes automatiques se produisent fréquemment en arrière-plan, en particulier lors de la transition entre les quatre âges distincts du jeu (Préservation, Reconstruction, Magie et Bourgeonnement) via la Porte du Temps. Les sauvegardes manuelles, cependant, offrent un contrôle absolu et sont essentielles avant d'affronter des boss difficiles ou d'expérimenter des configurations de Magicite risquées. Savoir quand et où déclencher ces sauvegardes est la base d'un voyage sans encombre.
+
+<Callout type="warning" title="Avertissement sur la sauvegarde automatique">
+N'éteignez pas votre console et ne fermez pas le client Steam pendant que l'icône d'aile de fée cyan clignote dans le coin inférieur droit de l'écran, car cela indique qu'une opération de sauvegarde est en cours.
+</Callout>
+
+Pour vous aider à gérer vos fichiers efficacement, le tableau ci-dessous présente les principales méthodes de sauvegarde disponibles dans le jeu :
+
+| Type de sauvegarde | Événement déclencheur | Emplacements | Meilleur cas d'utilisation |
+| :--- | :--- | :--- | :--- |
+| **Sauvegarde automatique** | Voyage temporel, entrée de donjon, complétion de quête | 3 emplacements rotatifs | Sauvegarde générale de progression |
+| **Sauvegarde manuelle** | Interaction avec une stèle de voyage | 10 emplacements indépendants | Avant les boss & builds majeurs |
+| **Sauvegarde Cloud** | Système inactif, fermeture du jeu | Dépendant de la plateforme | Jeu multi-support & sauvegarde de secours |
+
+La sauvegarde manuelle est directement liée aux stèles de voyage (Adventuring Guideposts). Ces piliers de pierre émettent une douce lueur cyan une fois activés. En plus de servir de points de sauvegarde manuels, ils font office de points de voyage rapide, permettant à Elliot et Faie de se téléporter instantanément vers les lieux découverts. Prenez l'habitude d'interagir avec chaque stèle que vous rencontrez au cours de votre périple.
+
+</Section>
+
+<Section icon={Map} title="Comment transférer les sauvegardes de la démo prologue">
+
+Si vous avez passé des heures à explorer les premières régions, à tester les sept types d'armes et à collecter de la Magicite dans la démo gratuite du prologue, vous pouvez transférer votre progression directement dans la version finale. Cette transition est fluide mais nécessite de respecter des règles spécifiques à chaque plateforme. Le jeu complet est sorti le 18 juin 2026 et est conçu pour détecter automatiquement les données de sauvegarde de la démo existante.
+
+En transférant votre sauvegarde, vous pouvez passer les chapitres d'introduction et vous replonger directement dans l'action avec vos niveaux, vos armes et votre inventaire intacts. Notez que les bonus liés aux données de sauvegarde ne sont pas récupérables dans la démo elle-même ; ils doivent être récupérés dans la version finale.
+
+<Callout type="tip" title="Avantage du transfert de démo">
+Le transfert de vos données de sauvegarde vous permet de passer le chapitre tutoriel d'introduction et de poursuivre immédiatement le voyage d'Elliot et Faie avec toutes vos armes et niveaux collectés.
+</Callout>
+
+Suivez ces étapes pour migrer avec succès vos fichiers de sauvegarde :
+
+<Steps>
+  <Step num="1" title="Installer le jeu complet">
+    Assurez-vous que la version finale du jeu est installée sur le même système et le même profil utilisateur que ceux où sont stockées les données de sauvegarde de la démo du prologue.
+  </Step>
+  <Step num="2" title="Lancer et détecter">
+    Lancez la version finale. Le jeu analysera automatiquement votre stockage local à la recherche de fichiers de sauvegarde de la démo du prologue dès que vous accéderez au menu principal.
+  </Step>
+  <Step num="3" title="Confirmer l'importation">
+    Sélectionnez 'Oui' lorsque vous êtes invité à importer votre progression de la démo. Le jeu convertira le fichier de la démo en un emplacement de sauvegarde manuelle standard.
+  </Step>
+  <Step num="4" title="Vérifier l'inventaire">
+    Chargez la sauvegarde nouvellement importée et vérifiez que votre inventaire, y compris la Magicite du début et les améliorations d'armes, a été correctement transféré.
+  </Step>
+</Steps>
+
+Consultez les règles de transfert spécifiques à chaque plateforme ci-dessous pour vous assurer de la compatibilité :
+
+| Plateforme | Transfert intergénérationnel | Méthode de transfert | Emplacement de sauvegarde |
+| :--- | :--- | :--- | :--- |
+| **PC Steam** | Répertoire local Windows 11 | Détection automatique | Dossier userdata de Steam |
+| **PS5** | Non applicable (exclusivité PS5) | Stockage Cloud ou console | Données sauvegardées du système |
+| **Xbox Series X/S** | Pris en charge via Smart Delivery | Synchronisation Cloud Xbox | Sauvegarde de profil universelle |
+| **Nintendo Switch 2**| Pris en charge via la mémoire système | Détection locale de la console | Stockage interne du système |
+
+</Section>
+
+<Section icon={Sparkles} title="Sauvegardes Cloud et prise en charge Play Anywhere">
+
+Le jeu prend entièrement en charge l'infrastructure moderne de sauvegarde sur le cloud sur toutes les plateformes majeures, permettant des sauvegardes sécurisées et le jeu multi-support. Par exemple, les joueurs PC utilisant la version Steam peuvent passer de manière fluide de leur ordinateur de bureau à leur console portable Steam Deck, tandis que les joueurs Xbox bénéficient de l'initiative Play Anywhere de Microsoft.
+
+La synchronisation avec le cloud se produit automatiquement chaque fois que vous fermez le jeu ou que votre système passe en mode veille. Cela garantit que vos derniers fichiers de sauvegarde manuelle et automatique sont toujours téléchargés sur les serveurs sécurisés de votre fournisseur de plateforme.
+
+<Callout type="info" title="Xbox Play Anywhere">
+L'achat de la version numérique sur Xbox ou le Microsoft Store vous permet de partager vos sauvegardes de manière fluide entre Xbox Series X|S et PC Windows sans transfert manuel de fichiers.
+</Callout>
+
+Le tableau ci-dessous détaille les spécifications et les conditions requises pour les sauvegardes sur le cloud sur chaque plateforme :
+
+| Plateforme | Service Cloud | Abonnement requis | Prise en charge Cross-Save |
+| :--- | :--- | :--- | :--- |
+| **Steam** | Steam Cloud | Gratuit | PC vers Steam Deck |
+| **PlayStation 5** | PlayStation Plus | Abonnement PS Plus actif requis | Consoles PS5 uniquement |
+| **Xbox Series X/S** | Sauvegardes Cloud Xbox | Gratuit | Xbox vers PC Windows Store |
+| **Nintendo Switch 2**| Nintendo Switch Online | Abonnement NSO actif requis | Consoles Switch 2 uniquement |
+
+Pour éviter les conflits de synchronisation, laissez toujours quelques instants à votre console ou PC pour télécharger vos données de sauvegarde après avoir fermé le jeu avant d'éteindre votre matériel. Si vous jouez hors ligne, votre sauvegarde locale restera le fichier principal et se synchronisera avec le cloud lors de votre prochaine connexion à Internet.
+
+</Section>
+
+<Section icon={Trophy} title="Débloquer les récompenses de campagne de données de sauvegarde">
+
+Square Enix récompense les joueurs avec des objets exclusifs s'ils possèdent des fichiers de sauvegarde d'autres jeux éligibles sur la même famille de plateformes. Ces bonus incluent de puissantes Magicites d'épée et des accessoires uniques qui offrent des avantages en début de partie. Ces objets sont très précieux pour façonner vos builds initiaux et booster votre efficacité au combat.
+
+Pour récupérer ces récompenses, vous devez d'abord lier vos titres éligibles dans le menu principal, puis localiser le lieu de récupération désigné dans le monde du jeu.
+
+<Callout type="success" title="Récupérer les récompenses">
+Pour récupérer vos récompenses, accédez à l'écran titre, sélectionnez 'Bonus promotionnel' pour lier les titres éligibles, puis visitez le bureau situé au premier étage de l'orphelinat dans l'Ère de la préservation.
+</Callout>
+
+Les récompenses de la campagne sont classées selon les jeux éligibles qui les déclenchent :
+
+<CardGrid cols={3}>
+  <Card title="Octopath Traveler 0">
+    - **Récompense** : Magicite d'épée : Guidance de la Flamme Sacrée
+    - **Effet** : +10% de dégâts d'épée aux ennemis à faible vitalité
+    - **Lieu de récupération** : Bureau de l'orphelinat
+  </Card>
+  <Card title="Dragon Quest I & II Remake">
+    - **Récompense** : Magicite d'épée : Coup Critique
+    - **Effet** : Augmente le taux de coups critiques de 6%
+    - **Lieu de récupération** : Bureau de l'orphelinat
+  </Card>
+  <Card title="Triangle Strategy">
+    - **Récompense** : Magicite d'épée : Posture de contre
+    - **Effet** : +10% de dégâts d'épée lorsque l'endurance du bouclier est élevée
+    - **Lieu de récupération** : Bureau de l'orphelinat
+  </Card>
+</CardGrid>
+
+Pour vous assurer de ne manquer aucun objet promotionnel, suivez cette liste de contrôle étape par étape :
+
+<Checklist
+  id="save-bonus-checklist"
+  title="Liste de contrôle de la campagne de sauvegarde :"
+  items={[
+    "Vérifier que les fichiers de sauvegarde éligibles existent sur la même famille de plateformes",
+    "Sélectionner 'Bonus promotionnel' dans le menu principal de l'écran titre",
+    "Progresser dans l'histoire principale jusqu'à atteindre l'Ère de la préservation",
+    "Visiter le premier étage de l'orphelinat pour récupérer votre équipement exclusif"
+  ]}
+/>
+
+Des bonus de sauvegarde supplémentaires peuvent être débloqués avec des fichiers d'autres titres populaires de Square Enix :
+
+| Jeu éligible | Objet de récompense | Type d'objet | Effet principal |
+| :--- | :--- | :--- | :--- |
+| **Bravely Default Remaster** | Sword Magicite: Brave | Magicite | +10% de dégâts d'épée, consomme plus d'endurance |
+| **Various Daylife** | Expeditionary Wisdom | Magicite | Réduit le temps de charge de l'épée de 10% |
+| **Trials of Mana** | Laurentian Plumage | Accessoire | Permet des rencontres uniques dans les villes |
+
+</Section>
+
+<Section icon={Swords} title="Dépannage des erreurs de sauvegarde et des données corrompues">
+
+La corruption des données de sauvegarde peut ruiner des dizaines d'heures d'exploration. Les problèmes courants incluent les coupures de courant pendant la sauvegarde automatique, les erreurs d'écriture sur le disque dur ou les conflits de synchronisation avec Steam Cloud. Prendre des mesures préventives et savoir comment récupérer les fichiers perdus peut sauvegarder votre progression.
+
+Sur PC, les fichiers peuvent parfois être bloqués par un logiciel antivirus agressif, empêchant le jeu de créer de nouveaux répertoires de sauvegarde. Sur console, les mises à jour du système ou les plantages soudains sont les principaux coupables de la corruption des fichiers de sauvegarde.
+
+<Callout type="warning" title="Recommandation de sauvegarde">
+Les joueurs PC devraient copier régulièrement leurs fichiers de sauvegarde locaux dans un répertoire externe pour éviter la perte de progression due à des pannes matérielles imprévues ou à des erreurs de synchronisation cloud.
+</Callout>
+
+Reportez-vous au guide de dépannage ci-dessous pour résoudre les problèmes courants liés aux sauvegardes :
+
+| Problème | Cause potentielle | Solution recommandée |
+| :--- | :--- | :--- |
+| **Fichier de sauvegarde introuvable** | Incompatibilité de profil ou changement de répertoire | Vérifiez que vous êtes connecté au bon profil de plateforme |
+| **Conflit de synchronisation Cloud** | Les fichiers locaux et cloud ne correspondent pas | Choisissez le fichier avec l'horodatage le plus récent |
+| **Sauvegarde de la démo manquante** | Démo supprimée avant le lancement du jeu complet | Assurez-vous que le fichier de sauvegarde de la démo reste dans le stockage local du système |
+| **Boucle de sauvegarde infinie** | L'antivirus bloque l'accès au répertoire | Ajoutez l'exécutable du jeu à la liste blanche de votre logiciel de sécurité |
+
+Si vous jouez sur PC via Steam, vous pouvez localiser vos fichiers de sauvegarde locaux en accédant à votre répertoire d'installation Steam, en ouvrant le dossier `userdata`, en sélectionnant votre identifiant d'utilisateur unique, et en localisant le dossier correspondant à l'AppID du jeu (`3483510`). Copier ce dossier dans un endroit sûr constitue une excellente sauvegarde manuelle.
+
+</Section>
+
+<Section icon={Target} title="Questions fréquentes sur la sauvegarde">
+
+Voici les réponses aux questions les plus courantes que les joueurs se posent concernant les mécaniques de sauvegarde, les transferts de démo et les options de progression croisée dans le jeu.
+
+<Callout type="info" title="Besoin d'aide supplémentaire ?">
+Si vous rencontrez des problèmes de sauvegarde persistants, consultez le [Magasin officiel Steam](https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/) ou le [Document de campagne de sauvegarde de Square Enix](https://www.square-enix-games.com/en_US/documents/the-adventures-of-elliot-the-millennium-tales-save-data-bonus-campaign) pour les correctifs et les notes de mise à jour.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Puis-je transférer mes données de sauvegarde de la Nintendo Switch 2 vers la PS5 ?",
+    answer: "Non. Les transferts de sauvegarde multi-plateformes entre différentes familles de consoles (comme de la Switch 2 vers la PS5) ne sont pas pris en charge. Les transferts de sauvegarde sont strictement limités à la même famille de plateformes, à la seule exception de Xbox Play Anywhere qui prend en charge les sauvegardes croisées entre Xbox Series X|S et PC Windows."
+  },
+  {
+    question: "Comment déclencher manuellement une sauvegarde automatique ?",
+    answer: "Le moyen le plus simple de forcer une sauvegarde automatique est d'effectuer un voyage rapide vers n'importe quelle stèle de voyage déverrouillée ou de changer d'époque en utilisant la Porte du Temps. Le jeu sauvegardera automatiquement votre progression lors de ces transitions."
+  },
+  {
+    question: "Où sont stockés les fichiers de sauvegarde manuelle sur PC ?",
+    answer: "Sur PC Windows, les fichiers de sauvegarde manuelle sont stockés dans le répertoire local userdata de Steam. Vous pouvez les trouver en accédant à votre dossier d'installation Steam, en ouvrant le dossier « userdata » et en recherchant l'AppID unique du jeu (3483510)."
+  },
+  {
+    question: "Que dois-je faire si mes données de sauvegarde sont corrompues ?",
+    answer: "Si votre sauvegarde locale est corrompue, supprimez-la et laissez Steam Cloud ou le service cloud de votre console restaurer la dernière sauvegarde synchronisée. Pour éviter ce problème, attendez toujours que l'icône de sauvegarde disparaisse avant de fermer le jeu."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,220 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Embargo de The Adventures of Elliot the Millennium Tales : Guide",
+  description: "Découvrez les détails officiels de l'embargo sur les tests, la réception critique, les spécifications de lancement et les guides de combat pour l'Action-RPG HD-2D de Square Enix.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=Embargo+and+Release+Guide",
+  date: "2026-06-19",
+  author: "L'équipe du Wiki de the adventures of elliot the millennium tales"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Détails de l'embargo** : Les restrictions sur la couverture critique ont été levées le 17 juin 2026, révélant d'excellentes notes de test.
+- **Lancement mondial** : Le jeu est officiellement sorti le 18 juin 2026 sur PC, PS5, Xbox Series X|S et Nintendo Switch 2.
+- **Gameplay de base** : Propose des combats en temps réel, sept types d'armes distincts et une personnalisation poussée des builds de Magicite.
+- **Mode coopératif** : Offre une coop locale pour 1 à 2 joueurs, où le second joueur contrôle la fée compagne, Faie.
+- **Transfert de démo** : La progression de la démo gratuite du prologue est transférée de manière fluide vers la version commerciale complète.
+</Callout>
+
+<Section icon={Trophy} title="Détails de l'embargo et réception critique de The Adventures of Elliot the Millennium Tales">
+
+Avec la sortie mondiale de l'Action-RPG HD-2D très attendu de Square Enix, les joueurs et les critiques ont surveillé de près les détails de l'embargo de **the adventures of elliot the millennium tales** pour voir comment le jeu s'en sortait face aux critiques. L'embargo officiel sur les tests a été levé le 17 juin 2026, exactement un jour avant le lancement officiel du jeu le 18 juin 2026. Ce timing stratégique a permis aux médias de publier des critiques détaillées, fournissant aux joueurs des données de performance vérifiées, des impressions de combat et des critiques narratives avant l'achat.
+
+La réception critique après l'embargo a été très favorable, les principales publications de jeux vidéo saluant les combats rapides en temps réel du jeu, sa superbe présentation HD-2D et son design accessible. Les testeurs ont souligné la profondeur du système d'équipement à double arme et l'utilité de la fée compagne, Faie, tandis que des critiques mineures pointaient du doigt un scénario de fantasy traditionnel et une écriture sans prise de risque.
+
+| Source | Note | Point clé |
+| :--- | :--- | :--- |
+| **PC Gamer** | 76/100 | Flux de combat rapide, structure d'aventure compacte, fée compagne utile. |
+| **GamesRadar+** | 4.5/5 | Superbe présentation, difficulté accessible, l'exploration reste fraîche. |
+| **The Guardian** | Recommandé | Charmante présentation HD-2D, mécaniques de combat personnalisables et profondes. |
+| **PlayStation Store** | 4.54/5 | Très bien noté par les joueurs, excellente implémentation de la DualSense. |
+| **Steam** | Plutôt positives | Forte réception au lancement, salué pour le changement d'armes et la personnalisation. |
+
+<Callout type="success" title="Bilan de l'embargo">
+La levée de l'embargo a confirmé que le jeu fonctionne exceptionnellement bien sur toutes les plateformes cibles, ce qui en fait un achat sûr dès le premier jour pour les fans d'Action-RPG classiques et d'esthétique HD-2D moderne.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Disponibilité sur les plateformes, spécifications et performances">
+
+Le jeu est disponible sur Steam, PlayStation 5, Xbox Series X|S et Nintendo Switch 2. Chaque version a été optimisée pour tirer parti des fonctionnalités spécifiques de chaque plateforme, comme les retours haptiques de la manette DualSense sur PS5 et les modes de jeu portables sur la Nintendo Switch 2. Les joueurs PC doivent respecter des configurations matérielles spécifiques pour garantir des performances stables, en particulier lorsqu'ils visent des fréquences d'images élevées.
+
+| Plateforme | Résolution | Taux de rafraîchissement cible | Espace de stockage requis | Fonctionnalité unique |
+| :--- | :--- | :--- | :--- | :--- |
+| **Steam PC** | Jusqu'à 4K | 30/60/120 fps | 20 Go | Paramètres graphiques avancés, Steam Cloud |
+| **PlayStation 5** | Jusqu'à 4K | 60 fps | 15.5 Go | Vibrations DualSense, 21 options d'accessibilité |
+| **Xbox Series X** | Jusqu'à 4K | 60 fps+ | 16.1 Go | Play Anywhere, Xbox Cloud Gaming |
+| **Nintendo Switch 2** | Jusqu'à 1080p | 30-60 fps | 14.5 Go | Modes TV/Table/Portable, jeu nomade |
+
+### Configuration système requise sur PC
+
+Pour faire tourner le jeu de manière fluide sur PC via Steam ou le Windows Store, assurez-vous que votre système correspond aux spécifications matérielles vérifiées suivantes :
+
+*   **Configuration minimale (720p, paramètres bas, 60 FPS)** :
+    *   **Système d'exploitation** : Windows 11 64 bits
+    *   **Processeur** : AMD Ryzen 3 3100 ou Intel Core i3-8100
+    *   **Mémoire** : 16 Go de RAM
+    *   **Carte graphique** : AMD Radeon RX 5500 XT, Intel Arc A580 ou NVIDIA GeForce GTX 1650
+    *   **DirectX** : Version 12
+*   **Configuration recommandée (1080p, paramètres élevés, 60 FPS)** :
+    *   **Système d'exploitation** : Windows 11 64 bits
+    *   **Processeur** : AMD Ryzen 3 3100 ou Intel Core i5-8600K
+    *   **Mémoire** : 16 Go de RAM
+    *   **Carte graphique** : AMD Radeon RX 5600 XT, Intel Arc A580 ou NVIDIA GeForce GTX 1660 Ti
+    *   **DirectX** : Version 12
+
+<Callout type="warning" title="Protection Denuvo">
+La version PC Steam inclut la technologie anti-piratage Denuvo, comme indiqué officiellement sur la page de la boutique. Assurez-vous que votre connexion Internet est stable lors du lancement initial et du processus de vérification.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Classifications des armes et personnalisation des builds de Magicite">
+
+Le combat est basé sur un système dynamique de double arme. Elliot peut équiper jusqu'à deux armes simultanément et basculer entre elles en temps réel. Cette mécanique encourage les joueurs à associer une arme de corps à corps fiable à un outil spécialisé pour la pression à distance, le contrôle de foule ou la résolution d'énigmes environnementales.
+
+### Les sept types d'armes
+
+Chaque type d'arme possède son propre rythme de combat, sa propre attaque spéciale et son utilité d'exploration :
+
+| Type d'arme | Rôle au combat | Meilleure synergie | Priorité d'amélioration de Magicite | Évaluation |
+| :--- | :--- | :--- | :--- | :--- |
+| **Épée et Bouclier** | Défense équilibrée | Arc / Lance | Améliorations axées sur la garde et la contre-attaque | ★★★★★ |
+| **Arc** | Pression à distance | Épée / Boomerang | Modificateurs de dégâts d'ouverture à distance | ★★★★☆ |
+| **Bombe** | Explosion retardée | Boomerang | Combos axés sur l'explosion et l'inflammation | ★★★★☆ |
+| **Boomerang** | Projectile de retour | Chaînes et Faucilles | Nombre de projectiles et magie de copie | ★★★★☆ |
+| **Lance** | Gestion de la distance | Marteau / Épée | Extension de portée et améliorations de changement | ★★★★★ |
+| **Marteau** | Vacillement lourd | Épée / Téléportation de Faie | Calcul des dégâts des coups lourds et navigation sur piquets | ★★★☆☆ |
+| **Chaînes et Faucilles** | Contrôle de foule | Bombe / Épée | Efficacité d'attraction et contrôle de zone | ★★★★☆ |
+
+### Personnalisation des builds de Magicite
+
+Les fragments de Magicite s'insèrent directement dans les armes pour modifier leurs comportements, augmenter les statistiques brutes ou ajouter des effets de combat passifs. Les joueurs peuvent collecter des fragments en battant des ennemis et en explorant des donjons cachés à travers différentes époques. Suite aux retours des joueurs sur la première démo de présentation, les développeurs ont affiné l'interface de la Magicite, en ajoutant des boîtes de Magicite dédiées et spécifiques à chaque arme, des filtres de tri améliorés et un système de démontage automatique des doublons dans le jeu final.
+
+<Callout type="tip" title="Suggestion de build">
+Pour un build optimal en début de partie, associez l'**Épée et le Bouclier** avec l'**Arc**. Placez de la Magicite axée sur la garde dans le bouclier pour maximiser la récupération d'endurance, et utilisez l'attaque spéciale multi-flèches de l'Arc pour affaiblir les groupes d'ennemis avant de vous engager au corps à corps.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Maîtriser les sorts magiques de Faie et les tactiques coopératives">
+
+Faie est la fée compagne d'Elliot et constitue un atout essentiel pour le combat et l'exploration. Elle peut être contrôlée indépendamment à l'aide du stick analogique droit ou par un second joueur local en mode coopératif. Au fil de leur progression, Faie apprend de puissants sorts magiques en visitant les Sanctuaires du Mystique cachés à travers le monde.
+
+<CardGrid cols={2}>
+  <Card title="Magie de Téléportation">
+    - **Utilité** : Téléporte instantanément Elliot à la position actuelle de Faie.
+    - **Usage au combat** : Idéal pour esquiver les attaques de boss et se repositionner derrière les ennemis avec bouclier.
+    - **Exploration** : Permet de traverser de grands gouffres et de contourner les pièges au sol dangereux.
+  </Card>
+  <Card title="Magie d'Inflammation">
+    - **Utilité** : Allume les torches, fait fondre les obstacles gelés et déclenche les explosifs.
+    - **Usage au combat** : Fait exploser instantanément les bombes lancées par Elliot pour d'énormes dégâts de zone.
+    - **Exploration** : Résout les énigmes de temple basées sur le feu et dégage les chemins bloqués.
+  </Card>
+  <Card title="Magie d'Aspiration">
+    - **Utilité** : Crée un vortex qui attire les ennemis et les objets éparpillés.
+    - **Usage au combat** : Regroupe les petits ennemis pour faciliter les attaques de zone.
+    - **Exploration** : Attire les coffres au trésor et les matériaux éloignés directement vers Elliot.
+  </Card>
+  <Card title="Magie de Copie">
+    - **Utilité** : Reproduit les mouvements d'Elliot et ses actions avec les armes physiques.
+    - **Usage au combat** : Double la production de projectiles lorsqu'elle est associée à l'Arc ou au Boomerang.
+    - **Exploration** : Active les interrupteurs synchronisés qui nécessitent deux entrées.
+  </Card>
+</CardGrid>
+
+### Mise en œuvre de la coop locale
+
+La prise en charge de la coop locale pour 1 à 2 joueurs permet à un second joueur de rejoindre la partie et de prendre le contrôle total de Faie. Cela modifie la dynamique de l'exploration des donjons, car le second joueur peut partir en éclaireur, distraire les ennemis et coordonner des combos de sorts pendant que le premier joueur se concentre sur le combat au corps à corps.
+
+<Callout type="info" title="Mécanique de réanimation">
+En solo comme en coop, si Elliot tombe au combat, Faie peut le réanimer instantanément en dépensant une quantité définie de **tul** (la monnaie principale du jeu), permettant aux joueurs de poursuivre les combats de boss difficiles sans avoir à recommencer depuis un point de contrôle.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression pas à pas de la démo et guide de transfert de sauvegarde">
+
+Square Enix a publié une démo gratuite du prologue permettant aux joueurs de découvrir le chapitre d'ouverture du jeu, de tester les sept types d'armes et de préparer leurs données de sauvegarde pour les transférer vers la version commerciale.
+
+<Steps>
+  <Step num="1" title="Télécharger la démo du prologue">
+    Rendez-vous sur la boutique de votre plateforme respective (Steam, PlayStation Store, Xbox Store ou Nintendo eShop) et téléchargez la démo gratuite du prologue. La taille du téléchargement est compacte et s'intègre facilement dans le stockage du système.
+  </Step>
+  <Step num="2" title="Explorer les premières époques">
+    Progressez dans la quête principale pour déverrouiller les points de repère de voyage rapide. Prenez le temps d'explorer les chemins secondaires et les donjons à travers les deux époques disponibles de la démo pour collecter de l'équipement et des matériaux de début de partie.
+  </Step>
+  <Step num="3" title="Tester les armes et la Magicite">
+    Acquérez et testez les sept types d'armes. Expérimentez différentes combinaisons de Magicite pour trouver le style de combat qui vous convient avant que le jeu complet ne commence.
+  </Step>
+  <Step num="4" title="Transférer les données de sauvegarde vers le jeu complet">
+    Lors du lancement de la version commerciale du jeu sur la même plateforme, sélectionnez l'option d'importation des données de sauvegarde depuis l'écran titre. Cela transférera votre progression, votre équipement et vos armes déverrouillées.
+  </Step>
+</Steps>
+
+### Campagnes de bonus de données de sauvegarde
+
+Les joueurs qui possèdent des fichiers de sauvegarde d'autres titres Square Enix sur la même plateforme peuvent obtenir des Magicites d'épée et des accessoires exclusifs. Ces récompenses ne peuvent pas être récupérées dans la démo du prologue ; elles doivent être réclamées dans le jeu complet au bureau de l'orphelinat, au deuxième étage de l'orphelinat dans l'**Âge de la Sauvegarde**.
+
+| Données de sauvegarde éligibles | Objet de récompense | Effet en jeu |
+| :--- | :--- | :--- |
+| **OCTOPATH TRAVELER 0** | Guidance de la Flamme Sacrée | Dégâts d'épée +10 % sur les cibles ayant moins de 30 % de vitalité |
+| **DRAGON QUEST I & II HD-2D** | Magicite de Coup Critique | Taux de coups critiques à l'épée augmenté de 6 % |
+| **BRAVELY DEFAULT FLYING FAIRY** | Magicite Brave | Dégâts d'épée +10 %, la garde consomme plus d'endurance |
+| **VARIOUS DAYLIFE** | Sagesse Expéditionnaire | Temps d'attaque chargée à l'épée réduit de 10 % |
+| **TRIANGLE STRATEGY** | Magicite de Posture de Contre | Dégâts d'épée +10 % lorsque l'endurance du bouclier est supérieure à 90 % |
+| **Trials of Mana** | Plumage Laurentien | Plume ornementale qui déclenche des rencontres en ville |
+
+<Checklist
+  id="demo-goals"
+  title="Objectifs recommandés de la démo :"
+  items={[
+    "Déverrouiller tous les premiers points de repère de voyage rapide",
+    "Trouver et équiper au moins trois types d'armes différents",
+    "Collecter dix fragments de Magicite dans les coffres cachés",
+    "Terminer le premier combat de boss",
+    "Créer une sauvegarde propre prête pour le transfert vers le jeu complet"
+  ]}
+/>
+
+<Callout type="warning" title="Restrictions de plateforme">
+Le transfert de données de sauvegarde et les bonus promotionnels sont limités à la même famille de plateformes. Par exemple, les données de sauvegarde Steam ne peuvent pas être transférées vers la version PlayStation 5, et les bonus promotionnels vérifient l'historique d'achat de votre plateforme active.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quand l'embargo de the adventures of elliot the millennium tales a-t-il été levé ?",
+    answer: "L'embargo officiel sur les tests a été levé le 17 juin 2026, exactement un jour avant le lancement mondial du jeu le 18 juin 2026. Cela a permis aux médias de publier des notes vérifiées et des tests de performance."
+  },
+  {
+    question: "La progression de la démo du prologue est-elle transférée vers la version commerciale ?",
+    answer: "Oui, les données de sauvegarde de la démo du prologue sont transférées vers la version commerciale complète sur la même famille de plateformes, préservant votre équipement, vos armes et votre progression dans le début de l'histoire."
+  },
+  {
+    question: "Comment puis-je réclamer mes bonus de précommande et de données de sauvegarde ?",
+    answer: "Les bonus promotionnels liés aux données de sauvegarde doivent être associés à partir du menu « Bonus promotionnel » de l'écran titre. Une fois associés, ils peuvent être récupérés en jeu au bureau situé au deuxième étage de l'orphelinat dans l'Âge de la Sauvegarde."
+  },
+  {
+    question: "Le jeu prend-il en charge la coop locale ?",
+    answer: "Oui, le jeu prend en charge la coop locale pour 1 à 2 joueurs sur toutes les plateformes. Le premier joueur contrôle Elliot, tandis que le second joueur prend le contrôle total de la fée compagne, Faie, pour l'aider dans les combats et les énigmes."
+  }
+]} />
+
+<Callout type="info" title="Hubs communautaires">
+Pour poursuivre les discussions, partager des builds et trouver des solutions aux énigmes, rejoignez le hub officiel de la communauté Steam ou suivez le compte officiel des réseaux sociaux japonais sous l'identifiant « 冒険家エリオットの千年物語 公式 ».
+</Callout>
+
+</Section>

@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Adventures of Elliot: The Millennium Tales sur Steam : Équipement",
+  description: "Optimisez votre configuration PC Steam, vos armes, vos builds de magicite et le jeu en coop locale pour l'action-RPG HD-2D de Square Enix, The Adventures of Elliot.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=Steam+Setup+and+Weapons",
+  date: "2026-06-19",
+  author: "L'équipe du Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Optimisation Steam** : Assurez-vous que votre PC Windows 11 répond aux configurations système recommandées pour un gameplay fluide à 60 FPS.
+- **Changement d'armes** : Équipez jusqu'à deux armes simultanément et changez-en en temps réel pour vous adapter aux différents scénarios de combat.
+- **Personnalisation de la magicite** : Insérez des fragments de magicite dans les boîtes de magicite spécifiques à chaque arme pour débloquer des bonus de statistiques et des passifs.
+- **Compagnon fée** : Utilisez Faie avec le stick droit ou un deuxième joueur en local pour explorer, récupérer des objets et lancer de la magie de téléportation.
+- **Récompenses de données de sauvegarde** : Associez les titres Square Enix éligibles sur Steam pour réclamer des bonus de magicite d'épée exclusifs à l'orphelinat.
+</Callout>
+
+<Section icon={Sparkles} title="Détails de la sortie de The Adventures of Elliot: The Millennium Tales sur Steam">
+
+L'action-RPG HD-2D très attendu, *The Adventures of Elliot: The Millennium Tales*, est officiellement sorti le **18 juin 2026**. Développé par Square Enix et Claytechworks, et édité par Square Enix, ce titre propose un univers fantastique vibrant combinant des combats hack-and-slash en temps réel et des mécaniques tactiques de voyage dans le temps. Les joueurs sur Steam peuvent acheter l'Édition Standard pour 59,99 $, l'Édition Deluxe Numérique pour 69,99 $, ou mettre à niveau leur jeu de base avec la Mise à niveau Deluxe pour 10,00 $.
+
+Pour garantir la meilleure expérience possible sur PC, consultez la configuration système officielle requise. Le jeu vise les 60 FPS en configuration élevée 1080p sur le matériel recommandé, avec une prise en charge allant jusqu'à 120 FPS sur les écrans à taux de rafraîchissement élevé.
+
+| Configuration | Configuration minimale | Configuration recommandée |
+| :--- | :--- | :--- |
+| **Système d'exploitation** | Windows 11 64 bits | Windows 11 64 bits |
+| **Processeur** | AMD Ryzen 3 3100 / Intel Core i3-8100 | AMD Ryzen 3 3100 / Intel Core i5-8600K |
+| **Mémoire** | 16 Go de RAM | 16 Go de RAM |
+| **Carte graphique** | AMD RX 5500 XT / Nvidia GTX 1650 | AMD RX 5600 XT / Nvidia GTX 1660 Ti |
+| **DirectX** | Version 12 | Version 12 |
+| **Espace de stockage** | 20 Go d'espace disponible | 20 Go d'espace disponible |
+| **Performances cibles** | 1280x720, Configuration basse, 60 FPS | 1920x1080, Configuration élevée, 60 FPS |
+
+<Callout type="warning" title="Avertissement anti-piratage">
+La version Steam du jeu intègre la technologie anti-piratage Denuvo. Assurez-vous que votre système reste connecté à Internet lors du lancement initial et des vérifications périodiques de la licence.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Équipements d'armes et changement en temps réel">
+
+Le combat dans *The Adventures of Elliot: The Millennium Tales* repose entièrement sur la variété des armes et le changement en temps réel. Elliot peut équiper jusqu'à **deux armes à la fois**, permettant aux joueurs de passer en toute fluidité des attaques au corps à corps aux pressions à distance et aux outils utilitaires. Trouver le bon équilibre entre votre outil offensif principal et une option utilitaire secondaire est essentiel pour conquérir les donjons difficiles.
+
+<CardGrid cols={3}>
+  <Card title="Équipements de départ de base">
+    - **Épée et bouclier** : Outil de mêlée très équilibré offrant des frappes rapides, un blocage frontal et une entaille chargée de projectile.
+    - **Arc** : Excellent pour une pression à distance sécurisée et pour activer des interrupteurs éloignés.
+  </Card>
+  <Card title="Équipements utilitaires prioritaires">
+    - **Bombe** : Démolit les rochers fragiles, les murs fissurés et inflige des dégâts de zone retardés.
+    - **Boomerang** : Inflige de l'aller-retour de dégâts tout en récupérant des objets éloignés.
+  </Card>
+  <Card title="Équipements de combat spécialisés">
+    - **Lance** : Offre une distance de mêlée sécurisée avec des attaques chargées vers l'avant.
+    - **Marteau** : Inflige de lourds et lents dégâts de vacillement et enfonce les piquets.
+  </Card>
+</CardGrid>
+
+Pour maximiser votre efficacité au combat, associez des armes qui compensent leurs faiblesses respectives. Par exemple, utiliser l'Épée et le Bouclier aux côtés de l'Arc garantit que vous ne serez jamais démuni lorsque les ennemis gardent leurs distances.
+
+| Type d'arme | Rôle principal en combat | Mécanique spéciale | Meilleure association d'équipement |
+| :--- | :--- | :--- | :--- |
+| **Épée & Bouclier** | Défense & mêlée équilibrées | Garde frontale, entaille chargée | Arc / Bombe |
+| **Arc** | Pression à distance | Attaque en éventail multi-flèches | Épée & Bouclier / Lance |
+| **Bombe** | Démolition & explosion retardée | Destruction d'obstacles fragiles | Boomerang / Épée |
+| **Boomerang** | Utilité multi-coups | Dégâts de projectile aller-retour | Épée & Bouclier / Chaînes |
+| **Lance** | Distance & pression vers l'avant | Charge vers l'avant à longue portée | Marteau / Arc |
+| **Marteau** | Lourd vacillement & utilité pour les énigmes | Enfoncement lent de piquets à fort impact | Épée & Bouclier / Lance |
+| **Chaînes & Faucilles** | Contrôle des foules & déplacement | Attire les ennemis plus près | Bombe / Boomerang |
+
+<Callout type="tip" title="Astuce de changement d'arme">
+Changer d'arme réinitialise certaines animations de récupération d'attaque. Essayez de frapper un ennemi avec un coup de Marteau lourd et de passer immédiatement à l'Épée et au Bouclier pour un enchaînement rapide.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personnalisation de la magicite et builds de combat">
+
+La personnalisation de la magicite constitue la colonne vertébrale de la progression des personnages. En explorant des donjons, en accomplissant des quêtes secondaires et en battant des boss, vous collecterez des fragments de magicite qui peuvent être insérés dans des boîtes de magicite spécifiques à chaque arme. Ce système vous permet d'adapter votre équipement à votre style de jeu préféré.
+
+<Steps>
+  <Step num="1" title="Rassemblez des fragments de magicite">
+    Fouillez l'environnement, brisez des pots en argile, ouvrez des coffres et battez des monstres d'élite à travers différentes époques pour trouver des fragments de magicite bruts.
+  </Step>
+  <Step num="2" title="Accédez à la boîte de magicite">
+    Ouvrez votre menu d'équipement sur Steam et accédez à vos armes actives. Chaque arme dispose d'emplacements dédiés où la magicite peut être placée.
+  </Step>
+  <Step num="3" title="Insérez et synchronisez les passifs">
+    Associez de la magicite offensive, défensive ou utilitaire à vos armes actives. Par exemple, insérer une magicite axée sur la garde dans votre bouclier améliorera votre récupération d'endurance.
+  </Step>
+  <Step num="4" title="Démantelez les doublons">
+    Utilisez la fonction de démantèlement automatique des doublons dans le menu d'inventaire pour décomposer la magicite inutile en matériaux bruts pour de futures améliorations.
+  </Step>
+</Steps>
+
+Suite aux retours des joueurs lors de la démo initiale, Square Enix a mis à jour l'interface utilisateur pour y inclure un tri spécifique aux armes, des équipements à équipement rapide et des boîtes de magicite simplifiées, rendant la création de builds beaucoup plus fluide sur PC.
+
+<Callout type="success" title="Synergie de build">
+Alignez toujours les effets de votre magicite avec le rôle de votre arme. Placer de la magicite de taux de coups critiques sur des armes à frappe rapide comme l'Épée ou les Chaînes donne de bien meilleurs résultats que de la placer sur le Marteau, lent et à coup unique.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Capacités magiques de Faie et tactiques en coop locale">
+
+Elliot est accompagné dans son voyage par Faie, une compagne fée polyvalente. Faie n'est pas seulement une compagne narrative ; elle est un pilier central du gameplay qui peut être contrôlé indépendamment à l'aide du stick analogique droit. Si vous souhaitez partager l'expérience, un deuxième joueur en local peut prendre le contrôle de Faie pour vous aider dans l'exploration, la résolution d'énigmes et les combats.
+
+| Type de magie | Source de déverrouillage | Fonction principale | Cas d'utilisation idéal |
+| :--- | :--- | :--- | :--- |
+| **Téléportation** | Sanctuaire du Mystique | Téléporte Elliot vers Faie | Échapper au danger, traverser des gouffres |
+| **Enflammer** | Sanctuaire du Mystique | Allume les torches, fait fondre la glace | Faire exploser des bombes, résoudre des énigmes |
+| **Aspiration** | Sanctuaire du Mystique | Attire les objets et les ennemis ensemble | Collecte de butin, contrôle des foules |
+| **Copier** | Sanctuaire du Mystique | Reproduit les actions d'Elliot | Configurations multi-projectiles, interrupteurs |
+
+Les mouvements indépendants de Faie lui permettent d'éclaireur dans des pièces dangereuses, de récupérer des objets dans des pièges au sol risqués et de distraire les ennemis pendant qu'Elliot prépare une lourde frappe chargée.
+
+<Callout type="info" title="Disponibilité du mode coop">
+La coop locale pour 1 à 2 joueurs est entièrement prise en charge sur la version Steam. Vous pouvez configurer une deuxième manette dans les paramètres Steam Input afin qu'un ami puisse prendre le contrôle de Faie de manière transparente à tout moment.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Comment réclamer les bonus de données de sauvegarde Steam">
+
+Si vous êtes fan des précédentes sorties de RPG classiques et HD-2D de Square Enix, vous pouvez débloquer des récompenses exclusives dans *The Adventures of Elliot: The Millennium Tales*. Le jeu analyse votre historique d'achats Steam et vos répertoires de sauvegarde locaux pour vous accorder de la magicite bonus spéciale et des accessoires cosmétiques.
+
+<Checklist
+  id="save-data-rewards"
+  title="Étapes pour réclamer à l'orphelinat :"
+  items={[
+    "Lancez le jeu et sélectionnez 'Bonus promotionnel' depuis l'écran titre principal.",
+    "Vérifiez vos titres associés éligibles et chargez votre fichier de sauvegarde actif.",
+    "Progressez dans l'histoire principale jusqu'à ce que vous atteigniez l'Ère de la préservation.",
+    "Rendez-vous à l'orphelinat et dirigez-vous vers le deuxième étage.",
+    "Interagissez avec le bureau dans la chambre de l'orphelinat pour réclamer vos récompenses."
+  ]}
+/>
+
+Ces bonus promotionnels offrent un fantastique avantage en début de partie, vous donnant accès à de puissantes capacités passives dès le début de votre voyage.
+
+| Titre éligible | Récompense accordée | Effet en jeu |
+| :--- | :--- | :--- |
+| **Octopath Traveler 16-bit / 0** | Guidance de la Flamme Sacrée | +10 % de dégâts d'épée aux ennemis ayant moins de 30 % de PV |
+| **Dragon Quest I & II HD-2D** | Magicite de coup critique | Augmente le taux de coups critiques à l'épée de 6 % |
+| **Bravely Default Flying Fairy** | Magicite Brave | +10 % de dégâts d'épée, augmente la consommation d'endurance du bouclier |
+| **Various Daylife** | Sagesse expéditionnaire | Réduit le temps d'attaque chargée à l'épée de 10 % |
+| **Triangle Strategy** | Magicite de posture de contre | +10 % de dégâts d'épée lorsque l'endurance du bouclier est supérieure à 90 % |
+| **Trials of Mana** | Plumage laurentien | Plume rare qui déclenche une rencontre spéciale en ville |
+
+<Callout type="info" title="Note sur la vérification Steam">
+Pour les utilisateurs de Steam, l'éligibilité à ces bonus est directement liée à votre bibliothèque Steam. Tant que les jeux éligibles sont enregistrés sur votre compte Steam, l'écran titre les détectera sans avoir besoin de fichiers de sauvegarde locaux.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Une démo gratuite est-elle disponible pour The Adventures of Elliot: The Millennium Tales sur Steam ?",
+    answer: "Oui, une démo gratuite du prologue est disponible sur Steam. Elle vous permet de jouer à l'intégralité du chapitre d'ouverture, d'expérimenter les sept types d'armes et de transférer votre progression de sauvegarde vers le jeu complet."
+  },
+  {
+    question: "Comment fonctionne le mode coopératif local sur Steam ?",
+    answer: "Le jeu prend en charge le jeu local pour 1 à 2 joueurs. Le premier joueur contrôle Elliot à l'aide du clavier/souris standard ou d'une manette, tandis que le deuxième joueur contrôle la compagne fée Faie à l'aide d'une deuxième manette connectée."
+  },
+  {
+    question: "Puis-je réclamer les bonus de données de sauvegarde si j'achète les autres jeux plus tard ?",
+    answer: "Oui, le système de vérification des données de sauvegarde est rétroactif. Si vous achetez l'un des titres Square Enix éligibles sur Steam après avoir commencé votre aventure, vous pouvez retourner dans le menu 'Bonus promotionnel' de l'écran titre pour débloquer vos récompenses."
+  },
+  {
+    question: "La version PC prend-elle en charge les fréquences d'images élevées ?",
+    answer: "Oui. Dans la version Steam, les joueurs peuvent activer la synchronisation verticale (V-sync) pour s'aligner sur le taux de rafraîchissement de leur moniteur jusqu'à 120 FPS, ou la désactiver pour choisir entre des limites de 30, 60 ou 120 FPS."
+  }
+]} />
+
+<Callout type="tip" title="Dernier conseil">
+Assurez-vous d'explorer chaque recoin de la carte dans les premières époques. De nombreux fragments de magicite puissants sont cachés à l'intérieur de pots et de buissons d'apparence ordinaire que les joueurs ignorent souvent !
+</Callout>
+
+</Section>

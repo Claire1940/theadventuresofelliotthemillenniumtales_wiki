@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Adventures of Elliot: The Millennium Tales - Guide des coffres des ruines de Misr",
+  description: "Déverrouillez tous les coffres cachés des ruines de Misr. Découvrez les énigmes de changement d'époque, les armes requises et les solutions de magie de Faie pour un butin maximal.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15A7D0/fff?text=Misr+Ruins+Chest+Guide",
+  date: "2026-06-19",
+  author: "L'équipe du Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal** : Localiser **le coffre des ruines de Misr dans The Adventures of Elliot: The Millennium Tales** nécessite de voyager entre l'Âge de la protection et l'Âge de la reconstruction pour modifier la disposition physique du donjon.
+- **Équipement requis** : Équipez la **Bombe** et le **Boomerang** avant d'entrer dans les ruines pour éliminer les obstacles et activer les interrupteurs éloignés.
+- **Soutien de Faie** : Utilisez la magie d'**Aspiration** de Faie pour attirer les coffres éloignés à travers les gouffres sans fond, et la magie de **Combustion** pour faire détoner les explosifs en toute sécurité.
+- **Récompense clé** : Le coffre principal contient le **Fragment de magicite de garde**, qui augmente l'atténuation des dégâts du bouclier lors des blocages parfaits.
+</Callout>
+
+<Section icon={Map} title="Emplacement des ruines de Misr et mécanique des époques">
+
+Les ruines de Misr constituent l'un des premiers donjons complexes du jeu, mettant au défi les joueurs d'utiliser les mécanismes fondamentaux du voyage dans le temps. Pour localiser et déverrouiller chaque coffre, vous devez comprendre comment les actions d'une époque affectent la géographie de la suivante. Les ruines existent à travers plusieurs chronologies, mais vos recherches se concentreront principalement sur l'**Âge de la protection** et l'**Âge de la reconstruction**.
+
+En explorant les ruines à l'Âge de la protection, vous trouverez des murs de pierre robustes, des canaux d'eau actifs et des ponts intacts. À l'Âge de la reconstruction, des siècles de décomposition ont effondré ces structures, ouvrant de nouveaux passages tout en bloquant d'autres avec de lourds décombres. Naviguer dans cette structure temporelle est essentiel pour atteindre les coffres au trésor les plus précieux.
+
+| Emplacement du coffre | Époque temporelle | Obstacle environnemental | Outil ou magie requis |
+| :--- | :--- | :--- | :--- |
+| Chambre nord | Âge de la protection | Barrière de pierre fissurée | Bombe (arme) |
+| Gouffre est | Âge de la reconstruction | Vide de gouffre sans fond | Magie d'aspiration de Faie |
+| Terrasse ouest | Âge de la protection | Interrupteur mural éloigné | Boomerang (arme) |
+| Autel caché | Âge de la reconstruction | Étage inférieur inondé | Énigme de la Porte du Temps |
+
+<Callout type="warning" title="Avertissement de réapparition temporelle">
+Vaincre des ennemis à une époque ne les élimine pas à une autre. Chaque fois que vous utilisez la Porte du Temps pour changer d'époque, les monstres locaux réapparaissent complètement. Nettoyez la zone immédiate entourant le portail temporel avant de tenter de résoudre les énigmes des coffres.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Armes requises et magie de Faie">
+
+Déverrouiller **le coffre des ruines de Misr dans The Adventures of Elliot: The Millennium Tales** nécessite une combinaison des armes physiques d'Elliot et des sorts de soutien de Faie. Le jeu encourage le changement d'arme en temps réel, et ce donjon est conçu pour tester votre maîtrise de ce système. Vous ne pouvez pas vous reposer sur un seul ensemble d'armes pour résoudre toutes les énigmes de ce temple antique.
+
+Avant de pénétrer dans les chambres profondes, assurez-vous d'avoir équipé les bonnes armes utilitaires dans vos emplacements d'équipement actifs. Vous devrez passer instantanément des options de combat rapproché aux outils de résolution d'énigmes à distance.
+
+<CardGrid cols={3}>
+  <Card title="La Bombe">
+    - **Démolit les barrières de pierre**
+    - Nettoie les murs fissurés à l'Âge de la protection
+    - Active les plaques de pression à retardement
+  </Card>
+  <Card title="Le Boomerang">
+    - **Touche les interrupteurs muraux éloignés**
+    - Fonctionne sur les passages hors de portée
+    - Récupère les objets légers tombés au sol
+  </Card>
+  <Card title="Magie d'aspiration de Faie">
+    - **Attire les coffres à travers les gouffres**
+    - Rassemble le butin dispersé dans les fosses
+    - Regroupe les petits ennemis
+  </Card>
+</CardGrid>
+
+Faie joue un rôle actif dans la résolution de ces énigmes. En utilisant le stick analogique droit, vous pouvez la guider indépendamment à travers des passages étroits où Elliot ne peut pas passer. Cela vous permet de la positionner à côté d'interrupteurs cachés ou de récupérer des objets dans des zones dangereuses.
+
+<Callout type="tip" title="Coordination des énigmes en coop">
+Si vous jouez en mode coopératif local à 1 ou 2 joueurs, demandez au deuxième joueur de contrôler Faie pour explorer les environs. Le deuxième joueur peut positionner Faie près d'une plaque de pression pendant que le premier guide Elliot à travers les portes nouvellement ouvertes, ce qui permet de gagner un temps précieux lors des énigmes d'interrupteurs chronométrés.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide étape par étape du coffre de l'autel">
+
+Le coffre principal des ruines de Misr est situé dans la salle de l'Autel caché. Ce coffre est verrouillé derrière une énigme sur deux époques qui nécessite des mouvements et un timing précis. Suivez ces étapes pour résoudre l'énigme et récupérer vos récompenses.
+
+<Steps>
+  <Step num="1" title="Localiser la Porte du Temps">
+    Commencez à l'Âge de la protection. Dirigez-vous vers le centre des ruines de Misr et localisez la Porte du Temps active. Éliminez les squelettes environnants en utilisant les contre-attaques de votre Épée et de votre Bouclier.
+  </Step>
+  <Step num="2" title="Déblayer les décombres de la reconstruction">
+    Traversez le portail pour entrer dans l'Âge de la reconstruction. Marchez vers l'aile est où un pilier effondré bloque un tuyau de drainage étroit. Placez une Bombe à la base du pilier et faites-la exploser en utilisant la magie de Combustion de Faie pour dégager le passage.
+  </Step>
+  <Step num="3" title="Retourner à l'Âge de la protection">
+    Repassez par la Porte du Temps. Comme vous avez dégagé le tuyau de drainage dans le futur, le niveau de l'eau dans le passé a baissé, révélant un passage inférieur caché dans la chambre ouest des ruines.
+  </Step>
+  <Step num="4" title="Naviguer sur le chemin de l'autel ouest">
+    Descend dans le passage nouvellement révélé. Équipez votre Boomerang et lancez-le sur l'interrupteur en cristal bleu brillant de l'autre côté du gouffre de pointes. Cela abaissera la grille de fer bloquant la salle du coffre de l'Autel caché.
+  </Step>
+  <Step num="5" title="Récupérer le coffre de l'autel">
+    Entrez dans la salle de l'autel. Le coffre repose sur une plateforme surélevée entourée d'un gouffre profond. Dirigez Faie de l'autre côté du vide à l'aide du stick droit, lancez la magie d'Aspiration pour attirer le coffre vers le bord, et ouvrez-le pour récupérer votre butin.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Énigme résolue">
+Terminer cette séquence déverrouille définitivement la salle de l'Autel caché à toutes les époques, vous permettant d'accéder aux chambres inférieures des ruines dans les chapitres ultérieurs de l'histoire.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Récompenses des coffres et premiers builds de magicite">
+
+L'ouverture des coffres dans les ruines de Misr fournit des matériaux d'amélioration essentiels qui faciliteront votre progression dans les premiers chapitres du jeu. La récompense la plus notable est le **Fragment de magicite de garde**, qui s'intègre dans votre équipement Épée et Bouclier.
+
+La personnalisation de la magicite vous permet de modifier le comportement des armes, les dégâts infligés et les statistiques défensives. Équiper immédiatement vos fragments nouvellement acquis améliore la survivabilité d'Elliot face aux combats de boss à venir.
+
+| Emplacement du coffre | Récompense principale | Effet de la magicite | Utilisation recommandée pour le build |
+| :--- | :--- | :--- | :--- |
+| Autel caché | Magicite de garde | +10 % d'atténuation du bouclier | Build de mêlée axé sur la garde |
+| Chambre nord | 3x Minerai de bronze | Matériau d'amélioration | Renforcement d'arme chez le forgeron |
+| Gouffre est | Magicite de coup critique | +6 % de taux de critique à l'épée | Build offensif à hauts dégâts |
+| Terrasse ouest | 500 Tul | Monnaie | Achat de potions de soin en ville |
+
+Pour maximiser l'efficacité de la magicite de garde, associez-la à l'épée et au bouclier. Ce build récompense les joueurs qui se concentrent sur le blocage parfait plutôt que sur l'esquive constante, discourant le jeu défensif pour en faire des opportunités offensives.
+
+| Composant du build | Sélection | Bénéfice principal |
+| :--- | :--- | :--- |
+| **Arme principale** | Épée et bouclier | Défense élevée, récupération rapide, blocage frontal |
+| **Arme secondaire** | Lance | Espacement en mêlée, attaques d'estoc sûres à distance |
+| **Magicite équipée 1** | Magicite de garde | Réduit la consommation d'endurance lors des blocages |
+| **Magicite équipée 2** | Magicite de coup critique | Augmente les dégâts des contre-attaques après un blocage parfait |
+
+<Callout type="info" title="Améliorations du forgeron">
+Apportez le minerai de bronze récupéré dans le coffre de la Chambre nord au forgeron de la ville de l'orphelinat. Renforcer votre épée de départ à +1 augmente vos dégâts physiques de base de 15 %, ce qui facilitera grandement les futurs affrontements dans les donjons.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de complétion des ruines de Misr">
+
+Avant de quitter les ruines de Misr, assurez-vous d'avoir terminé toutes les activités et récupéré tous les objets cachés. Manquer ces premières améliorations peut rendre la transition vers la région suivante beaucoup plus difficile.
+
+<Checklist
+  id="misr-ruins-completion"
+  title="Objectifs de complétion du donjon :"
+  items={[
+    "Déverrouiller le coffre de l'Autel caché à l'Âge de la protection",
+    "Déblayer les décombres bloquant le tuyau de drainage à l'Âge de la reconstruction",
+    "Récupérer la magicite de coup critique dans le coffre du Gouffre est",
+    "Vaincre le boss Gardiens des plaques au cœur des ruines",
+    "Activer le point de repère de voyage rapide près de l'entrée du temple"
+  ]}
+/>
+
+<Callout type="tip" title="Points de repère de voyage rapide">
+Interagissez toujours avec les points de repère verts brillants situés à l'entrée et au plus profond des ruines. Ils servent de points de voyage rapide, vous permettant de revenir instantanément de n'importe quelle époque sans avoir à traverser à nouveau les salles nettoyées.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Pourquoi la porte de la salle du coffre de l'autel caché est-elle fermée dans ma partie ?",
+    answer: "La porte de la salle du coffre de l'autel caché est liée à l'énigme du niveau de l'eau. Vous devez déblayer le pilier effondré à l'Âge de la reconstruction à l'aide d'une bombe, puis retourner à l'Âge de la protection pour trouver l'eau évacuée et le passage inférieur accessible."
+  },
+  {
+    question: "Puis-je obtenir le coffre des ruines de Misr de The Adventures of Elliot: The Millennium Tales dans la démo ?",
+    answer: "Oui, la démo du prologue comprend la zone des ruines de Misr et permet aux joueurs de résoudre les énigmes des coffres avec changement d'époque. Tous les coffres que vous déverrouillerez et la magicite que vous collecterez seront transférés vers la version complète du jeu."
+  },
+  {
+    question: "Quelle est la meilleure arme à utiliser contre les ennemis à l'intérieur des ruines ?",
+    answer: "L'épée et le bouclier sont fortement recommandés pour le combat général à l'intérieur des ruines en raison des couloirs étroits. Passez à la lance pour faire face aux groupes d'ennemis volants afin de les maintenir à distance de sécurité."
+  },
+  {
+    question: "Comment faire pour que Faie attire le coffre si la magie d'aspiration est verrouillée ?",
+    answer: "Faie apprend automatiquement la magie d'aspiration en entrant dans les ruines de Misr dans le cadre de la progression de l'histoire principale. Assurez-vous de l'avoir guidée près du coffre en utilisant le stick analogique droit avant d'activer le sort."
+  }
+]} />
+
+<Callout type="info" title="Campagne de données de sauvegarde">
+N'oubliez pas que posséder des données de sauvegarde d'autres titres de Square Enix sur votre système, comme Octopath Traveler ou Dragon Quest, déverrouille de la magicite de départ en bonus sur le bureau de l'orphelinat. Consultez l'écran titre du menu principal pour l'association de vos comptes avant de poursuivre votre aventure.
+</Callout>
+
+</Section>

@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Adventures of Elliot The Millennium Tales sur Xbox : Guide de configuration",
+  description: "Optimisez votre configuration pour The Adventures of Elliot: The Millennium Tales sur Xbox. Découvrez les performances sur Series X/S, la coop locale et les bonus de sauvegarde.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=Xbox+Setup+Guide",
+  date: "2026-06-19",
+  author: "l'équipe du Wiki de the adventures of elliot the millennium tales"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Plateforme principale** : Le lancement de l'édition **the adventures of elliot the millennium tales xbox** apporte des graphismes 4K optimisés et un gameplay à plus de 60 FPS sur Series X.
+- **Synchro des sauvegardes** : Profitez de Xbox Play Anywhere pour transférer facilement votre progression entre votre console et votre PC Windows.
+- **Coop locale** : Activez le mode local pour 1 à 2 joueurs directement depuis le menu de pause, permettant à un second joueur de contrôler Faie.
+- **Récompenses de précommande** : Récupérez vos bonus du Pack de départ sur le bureau de l'orphelinat dans l'Ère de la protection (Age of Safekeeping).
+</Callout>
+
+<Section icon={Map} title="Éditions Xbox et détails de la boutique pour The Adventures of Elliot The Millennium Tales">
+
+Le lancement de la version **the adventures of elliot the millennium tales xbox** le 18 juin 2026 offre plusieurs options aux joueurs sur console. Square Enix et Claytechworks ont optimisé le jeu pour Xbox Series X|S, prenant en charge des fonctionnalités telles que Xbox Play Anywhere, Smart Delivery et les sauvegardes sur le cloud.
+
+Lors de l'achat du jeu sur le Xbox Store, les joueurs peuvent choisir entre l'Édition Standard, l'Édition Deluxe Numérique, ou acheter la mise à niveau Deluxe séparément s'ils décident de prolonger leur expérience plus tard. La version Deluxe Numérique comprend des accessoires exclusifs qui facilitent la collecte de ressources et les combats en début de partie.
+
+| Édition | Prix | Contenu clé | Idéal pour |
+| --- | --- | --- | --- |
+| Édition Standard | 59,99 $ | Jeu de base, Smart Delivery, prise en charge Play Anywhere | Joueurs occasionnels |
+| Édition Deluxe Numérique | 69,99 $ | Jeu de base, Bracelet de fée, Chevillère fleur de cerisier, Anneau de Roselle | Complétionnistes |
+| Mise à niveau Deluxe | 10,00 $ | Pack d'accessoires (Bracelet de fée, Chevillère fleur de cerisier, Anneau de Roselle) | Joueurs souhaitant mettre à niveau leur version |
+
+<Callout type="info" title="Avantages de Xbox Play Anywhere">
+L'achat numérique du jeu sur le Xbox Store donne accès gratuitement à la fois à la version console Xbox Series X|S et à la version PC Windows via le Microsoft Store. Votre progression et vos succès se synchronisent automatiquement sur les deux plateformes.
+</Callout>
+
+L'Édition Standard est idéale pour les joueurs qui souhaitent découvrir l'histoire principale d'Elliot et Faie à travers les quatre ères. Pour ceux qui veulent un léger avantage dans leur progression, les accessoires de la version Deluxe Numérique offrent des bonus passifs aux statistiques et aux taux de drop d'objets. Si vous achetez l'édition physique ou la version numérique standard, vous pouvez acheter la mise à niveau Deluxe à tout moment via le tableau de bord Xbox pour débloquer le pack d'accessoires de luxe.
+
+</Section>
+
+<Section icon={Shield} title="Performances système et paramètres sur Xbox Series X|S">
+
+Le jeu propose des graphismes HD-2D très détaillés qui mélangent le pixel art rétro avec des effets de lumière 3D modernes et de profondeur de champ. Pour garantir la meilleure clarté visuelle et réactivité lors des combats en temps réel, les versions Xbox Series X et Series S sont optimisées pour exploiter efficacement le matériel de la console.
+
+Les joueurs sur Xbox Series X peuvent profiter d'une résolution 4K complète à 60 images par seconde constantes, avec prise en charge de taux de rafraîchissement plus élevés sur les écrans compatibles. La version Xbox Series S cible une résolution de 1080p tout en maintenant un profil de performance fluide à 60 FPS.
+
+| Console | Résolution cible | Fréquence d'images cible | Espace de stockage estimé | Fonctionnalités clés |
+| --- | --- | --- | --- | --- |
+| Xbox Series X | 3840x2160 (4K) | 60 FPS / 60 FPS+ | 16,1 Go | Ultra HD, Auto HDR, Quick Resume |
+| Xbox Series S | 1920x1080 (1080p) | 60 FPS | 16,1 Go | Auto HDR, Quick Resume, Chargement rapide |
+| Xbox Cloud Gaming | Variable | Jusqu'à 60 FPS | N/A (Cloud) | Jouer sur mobile/tablette via le Game Pass |
+
+<Callout type="warning" title="Espace de stockage requis">
+Assurez-vous de disposer d'au moins 16,1 Go d'espace libre sur votre SSD interne haute vitesse. Le jeu étant optimisé pour Xbox Series X|S, il doit être installé sur le stockage interne ou sur une carte d'extension officielle Seagate/Western Digital pour pouvoir être lancé. Il ne peut pas être exécuté directement depuis un disque dur externe USB.
+</Callout>
+
+Pour optimiser votre expérience visuelle sur Xbox, accédez au menu des paramètres du jeu. Vous pouvez ajuster la distance de la caméra pour mieux suivre les ennemis rapides et personnaliser la taille du texte de l'interface. Le jeu comprend 21 fonctionnalités d'accessibilité, notamment des options de texte clair, des arrière-plans de sous-titres ajustables et une configuration de manette entièrement personnalisable, qui sont fortement recommandées pour les joueurs utilisant la manette sans fil Xbox ou la manette adaptative Xbox.
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de combat et combos d'armes">
+
+Le combat dans le jeu repose sur le changement d'arme en temps réel et le positionnement tactique. Elliot peut équiper jusqu'à deux armes simultanément et basculer instantanément entre elles pendant la bataille. Ce système de double arme vous permet de créer des styles de combat personnalisés combinant des attaques de mêlée à gros dégâts avec du contrôle de foule à distance ou des options utilitaires.
+
+Il y a sept types d'armes distincts disponibles dans le jeu. Chaque arme possède des attaques standards uniques, des compétences spéciales et des interactions avec les objets de l'environnement. Comprendre comment associer ces armes est la clé pour survivre aux boss difficiles et terminer les donjons complexes du jeu.
+
+<CardGrid cols={2}>
+  <Card title="Mêlée équilibrée : Épée & Bouclier">
+    - **Rôle principal** : Défense et contre-attaque.
+    - **Mécaniques** : Bloque les attaques frontales, exécute des entailles rapides et déclenche une attaque chargée d'entaille volante.
+    - **Meilleure association** : À combiner avec l'Arc pour des dégâts à distance sûrs ou le Marteau pour briser efficacement les boucliers.
+  </Card>
+  <Card title="Contrôle à distance : L'Arc">
+    - **Rôle principal** : Pression à distance sécurisée.
+    - **Mécaniques** : Tire des flèches simples précises ou une salve de flèches en éventail qui consomme des flèches simples.
+    - **Meilleure association** : À associer avec les Chaînes et Faucilles pour attirer les ennemis après les avoir affaiblis de loin.
+  </Card>
+  <Card title="Impact lourd : Le Marteau">
+    - **Rôle principal** : Grande capacité de vacillement et utilité pour les énigmes.
+    - **Mécaniques** : Balancements verticaux lents et puissants qui brisent la garde ennemie et enfoncent les piquets d'exploration dans le sol.
+    - **Meilleure association** : À combiner avec l'Épée et le Bouclier pour récupérer en toute sécurité des animations lentes du marteau.
+  </Card>
+  <Card title="Explosion utilitaire : La Bombe">
+    - **Rôle principal** : Dégâts de zone et démolition.
+    - **Mécaniques** : Pose des explosifs à retardement qui blessent les groupes d'ennemis et détruisent les murs de pierre fissurés.
+    - **Meilleure association** : À associer avec le Boomerang pour attirer les ennemis dans la zone d'explosion de vos bombes actives.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Stratégie de changement d'arme">
+Ne vous limitez pas à une seule arme pendant le combat. Changer d'arme réinitialise certaines animations d'attaque, vous permettant d'enchaîner un combo rapide à l'épée directement avec un coup de marteau lourd ou un tir rapide à l'arc. Cette technique maximise vos dégâts tout en gérant la durabilité des armes.
+</Callout>
+
+Au-delà des armes de base, les joueurs peuvent personnaliser leurs capacités de combat en utilisant des fragments de Magicite. Ces éclats magiques se trouvent dans des coffres cachés, sont lâchés par les boss ou offerts en récompense de quêtes secondaires. Placer de la Magicite dans vos armes modifie leurs propriétés, par exemple en ajoutant des dégâts élémentaires, en augmentant le taux de coups critiques ou en réduisant le coût en endurance de vos blocages au bouclier.
+
+</Section>
+
+<Section icon={Sparkles} title="Magie de Faie et configuration de la coop locale">
+
+Faie est la fée compagne d'Elliot et constitue un outil essentiel pour le combat et la résolution d'énigmes. Par défaut, le joueur solo peut contrôler Faie indépendamment à l'aide du stick analogique droit de la manette Xbox. Cela vous permet d'explorer les environs, de récupérer des objets éloignés ou d'activer des interrupteurs qu'Elliot ne peut pas atteindre.
+
+Le jeu prend également en charge la coop locale pour 1 à 2 joueurs. Dans ce mode, un second joueur peut rejoindre la partie sur la même console Xbox, en prenant le contrôle direct de Faie à l'aide d'une deuxième manette. Cette dynamique coopérative modifie votre approche de l'exploration et du combat, car Faie peut lancer de puissants sorts de soutien pendant qu'Elliot se concentre sur le corps à corps.
+
+<Steps>
+  <Step num="1" title="Connecter une deuxième manette">
+    Allumez une deuxième manette sans fil Xbox et connectez-vous à un compte invité ou à un profil Xbox secondaire.
+  </Step>
+  <Step num="2" title="Ouvrir le menu de pause">
+    Lancez le jeu, chargez votre fichier de sauvegarde actif et appuyez sur le bouton Menu de la manette principale pour ouvrir l'écran de pause.
+  </Step>
+  <Step num="3" title="Activer le mode coopératif">
+    Accédez aux options des paramètres multijoueurs et sélectionnez Activer la coop locale. Le second joueur prendra instantanément le contrôle de Faie.
+  </Step>
+  <Step num="4" title="Attribuer la magie de Faie">
+    Équipez les sorts magiques actifs de Faie (Téléportation, Embrasement, Aspiration ou Copie) dans le menu du groupe pour coordonner vos stratégies de coop.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Synergie de combat en coop">
+Lorsque vous jouez en coop locale, demandez au second joueur d'utiliser la magie Aspiration de Faie pour regrouper les ennemis. Une fois rassemblés, Elliot peut immédiatement enchaîner avec une attaque lourde au Marteau ou poser une Bombe pour éliminer tout le groupe instantanément.
+</Callout>
+
+La magie de Faie se débloque en visitant les Sanctuaires du Mystique cachés à travers le monde. Chaque type de magie a des applications spécifiques pour résoudre les énigmes environnementales et vaincre les ennemis :
+
+| Type de magie | Effet principal | Utilisation en exploration | Utilisation en combat |
+| --- | --- | --- | --- |
+| Téléportation (Warp) | Téléporte Elliot auprès de Faie | Traverse les grands fossés et les dangers | Repositionne derrière les boucliers des boss |
+| Embrasement (Ignite) | Allume les objets et fait fondre la glace | Résout les énigmes de torches | Fait détoner les bombes de combat posées |
+| Aspiration (Vacuum) | Attire les ennemis et les objets à proximité | Rassemble le butin éloigné | Regroupe les petits ennemis pour les attaques de zone |
+| Copie (Copy) | Imite les actions d'Elliot | Résout les interrupteurs synchronisés | Double la trajectoire des projectiles |
+
+</Section>
+
+<Section icon={Trophy} title="Récupérer les données de sauvegarde et les bonus de précommande sur Xbox">
+
+Les joueurs ayant soutenu les précédentes sorties de Square Enix sur Xbox ou ayant précommandé le jeu au format numérique peuvent réclamer des récompenses exclusives. La campagne de bonus de données de sauvegarde vérifie automatiquement l'historique des sauvegardes cloud de votre profil Xbox pour les titres éligibles. Si un fichier de sauvegarde correspondant est détecté, l'objet bonus associé devient disponible dans le jeu.
+
+Pour récupérer ces objets, vous devez progresser dans le chapitre d'introduction jusqu'à ce que vous accédiez à l'orphelinat dans l'Ère de la protection (Age of Safekeeping). À l'intérieur de l'orphelinat, rendez-vous au premier étage et interagissez avec le bureau pour récupérer vos récompenses.
+
+| Titre éligible | Objet de récompense | Type d'objet | Effet passif |
+| --- | --- | --- | --- |
+| OCTOPATH TRAVELER 0 | Guidance de la Flamme Sacrée | Magicite d'épée | +10 % de dégâts aux ennemis ayant moins de 30 % de PV |
+| DRAGON QUEST I & II Remake | Coup critique | Magicite d'épée | Augmente le taux de coups critiques à l'épée de 6 % |
+| BRAVELY DEFAULT FLYING FAIRY | Brave | Magicite d'épée | +10 % de dégâts à l'épée, augmente le coût en endurance de la garde |
+| VARIOUS DAYLIFE | Sagesse d'expédition | Magicite d'épée | Réduit le temps de charge de l'épée de 10 % |
+| TRIANGLE STRATEGY | Posture de contre | Magicite d'épée | +10 % de dégâts à l'épée lorsque l'endurance du bouclier est supérieure à 90 % |
+| Trials of Mana | Plumage laurentien | Accessoire | Plume unique qui déclenche une rencontre en ville |
+
+<Checklist
+  id="xbox-launch-checklist"
+  title="Check-list du jour de lancement Xbox :"
+  items={[
+    "Téléchargez et installez le fichier de jeu de 16,1 Go sur le SSD interne de votre Xbox Series X/S.",
+    "Vérifiez que vos sauvegardes cloud Xbox sont entièrement synchronisées pour détecter vos anciens fichiers de sauvegarde Square Enix.",
+    "Récupérez la broche et la magicite du Pack de départ depuis le menu des bonus promotionnels de l'écran titre.",
+    "Atteignez l'Ère de la protection et visitez le premier étage de l'orphelinat pour récupérer vos récompenses physiques.",
+    "Connectez une deuxième manette pour essayer la coop locale avec les commandes de mouvement indépendantes de Faie."
+  ]}
+/>
+
+<Callout type="tip" title="Menu des bonus promotionnels">
+Si vos récompenses de sauvegarde n'apparaissent pas immédiatement sur le bureau de l'orphelinat, revenez à l'écran titre principal et sélectionnez l'option Bonus promotionnels. Cela force le jeu à analyser à nouveau votre stockage cloud Xbox et déverrouille manuellement les objets manquants.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Est-ce que la version Xbox de the adventures of elliot the millennium tales prend en charge Xbox Play Anywhere ?",
+    answer: "Oui. La version numérique prend en charge Xbox Play Anywhere, vous permettant d'acheter le jeu une seule fois et d'y jouer à la fois sur les consoles Xbox Series X|S et sur les PC Windows 11 avec une progression et des succès partagés."
+  },
+  {
+    question: "Puis-je transférer ma progression de la démo Prologue Xbox vers le jeu complet ?",
+    answer: "Oui, les données de sauvegarde de la démo gratuite Prologue sont directement transférées vers la version Xbox finale, vous permettant de poursuivre votre aventure sans perdre votre progression initiale, vos armes ou vos Magicites."
+  },
+  {
+    question: "Comment fonctionne la coop locale sur Xbox ?",
+    answer: "La coop locale est prise en charge pour 1 à 2 joueurs sur une seule console. Le premier joueur contrôle Elliot avec les commandes de combat et de déplacement standard, tandis que le second joueur utilise une deuxième manette pour guider Faie et lancer des sorts de soutien."
+  },
+  {
+    question: "Où puis-je récupérer mes bonus de sauvegarde et de précommande ?",
+    answer: "Une fois déverrouillés via la vérification des bonus promotionnels du menu principal, vous pouvez récupérer vos objets en interagissant avec le bureau situé au premier étage de l'orphelinat dans l'Ère de la protection."
+  }
+]} />
+
+<Callout type="info" title="Attention lors du transfert de sauvegarde de la démo">
+Lorsque vous lancez le jeu complet pour la première fois, assurez-vous de sélectionner 'Importer la sauvegarde de la démo' depuis le menu principal avant de commencer une nouvelle partie. Si vous commencez une nouvelle partie manuellement sans importer, vous risquez d'écraser votre progression de la démo sur votre profil de sauvegarde cloud.
+</Callout>
+
+</Section>
