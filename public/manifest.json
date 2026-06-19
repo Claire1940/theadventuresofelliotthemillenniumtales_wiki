@@ -1,12 +1,16 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "The Adventures of Elliot: The Millennium Tales Wiki",
+  "short_name": "Elliot Tales",
+  "description": "The Adventures of Elliot: The Millennium Tales wiki covers walkthroughs, weapons, magicite builds, Faie magic, the four ages, bosses, demo bonuses, platforms, and story lore for the HD-2D action RPG by Square Enix and Claytechworks.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "lang": "en",
+  "dir": "ltr",
+  "theme_color": "#15A7D0",
+  "background_color": "#F8FBFF",
+  "categories": ["games", "entertainment"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
