@@ -47,6 +47,37 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // 首页模块 5：武器类型（Weapon Tier List）
+  Target: LucideIcons.Target,
+  Bomb: LucideIcons.Bomb,
+  RotateCw: LucideIcons.RotateCw,
+  MoveRight: LucideIcons.MoveRight,
+  Anchor: LucideIcons.Anchor,
+
+  // 首页模块 6：Faie 魔法与协作
+  Joystick: LucideIcons.Joystick,
+  Zap: LucideIcons.Zap,
+  Flame: LucideIcons.Flame,
+  Tornado: LucideIcons.Tornado,
+  Crosshair: LucideIcons.Crosshair,
+
+  // 首页模块 7：奖励与版本
+  Save: LucideIcons.Save,
+  HardDrive: LucideIcons.HardDrive,
+  Disc: LucideIcons.Disc,
+  MemoryStick: LucideIcons.MemoryStick,
+  Server: LucideIcons.Server,
+  Scroll: LucideIcons.Scroll,
+  ShoppingBag: LucideIcons.ShoppingBag,
+  Gem: LucideIcons.Gem,
+
+  // 首页模块 8：平台与性能
+  Monitor: LucideIcons.Monitor,
+  Tv: LucideIcons.Tv,
+  Gauge: LucideIcons.Gauge,
+  Cpu: LucideIcons.Cpu,
+  Tablet: LucideIcons.Tablet,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }

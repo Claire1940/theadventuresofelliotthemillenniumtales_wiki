@@ -681,7 +681,12 @@ export default function HomePageClient({
                       className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                     >
                       <div className="flex items-center gap-3 mb-3">
-                        <Swords className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                        <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)]">
+                          <DynamicIcon
+                            name={entry.icon}
+                            className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                          />
+                        </span>
                         <h4 className="font-bold text-[hsl(var(--nav-theme-light))]">
                           <LinkedTitle
                             linkData={moduleLinkMap[`weaponBuilds::tiers::${ti}::entries::${ei}`]}
@@ -700,7 +705,7 @@ export default function HomePageClient({
                           </li>
                         ))}
                       </ul>
-                      <div className="flex flex-wrap gap-2">
+                      <div className="flex flex-wrap gap-2 mb-3">
                         {entry.pairings.map((p: string, pi: number) => (
                           <span
                             key={pi}
@@ -710,6 +715,21 @@ export default function HomePageClient({
                           </span>
                         ))}
                       </div>
+                      {entry.buildIdeas && entry.buildIdeas.length > 0 && (
+                        <div className="rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] p-3">
+                          <p className="text-xs font-semibold text-[hsl(var(--nav-theme-light))] mb-2">
+                            Magicite Build Ideas
+                          </p>
+                          <ul className="space-y-1">
+                            {entry.buildIdeas.map((idea: string, ii: number) => (
+                              <li key={ii} className="flex items-start gap-2">
+                                <Sparkles className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                                <span className="text-xs text-muted-foreground">{idea}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>
@@ -749,7 +769,12 @@ export default function HomePageClient({
                 className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
                 <div className="flex items-center gap-2 mb-3">
-                  <WandSparkles className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)]">
+                    <DynamicIcon
+                      name={item.icon}
+                      className="h-4 w-4 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </span>
                   <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                     {item.category}
                   </span>
@@ -813,7 +838,12 @@ export default function HomePageClient({
                 className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
                 <div className="flex items-center gap-2 mb-3">
-                  <Gift className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)]">
+                    <DynamicIcon
+                      name={item.icon}
+                      className="h-4 w-4 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </span>
                   <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                     {item.type}
                   </span>
@@ -830,9 +860,22 @@ export default function HomePageClient({
                   {item.reward}
                 </p>
                 <p className="text-sm text-muted-foreground mb-3">{item.effect}</p>
-                <div className="p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)]">
-                  <p className="text-xs text-muted-foreground">{item.claim}</p>
+                <div className="p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] mb-3">
+                  <p className="text-xs text-muted-foreground">
+                    <span className="font-semibold text-[hsl(var(--nav-theme-light))]">How to claim: </span>
+                    {item.claim}
+                  </p>
                 </div>
+                {item.platformNotes && item.platformNotes.length > 0 && (
+                  <ul className="space-y-1 border-t border-border pt-3">
+                    {item.platformNotes.map((note: string, ni: number) => (
+                      <li key={ni} className="flex items-start gap-2">
+                        <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        <span className="text-xs text-muted-foreground">{note}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             ))}
           </div>
@@ -878,7 +921,12 @@ export default function HomePageClient({
                 className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <MonitorSmartphone className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)]">
+                    <DynamicIcon
+                      name={item.icon}
+                      className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </span>
                   <h3 className="font-bold text-[hsl(var(--nav-theme-light))]">
                     <LinkedTitle
                       linkData={moduleLinkMap[`platformSpecs::items::${index}`]}
@@ -922,7 +970,23 @@ export default function HomePageClient({
                     </li>
                   ))}
                 </ul>
+                {item.languages && item.languages.length > 0 && (
+                  <div className="mb-3">
+                    <p className="flex items-center gap-1.5 text-xs font-semibold text-[hsl(var(--nav-theme-light))] mb-1.5">
+                      <Globe className="w-3.5 h-3.5" />
+                      Languages
+                    </p>
+                    <ul className="space-y-1">
+                      {item.languages.map((lang: string, li: number) => (
+                        <li key={li} className="flex items-start gap-2">
+                          <span className="text-xs text-muted-foreground">{lang}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
                 <p className="text-xs text-muted-foreground border-t border-border pt-2">
+                  <span className="font-semibold text-[hsl(var(--nav-theme-light))]">Requirements: </span>
                   {item.requirements}
                 </p>
               </div>

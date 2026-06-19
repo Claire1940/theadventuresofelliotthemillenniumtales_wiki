@@ -403,25 +403,36 @@
           "label": "Best early all-round choices",
           "entries": [
             {
+              "icon": "Shield",
               "weapon": "Sword and Shield",
               "role": "Balanced melee, blocking, counterplay",
               "mechanics": [
                 "Fast wide-range sword swings",
                 "Charge attack sends slashes forward",
                 "Shield blocks frontal attacks only",
-                "Customizable with Magicite"
+                "Sword and shield can be customized with Magicite"
               ],
-              "pairings": ["Bow for safe ranged pressure", "Bomb for cracked walls and burst damage", "Spear for reach and safer openings"]
+              "pairings": ["Bow for safe ranged pressure", "Bomb for cracked walls and burst damage", "Spear for reach and safer openings"],
+              "buildIdeas": [
+                "Guard-focused sword build for safer exploration",
+                "Counterattack build that rewards blocking",
+                "Flying-slash build for ranged sword pressure"
+              ]
             },
             {
+              "icon": "Target",
               "weapon": "Bow",
               "role": "Ranged attacks and safe enemy control",
               "mechanics": [
                 "Regular attack fires one arrow",
-                "Special attack fires multiple arrows in a fan",
-                "Useful for enemies or switches that are awkward to reach"
+                "Special attack fires multiple arrows in a fan while consuming one arrow",
+                "Useful for enemies or switches that are awkward to reach up close"
               ],
-              "pairings": ["Sword and Shield for defense", "Boomerang for item and path utility", "Spear for safer melee follow-up"]
+              "pairings": ["Sword and Shield for defense", "Boomerang for item and path utility", "Spear for safer melee follow-up"],
+              "buildIdeas": [
+                "Ranged opener build before switching to melee",
+                "Safe exploration build for enemies beyond direct reach"
+              ]
             }
           ]
         },
@@ -430,24 +441,34 @@
           "label": "Strong for exploration and puzzles",
           "entries": [
             {
+              "icon": "Bomb",
               "weapon": "Bomb",
               "role": "Explosives, walls, rocks, delayed burst",
               "mechanics": [
                 "Bombs explode after a delay",
-                "Demolish rocks and cracked walls",
+                "Bombs can demolish rocks and cracked walls",
                 "Ignite magic can trigger explosives"
               ],
-              "pairings": ["Sword and Shield for safe close combat", "Boomerang for item control", "Bow for ranged encounters"]
+              "pairings": ["Sword and Shield for safe close combat", "Boomerang for item control", "Bow for ranged encounters"],
+              "buildIdeas": [
+                "Explosion-focused build for breakable obstacles and burst damage",
+                "Ignite combo build using Faie to detonate enhanced bombs"
+              ]
             },
             {
+              "icon": "RotateCw",
               "weapon": "Boomerang",
-              "role": "Returning projectile, object control",
+              "role": "Returning projectile, object control, repeated hit path",
               "mechanics": [
-                "Damages enemies on outbound and return flight",
+                "Boomerang can damage enemies during both outbound and return flight",
                 "Useful for long-range interaction in exploration",
-                "Magicite expands projectile setups"
+                "Magicite can expand boomerang-based projectile setups"
               ],
-              "pairings": ["Sword and Shield for close-range defense", "Bomb for puzzle utility", "Chains and Sickles for enemy positioning"]
+              "pairings": ["Sword and Shield for close-range defense", "Bomb for puzzle utility", "Chains and Sickles for enemy positioning"],
+              "buildIdeas": [
+                "Multi-projectile setup with extra throw magicite",
+                "Faie Copy combo for larger projectile coverage"
+              ]
             }
           ]
         },
@@ -456,24 +477,35 @@
           "label": "High value when the encounter fits",
           "entries": [
             {
+              "icon": "MoveRight",
               "weapon": "Spear",
               "role": "Reach, forward pressure, safer melee spacing",
               "mechanics": [
                 "Attacks forward from outside normal melee range",
                 "Special attack is a forward charge",
-                "Magicite can extend reach"
+                "Spear magicite can extend reach and support follow-up weapon use"
               ],
-              "pairings": ["Sword and Shield for defense", "Bow for range stacking", "Hammer for heavy stagger pressure"]
+              "pairings": ["Sword and Shield for defense", "Bow for range stacking", "Hammer for heavy stagger-style pressure"],
+              "buildIdeas": [
+                "Reach-focused build for safer melee",
+                "Mobility and special-attack build",
+                "Weapon-switch build that enhances other weapons for a short time after spear use"
+              ]
             },
             {
+              "icon": "Hammer",
               "weapon": "Hammer",
               "role": "Heavy hits, pegs, slow high-impact attacks",
               "mechanics": [
-                "Slow attacks that hit hard",
+                "Hammer attacks are slow but hit hard",
                 "Special attack is a downward blow",
-                "Can pound pegs during exploration"
+                "Hammer can pound pegs during exploration"
               ],
-              "pairings": ["Sword and Shield for faster recovery", "Spear for safer approach", "Faie Warp for positioning support"]
+              "pairings": ["Sword and Shield for faster recovery options", "Spear for safer approach", "Faie Warp for positioning support"],
+              "buildIdeas": [
+                "Heavy-hit build for larger enemies",
+                "Puzzle utility loadout for peg-based routes"
+              ]
             }
           ]
         },
@@ -482,6 +514,7 @@
           "label": "Best after learning enemy spacing",
           "entries": [
             {
+              "icon": "Anchor",
               "weapon": "Chains and Sickles",
               "role": "Range control, surrounding attacks, enemy pull",
               "mechanics": [
@@ -489,7 +522,11 @@
                 "Special attack pulls enemies close",
                 "Useful for controlling enemy position"
               ],
-              "pairings": ["Sword and Shield for close-range follow-up", "Bomb for grouped enemies", "Boomerang for wider control"]
+              "pairings": ["Sword and Shield for close-range follow-up", "Bomb for grouped enemies", "Boomerang for wider control"],
+              "buildIdeas": [
+                "Crowd-control build that pulls enemies into safer follow-up attacks",
+                "Area-control build for encounters with multiple targets"
+              ]
             }
           ]
         }
@@ -500,66 +537,73 @@
       "intro": "Faie is Elliot's fairy companion, support partner, and second-player option. Her magic changes how players scout, solve puzzles, move through dungeons, and control enemy encounters. Faie can be controlled directly with the right stick, and a second local player can also control her.",
       "items": [
         {
+          "icon": "Joystick",
           "category": "Direct Control",
           "title": "Control Faie with the Right Stick",
           "details": [
             "Faie can move independently from Elliot for scouting and object interaction.",
-            "She can retrieve distant objects and inspect dangerous spaces before Elliot moves in.",
-            "Useful in dungeons where enemies, switches, hazards, or items sit away from Elliot's direct path."
+            "She can retrieve distant objects and help the player inspect dangerous spaces before Elliot moves in.",
+            "Useful in dungeons where enemies, switches, hazards, or items are positioned away from Elliot's direct path."
           ],
           "bestFor": ["Scouting", "Item retrieval", "Enemy spacing", "Puzzle setup"]
         },
         {
+          "icon": "Users",
           "category": "Local Co-op",
           "title": "Local 1-2 Player Support",
           "details": [
             "The game supports local play for one or two players on supported platforms.",
-            "One player can control Elliot while another controls Faie.",
-            "Faie's independent movement lets the second player support combat, puzzles, and scouting."
+            "In local co-op, one player can control Elliot while another controls Faie.",
+            "Faie's independent movement lets the second player support combat, puzzles, scouting, and object handling."
           ],
           "bestFor": ["Shared exploration", "Support play", "Puzzle coordination", "Safer dungeon routing"]
         },
         {
+          "icon": "Zap",
           "category": "Warp Magic",
           "title": "Warp Elliot to Faie",
           "details": [
             "Warp is learned from a Shrine of the Mystic.",
             "Warp transports Elliot to Faie's position.",
-            "Use it for puzzle movement, avoiding hazards, and repositioning around enemies."
+            "It can be used for puzzle movement, avoiding hazards, repositioning around enemies, and escaping difficult situations."
           ],
           "bestFor": ["Puzzle shortcuts", "Dodging attacks", "Getting behind enemies", "Crossing tricky layouts"]
         },
         {
+          "icon": "Flame",
           "category": "Ignite Magic",
           "title": "Light, Melt, and Detonate",
           "details": [
             "Ignite can light torches and melt ice.",
-            "It can also detonate explosives used in combat and puzzle setups.",
-            "Works especially well with bomb-based builds that benefit from controlled explosion timing."
+            "It can also detonate explosives, including bombs used in combat and puzzle setups.",
+            "Ignite works especially well with bomb-based builds that benefit from controlled explosion timing."
           ],
           "bestFor": ["Torch puzzles", "Ice obstacles", "Bomb combos", "Timed detonations"]
         },
         {
+          "icon": "Tornado",
           "category": "Vacuum Magic",
           "title": "Pull Enemies and Objects Together",
           "details": [
             "Vacuum draws nearby enemies and objects toward Faie's magic.",
             "It can collect dropped items and loot more easily.",
-            "Affected enemies can be repositioned for follow-up attacks or moved toward hazards."
+            "Enemies affected by Vacuum can be repositioned for follow-up attacks or moved toward hazards."
           ],
           "bestFor": ["Loot collection", "Crowd control", "Enemy grouping", "Object movement"]
         },
         {
+          "icon": "Copy",
           "category": "Copy Magic",
           "title": "Mirror Elliot's Actions",
           "details": [
             "Copy lets Faie mimic Elliot's movement and actions.",
             "It can help with switches and synchronized puzzle actions.",
-            "Copy can also interact with sword, spear, bomb, and thrown-item setups."
+            "Copy can also interact with weapon actions, including sword, spear, bomb, and thrown-item setups."
           ],
           "bestFor": ["Switch puzzles", "Synchronized movement", "Projectile combos", "Extra attack coverage"]
         },
         {
+          "icon": "Crosshair",
           "category": "Combat Support",
           "title": "Attack, Rescue, and Reposition",
           "details": [
@@ -576,67 +620,108 @@
       "intro": "The Adventures of Elliot uses platform bonuses, save-data rewards, Digital Deluxe accessories, and Collector's Edition items rather than a general public code list. Use this section to find which rewards come from save data, edition purchases, preorder campaigns, and store bundles.",
       "items": [
         {
+          "icon": "Save",
           "type": "Save Data Bonus",
           "name": "OCTOPATH TRAVELER 0 Bonus",
           "reward": "Sword magicite: Guidance of the Sacred Flame",
           "effect": "Increases sword damage to enemies with 30% or lower vitality by 10%.",
-          "claim": "Use Promotional Bonus from the title screen, link the eligible title, then claim bonuses from the desk on the second floor of the orphanage in the Age of Safekeeping."
+          "claim": "Use Promotional Bonus from the title screen, link the eligible title, then claim bonuses from the desk on the second floor of the orphanage in the Age of Safekeeping.",
+          "platformNotes": [
+            "Eligible save data must be on the same supported platform family.",
+            "Steam eligibility uses purchase history."
+          ]
         },
         {
+          "icon": "HardDrive",
           "type": "Save Data Bonus",
           "name": "DRAGON QUEST I & II HD-2D Remake Bonus",
           "reward": "Sword magicite: Critical Hit",
           "effect": "Increases sword critical-hit rate by 6%.",
-          "claim": "Claim through the Promotional Bonus flow and the orphanage desk after starting the game."
+          "claim": "Claim through the Promotional Bonus flow and the orphanage desk after starting the game.",
+          "platformNotes": [
+            "Cloud save data must be downloaded to the relevant system when required.",
+            "Transferred save data is required for older-generation saves where platform transfer applies."
+          ]
         },
         {
+          "icon": "Disc",
           "type": "Save Data Bonus",
           "name": "BRAVELY DEFAULT FLYING FAIRY HD Remaster Bonus",
           "reward": "Sword magicite: Brave",
           "effect": "Increases sword damage dealt by 10%, while using a little more shield stamina when guarding.",
-          "claim": "Claim through Promotional Bonus and the orphanage desk reward location."
+          "claim": "Claim through Promotional Bonus and the orphanage desk reward location.",
+          "platformNotes": [
+            "The bonus can be claimed even after eligible save data is created later."
+          ]
         },
         {
+          "icon": "MemoryStick",
           "type": "Save Data Bonus",
           "name": "VARIOUS DAYLIFE Bonus",
           "reward": "Sword magicite: Expeditionary Wisdom",
           "effect": "Reduces sword charge time by 10%.",
-          "claim": "Claim through the title-screen Promotional Bonus flow and the orphanage desk."
+          "claim": "Claim through the title-screen Promotional Bonus flow and the orphanage desk.",
+          "platformNotes": [
+            "The orphanage must be accessible in the story to claim the item."
+          ]
         },
         {
+          "icon": "Server",
           "type": "Save Data Bonus",
           "name": "TRIANGLE STRATEGY Bonus",
           "reward": "Sword magicite: Counter Stance",
           "effect": "Increases sword damage by 10% while shield stamina is 90% or greater.",
-          "claim": "Claim from the orphanage desk after linking the eligible title from Promotional Bonus."
+          "claim": "Claim from the orphanage desk after linking the eligible title from Promotional Bonus.",
+          "platformNotes": [
+            "Works through the official save-data bonus campaign rules."
+          ]
         },
         {
+          "icon": "Scroll",
           "type": "Save Data Bonus",
           "name": "Trials of Mana Bonus",
           "reward": "Laurentian Plumage",
           "effect": "Ornamental feathers from a certain kingdom; having this item leads to an encounter in town.",
-          "claim": "Claim through the same Promotional Bonus and orphanage desk process."
+          "claim": "Claim through the same Promotional Bonus and orphanage desk process.",
+          "platformNotes": [
+            "This is an encounter-related bonus item rather than a sword magicite reward."
+          ]
         },
         {
+          "icon": "ShoppingBag",
           "type": "Digital Preorder Bonus",
           "name": "Elliot's Departure Pack",
           "reward": "Departure Brooch accessory and Attack Up sword magicite",
           "effect": "Departure Brooch increases tul and magicite fragment drops from enemies by a small amount.",
-          "claim": "Included as a digital preorder bonus on participating platform stores before the listed preorder deadline."
+          "claim": "Included as a digital preorder bonus on participating platform stores before the listed preorder deadline.",
+          "platformNotes": [
+            "Xbox lists the preorder bonus as valid until June 17, 2026 at 23:59.",
+            "The bonus contents may also be sold separately at a later date."
+          ]
         },
         {
+          "icon": "Gem",
           "type": "Digital Deluxe Edition",
           "name": "Digital Deluxe Pack",
           "reward": "Fairy Bangle, Cherry Blossom Anklet, and Roselle Ring",
           "effect": "Accessory set included with the Digital Deluxe Edition and Digital Deluxe Upgrade.",
-          "claim": "Purchase the Digital Deluxe Edition or the Digital Deluxe Upgrade on supported storefronts."
+          "claim": "Purchase the Digital Deluxe Edition or the Digital Deluxe Upgrade on supported storefronts.",
+          "platformNotes": [
+            "The Digital Deluxe Upgrade requires the base game.",
+            "The same accessory contents are included in the Digital Deluxe Edition, so avoid buying duplicate content."
+          ]
         },
         {
+          "icon": "Package",
           "type": "Collector's Edition",
           "name": "Square Enix Store Collector's Edition",
           "reward": "Physical game copy, Digital Deluxe Upgrade code, original soundtrack, and Faie and Door of Time desktop clock",
           "effect": "Square Enix Store limited edition package with physical collectibles and digital deluxe content.",
-          "claim": "Purchase through the Square Enix Store while supplies are available."
+          "claim": "Purchase through the Square Enix Store while supplies are available.",
+          "platformNotes": [
+            "Collector's Edition availability varies by platform and region.",
+            "Square Enix Store also lists a Collector's Box option without the game."
+          ]
         }
       ]
     },
@@ -645,70 +730,103 @@
       "intro": "The Adventures of Elliot is available across modern console and PC platforms with local 1-2 player support listed by official platform materials. PC players should check the minimum and recommended Steam requirements, while console players can compare resolution, frame rate, storage, and platform-specific features before choosing a version.",
       "items": [
         {
+          "icon": "Monitor",
           "platform": "Steam PC",
           "releaseDate": "June 18, 2026",
-          "price": "$59.99 base game",
+          "price": "$59.99 base game; $69.99 Digital Deluxe Edition; $10 Digital Deluxe Upgrade",
           "storage": "20 GB available space",
-          "resolution": "Up to 3840x2160",
-          "frameRate": "Up to 120 fps (V-sync selectable 30, 60, or 120)",
-          "players": "Single-player and multiplayer features",
-          "features": ["Steam Achievements", "Steam Cloud", "Family Sharing", "Prologue Demo with save carryover"],
-          "requirements": "Windows 11 64-bit, 16 GB RAM, DirectX 12. Min: Ryzen 3 3100 / i3-8100, GTX 1650 @ 720p 60fps. Rec: i5-8600K, GTX 1660 Ti @ 1080p 60fps."
+          "resolution": "Up to 3840x2160 depending on display and settings",
+          "frameRate": "V-sync on: up to 120 fps; V-sync off: selectable 30, 60, or 120 fps",
+          "players": "Single-player and multiplayer features listed on Steam",
+          "languages": [
+            "English interface, audio, and subtitles",
+            "Japanese interface, audio, and subtitles",
+            "French, Italian, German, Spanish, Simplified Chinese, Traditional Chinese, and Korean interface and subtitles"
+          ],
+          "features": ["Steam Achievements", "Steam Trading Cards", "Steam Cloud", "Family Sharing", "Prologue Demo with save-data carryover"],
+          "requirements": "Windows 11 64-bit, 16 GB RAM, DirectX 12. Min: Ryzen 3 3100 or i3-8100, RX 5500 XT / Arc A580 / GTX 1650 @ 720p Low 60fps. Rec: i5-8600K, RX 5600 XT / Arc A580 / GTX 1660 Ti @ 1080p High 60fps."
         },
         {
+          "icon": "Gamepad2",
           "platform": "PlayStation 5",
           "releaseDate": "June 18, 2026",
-          "price": "$59.99 base game",
-          "storage": "15.5 GB",
+          "price": "$59.99 base game; $69.99 Digital Deluxe Edition; $10 Digital Deluxe Upgrade",
+          "storage": "15.5 GB estimated required free space",
           "resolution": "Up to 3840x2160",
           "frameRate": "60 fps",
-          "players": "Offline 1-2 players",
-          "features": ["Remote Play supported", "DualSense vibration", "21 accessibility features", "Free Prologue Demo"],
-          "requirements": "PS5 console. Voice in English and Japanese; screen languages include English, French, German, Italian, Japanese, and Spanish."
+          "players": "Offline play; 1-2 players",
+          "languages": [
+            "Voice: English and Japanese",
+            "Screen languages include English, French, German, Italian, Japanese, and Spanish"
+          ],
+          "features": ["Remote Play supported", "DualSense vibration supported", "21 accessibility features listed", "Accessibility options include clear text, large text, subtitles, controller remapping, and adjustable difficulty"],
+          "requirements": "PS5 console. Free Prologue Demo available on the PlayStation Store."
         },
         {
+          "icon": "Tv",
           "platform": "Xbox Series X",
           "releaseDate": "June 18, 2026",
-          "price": "$59.99 base game",
-          "storage": "16.1 GB",
+          "price": "$59.99 base game; $69.99 Digital Deluxe Edition",
+          "storage": "16.1 GB estimated required free space",
           "resolution": "Up to 3840x2160",
-          "frameRate": "60 fps and 60 fps+ capability",
-          "players": "Local multiplayer for 2 players",
-          "features": ["Optimized for Xbox Series X|S", "Xbox Play Anywhere", "4K Ultra HD", "Cloud Gaming with supported Game Pass tiers"],
-          "requirements": "Xbox Series X console. 9 supported languages including Simplified Chinese, Traditional Chinese, and Korean text."
+          "frameRate": "60 fps and 60 fps+ capability listed on Xbox Store",
+          "players": "Xbox local multiplayer listed; local play support confirmed",
+          "languages": [
+            "9 supported languages listed on Xbox Store",
+            "Includes Simplified Chinese, Traditional Chinese, and Korean text options"
+          ],
+          "features": ["Optimized for Xbox Series X|S", "Xbox Play Anywhere", "4K Ultra HD", "Xbox Cloud Gaming with supported Game Pass tiers"],
+          "requirements": "Xbox Series X console. Separate Prologue Demo available on the Xbox Store."
         },
         {
+          "icon": "Gauge",
           "platform": "Xbox Series S",
           "releaseDate": "June 18, 2026",
-          "price": "$59.99 base game",
-          "storage": "16.1 GB",
+          "price": "$59.99 base game; $69.99 Digital Deluxe Edition",
+          "storage": "16.1 GB estimated required free space",
           "resolution": "Up to 1920x1080",
-          "frameRate": "60 fps and 60 fps+ capability",
-          "players": "Local multiplayer for 2 players",
-          "features": ["Optimized for Xbox Series X|S", "Xbox Play Anywhere", "Digital Deluxe Edition includes base game and upgrade"],
-          "requirements": "Xbox Series S console. 9 supported languages listed on Xbox Store."
+          "frameRate": "60 fps and 60 fps+ capability listed on Xbox Store",
+          "players": "Xbox local multiplayer listed; local play support confirmed",
+          "languages": [
+            "9 supported languages listed on Xbox Store"
+          ],
+          "features": ["Optimized for Xbox Series X|S", "Xbox Play Anywhere", "Digital Deluxe Edition includes base game and Digital Deluxe Upgrade"],
+          "requirements": "Xbox Series S console. Digital-only library with Xbox Play Anywhere support."
         },
         {
-          "platform": "Windows Store PC",
+          "icon": "Cpu",
+          "platform": "Windows Store / Microsoft Store PC",
           "releaseDate": "June 18, 2026",
-          "price": "$59.99 base game",
-          "storage": "20 GB PC target",
-          "resolution": "Up to 3840x2160 depending on hardware",
-          "frameRate": "Follows display and graphics settings",
-          "players": "Xbox Play Anywhere support",
-          "features": ["Xbox Play Anywhere", "Cloud save via Microsoft account", "9 supported languages"],
+          "price": "$59.99 base game; Digital Deluxe options available through Xbox and Microsoft storefronts",
+          "storage": "PC storage target follows the 20 GB PC requirement where listed",
+          "resolution": "PC display support up to 3840x2160 depending on hardware and display",
+          "frameRate": "PC frame-rate options follow display and graphics settings",
+          "players": "Xbox Play Anywhere support connects Xbox and Windows versions where eligible",
+          "languages": [
+            "9 supported languages listed on Xbox Store"
+          ],
+          "features": ["Xbox Play Anywhere", "Cloud save via Microsoft account", "Cross-buy between Xbox and Windows where eligible"],
           "requirements": "Windows 11 PC. Connects Xbox and Windows versions through Xbox Play Anywhere."
         },
         {
+          "icon": "Tablet",
           "platform": "Nintendo Switch 2",
           "releaseDate": "June 18, 2026",
-          "price": "Regional eShop pricing",
-          "storage": "14.5 GB download",
+          "price": "Regional eShop pricing; Digital Deluxe Edition and Digital Deluxe Upgrade listed on Nintendo storefronts",
+          "storage": "16.6 GB estimated; Nintendo UK lists 14.5 GB download size",
           "resolution": "Up to 1920x1080",
-          "frameRate": "TV mode up to 60 fps; handheld variable 30-60 fps",
-          "players": "Single-system local 1-2 players",
-          "features": ["TV, tabletop, and handheld modes", "Save Data Cloud", "Demo available", "DLC supported"],
-          "requirements": "Nintendo Switch 2 console. Languages include Japanese, English, Spanish, French, German, and Italian."
+          "frameRate": "TV mode up to 60 fps; handheld mode variable 30-60 fps",
+          "players": "Single-system local play: 1-2 players",
+          "languages": [
+            "Japanese",
+            "English",
+            "Spanish",
+            "French",
+            "German",
+            "Italian"
+          ],
+          "features": ["TV mode, tabletop mode, and handheld mode", "Save Data Cloud supported", "Demo available", "Downloadable content supported"],
+          "requirements": "Nintendo Switch 2 console. Nintendo Switch Online required for Save Data Cloud."
         }
       ]
     }
@@ -768,125 +886,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "walkthrough": {
+      "title": "The Adventures of Elliot Walkthrough",
+      "description": "Main-story routes, region progressions, dungeon order, and puzzle solutions for The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Walkthrough - Story & Dungeon Guide",
+      "metaDescription": "Complete The Adventures of Elliot: The Millennium Tales walkthrough covering main-story routes, dungeon progression, puzzle solutions, and the four ages.",
+      "categoryLabel": "STORY WALKTHROUGH",
+      "whatIs": "What is the Walkthrough?",
+      "whatIsDescription": "Main-story flow, region routes, dungeon progression, and puzzle order across the four ages. Built from the official story setup and platform gameplay descriptions.",
+      "why": "Why follow the walkthrough?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Follow the Main Story",
+        "step1Description": "Track the critical path through each age and dungeon",
+        "step2Title": "Solve Puzzles in Order",
+        "step2Description": "Open routes and Shrines of the Mystic in the right sequence",
+        "step3Title": "Explore Side Areas",
+        "step3Description": "Find weapons, Magicite, and treasure beyond the main route"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Walkthrough Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "weapons": {
+      "title": "The Adventures of Elliot Weapons",
+      "description": "All seven weapon types, two-weapon loadouts, weapon switching, and combat roles across The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Weapons - All 7 Types & Loadouts",
+      "metaDescription": "Master the seven weapon types in The Adventures of Elliot: The Millennium Tales. Learn weapon switching, loadouts, and the best role for each weapon.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "What are Weapons?",
+      "whatIsDescription": "Guides to the seven weapon types, two-weapon loadouts, real-time switching, and the combat role of each weapon without Magicite detail duplication.",
+      "why": "Why study weapons?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Learn Each Weapon Type",
+        "step1Description": "Understand sword, bow, bomb, boomerang, spear, hammer, and chains",
+        "step2Title": "Build Two-Weapon Loadouts",
+        "step2Description": "Pair a main weapon with a utility weapon for range and puzzles",
+        "step3Title": "Switch in Real Time",
+        "step3Description": "Swap weapons mid-combat to match each encounter"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Weapon Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "magicite": {
+      "title": "The Adventures of Elliot Magicite",
+      "description": "Magicite fragments, weapon customization, effect combinations, and early build ideas for The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Magicite - Builds & Customization",
+      "metaDescription": "Master Magicite customization in The Adventures of Elliot: The Millennium Tales. Learn fragments, weapon effects, and build ideas for every weapon type.",
+      "categoryLabel": "MAGICITE BUILDS",
+      "whatIs": "What is Magicite?",
+      "whatIsDescription": "Magicite fragments customize weapon behavior, stats, and combat effects. Slot them into weapons to shape builds around the way you already play.",
+      "why": "Why customize Magicite?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Find Magicite Fragments",
+        "step1Description": "Search dungeons and exploration routes for fragments",
+        "step2Title": "Slot Fragments into Weapons",
+        "step2Description": "Strengthen weapons with effects that match your playstyle",
+        "step3Title": "Build Around a Strategy",
+        "step3Description": "Stack effects for guard, counterattack, range, or burst builds"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Magicite Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "faie": {
+      "title": "The Adventures of Elliot Faie Guide",
+      "description": "Faie support, scouting, item retrieval, magic, and local co-op control across The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Faie - Magic, Scouting & Co-op",
+      "metaDescription": "Learn how Faie supports exploration in The Adventures of Elliot: The Millennium Tales. Scouting, item retrieval, Warp, Ignite, Vacuum, Copy, and local co-op.",
+      "categoryLabel": "FAIE MAGIC",
+      "whatIs": "What is Faie?",
+      "whatIsDescription": "Faie is Elliot's fairy companion. She scouts, retrieves items, supports combat, learns magic from Shrines of the Mystic, and can be controlled by a second local player.",
+      "why": "Why use Faie?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Scout and Retrieve",
+        "step1Description": "Send Faie ahead to check danger and grab distant objects",
+        "step2Title": "Learn Faie Magic",
+        "step2Description": "Unlock Warp, Ignite, Vacuum, and Copy at Shrines of the Mystic",
+        "step3Title": "Play Local Co-op",
+        "step3Description": "Let a second player control Faie for shared exploration"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Faie Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "ages": {
+      "title": "The Adventures of Elliot Four Ages",
+      "description": "The four ages, the Doorway of Time, era differences, and map changes across The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Four Ages - Doorway of Time Guide",
+      "metaDescription": "Explore the four ages of The Adventures of Elliot: The Millennium Tales. Age of Safekeeping, Reconstruction, Magic, and Budding, plus the Doorway of Time.",
+      "categoryLabel": "FOUR AGES",
+      "whatIs": "What are the Four Ages?",
+      "whatIsDescription": "The Age of Safekeeping, Age of Reconstruction, Age of Magic, and Age of Budding, connected by the Doorway of Time, each with its own map and story differences.",
+      "why": "Why explore the ages?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Understand Each Age",
+        "step1Description": "Learn how Safekeeping, Reconstruction, Magic, and Budding differ",
+        "step2Title": "Use the Doorway of Time",
+        "step2Description": "Travel between ages to solve cross-era puzzles",
+        "step3Title": "Track Map Changes",
+        "step3Description": "See how regions transform across the four ages"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Ages Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "bosses": {
+      "title": "The Adventures of Elliot Bosses",
+      "description": "Boss encounters, elite enemies, and dungeon combat strategy across The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Bosses - Encounters & Strategy",
+      "metaDescription": "Boss and elite-enemy strategy for The Adventures of Elliot: The Millennium Tales. Dungeon encounters, the Tag Guardians, and combat tactics for every fight.",
+      "categoryLabel": "BOSSES & DUNGEONS",
+      "whatIs": "What are Bosses?",
+      "whatIsDescription": "Boss and elite-enemy encounters inside dungeons, including the Tag Guardians at Doorway Ruins, with combat structure and positioning tactics.",
+      "why": "Why study bosses?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Learn Attack Patterns",
+        "step1Description": "Read boss tells and time blocks and dodges",
+        "step2Title": "Pick the Right Loadout",
+        "step2Description": "Choose weapons and Magicite that fit each encounter",
+        "step3Title": "Use Faie Support",
+        "step3Description": "Position Faie for safe attacks and Warp repositioning"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Boss Guides"
+    },
+    "demo": {
+      "title": "The Adventures of Elliot Demo Guide",
+      "description": "The Prologue Demo, Debut Demo, save-data carryover, and demo feedback changes for The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Demo - Prologue & Save Carryover",
+      "metaDescription": "Master the Prologue Demo of The Adventures of Elliot: The Millennium Tales. Download platforms, save-data carryover, weapons, and demo feedback changes.",
+      "categoryLabel": "PROLOGUE DEMO",
+      "whatIs": "What is the Demo?",
+      "whatIsDescription": "The Prologue and Debut Demos let players test the opening chapter, all seven weapons, Faie, Magicite, and fast travel, with save data carrying into the full game.",
+      "why": "Why play the demo?",
+      "whySteps": {
+        "step1Title": "Test Every System",
+        "step1Description": "Try weapons, Magicite, Faie magic, and fast travel early",
+        "step2Title": "Carry Save Data",
+        "step2Description": "Transfer your demo progress into the full game",
+        "step3Title": "Find Your Playstyle",
+        "step3Description": "Choose a preferred weapon and build before launch"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Demo Guides"
+    },
+    "platforms": {
+      "title": "The Adventures of Elliot Platforms",
+      "description": "Release date, platforms, pricing, editions, system requirements, file size, languages, and performance for The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "The Adventures of Elliot Platforms - Specs & Performance",
+      "metaDescription": "Compare The Adventures of Elliot: The Millennium Tales across Steam, PS5, Xbox Series X|S, Windows, and Nintendo Switch 2. Specs, pricing, languages, and performance.",
+      "categoryLabel": "PLATFORMS & SPECS",
+      "whatIs": "What are the Platforms?",
+      "whatIsDescription": "Buy-before-you-play info: release date, platform list, pricing, editions, system requirements, file size, language support, and platform-specific features.",
+      "why": "Why compare platforms?",
+      "whySteps": {
+        "step1Title": "Check System Requirements",
+        "step1Description": "Confirm your PC meets the Steam minimum and recommended specs",
+        "step2Title": "Compare Consoles",
+        "step2Description": "Weigh resolution, frame rate, and file size across PS5, Xbox, and Switch 2",
+        "step3Title": "Pick the Right Edition",
+        "step3Description": "Choose Standard, Digital Deluxe, Deluxe Upgrade, or Collector's Edition"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Guides"
     }
   }
 }
