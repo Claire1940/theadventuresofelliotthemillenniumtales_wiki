@@ -1,11 +1,1130 @@
 {
+  "seo": {
+    "home": {
+      "title": "The Adventures of Elliot - Armas y guía paso a paso",
+      "description": "Explora las guías de la wiki de The Adventures of Elliot: The Millennium Tales para encontrar guías paso a paso, armas, magia Faie, builds de magicite, jefes, bonificaciones de la demo, plataformas y el lore de la historia.",
+      "keywords": "The Adventures of Elliot, Millennium Tales, wiki, guía paso a paso, armas, magicite, jefes, Faie, RPG HD-2D",
+      "ogTitle": "Wiki de The Adventures of Elliot - Armas, guía y builds",
+      "ogDescription": "Explora las guías de la wiki de The Adventures of Elliot: The Millennium Tales para encontrar guías paso a paso, armas, builds de magicite, magia Faie, jefes, bonificaciones de la demo y plataformas.",
+      "twitterTitle": "Wiki de The Adventures of Elliot - Armas, guía y builds",
+      "twitterDescription": "Wiki de The Adventures of Elliot: The Millennium Tales - guías paso a paso, armas, builds de magicite, magia Faie, jefes y plataformas."
+    }
+  },
   "nav": {
-    "review": "Reseñas",
+    "review": "Análisis",
     "platforms": "Plataformas",
     "demo": "Demo",
     "release": "Lanzamiento",
     "edition": "Edición",
     "guide": "Guía",
-    "features": "Funciones"
+    "features": "Características"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "RPG de acción HD-2D",
+    "title": "Wiki de The Adventures of Elliot: The Millennium Tales",
+    "description": "Explora la wiki de The Adventures of Elliot: The Millennium Tales para encontrar armas, builds de magicite, magia Faie, las cuatro eras, jefes, bonificaciones de la demo, plataformas y el lore de la historia.",
+    "getFreeCodesCTA": "Ver guía de la demo",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "18 de jun. de 2026",
+        "label": "Fecha de lanzamiento"
+      },
+      "stat2": {
+        "value": "Switch 2 / PS5 / Xbox / PC",
+        "label": "Plataformas"
+      },
+      "stat3": {
+        "value": "Mayormente positivas",
+        "label": "Reseñas de Steam"
+      },
+      "stat4": {
+        "value": "7",
+        "label": "Tipos de armas"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de The Adventures of Elliot",
+    "description": "Combate en tiempo real, cambio de armas, apoyo de Faie, personalización de Magicite y exploración con viajes en el tiempo a través de cuatro eras en este RPG de acción en HD-2D."
+  },
+  "tools": {
+    "title": "The Adventures of Elliot",
+    "titleHighlight": "Guías",
+    "subtitle": "Guías paso a paso, armas, magia de Faie, builds de magicite, guías de la demo y especificaciones de plataforma para The Adventures of Elliot: The Millennium Tales.",
+    "cards": [
+      {
+        "icon": "Tienda",
+        "title": "Lanzamiento y enlaces de tiendas",
+        "description": "Fecha de lanzamiento, ediciones y tiendas oficiales en todas las plataformas."
+      },
+      {
+        "icon": "Trofeo",
+        "title": "Puntuaciones de los análisis",
+        "description": "Veredictos de la crítica y valoraciones de tiendas de Steam, PS5 y los principales medios de comunicación."
+      },
+      {
+        "icon": "CirclePlay",
+        "title": "Guía de la demo del prólogo",
+        "description": "Descarga, explora y transfiere tu partida guardada de la demo al juego completo."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Consejos para las primeras horas sobre combate, exploración, armas y apoyo de Faie."
+      },
+      {
+        "icon": "Swords",
+        "title": "Armas y Magicite",
+        "description": "Los siete tipos de armas, configuraciones e ideas iniciales de builds de magicite."
+      },
+      {
+        "icon": "WandSparkles",
+        "title": "Magia de Faie y cooperativo",
+        "description": "Apoyo de Faie, Warp, Ignite, Vacuum, Copy y juego local para 1 o 2 jugadores."
+      },
+      {
+        "icon": "Gift",
+        "title": "Bonificaciones y ediciones",
+        "description": "Bonificaciones por datos de guardado, objetos Deluxe, packs de reserva y ediciones."
+      },
+      {
+        "icon": "MonitorSmartphone",
+        "title": "Especificaciones de plataforma",
+        "description": "Compara las especificaciones y el rendimiento en Steam, PS5, Xbox, PC y Switch 2."
+      }
+    ]
+  },
+  "modules": {
+    "releaseLinks": {
+      "title": "Fecha de lanzamiento, plataformas y enlaces de tiendas de The Adventures of Elliot",
+      "intro": "The Adventures of Elliot: The Millennium Tales se lanzó el 18 de junio de 2026 para PS5, Xbox Series X|S, PC, Steam y Nintendo Switch 2. Esta sección ofrece a los jugadores los lugares oficiales para comprar, descargar o probar la demo del prólogo. La Standard Edition cuesta 59,99 $ en Steam, PlayStation y Xbox, con una Digital Deluxe Edition por 69,99 $ y una Deluxe Upgrade por 10,00 $ en las tiendas compatibles.",
+      "items": [
+        {
+          "label": "Sitio web oficial",
+          "href": "https://www.square-enix.com/the-adventures-of-elliot-the-millennium-tales/en-us/",
+          "platform": "Square Enix",
+          "releaseDate": "18 de junio de 2026",
+          "details": "Portal oficial del juego con descripción general, tráileres, enlaces de plataformas, especificaciones del sistema, capturas de pantalla y acceso a la demo.",
+          "highlights": [
+            "RPG de acción en HD-2D de Square Enix y Claytechworks",
+            "Incluye PlayStation, Xbox, Steam y Nintendo Switch 2",
+            "Contiene tráileres, capturas de pantalla y especificaciones de plataformas",
+            "Punto de acceso para la demo del prólogo"
+          ]
+        },
+        {
+          "label": "Steam",
+          "href": "https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/",
+          "platform": "PC a través de Steam",
+          "releaseDate": "18 de junio de 2026",
+          "details": "Edición Estándar de $59.99, Edición Digital Deluxe de $69.99 y una mejora Deluxe de $10.00.",
+          "highlights": [
+            "Categorías de Acción, Aventura y RPG",
+            "Logros de Steam, Steam Cloud y Compartir en familia",
+            "Funciones para un jugador y multijugador listadas",
+            "Demo del prólogo con transferencia de datos de guardado",
+            "Audio completo en inglés y japonés"
+          ]
+        },
+        {
+          "label": "PlayStation",
+          "href": "https://www.playstation.com/en-us/games/the-adventures-of-elliot-the-millennium-tales/",
+          "platform": "PS5",
+          "releaseDate": "18 de junio de 2026",
+          "details": "Edición Estándar de $59.99, Edición Digital Deluxe de $69.99 y una mejora Deluxe de $10.00.",
+          "highlights": [
+            "Versión de PS5 compatible con Remote Play",
+            "Compatible con la vibración DualSense",
+            "Juego sin conexión para 1-2 jugadores",
+            "21 funciones de accesibilidad listadas",
+            "Demo gratuita del prólogo de PS5 disponible"
+          ]
+        },
+        {
+          "label": "Xbox",
+          "href": "https://www.xbox.com/en-US/games/store/the-adventures-of-elliot-the-millennium-tales/9PP9456CW5W3",
+          "platform": "Xbox Series X|S",
+          "releaseDate": "18 de junio de 2026",
+          "details": "Edición Estándar desde $59.99 y Edición Digital Deluxe desde $69.99 con una mejora Deluxe de $10.00.",
+          "highlights": [
+            "Optimizado para Xbox Series X|S",
+            "Compatible con Xbox Play Anywhere",
+            "4K Ultra HD con capacidad de más de 60 fps",
+            "Multijugador local para 2 jugadores",
+            "Demo independiente del prólogo compatible con Cloud Gaming"
+          ]
+        },
+        {
+          "label": "Nintendo Switch 2",
+          "href": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/The-Adventures-of-Elliot-The-Millennium-Tales-2882226.html",
+          "platform": "Nintendo Switch 2",
+          "releaseDate": "18 de junio de 2026",
+          "details": "Precios regionales en la Nintendo eShop con opciones para la Edición Digital Deluxe y la mejora Deluxe.",
+          "highlights": [
+            "Modos televisor, sobremesa y portátil",
+            "Juego local en una misma consola para 1-2 jugadores",
+            "Guardado de datos en la nube a través de Nintendo Switch Online",
+            "Categorías de Acción y RPG",
+            "Tamaño de la descarga: 14,5 GB"
+          ]
+        }
+      ]
+    },
+    "reviewRatings": {
+      "title": "Calificaciones de la crítica, valoraciones de Steam y comentarios de los jugadores de The Adventures of Elliot",
+      "intro": "Las reseñas de la crítica elogian la presentación HD-2D, el dinámico combate de acción, el ritmo ágil y el diseño accesible. Los datos de las tiendas de los jugadores destacan un lanzamiento mayormente positivo en Steam y una sólida calificación en la PlayStation Store.",
+      "items": [
+        {
+          "source": "Steam",
+          "href": "https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/",
+          "scoreLabel": "Mayormente positivas",
+          "detail": "71 % de reseñas positivas de un total de 171 opiniones de usuarios en el resumen general de Steam.",
+          "sentiment": "Los jugadores se muestran generalmente positivos en PC, y las etiquetas de la tienda destacan RPG de acción, JRPG, Un jugador, Cooperativo y Cooperativo local.",
+          "pros": [
+            "Combate rápido de RPG de acción",
+            "Cambio de armas y personalización de magicita",
+            "Demo disponible en Steam",
+            "Audio completo en inglés y japonés"
+          ],
+          "cons": [
+            "Denuvo Anti-tamper listado en Steam",
+            "La experiencia en PC depende de la configuración de hardware de Windows 11",
+            "El volumen de reseñas aún se centra en los comentarios del periodo de lanzamiento"
+          ]
+        },
+        {
+          "source": "PlayStation Store",
+          "href": "https://store.playstation.com/en-us/concept/10007935/",
+          "scoreLabel": "4,54 / 5",
+          "detail": "Calificación promedio en PlayStation Store basada en 1535 valoraciones de jugadores.",
+          "sentiment": "La calificación en la tienda de PS5 es muy positiva y destaca el soporte offline para 1 o 2 jugadores, el Uso a distancia y la vibración DualSense.",
+          "pros": [
+            "Alta calificación de los jugadores en PlayStation Store",
+            "Soporte para Uso a distancia en PS5",
+            "Vibración DualSense",
+            "Demo de prólogo gratuita disponible"
+          ],
+          "cons": [
+            "La lista de idiomas en PlayStation es más limitada que en Steam",
+            "El detalle de las reseñas en la tienda es limitado en comparación con el de la crítica"
+          ]
+        },
+        {
+          "source": "PC Gamer",
+          "href": "https://www.pcgamer.com/games/rpg/the-adventures-of-elliot-the-millennium-tales-review/",
+          "scoreLabel": "76 / 100",
+          "detail": "Reseña de PC Gamer por Baxter Burchill, publicada el 17 de junio de 2026.",
+          "sentiment": "Un dinámico RPG de acción y viajes en el tiempo con un combate hack-and-slash de alta energía, un ritmo ágil y eficaces habilidades de apoyo de Faie.",
+          "pros": [
+            "Flujo de combate rápido",
+            "Estructura de aventura compacta",
+            "Faie añade apoyo estratégico",
+            "Variedad clara de armas"
+          ],
+          "cons": [
+            "La estructura de la historia resulta familiar",
+            "Algunas ubicaciones se sienten muy vistas",
+            "Los diálogos de Faie pueden llegar a ser intrusivos"
+          ]
+        },
+        {
+          "source": "GamesRadar+",
+          "href": "https://www.gamesradar.com/games/rpg/the-adventures-of-elliot-the-millenium-tales-review/",
+          "scoreLabel": "4,5 / 5",
+          "detail": "Reseña de GamesRadar+ por Luke Kemp, publicada el 17 de junio de 2026.",
+          "sentiment": "Expansivo sin resultar intimidante, variado sin resultar abrumador y familiar sin sentirse gastado.",
+          "pros": [
+            "Presentación soberbia",
+            "Gran variedad de diseño",
+            "Accesible sin ser demasiado fácil",
+            "La exploración y el combate se mantienen frescos"
+          ],
+          "cons": [
+            "La historia y el guion son menos ambiciosos que los sistemas",
+            "La narrativa no arriesga tanto como el diseño del combate"
+          ]
+        },
+        {
+          "source": "The Guardian",
+          "href": "https://www.theguardian.com/games/2026/jun/18/the-adventures-of-elliot-the-millennium-tales-review",
+          "scoreLabel": "Recomendado",
+          "detail": "Reseña de The Guardian por Tom Regan, publicada el 18 de junio de 2026.",
+          "sentiment": "Un encantador RPG de acción de estilo retro con exploración al estilo Zelda, búsqueda de tesoros, exploración de templos y una personalización del combate más profunda de lo esperado.",
+          "pros": [
+            "Encantadora presentación en HD-2D",
+            "Combate profundo y personalizable",
+            "Hada acompañante útil para los acertijos",
+            "El viaje rápido y las pistas mejoran la accesibilidad"
+          ],
+          "cons": [
+            "El tono puede ser muy dulce",
+            "La historia no es especialmente ambiciosa",
+            "Algunos elementos de fantasía resultan tradicionales"
+          ]
+        }
+      ]
+    },
+    "prologueDemo": {
+      "title": "Guía de la demo del prólogo de The Adventures of Elliot",
+      "intro": "La demo del prólogo permite a los jugadores experimentar el capítulo inicial, explorar las primeras regiones, probar armas y Magicite, y transferir los datos de guardado al juego completo. Las bonificaciones por vinculación de datos de guardado se canjean en la versión final del juego y no dentro de la demo.",
+      "steps": [
+        {
+          "title": "Descarga la demo desde una plataforma oficial",
+          "description": "Usa la página oficial de la demo de Square Enix o la tienda de la plataforma para Steam, PlayStation Store, Xbox Store o Nintendo Switch 2. La demo es gratuita en las tiendas indicadas.",
+          "links": [
+            {
+              "label": "Página oficial de la demo",
+              "href": "https://www.square-enix.com/the-adventures-of-elliot-the-millennium-tales/en-us/download-demo/"
+            },
+            {
+              "label": "Steam",
+              "href": "https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/"
+            },
+            {
+              "label": "PlayStation Store",
+              "href": "https://store.playstation.com/en-us/product/UP0082-PPSA34260_00-ELLIOTDEMO0000UP"
+            },
+            {
+              "label": "Xbox Store",
+              "href": "https://www.xbox.com/en-US/games/store/the-adventures-of-elliot-the-millennium-tales-prologue-demo/9PN337Z8HRH1/0010/9WDHDNK8NVVG"
+            }
+          ]
+        },
+        {
+          "title": "Comienza con el capítulo inicial",
+          "description": "La demo da acceso al inicio de la historia y permite a los jugadores progresar en la misión principal mientras exploran zonas secundarias. Muestra la misma libertad básica que los jugadores tendrán en el juego completo."
+        },
+        {
+          "title": "Explora en busca de armas y Magicite",
+          "description": "No vayas con prisa solo por el camino principal. La demo anima a los jugadores a explorar el terreno y las mazmorras en busca de armas, Magicite, tesoros, materiales y objetos útiles."
+        },
+        {
+          "title": "Prueba todos los tipos de armas",
+          "description": "El avance de la demo de PlayStation Blog menciona que esta incluye los siete tipos de armas. Los jugadores pueden probar opciones de corto y largo alcance, como la espada, el martillo, el bumerán y otros estilos, antes de elegir sus combinaciones preferidas."
+        },
+        {
+          "title": "Usa a Faie para la magia, los acertijos y el movimiento",
+          "description": "Faie es más que una compañera de historia. Puede servir de apoyo en el combate, ayudar a resolver acertijos y desbloquear Warp a través del Shrine of the Mystic, lo que permite a Elliot teletransportarse a su ubicación."
+        },
+        {
+          "title": "Usa el viaje rápido tras encontrar postes de guía",
+          "description": "La demo permite el viaje rápido a los postes de guía de aventura descubiertos en las dos eras de la demo, lo que facilita la exploración y la limpieza tras el descubrimiento inicial."
+        },
+        {
+          "title": "Transfiere tus datos de guardado al juego completo",
+          "description": "Los datos de guardado de la Prologue Demo se pueden transferir al juego completo. Las bonificaciones por datos de guardado vinculados se gestionarán en la versión final y no se pueden canjear en la demo."
+        },
+        {
+          "title": "Conoce los límites de la demo",
+          "description": "La Prologue Demo utiliza contenido del juego final, pero limita las zonas accesibles. Tómala como un avance del primer capítulo, una prueba de una versión preliminar y un punto de partida para la transferencia de datos de guardado, en lugar de una guía de juego completa."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Guía de inicio de The Adventures of Elliot para combate, exploración y progreso inicial",
+      "intro": "The Adventures of Elliot comienza como una luminosa aventura de fantasía y luego pide a los jugadores que hagan malabares con el movimiento, el bloqueo, la durabilidad de las armas, el control de Faie, las elecciones de Magicite, el botín oculto y la exploración con viajes en el tiempo. El enfoque inicial más seguro es explorar antes de avanzar corriendo, bloquear a tiempo en lugar de esquivar todo por pánico, experimentar con dos armas equipadas y romper objetos sospechosos para obtener botín.",
+      "items": [
+        {
+          "title": "Explora el terreno con Faie",
+          "category": "Exploración",
+          "summary": "Usa a Faie para revisar caminos peligrosos, atacar a distancia e interactuar con objetos antes de que Elliot se meta en problemas.",
+          "details": "Se puede controlar a Faie de forma independiente. Envíala adelante en espacios de riesgo, prueba las posiciones de los enemigos, recoge objetos y ayuda a resolver puzles antes de comprometer a Elliot en una ruta peligrosa."
+        },
+        {
+          "title": "Practica el bloqueo perfecto desde el principio",
+          "category": "Combate",
+          "summary": "Los bloqueos bien sincronizados reducen el daño, pueden aturdir a los enemigos y reflejar ciertos ataques.",
+          "details": "El bloqueo se introduce pronto y vale la pena practicarlo de inmediato. Aprende el ritmo de los movimientos enemigos comunes y usa bloqueos sincronizados para crear ventanas de contraataque más seguras."
+        },
+        {
+          "title": "Equipa dos armas y cambia a menudo",
+          "category": "Armas",
+          "summary": "Elliot puede equipar hasta dos armas a la vez y cambiarlas en tiempo real durante el combate.",
+          "details": "Usa un arma para combates generales más seguros y otra para el alcance, el control de masas o situaciones de golpes pesados. Cambiar de arma también ayuda a gestionar la durabilidad y hace que los primeros combates sean más fluidos."
+        },
+        {
+          "title": "Prueba los siete tipos de armas en la demo",
+          "category": "Armas",
+          "summary": "La Prologue Demo incluye los siete tipos de armas, lo que ofrece a los jugadores un lugar seguro para encontrar su estilo de combate preferido.",
+          "details": "El avance de PlayStation Blog destaca el ataque cargado del martillo y el daño a distancia del bumerán. Prueba todos los tipos antes de juzgar el sistema de combate, el cual está diseñado en torno a la variedad de armas."
+        },
+        {
+          "title": "Usa Magicite para dar forma a tu build",
+          "category": "Mejoras",
+          "summary": "La Magicite cambia el comportamiento de las armas, las estadísticas y los efectos de combate.",
+          "details": "Busca fragmentos de Magicite en mazmorras y rutas de exploración, y luego colócalos en las armas para potenciar tu estilo de juego actual. Los comentarios de la demo de Square Enix también confirman menús de Magicite mejorados y Magicite Boxes específicas para cada arma."
+        },
+        {
+          "title": "Rompe vasijas, tarros, cajas y hierba",
+          "category": "Botín",
+          "summary": "Los objetos pequeños del entorno pueden ocultar materiales, botín y objetos útiles.",
+          "details": "Considera los elementos sospechosos del entorno como una fuente de recursos, especialmente antes de entrar en zonas más difíciles o gastar dinero. Romper objetos durante la exploración es una fuente inicial fiable de materiales."
+        },
+        {
+          "title": "Desbloquea y usa los postes de guía de viaje rápido",
+          "category": "Navegación",
+          "summary": "Los postes de guía de aventura descubiertos permiten el viaje rápido entre las ubicaciones de la era de la demo.",
+          "details": "El viaje rápido reduce tener que volver sobre tus pasos una vez que has abierto rutas y encontrado postes de guía. Prioriza la activación de postes de guía al explorar, ya que la limpieza posterior será mucho más fácil."
+        },
+        {
+          "title": "Visita el Shrine of the Mystic para obtener el Warp de Faie",
+          "category": "Movimiento",
+          "summary": "El Warp de Faie permite a Elliot teletransportarse a su posición y es útil tanto para resolver puzles como para lidiar con la presión enemiga.",
+          "details": "Warp es una habilidad inicial importante que se aprende en un Shrine of the Mystic. Úsala para resolver rutas de puzles, moverte a través de brechas y escapar de posiciones de combate incómodas."
+        },
+        {
+          "title": "Elige una dificultad que se adapte a tu objetivo",
+          "category": "Ajustes",
+          "summary": "El juego final incluye los niveles de dificultad fácil, normal, difícil y muy difícil.",
+          "details": "Square Enix confirmó opciones de dificultad ampliadas tras los comentarios de la demo de debut. Usa los ajustes más fáciles para la exploración y el fluir de la historia, o los más difíciles cuando quieras que bloquear y posicionarse importen más."
+        },
+        {
+          "title": "No consideres la demo como el recorrido completo",
+          "category": "Progresión",
+          "summary": "La Demo del Prólogo contiene contenido de la versión final con límites de zona y compatibilidad para transferir la partida guardada.",
+          "details": "Usa la demo para aprender los sistemas principales, conseguir equipo inicial, probar la Magicita y preparar un archivo de guardado para el juego completo. Las rutas del final del juego y la progresión de la era completa pertenecen a la versión final."
+        }
+      ]
+    },
+    "weaponBuilds": {
+      "title": "Lista de niveles de armas e ideas de configuraciones de Magicita de The Adventures of Elliot",
+      "intro": "Elliot puede equipar hasta dos armas a la vez y cambiar entre ellas en tiempo real. Cada tipo de arma tiene un ritmo de combate, utilidad y ruta de Magicita diferentes, por lo que las configuraciones fuertes suelen combinar un arma principal fiable con un arma de apoyo para puzles, alcance, control de masas o daño explosivo.",
+      "tiers": [
+        {
+          "tier": "Iniciales esenciales",
+          "label": "Las mejores opciones todoterreno para el principio",
+          "entries": [
+            {
+              "icon": "Escudo",
+              "weapon": "Espada y escudo",
+              "role": "Combate cuerpo a cuerpo equilibrado, bloqueos y contraataques",
+              "mechanics": [
+                "Tajo rápido de espada de amplio alcance",
+                "El ataque cargado lanza tajos hacia delante",
+                "El escudo solo bloquea los ataques frontales",
+                "La espada y el escudo se pueden personalizar con Magicita"
+              ],
+              "pairings": [
+                "Arco para presionar a distancia de forma segura",
+                "Bomba para paredes agrietadas y daño explosivo",
+                "Lanza para tener más alcance y aperturas más seguras"
+              ],
+              "buildIdeas": [
+                "Configuración de espada centrada en la guardia para una exploración más segura",
+                "Configuración de contraataque que recompensa los bloqueos",
+                "Configuración de tajo volador para presionar con la espada a distancia"
+              ]
+            },
+            {
+              "icon": "Objetivo",
+              "weapon": "Arco",
+              "role": "Ataques a distancia y control seguro de los enemigos",
+              "mechanics": [
+                "El ataque normal dispara una flecha",
+                "El ataque especial dispara varias flechas en abanico consumiendo una sola flecha",
+                "Útil para enemigos o interruptores difíciles de alcanzar de cerca"
+              ],
+              "pairings": [
+                "Espada y escudo para defenderse",
+                "Búmeran para utilidad de objetos y caminos",
+                "Lanza para un ataque de seguimiento cuerpo a cuerpo más seguro"
+              ],
+              "buildIdeas": [
+                "Configuración de inicio a distancia antes de cambiar a cuerpo a cuerpo",
+                "Configuración de exploración segura para enemigos fuera del alcance directo"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "Prioridad de utilidad",
+          "label": "Fuerte para la exploración y los puzles",
+          "entries": [
+            {
+              "icon": "Bomba",
+              "weapon": "Bomba",
+              "role": "Explosivos, paredes, rocas, explosión con retardo",
+              "mechanics": [
+                "Las bombas explotan tras un retardo",
+                "Las bombas pueden destruir rocas y muros agrietados",
+                "La magia Ígnea puede detonar explosivos"
+              ],
+              "pairings": [
+                "Espada y escudo para un combate cuerpo a cuerpo seguro",
+                "Búmeran para el control de objetos",
+                "Arco para enfrentamientos a distancia"
+              ],
+              "buildIdeas": [
+                "Configuración centrada en explosiones para obstáculos destructibles y daño de ráfaga",
+                "Configuración de combo de Ignición usando a Faie para detonar bombas mejoradas"
+              ]
+            },
+            {
+              "icon": "Girar en sentido horario",
+              "weapon": "Búmeran",
+              "role": "Proyectil de retorno, control de objetos, trayectoria de impactos múltiples",
+              "mechanics": [
+                "El búmeran puede dañar a los enemigos tanto en el trayecto de ida como en el de vuelta",
+                "Útil para interactuar a larga distancia durante la exploración",
+                "La magicita puede expandir las configuraciones de proyectiles basadas en el búmeran"
+              ],
+              "pairings": [
+                "Espada y escudo para defensa a corta distancia",
+                "Bomba para resolver puzles",
+                "Cadenas y hoces para el posicionamiento de enemigos"
+              ],
+              "buildIdeas": [
+                "Configuración de proyectiles múltiples con magicita de lanzamiento adicional",
+                "Combo de copia de Faie para una mayor cobertura de proyectiles"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "Combate de especialista",
+          "label": "Alto valor cuando el enfrentamiento es adecuado",
+          "entries": [
+            {
+              "icon": "Mover a la derecha",
+              "weapon": "Lanza",
+              "role": "Alcance, presión frontal, distanciamiento cuerpo a cuerpo más seguro",
+              "mechanics": [
+                "Ataca hacia adelante desde fuera del alcance cuerpo a cuerpo normal",
+                "El ataque especial es una carga hacia adelante",
+                "La magicita de lanza puede extender el alcance y facilitar el uso de armas de seguimiento"
+              ],
+              "pairings": [
+                "Espada y escudo para la defensa",
+                "Arco para acumular alcance",
+                "Martillo para ejercer una gran presión de aturdimiento"
+              ],
+              "buildIdeas": [
+                "Configuración centrada en el alcance para un combate cuerpo a cuerpo más seguro",
+                "Configuración de movilidad y ataque especial",
+                "Configuración de cambio de arma que potencia otras armas durante poco tiempo tras usar la lanza"
+              ]
+            },
+            {
+              "icon": "Martillo",
+              "weapon": "Martillo",
+              "role": "Golpes pesados, estacas, ataques lentos de gran impacto",
+              "mechanics": [
+                "Los ataques con martillo son lentos pero golpean con fuerza",
+                "El ataque especial es un golpe descendente",
+                "El martillo puede clavar estacas durante la exploración"
+              ],
+              "pairings": [
+                "Espada y escudo para opciones de recuperación más rápidas",
+                "Lanza para una aproximación más segura",
+                "Teletransporte de Faie para apoyo de posicionamiento"
+              ],
+              "buildIdeas": [
+                "Configuración de golpes pesados para enemigos más grandes",
+                "Equipamiento de utilidad para acertijos en rutas con pivotes"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "Control avanzado",
+          "label": "Ideal tras aprender a controlar la distancia con los enemigos",
+          "entries": [
+            {
+              "icon": "Ancla",
+              "weapon": "Cadenas y hoces",
+              "role": "Control de distancia, ataques circundantes y atracción de enemigos",
+              "mechanics": [
+                "Ataques a distancia y alrededor del área circundante de Elliot",
+                "El ataque especial atrae a los enemigos",
+                "Útil para controlar la posición de los enemigos"
+              ],
+              "pairings": [
+                "Espada y escudo para un seguimiento a corta distancia",
+                "Bomba para enemigos agrupados",
+                "Búmeran para un control más amplio"
+              ],
+              "buildIdeas": [
+                "Configuración de control de masas que atrae a los enemigos para realizar ataques de seguimiento más seguros",
+                "Configuración de control de área para encuentros con múltiples objetivos"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "faieGuide": {
+      "title": "Guía de magia de Faie, teletransporte y cooperativo local de The Adventures of Elliot",
+      "intro": "Faie es la compañera hada de Elliot, su aliada de apoyo y la opción para un segundo jugador. Su magia cambia la forma en que los jugadores exploran, resuelven acertijos, avanzan por las mazmorras y controlan los enfrentamientos con enemigos. Faie se puede controlar directamente con la palanca derecha, y un segundo jugador local también puede controlarla.",
+      "items": [
+        {
+          "icon": "Joystick",
+          "category": "Control directo",
+          "title": "Controla a Faie con la palanca derecha",
+          "details": [
+            "Faie puede moverse de forma independiente de Elliot para explorar e interactuar con objetos.",
+            "Puede recuperar objetos lejanos y ayudar al jugador a inspeccionar zonas peligrosas antes de que entre Elliot.",
+            "Útil en mazmorras donde los enemigos, interruptores, peligros u objetos se encuentran fuera del camino directo de Elliot."
+          ],
+          "bestFor": [
+            "Exploración",
+            "Recuperación de objetos",
+            "Distancia con los enemigos",
+            "Preparación de acertijos"
+          ]
+        },
+        {
+          "icon": "Usuarios",
+          "category": "Cooperativo local",
+          "title": "Soporte para 1 o 2 jugadores locales",
+          "details": [
+            "El juego es compatible con el juego local para uno o dos jugadores en las plataformas compatibles.",
+            "En el modo cooperativo local, un jugador puede controlar a Elliot mientras que el otro controla a Faie.",
+            "El movimiento independiente de Faie permite al segundo jugador brindar apoyo en combate, acertijos, exploración y manejo de objetos."
+          ],
+          "bestFor": [
+            "Exploración compartida",
+            "Juego de apoyo",
+            "Coordinación de acertijos",
+            "Rutas más seguras en mazmorras"
+          ]
+        },
+        {
+          "icon": "Teletransporte",
+          "category": "Magia de teletransporte",
+          "title": "Teletransporta a Elliot con Faie",
+          "details": [
+            "El teletransporte se aprende en un Santuario del Místico.",
+            "El teletransporte transporta a Elliot a la posición de Faie.",
+            "Se puede usar para el desplazamiento en acertijos, esquivar peligros, reposicionarse frente a los enemigos y escapar de situaciones difíciles."
+          ],
+          "bestFor": [
+            "Atajos en acertijos",
+            "Esquivar ataques",
+            "Ponerse detrás de los enemigos",
+            "Cruzar terrenos difíciles"
+          ]
+        },
+        {
+          "icon": "Llama",
+          "category": "Magia de ignición",
+          "title": "Encender, derretir y detonar",
+          "details": [
+            "Ignición puede encender antorchas y derretir hielo.",
+            "También puede detonar explosivos, incluidas las bombas que se usan en combate y en la resolución de acertijos.",
+            "Ignición funciona especialmente bien con configuraciones basadas en bombas que se benefician del control del tiempo de explosión."
+          ],
+          "bestFor": [
+            "Acertijos de antorchas",
+            "Obstáculos de hielo",
+            "Combos de bombas",
+            "Detonaciones temporizadas"
+          ]
+        },
+        {
+          "icon": "Tornado",
+          "category": "Magia de vacío",
+          "title": "Atraer enemigos y objetos",
+          "details": [
+            "Vacío atrae a los enemigos y objetos cercanos hacia la magia de Faie.",
+            "Permite recoger objetos caídos y botín con mayor facilidad.",
+            "Los enemigos afectados por Vacío pueden ser reposicionados para realizar ataques de seguimiento o desplazados hacia peligros."
+          ],
+          "bestFor": [
+            "Recogida de botín",
+            "Control de masas",
+            "Agrupamiento de enemigos",
+            "Movimiento de objetos"
+          ]
+        },
+        {
+          "icon": "Copia",
+          "category": "Magia de copia",
+          "title": "Reflejar las acciones de Elliot",
+          "details": [
+            "Copia permite a Faie imitar los movimientos y acciones de Elliot.",
+            "Puede ayudar con interruptores y acciones sincronizadas en acertijos.",
+            "Copia también puede interactuar con acciones de armas, incluidas las de espada, lanza, bomba y objetos arrojadizos."
+          ],
+          "bestFor": [
+            "Acertijos de interruptores",
+            "Movimiento sincronizado",
+            "Combos de proyectiles",
+            "Cobertura de ataque adicional"
+          ]
+        },
+        {
+          "icon": "Retícula",
+          "category": "Apoyo de combate",
+          "title": "Ataque, rescate y reposicionamiento",
+          "details": [
+            "Faie puede ayudar a atacar a los enemigos desde una distancia más segura.",
+            "Puede apoyar el posicionamiento estableciendo ubicaciones de teletransporte.",
+            "Faie también puede revivir a Elliot gastando tul."
+          ],
+          "bestFor": [
+            "Enfrentamiento más seguro con enemigos",
+            "Recuperación de emergencia",
+            "Posicionamiento de jefes",
+            "Supervivencia en mazmorras"
+          ]
+        }
+      ]
+    },
+    "codesBonuses": {
+      "title": "Códigos, bonificaciones de datos de guardado, objetos Deluxe y ediciones de The Adventures of Elliot",
+      "intro": "The Adventures of Elliot utiliza bonificaciones de plataforma, recompensas de datos de guardado, accesorios de la edición Digital Deluxe y objetos de la Collector's Edition en lugar de una lista de códigos pública general. Usa esta sección para averiguar qué recompensas provienen de los datos de guardado, compras de ediciones, campañas de reserva y paquetes de la tienda.",
+      "items": [
+        {
+          "icon": "Guardado",
+          "type": "Bonificación de datos de guardado",
+          "name": "Bonificación de OCTOPATH TRAVELER 0",
+          "reward": "Magicita de espada: Guía de la Llama Sagrada",
+          "effect": "Aumenta el daño de espada a los enemigos con un 30% o menos de vitalidad en un 10%.",
+          "claim": "Usa Bonificación promocional en la pantalla de título, vincula el título apto y luego reclama las bonificaciones en el escritorio del segundo piso del orfanato en la Era de la Custodia.",
+          "platformNotes": [
+            "Los datos de guardado aptos deben estar en la misma familia de plataformas compatibles.",
+            "La elegibilidad de Steam utiliza el historial de compras."
+          ]
+        },
+        {
+          "icon": "Disco duro",
+          "type": "Bonificación de datos de guardado",
+          "name": "Bonificación de DRAGON QUEST I & II HD-2D Remake",
+          "reward": "Magicita de espada: Golpe crítico",
+          "effect": "Aumenta la probabilidad de golpe crítico de la espada en un 6%.",
+          "claim": "Reclámalo a través del flujo de Bonificación promocional y en el escritorio del orfanato después de iniciar el juego.",
+          "platformNotes": [
+            "Los datos de guardado en la nube deben descargarse en el sistema correspondiente cuando sea necesario.",
+            "Se requieren datos de guardado transferidos para los guardados de generaciones anteriores donde se aplique la transferencia de plataforma."
+          ]
+        },
+        {
+          "icon": "Disco",
+          "type": "Bonificación de datos de guardado",
+          "name": "Bonificación de BRAVELY DEFAULT FLYING FAIRY HD Remaster",
+          "reward": "Magicita de espada: Brave",
+          "effect": "Aumenta el daño de espada infligido en un 10%, a la vez que consume un poco más de resistencia del escudo al defenderse.",
+          "claim": "Reclámalo a través de Bonificación promocional y en la ubicación de recompensa del escritorio del orfanato.",
+          "platformNotes": [
+            "La bonificación se puede reclamar incluso si los datos de guardado aptos se crean más adelante."
+          ]
+        },
+        {
+          "icon": "Memory Stick",
+          "type": "Bonificación de datos de guardado",
+          "name": "Bonificación de VARIOUS DAYLIFE",
+          "reward": "Magicita de espada: Sabiduría expedicionaria",
+          "effect": "Reduce el tiempo de carga de la espada en un 10%.",
+          "claim": "Reclámalo a través del flujo de Bonificación promocional en la pantalla de título y en el escritorio del orfanato.",
+          "platformNotes": [
+            "El orfanato debe estar accesible en la historia para poder reclamar el objeto."
+          ]
+        },
+        {
+          "icon": "Servidor",
+          "type": "Bonificación por datos de guardado",
+          "name": "Bonificación de TRIANGLE STRATEGY",
+          "reward": "Magicita de espada: Postura de contraataque",
+          "effect": "Aumenta el daño de espada en un 10 % cuando la resistencia del escudo es igual o superior al 90 %.",
+          "claim": "Reclámalo en el escritorio del orfanato tras vincular el título correspondiente desde Bonificación promocional.",
+          "platformNotes": [
+            "Funciona a través de las reglas oficiales de la campaña de bonificación por datos de guardado."
+          ]
+        },
+        {
+          "icon": "Pergamino",
+          "type": "Bonificación por datos de guardado",
+          "name": "Bonificación de Trials of Mana",
+          "reward": "Plumaje laurentino",
+          "effect": "Plumas ornamentales de cierto reino; tener este objeto provoca un encuentro en la ciudad.",
+          "claim": "Reclámalo mediante el mismo proceso de Bonificación promocional y el escritorio del orfanato.",
+          "platformNotes": [
+            "Este es un objeto de bonificación relacionado con un encuentro, en lugar de una recompensa de magicita de espada."
+          ]
+        },
+        {
+          "icon": "Bolsa de compras",
+          "type": "Bonificación por reserva digital",
+          "name": "Pack de partida de Elliot",
+          "reward": "Accesorio Broche de partida y magicita de espada Aumento de ataque",
+          "effect": "El Broche de partida aumenta ligeramente la obtención de tul y fragmentos de magicita de los enemigos.",
+          "claim": "Incluido como bonificación por reserva digital en las tiendas de las plataformas participantes antes de la fecha límite de reserva indicada.",
+          "platformNotes": [
+            "Xbox indica que la bonificación por reserva es válida hasta el 17 de junio de 2026 a las 23:59.",
+            "El contenido de la bonificación también podría venderse por separado más adelante."
+          ]
+        },
+        {
+          "icon": "Gema",
+          "type": "Edición Digital Deluxe",
+          "name": "Pack Digital Deluxe",
+          "reward": "Brazalete de hada, tobillera de flor de cerezo y anillo de Roselle",
+          "effect": "Set de accesorios incluido con la Edición Digital Deluxe y la mejora a la Edición Digital Deluxe.",
+          "claim": "Compra la Edición Digital Deluxe o la mejora a la Edición Digital Deluxe en las tiendas compatibles.",
+          "platformNotes": [
+            "La mejora a la Edición Digital Deluxe requiere el juego base.",
+            "Los mismos accesorios están incluidos en la Edición Digital Deluxe, así que evita comprar contenido duplicado."
+          ]
+        },
+        {
+          "icon": "Paquete",
+          "type": "Edición de coleccionista",
+          "name": "Edición de coleccionista de la Square Enix Store",
+          "reward": "Copia física del juego, código de la mejora a la Edición Digital Deluxe, banda sonora original y reloj de escritorio de Faie y la Puerta del Tiempo",
+          "effect": "Paquete de edición limitada de la Square Enix Store con objetos físicos de coleccionista y contenido digital deluxe.",
+          "claim": "Cómpralo a través de la Square Enix Store hasta agotar existencias.",
+          "platformNotes": [
+            "La disponibilidad de la Edición de coleccionista varía según la plataforma y la región.",
+            "La Square Enix Store también ofrece una opción de Caja de coleccionista sin el juego."
+          ]
+        }
+      ]
+    },
+    "platformSpecs": {
+      "title": "Requisitos del sistema y rendimiento de plataforma de The Adventures of Elliot",
+      "intro": "The Adventures of Elliot está disponible en consolas modernas y plataformas de PC con soporte local para 1 o 2 jugadores según los materiales oficiales de la plataforma. Los jugadores de PC deben consultar los requisitos mínimos y recomendados de Steam, mientras que los jugadores de consola pueden comparar la resolución, la tasa de fotogramas, el almacenamiento y las características específicas de la plataforma antes de elegir una versión.",
+      "items": [
+        {
+          "icon": "Monitor",
+          "platform": "Steam PC",
+          "releaseDate": "18 de junio de 2026",
+          "price": "Juego base: $59.99; Digital Deluxe Edition: $69.99; Mejora a la Digital Deluxe Edition: $10",
+          "storage": "20 GB de espacio disponible",
+          "resolution": "Hasta 3840x2160 según la pantalla y los ajustes",
+          "frameRate": "V-sync activado: hasta 120 fps; V-sync desactivado: seleccionable a 30, 60 o 120 fps",
+          "players": "Funciones para un jugador y multijugador listadas en Steam",
+          "languages": [
+            "Interfaz, audio y subtítulos en inglés",
+            "Interfaz, audio y subtítulos en japonés",
+            "Interfaz y subtítulos en francés, italiano, alemán, español, chino simplificado, chino tradicional y coreano"
+          ],
+          "features": [
+            "Logros de Steam",
+            "Cromos de Steam",
+            "Steam Cloud",
+            "Préstamo familiar",
+            "Demo del prólogo con transferencia de datos de guardado"
+          ],
+          "requirements": "Windows 11 de 64 bits, 16 GB de RAM, DirectX 12. Mín: Ryzen 3 3100 o i3-8100, RX 5500 XT / Arc A580 / GTX 1650 a 720p en bajo a 60 fps. Rec: i5-8600K, RX 5600 XT / Arc A580 / GTX 1660 Ti a 1080p en alto a 60 fps."
+        },
+        {
+          "icon": "Gamepad2",
+          "platform": "PlayStation 5",
+          "releaseDate": "18 de junio de 2026",
+          "price": "Juego base: $59.99; Digital Deluxe Edition: $69.99; Mejora a la Digital Deluxe Edition: $10",
+          "storage": "15,5 GB de espacio libre requerido estimado",
+          "resolution": "Hasta 3840x2160",
+          "frameRate": "60 fps",
+          "players": "Juego sin conexión; 1-2 jugadores",
+          "languages": [
+            "Voces: inglés y japonés",
+            "Los idiomas en pantalla incluyen inglés, francés, alemán, italiano, japonés y español"
+          ],
+          "features": [
+            "Compatible con Remote Play",
+            "Compatible con la vibración DualSense",
+            "21 funciones de accesibilidad listadas",
+            "Las opciones de accesibilidad incluyen texto claro, texto grande, subtítulos, reasignación de botones del mando y dificultad ajustable"
+          ],
+          "requirements": "Consola PS5. Demo gratuita del prólogo disponible en PlayStation Store."
+        },
+        {
+          "icon": "TV",
+          "platform": "Xbox Series X",
+          "releaseDate": "18 de junio de 2026",
+          "price": "Juego base: $59.99; Digital Deluxe Edition: $69.99",
+          "storage": "16,1 GB de espacio libre requerido estimado",
+          "resolution": "Hasta 3840x2160",
+          "frameRate": "Capacidad de 60 fps y más de 60 fps listada en la Xbox Store",
+          "players": "Multijugador local de Xbox listado; compatibilidad con juego local confirmada",
+          "languages": [
+            "9 idiomas compatibles listados en la Xbox Store",
+            "Incluye opciones de texto en chino simplificado, chino tradicional y coreano"
+          ],
+          "features": [
+            "Optimizado para Xbox Series X|S",
+            "Xbox Play Anywhere",
+            "4K Ultra HD",
+            "Xbox Cloud Gaming con niveles de Game Pass compatibles"
+          ],
+          "requirements": "Consola Xbox Series X. Demo del prólogo independiente disponible en la Xbox Store."
+        },
+        {
+          "icon": "Medidor",
+          "platform": "Xbox Series S",
+          "releaseDate": "18 de junio de 2026",
+          "price": "Juego base por 59,99 $; Digital Deluxe Edition por 69,99 $",
+          "storage": "16,1 GB de espacio libre estimado requerido",
+          "resolution": "Hasta 1920x1080",
+          "frameRate": "Capacidad de 60 fps y más de 60 fps listada en la Xbox Store",
+          "players": "Multijugador local de Xbox listado; compatibilidad con juego local confirmada",
+          "languages": [
+            "9 idiomas compatibles listados en la Xbox Store"
+          ],
+          "features": [
+            "Optimizado para Xbox Series X|S",
+            "Xbox Play Anywhere",
+            "La Digital Deluxe Edition incluye el juego base y la Digital Deluxe Upgrade"
+          ],
+          "requirements": "Consola Xbox Series S. Biblioteca solo digital con compatibilidad con Xbox Play Anywhere."
+        },
+        {
+          "icon": "CPU",
+          "platform": "Windows Store / Microsoft Store para PC",
+          "releaseDate": "18 de junio de 2026",
+          "price": "Juego base por 59,99 $; opciones de Digital Deluxe disponibles a través de las tiendas de Xbox y Microsoft",
+          "storage": "El objetivo de almacenamiento en PC sigue el requisito de 20 GB para PC donde se indique",
+          "resolution": "Compatibilidad con pantallas de PC de hasta 3840x2160 según el hardware y la pantalla",
+          "frameRate": "Las opciones de tasa de fotogramas en PC se ajustan a la configuración de pantalla y gráficos",
+          "players": "La compatibilidad con Xbox Play Anywhere conecta las versiones de Xbox y Windows donde corresponda",
+          "languages": [
+            "9 idiomas compatibles listados en la Xbox Store"
+          ],
+          "features": [
+            "Xbox Play Anywhere",
+            "Guardado en la nube a través de una cuenta de Microsoft",
+            "Compra cruzada entre Xbox y Windows donde corresponda"
+          ],
+          "requirements": "PC con Windows 11. Conecta las versiones de Xbox y Windows a través de Xbox Play Anywhere."
+        },
+        {
+          "icon": "Tablet",
+          "platform": "Nintendo Switch 2",
+          "releaseDate": "18 de junio de 2026",
+          "price": "Precios regionales de la eShop; Digital Deluxe Edition y Digital Deluxe Upgrade listadas en las tiendas de Nintendo",
+          "storage": "16,6 GB estimados; Nintendo UK indica un tamaño de descarga de 14,5 GB",
+          "resolution": "Hasta 1920x1080",
+          "frameRate": "Modo TV hasta 60 fps; modo portátil variable de 30 a 60 fps",
+          "players": "Juego local en una sola consola: 1-2 jugadores",
+          "languages": [
+            "Japonés",
+            "Inglés",
+            "Español",
+            "Francés",
+            "Alemán",
+            "Italiano"
+          ],
+          "features": [
+            "Modo televisor, modo sobremesa y modo portátil",
+            "Compatible con el guardado en la nube",
+            "Demo disponible",
+            "Compatible con contenido descargable"
+          ],
+          "requirements": "Consola Nintendo Switch 2. Se requiere una suscripción a Nintendo Switch Online para el guardado en la nube."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre The Adventures of Elliot: The Millennium Tales",
+    "questions": [
+      {
+        "question": "¿Es The Adventures of Elliot: The Millennium Tales para un jugador o multijugador?",
+        "answer": "The Adventures of Elliot: The Millennium Tales es compatible con el modo para un jugador y cooperativo local para 1 o 2 jugadores, permitiendo al segundo jugador controlar a Faie directamente durante la exploración y el combate."
+      },
+      {
+        "question": "¿En qué plataformas está disponible The Adventures of Elliot: The Millennium Tales?",
+        "answer": "The Adventures of Elliot: The Millennium Tales está disponible en PlayStation 5, Xbox Series X|S, PC a través de Steam y Windows Store, y Nintendo Switch 2, todos con lanzamiento el 18 de junio de 2026."
+      },
+      {
+        "question": "¿Cuánto cuesta The Adventures of Elliot: The Millennium Tales?",
+        "answer": "La Standard Edition de The Adventures of Elliot: The Millennium Tales cuesta 59,99 $, con una Digital Deluxe Edition de 69,99 $ y una Deluxe Upgrade de 10,00 $ disponibles en las tiendas compatibles."
+      },
+      {
+        "question": "¿Hay una demo gratuita de The Adventures of Elliot: The Millennium Tales?",
+        "answer": "Sí. The Adventures of Elliot: The Millennium Tales Prologue Demo es gratuita en Steam, PlayStation Store, Xbox Store y Nintendo Switch 2, y sus datos de guardado se transfieren al juego completo."
+      },
+      {
+        "question": "¿Qué es Faie en The Adventures of Elliot: The Millennium Tales?",
+        "answer": "Faie es el hada compañera de Elliot en The Adventures of Elliot: The Millennium Tales. Se adelanta a explorar, recupera objetos, sirve de apoyo en combate y aprende magias como Teletransporte, Ignición, Vacío y Copia en los Santuarios de lo Místico."
+      },
+      {
+        "question": "¿Cuántos tipos de armas hay en The Adventures of Elliot: The Millennium Tales?",
+        "answer": "The Adventures of Elliot: The Millennium Tales cuenta con siete tipos de armas, que incluyen la espada y escudo, el arco, las bombas, el bumerán, la lanza, el martillo y las cadenas con hoces, permitiendo equipar dos a la vez e intercambiarlas en tiempo real."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para explorar The Adventures of Elliot?",
+    "description": "Un RPG de acción en HD-2D a través de cuatro épocas. Juega a la demo o añade el juego a tu lista de deseos en Steam, y sigue los canales oficiales para enterarte de las últimas novedades.",
+    "joinCommunity": "Sitio web oficial",
+    "joinGame": "Jugar en Steam"
+  },
+  "footer": {
+    "title": "Wiki de The Adventures of Elliot: The Millennium Tales",
+    "description": "Tu centro de recursos completo para guías de juego, armas, configuraciones de magicita, magia de Faie, jefes, bonificaciones de la demo y guías de plataformas de The Adventures of Elliot: The Millennium Tales.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "steamStore": "Tienda de Steam",
+    "steamCommunity": "Comunidad de Steam",
+    "youtube": "YouTube",
+    "officialSite": "Sitio web oficial",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 The Adventures of Elliot: The Millennium Tales Wiki. No afiliada a Square Enix ni a Claytechworks.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "review": {
+      "title": "Reseñas de The Adventures of Elliot",
+      "description": "Puntuaciones de la crítica, valoraciones de los jugadores y recopilación de reseñas para The Adventures of Elliot: The Millennium Tales en Steam, Metacritic, OpenCritic, IGN y Famitsu.",
+      "metaTitle": "Reseñas de The Adventures of Elliot - Puntuaciones y recepción de la crítica",
+      "metaDescription": "Lee las reseñas de The Adventures of Elliot: The Millennium Tales. Puntuaciones de la crítica de IGN y Famitsu, agregadores de Metacritic y OpenCritic, y valoraciones de los jugadores en Steam.",
+      "categoryLabel": "RESEÑAS Y PUNTUACIONES",
+      "whatIs": "¿Qué son las reseñas?",
+      "whatIsDescription": "Puntuaciones de críticos profesionales y valoraciones de jugadores recopiladas de Steam, Metacritic, OpenCritic, IGN, Famitsu y tiendas digitales, que cubren el combate, la historia, la presentación en HD-2D y el sistema de acompañantes Faie.",
+      "why": "¿Por qué leer reseñas?",
+      "whySteps": {
+        "step1Title": "Compara puntuaciones de la crítica",
+        "step1Description": "Compara las valoraciones de IGN, Famitsu, Metacritic y OpenCritic cara a cara",
+        "step2Title": "Lee las valoraciones de los jugadores",
+        "step2Description": "Consulta las reseñas de Steam y de las tiendas digitales para conocer la opinión real del día de lanzamiento",
+        "step3Title": "Identifica los puntos fuertes",
+        "step3Description": "Descubre dónde elogian los críticos el combate, las armas y la dirección artística en HD-2D"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de reseñas"
+    },
+    "platforms": {
+      "title": "Plataformas de The Adventures of Elliot",
+      "description": "Fecha de lanzamiento, plataformas, precio, ediciones, requisitos del sistema, tamaño del archivo, idiomas y rendimiento de The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "Plataformas de The Adventures of Elliot - Especificaciones y rendimiento",
+      "metaDescription": "Compara The Adventures of Elliot: The Millennium Tales en Steam, PS5, Xbox Series X|S y Nintendo Switch 2. Especificaciones, precios, idiomas y rendimiento.",
+      "categoryLabel": "PLATAFORMAS Y ESPECIFICACIONES",
+      "whatIs": "¿Cuáles son las plataformas?",
+      "whatIsDescription": "Información útil antes de comprar: fecha de lanzamiento, lista de plataformas, precios, ediciones, requisitos del sistema, tamaño de archivo, idiomas disponibles y características específicas de cada plataforma.",
+      "why": "¿Por qué comparar plataformas?",
+      "whySteps": {
+        "step1Title": "Comprueba los requisitos del sistema",
+        "step1Description": "Confirma que tu PC cumple con los requisitos mínimos y recomendados de Steam",
+        "step2Title": "Compara consolas",
+        "step2Description": "Compara la resolución, la tasa de fotogramas y el tamaño del archivo en PS5, Xbox y Switch 2",
+        "step3Title": "Elige la edición adecuada",
+        "step3Description": "Elige Standard, Digital Deluxe, Deluxe Upgrade o Collector's Edition"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de plataformas"
+    },
+    "demo": {
+      "title": "Guía de la demo de The Adventures of Elliot",
+      "description": "La demo del prólogo, la demo de debut, la transferencia de datos de guardado y los cambios basados en los comentarios de la demo para The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "Demo de The Adventures of Elliot - Prólogo y transferencia de guardado",
+      "metaDescription": "Domina la demo del prólogo de The Adventures of Elliot: The Millennium Tales. Plataformas de descarga, transferencia de datos de guardado, armas y cambios basados en los comentarios de la demo.",
+      "categoryLabel": "DEMO DEL PRÓLOGO",
+      "whatIs": "¿Qué es la demo?",
+      "whatIsDescription": "Las demos del prólogo y de debut permiten a los jugadores probar el capítulo inicial, las siete armas, a Faie, la Magicite y el viaje rápido, con transferencia de datos de guardado al juego completo.",
+      "why": "¿Por qué jugar a la demo?",
+      "whySteps": {
+        "step1Title": "Prueba todos los sistemas",
+        "step1Description": "Prueba las armas, la Magicite, la magia de Faie y el viaje rápido de forma anticipada",
+        "step2Title": "Transfiere tus datos de guardado",
+        "step2Description": "Transfiere tu progreso de la demo al juego completo",
+        "step3Title": "Encuentra tu estilo de juego",
+        "step3Description": "Elige tu arma y build preferidas antes del lanzamiento"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de la demo"
+    },
+    "release": {
+      "title": "Lanzamiento de The Adventures of Elliot",
+      "description": "Fecha de lanzamiento, cuenta atrás, hora de desbloqueo en Steam, embargo de análisis y disponibilidad regional para The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "Fecha de lanzamiento de The Adventures of Elliot - Lanzamiento y cuenta atrás",
+      "metaDescription": "Fecha de lanzamiento de The Adventures of Elliot: The Millennium Tales, hora de desbloqueo en Steam, embargo de análisis y ventanas de lanzamiento global en todas las plataformas.",
+      "categoryLabel": "ESTRENO Y LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento?",
+      "whatIsDescription": "Detalles del lanzamiento: la fecha de estreno oficial, la hora de desbloqueo en Steam por región, el fin del embargo de análisis y la disponibilidad desde el primer día en Nintendo Switch 2, PS5, Xbox Series X|S y PC.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "Apunta la fecha de lanzamiento",
+        "step1Description": "Ten en cuenta el día del lanzamiento global en las cuatro plataformas",
+        "step2Title": "Consulta las horas de desbloqueo",
+        "step2Description": "Encuentra tu hora local de desbloqueo en Steam y la ventana de lanzamiento a medianoche en consolas",
+        "step3Title": "Sigue el embargo de análisis",
+        "step3Description": "Descubre cuándo se publican las reseñas de la crítica y las primeras impresiones"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de lanzamiento"
+    },
+    "edition": {
+      "title": "Ediciones de The Adventures of Elliot",
+      "description": "Ediciones Standard, Digital Deluxe, Collector's y Amazon Exclusive, bonificaciones por reserva, mejora Deluxe y opciones de copia física para The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "Ediciones de The Adventures of Elliot - Deluxe, Collector's y bonificaciones",
+      "metaDescription": "Compara las ediciones de The Adventures of Elliot: The Millennium Tales: Standard, Digital Deluxe, Collector's, Amazon Exclusive, las bonificaciones por reserva y el contenido de las copias físicas.",
+      "categoryLabel": "EDICIONES Y BONIFICACIONES",
+      "whatIs": "¿Qué son las ediciones?",
+      "whatIsDescription": "Todas las versiones a la venta del juego: Standard, Digital Deluxe, la mejora Deluxe, la Collector's Edition, la Amazon Exclusive Edition y la copia física, con sus correspondientes bonificaciones y extras incluidos.",
+      "why": "¿Por qué comparar las ediciones?",
+      "whySteps": {
+        "step1Title": "Adapta las ediciones a tu presupuesto",
+        "step1Description": "Compara los precios de las ediciones Estándar, Digital Deluxe y Coleccionista",
+        "step2Title": "Consulta las bonificaciones de reserva",
+        "step2Description": "Descubre qué incluyen las ediciones para compradores anticipados y exclusivas de Amazon",
+        "step3Title": "Elige formato digital o físico",
+        "step3Description": "Compara las mejoras de la edición digital deluxe con una copia física"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de ediciones"
+    },
+    "guide": {
+      "title": "Guías de The Adventures of Elliot",
+      "description": "Guías de juego, soluciones de puzles, ubicación de armas, configuraciones de Magicita, magia de Faie, estrategias contra jefes y las cuatro eras de The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "Guías de The Adventures of Elliot - Guía paso a paso, armas y configuraciones",
+      "metaDescription": "Guías completas de The Adventures of Elliot: The Millennium Tales. Guía paso a paso de la historia principal, ubicación de todas las armas, configuraciones de Magicita, magia de Faie, jefes y las cuatro eras.",
+      "categoryLabel": "GUÍAS Y GUÍA PASO A PASO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Guías detalladas que cubren la historia principal paso a paso, la progresión en las mazmorras, la ubicación de las siete armas, configuraciones de Magicita, magia de Faie de los Santuarios del Místico, tácticas contra jefes y la exploración de las cuatro eras.",
+      "why": "¿Por qué usar guías?",
+      "whySteps": {
+        "step1Title": "Sigue la guía paso a paso",
+        "step1Description": "Sigue la ruta principal a través de cada era y mazmorra",
+        "step2Title": "Encuentra todas las armas",
+        "step2Description": "Localiza las siete armas y crea equipamientos de dos armas",
+        "step3Title": "Domina el combate y los jefes",
+        "step3Description": "Aprende configuraciones de Magicita y tácticas para los Guardianes Tag"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "features": {
+      "title": "Características de The Adventures of Elliot",
+      "description": "Multijugador, cooperativo local, control de Faie para el segundo jugador, funciones en línea y sistemas de juego principales de The Adventures of Elliot: The Millennium Tales.",
+      "metaTitle": "Características de The Adventures of Elliot - Multijugador y cooperativo",
+      "metaDescription": "Explora las características de The Adventures of Elliot: The Millennium Tales. Cooperativo local, control de Faie para el segundo jugador, funciones en línea y los sistemas principales de este RPG de acción.",
+      "categoryLabel": "CARACTERÍSTICAS Y COOPERATIVO",
+      "whatIs": "¿Qué son las características?",
+      "whatIsDescription": "Las características principales del juego: cooperativo local para dos jugadores donde un segundo jugador controla a Faie, conectividad en línea, presentación HD-2D, cambio de armas en tiempo real y el sistema de personalización de Magicita.",
+      "why": "¿Por qué explorar las características?",
+      "whySteps": {
+        "step1Title": "Juega en cooperativo local",
+        "step1Description": "Permite que un segundo jugador controle a Faie para explorar juntos",
+        "step2Title": "Comprende los sistemas",
+        "step2Description": "Aprende sobre el cambio de armas, la Magicita y las cuatro eras",
+        "step3Title": "Consulta las funciones en línea",
+        "step3Description": "Descubre qué funciones en línea y de conectividad ofrece el juego"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de características"
+    }
   }
 }
