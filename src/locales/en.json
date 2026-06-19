@@ -52,696 +52,663 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "The Adventures of Elliot Gameplay",
+    "description": "Real-time combat, weapon switching, Faie support, Magicite customization, and time-travel exploration across four ages in this HD-2D action RPG."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "The Adventures of Elliot",
+    "titleHighlight": "Guides",
+    "subtitle": "Walkthroughs, weapons, Faie magic, magicite builds, demo guides, and platform specs for The Adventures of Elliot: The Millennium Tales.",
     "cards": [
+      {
+        "icon": "Store",
+        "title": "Release & Store Links",
+        "description": "Launch date, editions, and official storefronts across every platform."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Review Scores",
+        "description": "Critic verdicts and storefront ratings from Steam, PS5, and major media."
+      },
+      {
+        "icon": "CirclePlay",
+        "title": "Prologue Demo Guide",
+        "description": "Download, explore, and carry your demo save into the full game."
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First-hour tips for combat, exploration, weapons, and Faie support."
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Swords",
+        "title": "Weapons & Magicite",
+        "description": "All seven weapon types, loadouts, and early magicite build ideas."
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "WandSparkles",
+        "title": "Faie Magic & Co-op",
+        "description": "Faie support, Warp, Ignite, Vacuum, Copy, and local 1-2 player play."
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Gift",
+        "title": "Bonuses & Editions",
+        "description": "Save-data bonuses, Deluxe items, preorder packs, and editions."
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "MonitorSmartphone",
+        "title": "Platform Specs",
+        "description": "Compare Steam, PS5, Xbox, PC, and Switch 2 specs and performance."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "releaseLinks": {
+      "title": "The Adventures of Elliot Release Date, Platforms, and Store Links",
+      "intro": "The Adventures of Elliot: The Millennium Tales launched on June 18, 2026 for PS5, Xbox Series X|S, PC, Steam, and Nintendo Switch 2. This section gives players the official places to buy, download, or check the Prologue Demo. The Standard Edition is $59.99 on Steam, PlayStation, and Xbox, with a $69.99 Digital Deluxe Edition and a $10.00 Deluxe Upgrade on supported storefronts.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "label": "Official Website",
+          "href": "https://www.square-enix.com/the-adventures-of-elliot-the-millennium-tales/en-us/",
+          "platform": "Square Enix",
+          "releaseDate": "June 18, 2026",
+          "details": "Official game hub with overview, trailers, platform links, system specs, screenshots, and demo access.",
+          "highlights": [
+            "HD-2D action RPG from Square Enix and Claytechworks",
+            "Lists PlayStation, Xbox, Steam, and Nintendo Switch 2",
+            "Hosts trailers, screenshots, and platform specs",
+            "Entry point for the Prologue Demo"
+          ]
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "label": "Steam",
+          "href": "https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/",
+          "platform": "PC via Steam",
+          "releaseDate": "June 18, 2026",
+          "details": "$59.99 Standard Edition, $69.99 Digital Deluxe Edition, and a $10.00 Deluxe Upgrade.",
+          "highlights": [
+            "Action, Adventure, and RPG categories",
+            "Steam Achievements, Steam Cloud, and Family Sharing",
+            "Single-player and multiplayer features listed",
+            "Prologue Demo with save-data carryover",
+            "Full audio in English and Japanese"
+          ]
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "label": "PlayStation",
+          "href": "https://www.playstation.com/en-us/games/the-adventures-of-elliot-the-millennium-tales/",
+          "platform": "PS5",
+          "releaseDate": "June 18, 2026",
+          "details": "$59.99 Standard Edition, $69.99 Digital Deluxe Edition, and a $10.00 Deluxe Upgrade.",
+          "highlights": [
+            "PS5 version with Remote Play support",
+            "DualSense vibration supported",
+            "Offline play for 1-2 players",
+            "21 accessibility features listed",
+            "Free PS5 Prologue Demo available"
+          ]
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "label": "Xbox",
+          "href": "https://www.xbox.com/en-US/games/store/the-adventures-of-elliot-the-millennium-tales/9PP9456CW5W3",
+          "platform": "Xbox Series X|S",
+          "releaseDate": "June 18, 2026",
+          "details": "$59.99+ Standard Edition and $69.99+ Digital Deluxe Edition with a $10.00 Deluxe Upgrade.",
+          "highlights": [
+            "Optimized for Xbox Series X|S",
+            "Xbox Play Anywhere support",
+            "4K Ultra HD with 60fps+ capability",
+            "Local multiplayer for 2 players",
+            "Separate Prologue Demo with Cloud Gaming support"
+          ]
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "label": "Nintendo Switch 2",
+          "href": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/The-Adventures-of-Elliot-The-Millennium-Tales-2882226.html",
+          "platform": "Nintendo Switch 2",
+          "releaseDate": "June 18, 2026",
+          "details": "Regional Nintendo eShop pricing with Digital Deluxe Edition and Deluxe Upgrade options.",
+          "highlights": [
+            "TV, tabletop, and handheld modes",
+            "Single-system local play for 1-2 players",
+            "Save Data Cloud via Nintendo Switch Online",
+            "Action and RPG categories",
+            "Download size: 14.5 GB"
+          ]
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "reviewRatings": {
+      "title": "The Adventures of Elliot Review Scores, Steam Ratings, and Player Feedback",
+      "intro": "Critic reviews praise the HD-2D presentation, brisk action combat, compact pacing, and accessible design. Player storefront data highlights a mostly positive Steam launch response and a strong PlayStation Store rating.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "source": "Steam",
+          "href": "https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/",
+          "scoreLabel": "Mostly Positive",
+          "detail": "71% positive from 171 user reviews in the Steam All Reviews summary.",
+          "sentiment": "Players are generally positive on PC, with storefront tags emphasizing Action RPG, JRPG, Singleplayer, Co-op, and Local Co-op.",
+          "pros": [
+            "Fast action RPG combat",
+            "Weapon switching and Magicite customization",
+            "Steam demo available",
+            "English and Japanese full audio"
+          ],
+          "cons": [
+            "Denuvo Anti-tamper listed on Steam",
+            "PC experience depends on Windows 11 hardware settings",
+            "Review volume still centers on launch-period feedback"
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "source": "PlayStation Store",
+          "href": "https://store.playstation.com/en-us/concept/10007935/",
+          "scoreLabel": "4.54 / 5",
+          "detail": "Average PlayStation Store rating from 1,535 player ratings.",
+          "sentiment": "The PS5 storefront rating is strongly positive and highlights offline 1-2 player support, Remote Play, and DualSense vibration.",
+          "pros": [
+            "High player rating on PlayStation Store",
+            "PS5 Remote Play support",
+            "DualSense vibration",
+            "Free Prologue Demo available"
+          ],
+          "cons": [
+            "PlayStation language list is narrower than Steam",
+            "Storefront review detail is limited compared with critics"
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "source": "PC Gamer",
+          "href": "https://www.pcgamer.com/games/rpg/the-adventures-of-elliot-the-millennium-tales-review/",
+          "scoreLabel": "76 / 100",
+          "detail": "PC Gamer review by Baxter Burchill, published June 17, 2026.",
+          "sentiment": "A brisk time-traveling action RPG with high-energy hack-and-slash combat, compact pacing, and effective Faie support abilities.",
+          "pros": [
+            "Fast combat flow",
+            "Compact adventure structure",
+            "Faie adds strategic support",
+            "Clear weapon variety"
+          ],
+          "cons": [
+            "Story structure is familiar",
+            "Some locations feel well-worn",
+            "Faie dialogue can become intrusive"
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "source": "GamesRadar+",
+          "href": "https://www.gamesradar.com/games/rpg/the-adventures-of-elliot-the-millenium-tales-review/",
+          "scoreLabel": "4.5 / 5",
+          "detail": "GamesRadar+ review by Luke Kemp, published June 17, 2026.",
+          "sentiment": "Expansive without becoming intimidating, varied without becoming overwhelming, and familiar without feeling tired.",
+          "pros": [
+            "Superb presentation",
+            "Strong design variety",
+            "Accessible without being too easy",
+            "Exploration and combat stay fresh"
+          ],
+          "cons": [
+            "Story and writing are less ambitious than the systems",
+            "Narrative does not push as hard as the combat design"
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "source": "The Guardian",
+          "href": "https://www.theguardian.com/games/2026/jun/18/the-adventures-of-elliot-the-millennium-tales-review",
+          "scoreLabel": "Recommended",
+          "detail": "The Guardian review by Tom Regan, published June 18, 2026.",
+          "sentiment": "A charming retro-style action RPG with Zelda-like exploration, treasure hunting, temple roaming, and deeper-than-expected combat customization.",
+          "pros": [
+            "Charming HD-2D presentation",
+            "Deep customizable combat",
+            "Useful fairy companion for puzzles",
+            "Fast travel and hints improve approachability"
+          ],
+          "cons": [
+            "Tone can be very sweet",
+            "Story is not especially ambitious",
+            "Some fantasy elements feel traditional"
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "prologueDemo": {
+      "title": "The Adventures of Elliot Prologue Demo Guide",
+      "intro": "The Prologue Demo lets players experience the opening chapter, explore the early regions, test weapons and Magicite, and carry save data into the full game. Linked save-data bonuses are redeemed in the full release rather than inside the demo.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Download the demo from an official platform",
+          "description": "Use the official Square Enix demo page or the platform store for Steam, PlayStation Store, Xbox Store, or Nintendo Switch 2. The demo is free on listed storefronts.",
+          "links": [
+            {
+              "label": "Official Demo Page",
+              "href": "https://www.square-enix.com/the-adventures-of-elliot-the-millennium-tales/en-us/download-demo/"
+            },
+            {
+              "label": "Steam",
+              "href": "https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/"
+            },
+            {
+              "label": "PlayStation Store",
+              "href": "https://store.playstation.com/en-us/product/UP0082-PPSA34260_00-ELLIOTDEMO0000UP"
+            },
+            {
+              "label": "Xbox Store",
+              "href": "https://www.xbox.com/en-US/games/store/the-adventures-of-elliot-the-millennium-tales-prologue-demo/9PN337Z8HRH1/0010/9WDHDNK8NVVG"
+            }
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Start with the opening chapter",
+          "description": "The demo gives access to the early story setup and lets players progress through the main quest while exploring side areas. It shows the same basic freedom players get in the full game."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Explore for weapons and Magicite",
+          "description": "Do not rush only the main path. The demo encourages players to search the field and dungeons for weapons, Magicite, treasure, materials, and useful items."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Try every weapon type",
+          "description": "The PlayStation Blog demo preview says the demo includes all seven weapon types. Players can test close-range and ranged options such as sword, hammer, boomerang, and other styles before choosing preferred combinations."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Use Faie for magic, puzzles, and movement",
+          "description": "Faie is more than a story companion. She can support combat, help solve puzzles, and unlock Warp through the Shrine of the Mystic, letting Elliot teleport to her location."
+        },
+        {
+          "title": "Use fast travel after finding guideposts",
+          "description": "The demo supports fast travel to discovered adventuring guideposts across the two demo eras, making exploration and cleanup easier after initial discovery."
+        },
+        {
+          "title": "Carry save data into the full game",
+          "description": "Save data from the Prologue Demo can be transferred to the full game. Linked save-data bonuses are handled in the full release and are not redeemed inside the demo."
+        },
+        {
+          "title": "Know the demo limits",
+          "description": "The Prologue Demo uses content from the retail game but limits accessible areas. Treat it as a first-chapter preview, early build test, and save-transfer starting point rather than a complete walkthrough."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "The Adventures of Elliot Beginner Guide for Combat, Exploration, and Early Progress",
+      "intro": "The Adventures of Elliot starts like a bright fantasy adventure and then asks players to juggle movement, blocking, weapon durability, Faie control, Magicite choices, hidden loot, and time-travel exploration. The safest early approach is to scout before rushing, block on timing instead of panic-dodging everything, experiment with two equipped weapons, and break suspicious objects for loot.",
+      "items": [
+        {
+          "title": "Scout ahead with Faie",
+          "category": "Exploration",
+          "summary": "Use Faie to check dangerous paths, attack from a distance, and interact with objects before Elliot walks into trouble.",
+          "details": "Faie can be controlled independently. Send her forward in risky spaces, test enemy positions, grab objects, and help solve puzzles before committing Elliot to a dangerous route."
+        },
+        {
+          "title": "Practice perfect blocking early",
+          "category": "Combat",
+          "summary": "Well-timed blocks reduce damage, can stun enemies, and can reflect certain attacks.",
+          "details": "Blocking is introduced early and is worth practicing immediately. Learn the rhythm of common enemy moves and use timed blocks to create safer counterattack windows."
+        },
+        {
+          "title": "Equip two weapons and switch often",
+          "category": "Weapons",
+          "summary": "Elliot can equip up to two weapons at once and swap in real time during combat.",
+          "details": "Use one weapon for safer general fights and another for range, crowd-control, or heavy-hit situations. Weapon switching also helps manage durability and makes early fights smoother."
+        },
+        {
+          "title": "Test all seven weapon types in the demo",
+          "category": "Weapons",
+          "summary": "The Prologue Demo includes all seven weapon types, giving players a safe place to find their preferred combat style.",
+          "details": "The PlayStation Blog preview points to the hammer's charge attack and the boomerang's ranged damage. Try every type before judging the combat system, which is built around weapon variety."
+        },
+        {
+          "title": "Use Magicite to shape your build",
+          "category": "Upgrades",
+          "summary": "Magicite changes weapon behavior, stats, and combat effects.",
+          "details": "Search dungeons and exploration routes for Magicite fragments, then slot them into weapons to strengthen the way you already play. Square Enix's demo feedback also confirms improved Magicite menus and weapon-specific Magicite Boxes."
+        },
+        {
+          "title": "Break pots, jars, crates, and grass",
+          "category": "Loot",
+          "summary": "Small environmental objects can hide materials, loot, and useful items.",
+          "details": "Treat suspicious clutter as a resource check, especially before entering harder areas or spending money. Breaking objects during exploration is a reliable early source of materials."
+        },
+        {
+          "title": "Unlock and use fast travel guideposts",
+          "category": "Navigation",
+          "summary": "Discovered adventuring guideposts allow fast travel across demo-era locations.",
+          "details": "Fast travel reduces backtracking after you have opened routes and found guideposts. Prioritize activating guideposts when exploring because later cleanup becomes far easier."
+        },
+        {
+          "title": "Visit the Shrine of the Mystic for Faie's Warp",
+          "category": "Movement",
+          "summary": "Faie's Warp lets Elliot teleport to her position and is useful for both puzzles and enemy pressure.",
+          "details": "Warp is a major early ability learned from a Shrine of the Mystic. Use it for puzzle routing, gap movement, and escaping awkward combat positions."
+        },
+        {
+          "title": "Pick a difficulty that matches your goal",
+          "category": "Settings",
+          "summary": "The final game includes easy, normal, hard, and very hard difficulty settings.",
+          "details": "Square Enix confirmed expanded difficulty options after debut demo feedback. Use easier settings for exploration and story flow, or harder settings when you want blocking and positioning to matter more."
+        },
+        {
+          "title": "Do not treat the demo as the full walkthrough",
+          "category": "Progression",
+          "summary": "The Prologue Demo contains retail content with area limits and save-transfer support.",
+          "details": "Use the demo to learn core systems, collect early gear, test Magicite, and prepare a save file for the full game. Late-game routes and full-era progression belong to the complete release."
+        }
+      ]
+    },
+    "weaponBuilds": {
+      "title": "The Adventures of Elliot Weapon Tier List and Magicite Build Ideas",
+      "intro": "Elliot can equip up to two weapons at once and swap between them in real time. Each weapon type has a different combat rhythm, utility use, and Magicite path, so strong builds usually pair one dependable main weapon with one tool weapon for puzzles, range, crowd control, or burst damage.",
+      "tiers": [
+        {
+          "tier": "Core Starter",
+          "label": "Best early all-round choices",
+          "entries": [
+            {
+              "weapon": "Sword and Shield",
+              "role": "Balanced melee, blocking, counterplay",
+              "mechanics": [
+                "Fast wide-range sword swings",
+                "Charge attack sends slashes forward",
+                "Shield blocks frontal attacks only",
+                "Customizable with Magicite"
+              ],
+              "pairings": ["Bow for safe ranged pressure", "Bomb for cracked walls and burst damage", "Spear for reach and safer openings"]
+            },
+            {
+              "weapon": "Bow",
+              "role": "Ranged attacks and safe enemy control",
+              "mechanics": [
+                "Regular attack fires one arrow",
+                "Special attack fires multiple arrows in a fan",
+                "Useful for enemies or switches that are awkward to reach"
+              ],
+              "pairings": ["Sword and Shield for defense", "Boomerang for item and path utility", "Spear for safer melee follow-up"]
+            }
+          ]
+        },
+        {
+          "tier": "Utility Priority",
+          "label": "Strong for exploration and puzzles",
+          "entries": [
+            {
+              "weapon": "Bomb",
+              "role": "Explosives, walls, rocks, delayed burst",
+              "mechanics": [
+                "Bombs explode after a delay",
+                "Demolish rocks and cracked walls",
+                "Ignite magic can trigger explosives"
+              ],
+              "pairings": ["Sword and Shield for safe close combat", "Boomerang for item control", "Bow for ranged encounters"]
+            },
+            {
+              "weapon": "Boomerang",
+              "role": "Returning projectile, object control",
+              "mechanics": [
+                "Damages enemies on outbound and return flight",
+                "Useful for long-range interaction in exploration",
+                "Magicite expands projectile setups"
+              ],
+              "pairings": ["Sword and Shield for close-range defense", "Bomb for puzzle utility", "Chains and Sickles for enemy positioning"]
+            }
+          ]
+        },
+        {
+          "tier": "Specialist Combat",
+          "label": "High value when the encounter fits",
+          "entries": [
+            {
+              "weapon": "Spear",
+              "role": "Reach, forward pressure, safer melee spacing",
+              "mechanics": [
+                "Attacks forward from outside normal melee range",
+                "Special attack is a forward charge",
+                "Magicite can extend reach"
+              ],
+              "pairings": ["Sword and Shield for defense", "Bow for range stacking", "Hammer for heavy stagger pressure"]
+            },
+            {
+              "weapon": "Hammer",
+              "role": "Heavy hits, pegs, slow high-impact attacks",
+              "mechanics": [
+                "Slow attacks that hit hard",
+                "Special attack is a downward blow",
+                "Can pound pegs during exploration"
+              ],
+              "pairings": ["Sword and Shield for faster recovery", "Spear for safer approach", "Faie Warp for positioning support"]
+            }
+          ]
+        },
+        {
+          "tier": "Advanced Control",
+          "label": "Best after learning enemy spacing",
+          "entries": [
+            {
+              "weapon": "Chains and Sickles",
+              "role": "Range control, surrounding attacks, enemy pull",
+              "mechanics": [
+                "Attacks at range and around Elliot's surrounding area",
+                "Special attack pulls enemies close",
+                "Useful for controlling enemy position"
+              ],
+              "pairings": ["Sword and Shield for close-range follow-up", "Bomb for grouped enemies", "Boomerang for wider control"]
+            }
+          ]
+        }
+      ]
+    },
+    "faieGuide": {
+      "title": "The Adventures of Elliot Faie Magic, Warp, and Local Co-op Guide",
+      "intro": "Faie is Elliot's fairy companion, support partner, and second-player option. Her magic changes how players scout, solve puzzles, move through dungeons, and control enemy encounters. Faie can be controlled directly with the right stick, and a second local player can also control her.",
+      "items": [
+        {
+          "category": "Direct Control",
+          "title": "Control Faie with the Right Stick",
+          "details": [
+            "Faie can move independently from Elliot for scouting and object interaction.",
+            "She can retrieve distant objects and inspect dangerous spaces before Elliot moves in.",
+            "Useful in dungeons where enemies, switches, hazards, or items sit away from Elliot's direct path."
+          ],
+          "bestFor": ["Scouting", "Item retrieval", "Enemy spacing", "Puzzle setup"]
+        },
+        {
+          "category": "Local Co-op",
+          "title": "Local 1-2 Player Support",
+          "details": [
+            "The game supports local play for one or two players on supported platforms.",
+            "One player can control Elliot while another controls Faie.",
+            "Faie's independent movement lets the second player support combat, puzzles, and scouting."
+          ],
+          "bestFor": ["Shared exploration", "Support play", "Puzzle coordination", "Safer dungeon routing"]
+        },
+        {
+          "category": "Warp Magic",
+          "title": "Warp Elliot to Faie",
+          "details": [
+            "Warp is learned from a Shrine of the Mystic.",
+            "Warp transports Elliot to Faie's position.",
+            "Use it for puzzle movement, avoiding hazards, and repositioning around enemies."
+          ],
+          "bestFor": ["Puzzle shortcuts", "Dodging attacks", "Getting behind enemies", "Crossing tricky layouts"]
+        },
+        {
+          "category": "Ignite Magic",
+          "title": "Light, Melt, and Detonate",
+          "details": [
+            "Ignite can light torches and melt ice.",
+            "It can also detonate explosives used in combat and puzzle setups.",
+            "Works especially well with bomb-based builds that benefit from controlled explosion timing."
+          ],
+          "bestFor": ["Torch puzzles", "Ice obstacles", "Bomb combos", "Timed detonations"]
+        },
+        {
+          "category": "Vacuum Magic",
+          "title": "Pull Enemies and Objects Together",
+          "details": [
+            "Vacuum draws nearby enemies and objects toward Faie's magic.",
+            "It can collect dropped items and loot more easily.",
+            "Affected enemies can be repositioned for follow-up attacks or moved toward hazards."
+          ],
+          "bestFor": ["Loot collection", "Crowd control", "Enemy grouping", "Object movement"]
+        },
+        {
+          "category": "Copy Magic",
+          "title": "Mirror Elliot's Actions",
+          "details": [
+            "Copy lets Faie mimic Elliot's movement and actions.",
+            "It can help with switches and synchronized puzzle actions.",
+            "Copy can also interact with sword, spear, bomb, and thrown-item setups."
+          ],
+          "bestFor": ["Switch puzzles", "Synchronized movement", "Projectile combos", "Extra attack coverage"]
+        },
+        {
+          "category": "Combat Support",
+          "title": "Attack, Rescue, and Reposition",
+          "details": [
+            "Faie can help attack enemies from a safer distance.",
+            "She can support positioning by setting up Warp locations.",
+            "Faie can also revive Elliot by spending tul."
+          ],
+          "bestFor": ["Safer enemy engagement", "Emergency recovery", "Boss positioning", "Dungeon survival"]
+        }
+      ]
+    },
+    "codesBonuses": {
+      "title": "The Adventures of Elliot Codes, Save Data Bonuses, Deluxe Items, and Editions",
+      "intro": "The Adventures of Elliot uses platform bonuses, save-data rewards, Digital Deluxe accessories, and Collector's Edition items rather than a general public code list. Use this section to find which rewards come from save data, edition purchases, preorder campaigns, and store bundles.",
+      "items": [
+        {
+          "type": "Save Data Bonus",
+          "name": "OCTOPATH TRAVELER 0 Bonus",
+          "reward": "Sword magicite: Guidance of the Sacred Flame",
+          "effect": "Increases sword damage to enemies with 30% or lower vitality by 10%.",
+          "claim": "Use Promotional Bonus from the title screen, link the eligible title, then claim bonuses from the desk on the second floor of the orphanage in the Age of Safekeeping."
+        },
+        {
+          "type": "Save Data Bonus",
+          "name": "DRAGON QUEST I & II HD-2D Remake Bonus",
+          "reward": "Sword magicite: Critical Hit",
+          "effect": "Increases sword critical-hit rate by 6%.",
+          "claim": "Claim through the Promotional Bonus flow and the orphanage desk after starting the game."
+        },
+        {
+          "type": "Save Data Bonus",
+          "name": "BRAVELY DEFAULT FLYING FAIRY HD Remaster Bonus",
+          "reward": "Sword magicite: Brave",
+          "effect": "Increases sword damage dealt by 10%, while using a little more shield stamina when guarding.",
+          "claim": "Claim through Promotional Bonus and the orphanage desk reward location."
+        },
+        {
+          "type": "Save Data Bonus",
+          "name": "VARIOUS DAYLIFE Bonus",
+          "reward": "Sword magicite: Expeditionary Wisdom",
+          "effect": "Reduces sword charge time by 10%.",
+          "claim": "Claim through the title-screen Promotional Bonus flow and the orphanage desk."
+        },
+        {
+          "type": "Save Data Bonus",
+          "name": "TRIANGLE STRATEGY Bonus",
+          "reward": "Sword magicite: Counter Stance",
+          "effect": "Increases sword damage by 10% while shield stamina is 90% or greater.",
+          "claim": "Claim from the orphanage desk after linking the eligible title from Promotional Bonus."
+        },
+        {
+          "type": "Save Data Bonus",
+          "name": "Trials of Mana Bonus",
+          "reward": "Laurentian Plumage",
+          "effect": "Ornamental feathers from a certain kingdom; having this item leads to an encounter in town.",
+          "claim": "Claim through the same Promotional Bonus and orphanage desk process."
+        },
+        {
+          "type": "Digital Preorder Bonus",
+          "name": "Elliot's Departure Pack",
+          "reward": "Departure Brooch accessory and Attack Up sword magicite",
+          "effect": "Departure Brooch increases tul and magicite fragment drops from enemies by a small amount.",
+          "claim": "Included as a digital preorder bonus on participating platform stores before the listed preorder deadline."
+        },
+        {
+          "type": "Digital Deluxe Edition",
+          "name": "Digital Deluxe Pack",
+          "reward": "Fairy Bangle, Cherry Blossom Anklet, and Roselle Ring",
+          "effect": "Accessory set included with the Digital Deluxe Edition and Digital Deluxe Upgrade.",
+          "claim": "Purchase the Digital Deluxe Edition or the Digital Deluxe Upgrade on supported storefronts."
+        },
+        {
+          "type": "Collector's Edition",
+          "name": "Square Enix Store Collector's Edition",
+          "reward": "Physical game copy, Digital Deluxe Upgrade code, original soundtrack, and Faie and Door of Time desktop clock",
+          "effect": "Square Enix Store limited edition package with physical collectibles and digital deluxe content.",
+          "claim": "Purchase through the Square Enix Store while supplies are available."
+        }
+      ]
+    },
+    "platformSpecs": {
+      "title": "The Adventures of Elliot System Requirements and Platform Performance",
+      "intro": "The Adventures of Elliot is available across modern console and PC platforms with local 1-2 player support listed by official platform materials. PC players should check the minimum and recommended Steam requirements, while console players can compare resolution, frame rate, storage, and platform-specific features before choosing a version.",
+      "items": [
+        {
+          "platform": "Steam PC",
+          "releaseDate": "June 18, 2026",
+          "price": "$59.99 base game",
+          "storage": "20 GB available space",
+          "resolution": "Up to 3840x2160",
+          "frameRate": "Up to 120 fps (V-sync selectable 30, 60, or 120)",
+          "players": "Single-player and multiplayer features",
+          "features": ["Steam Achievements", "Steam Cloud", "Family Sharing", "Prologue Demo with save carryover"],
+          "requirements": "Windows 11 64-bit, 16 GB RAM, DirectX 12. Min: Ryzen 3 3100 / i3-8100, GTX 1650 @ 720p 60fps. Rec: i5-8600K, GTX 1660 Ti @ 1080p 60fps."
+        },
+        {
+          "platform": "PlayStation 5",
+          "releaseDate": "June 18, 2026",
+          "price": "$59.99 base game",
+          "storage": "15.5 GB",
+          "resolution": "Up to 3840x2160",
+          "frameRate": "60 fps",
+          "players": "Offline 1-2 players",
+          "features": ["Remote Play supported", "DualSense vibration", "21 accessibility features", "Free Prologue Demo"],
+          "requirements": "PS5 console. Voice in English and Japanese; screen languages include English, French, German, Italian, Japanese, and Spanish."
+        },
+        {
+          "platform": "Xbox Series X",
+          "releaseDate": "June 18, 2026",
+          "price": "$59.99 base game",
+          "storage": "16.1 GB",
+          "resolution": "Up to 3840x2160",
+          "frameRate": "60 fps and 60 fps+ capability",
+          "players": "Local multiplayer for 2 players",
+          "features": ["Optimized for Xbox Series X|S", "Xbox Play Anywhere", "4K Ultra HD", "Cloud Gaming with supported Game Pass tiers"],
+          "requirements": "Xbox Series X console. 9 supported languages including Simplified Chinese, Traditional Chinese, and Korean text."
+        },
+        {
+          "platform": "Xbox Series S",
+          "releaseDate": "June 18, 2026",
+          "price": "$59.99 base game",
+          "storage": "16.1 GB",
+          "resolution": "Up to 1920x1080",
+          "frameRate": "60 fps and 60 fps+ capability",
+          "players": "Local multiplayer for 2 players",
+          "features": ["Optimized for Xbox Series X|S", "Xbox Play Anywhere", "Digital Deluxe Edition includes base game and upgrade"],
+          "requirements": "Xbox Series S console. 9 supported languages listed on Xbox Store."
+        },
+        {
+          "platform": "Windows Store PC",
+          "releaseDate": "June 18, 2026",
+          "price": "$59.99 base game",
+          "storage": "20 GB PC target",
+          "resolution": "Up to 3840x2160 depending on hardware",
+          "frameRate": "Follows display and graphics settings",
+          "players": "Xbox Play Anywhere support",
+          "features": ["Xbox Play Anywhere", "Cloud save via Microsoft account", "9 supported languages"],
+          "requirements": "Windows 11 PC. Connects Xbox and Windows versions through Xbox Play Anywhere."
+        },
+        {
+          "platform": "Nintendo Switch 2",
+          "releaseDate": "June 18, 2026",
+          "price": "Regional eShop pricing",
+          "storage": "14.5 GB download",
+          "resolution": "Up to 1920x1080",
+          "frameRate": "TV mode up to 60 fps; handheld variable 30-60 fps",
+          "players": "Single-system local 1-2 players",
+          "features": ["TV, tabletop, and handheld modes", "Save Data Cloud", "Demo available", "DLC supported"],
+          "requirements": "Nintendo Switch 2 console. Languages include Japanese, English, Spanish, French, German, and Italian."
         }
       ]
     }
@@ -749,31 +716,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about The Adventures of Elliot: The Millennium Tales",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Is The Adventures of Elliot: The Millennium Tales single-player or multiplayer?",
+        "answer": "The Adventures of Elliot: The Millennium Tales supports single-player and local co-op for 1-2 players, with the second player able to control Faie directly during exploration and combat."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What platforms is The Adventures of Elliot: The Millennium Tales available on?",
+        "answer": "The Adventures of Elliot: The Millennium Tales is available on PlayStation 5, Xbox Series X|S, PC via Steam and the Windows Store, and Nintendo Switch 2, all launching on June 18, 2026."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How much does The Adventures of Elliot: The Millennium Tales cost?",
+        "answer": "The Adventures of Elliot: The Millennium Tales Standard Edition is $59.99, with a $69.99 Digital Deluxe Edition and a $10.00 Deluxe Upgrade available on supported storefronts."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is there a free demo for The Adventures of Elliot: The Millennium Tales?",
+        "answer": "Yes. The Adventures of Elliot: The Millennium Tales Prologue Demo is free on Steam, PlayStation Store, Xbox Store, and Nintendo Switch 2, and its save data carries over into the full game."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What is Faie in The Adventures of Elliot: The Millennium Tales?",
+        "answer": "Faie is Elliot's fairy companion in The Adventures of Elliot: The Millennium Tales. She scouts ahead, retrieves items, supports combat, and learns magic such as Warp, Ignite, Vacuum, and Copy from Shrines of the Mystic."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How many weapon types are in The Adventures of Elliot: The Millennium Tales?",
+        "answer": "The Adventures of Elliot: The Millennium Tales has seven weapon types, including the Sword and Shield, Bow, Bomb, Boomerang, Spear, Hammer, and Chains and Sickles, with two equipped at once and swappable in real time."
       }
     ]
   },
