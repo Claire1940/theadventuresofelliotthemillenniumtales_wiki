@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Adventures of Elliot: The Millennium Tales - Guide de Build de Magicite",
+  description: "Optimisez votre équipement grâce à notre guide de build de magicite pour The Adventures of Elliot: The Millennium Tales. Découvrez les synergies d'armes, les astuces de farm et les bonus de sauvegarde.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15A7D0/fff?text=Magicite+Builds+Guide",
+  date: "2026-06-21",
+  author: "L'équipe du Wiki de The Adventures of Elliot: The Millennium Tales",
+  keywords: "the adventures of elliot the millennium tales magicite, guide de build, synergies d'armes, astuces de farm, bonus de sauvegarde"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Cœur du système** : Personnaliser vos armes avec les emplacements de **magicite de The Adventures of Elliot: The Millennium Tales** vous permet de modifier le comportement des armes, leurs statistiques et les déclencheurs élémentaires.
+- **Récompenses de données de sauvegarde** : Liez des titres Square Enix éligibles comme Octopath Traveler 0 et Dragon Quest I & II Remake pour récupérer des magicites de départ exclusives sur le bureau de l'orphelinat.
+- **Double équipement** : Équipez jusqu'à deux armes simultanément et créez des ensembles de magicite complémentaires pour couvrir à la fois le corps-à-corps défensif et le contrôle de foule à distance.
+- **Qualité de vie** : La version commerciale propose un meilleur tri de l'inventaire, des boîtes d'armes dédiées et le démantèlement automatique des doublons pour une progression simplifiée.
+</Callout>
+
+<Section icon={Sparkles} title="Mécaniques de base du système de Magicite">
+
+Dans l'Action-RPG en HD-2D développé par Square Enix et Claytechworks, la personnalisation des combats repose entièrement sur la Magicite. Ces éclats anciens et brillants sont insérés directement dans les armes d'Elliot pour modifier leurs propriétés, augmenter leurs statistiques de base et déclencher des effets de combat spéciaux. Contrairement aux systèmes de RPG traditionnels où les statistiques sont strictement liées aux niveaux des personnages, votre efficacité au combat dans ce jeu dépend fortement de la configuration de vos boîtes de magicite spécifiques à chaque arme.
+
+Le système est extrêmement flexible, vous permettant de changer de configuration de magicite en temps réel pour vous adapter aux différentes époques, donjons et affrontements de boss. Suite aux retours de l'enquête sur la première démo, les développeurs ont implémenté plusieurs améliorations de qualité de vie pour la sortie finale le 18 juin 2026. Celles-ci incluent une interface utilisateur dédiée aux boîtes de magicite pour chacun des sept types d'armes, des filtres de tri d'inventaire avancés et un système de démantèlement automatique des doublons qui convertit les éclats excédentaires en matériaux d'amélioration.
+
+| Fonctionnalité du système | Description de la mécanique | Priorité |
+| :--- | :--- | :--- |
+| **Fragments de magicite** | Trouvés dans les coffres, les donjons et les objets destructibles pour être insérés dans les armes | Élevée |
+| **Boîtes de magicite** | Emplacements de personnalisation spécifiques aux armes qui restreignent ou améliorent certains builds | Élevée |
+| **Démantèlement automatique** | Démantèle automatiquement les magicites en double en matériaux d'amélioration utiles | Moyenne |
+| **Tri personnalisé** | Filtre les magicites par type d'arme, effet élémentaire ou augmentation de statistique | Moyenne |
+
+Pour maximiser votre potentiel de combat, vous devez collecter des fragments de magicite disséminés à travers les quatre époques historiques distinctes : l'Âge de la Protection, l'Âge de la Reconstruction, l'Âge de la Magie et l'Âge du Bourgeonnement. Insérer une magicite n'offre pas seulement des bonus de statistiques passifs ; cela peut modifier fondamentalement le comportement des attaques spéciales d'une arme. Par exemple, un coup de tranchant standard peut se transformer en une vague de projectiles à distance, ou un coup de marteau lourd peut déclencher des ondes de choc localisées.
+
+<Callout type="info" title="Restrictions des boîtes de magicite">
+Chaque arme dispose d'un nombre limité d'emplacements de magicite. Certains emplacements sont verrouillés derrière des niveaux d'amélioration d'arme spécifiques, tandis que d'autres sont restreints à certains types élémentaires ou utilitaires. Planifiez toujours votre build en fonction des emplacements disponibles de vos armes principales et secondaires.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Magicites exclusives de promotion de données de sauvegarde">
+
+Les joueurs ayant soutenu les précédentes sorties de Square Enix et de la Team Asano peuvent récupérer des magicites puissantes et exclusives dès le début de leur aventure. Ces récompenses promotionnelles offrent un avantage significatif lors des premiers chapitres difficiles du jeu, en particulier lors de l'exploration de zones dangereuses comme les Ruines du Portail. 
+
+Ces bonus sont récupérés via le flux de Bonus Promotionnel sur l'écran titre principal. Une fois liés, vous pouvez récupérer les objets physiques sur le bureau au deuxième étage de l'orphelinat au sein de l'Âge de la Protection.
+
+| Titre d'origine | Nom de la magicite | Effet principal | Lieu d'obtention |
+| :--- | :--- | :--- | :--- |
+| **OCTOPATH TRAVELER 0** | Guidance of the Sacred Flame | +10% de dégâts d'épée aux ennemis ayant moins de 30% de PV | Bureau de l'orphelinat |
+| **DRAGON QUEST I & II** | Critical Hit | Augmente le taux de coups critiques à l'épée de 6% | Bureau de l'orphelinat |
+| **BRAVELY DEFAULT** | Brave | +10% de dégâts d'épée, consomme plus d'endurance de bouclier lors de la garde | Bureau de l'orphelinat |
+| **VARIOUS DAYLIFE** | Expeditionary Wisdom | Réduit le temps de charge de l'épée de 10% | Bureau de l'orphelinat |
+| **TRIANGLE STRATEGY** | Counter Stance | +10% de dégâts d'épée lorsque l'endurance du bouclier est à 90%+ | Bureau de l'orphelinat |
+
+<CardGrid cols={2}>
+  <Card title="Bonus OCTOPATH TRAVELER 0">
+    - **Magicite** : Guidance of the Sacred Flame
+    - **Effet** : Augmente les dégâts d'épée sur les cibles à faible vitalité. Excellent pour achever les monstres d'élite et les phases de boss.
+    - **Meilleure association** : À combiner avec des armes à coup unique à haut niveau de dégâts comme le Marteau.
+  </Card>
+  <Card title="Bonus DRAGON QUEST I & II">
+    - **Magicite** : Critical Hit
+    - **Effet** : Augmente les chances de coup critique. Très efficace lorsqu'associé à des types d'armes à attaque rapide.
+    - **Meilleure association** : À associer avec la Chaîne et la Faucille pour des déclenchements rapides de critiques multi-coups.
+  </Card>
+  <Card title="Bonus BRAVELY DEFAULT">
+    - **Magicite** : Brave
+    - **Effet** : Confère une augmentation brute des dégâts au coût d'une consommation d'endurance plus élevée lors de la garde.
+    - **Meilleure association** : Idéal pour les styles de jeu agressifs axés sur l'esquive qui évitent le blocage au bouclier.
+  </Card>
+  <Card title="Bonus TRIANGLE STRATEGY">
+    - **Magicite** : Counter Stance
+    - **Effet** : Récompense les blocages parfaits en augmentant les dégâts lorsque l'endurance de votre bouclier est presque pleine.
+    - **Meilleure association** : Indispensable pour les configurations défensives Épée et Bouclier.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Avantage en début de jeu">
+Si vous possédez plusieurs fichiers de sauvegarde éligibles, vous pouvez équiper simultanément plusieurs magicites promotionnelles sur votre Épée et Bouclier. Cela crée un build de début de jeu incroyablement puissant combinant des taux de critiques élevés, des temps de charge réduits et d'énormes dégâts d'exécution.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds spécifiques aux armes et synergies de Magicite">
+
+Avec sept types d'armes distincts disponibles, créer un build cohérent nécessite de comprendre comment la magicite interagit avec les mécaniques d'armes et le compagnon d'Elliot, Faie. Comme Elliot peut équiper deux armes à la fois et en changer en temps réel pendant le combat, les builds les plus efficaces utilisent une arme principale axée sur les dégâts, associée à une arme secondaire axée sur l'utilitaire.
+
+| Arme principale | Arme secondaire | Stratégie de magicite synergique | Build recommandé |
+| :--- | :--- | :--- | :--- |
+| **Épée & Bouclier** | Arc | Magicite d'épée axée sur la garde associée à des ouvertures de dégâts à distance | Corps-à-corps équilibré |
+| **Bombe** | Boomerang | Magicite à explosion retardée associée à des configurations de projectiles de retour | Explosion utilitaire |
+| **Lance** | Marteau | Magicite de lance étendant la portée combinée à des emplacements de marteau à frappe lourde | Combat spécialisé |
+| **Chaîne & Faucille** | Bombe | Magicite d'attraction pour le contrôle de foule associée à des explosions de bombes à fort impact | Contrôle avancé |
+
+### Le build de corps-à-corps équilibré (Épée & Bouclier + Arc)
+Ce build est l'option de départ la plus sûre pour l'exploration générale. Insérer la magicite *Counter Stance* ou *Brave* dans votre Épée et Bouclier garantit des dégâts de mêlée élevés lors des combats rapprochés. En parallèle, équiper votre Arc d'une magicite utilitaire vous permet d'activer des interrupteurs, de toucher des ennemis volants lointains et d'appliquer des effets d'état avant de repasser au corps-à-corps.
+
+### Le build combo d'inflammation (Bombe + Boomerang)
+Cette configuration avancée repose grandement sur la coopération avec Faie. En équipant des magicites axées sur l'explosion dans votre ensemble de Bombes, vous augmentez le rayon de déflagration et les dégâts de vos explosifs. Utilisez le Boomerang pour regrouper les ennemis, posez une bombe, puis demandez à Faie d'utiliser sa magie *Ignite* (Inflammation) pour faire détoner les explosifs instantanément, contournant ainsi le délai d'attente standard.
+
+<Callout type="tip" title="Intégration de la magie de fée">
+Les capacités de soutien de Faie, telles que *Vacuum* (Aspiration) et *Copy* (Copie), peuvent être améliorées par des builds de magicite spécifiques. Insérer des magicites d'expansion de projectiles dans votre Boomerang ou votre Arc permet à la magie *Copy* de Faie de répliquer plusieurs projectiles, remplissant l'écran de zones de collision infligeant des dégâts.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Création d'un build de Magicite étape par étape">
+
+Créer un équipement personnalisé à partir de zéro peut sembler intimidant face à la grande variété de fragments de magicite trouvés à travers les quatre époques. Suivez ce processus systématique pour concevoir un build optimisé et performant pour n'importe quel scénario de combat.
+
+<Steps>
+  <Step num="1" title="Identifiez votre rôle de combat principal">
+    Décidez si vous souhaitez vous concentrer sur une défense de mêlée à haute durabilité, du kiting à distance sécurisé ou des dégâts de burst à haut risque. Ce choix détermine votre arme principale et sa boîte de magicite correspondante.
+  </Step>
+  <Step num="2" title="Équipez les magicites de données de sauvegarde boostant la synergie">
+    Insérez vos magicites promotionnelles disponibles dans votre arme principale. Par exemple, si vous utilisez l'Épée et le Bouclier, équipez *Critical Hit* et *Guidance of the Sacred Flame* pour établir une base solide de dégâts.
+  </Step>
+  <Step num="3" title="Sélectionnez une arme secondaire complémentaire">
+    Choisissez une arme secondaire qui compense les faiblesses de votre arme principale. Si votre arme principale est lente (comme le Marteau), sélectionnez une arme rapide (comme la Lance ou l'Arc) et insérez-y des magicites axées sur la vitesse ou la sécurité.
+  </Step>
+  <Step num="4" title="Coordonnez vos actions avec la magie active de Faie">
+    Associez vos effets de magicite au sort magique actuel de Faie (Warp, Ignite, Vacuum ou Copy). Si vous utilisez la magie Vacuum (Aspiration) pour regrouper les ennemis, assurez-vous que vos armes sont équipées de magicites à effet de zone ou multi-cibles.
+  </Step>
+</Steps>
+
+<Checklist
+  id="magicite-progression-goals"
+  title="Jalons de progression :"
+  items={[
+    "Débloquer tous les emplacements de magicite de votre arme principale grâce aux améliorations",
+    "Collecter les cinq magicites promotionnelles de données de sauvegarde sur le bureau de l'orphelinat",
+    "Découvrir les Sanctuaires du Mystique pour débloquer la magie Warp (Téléportation) et Ignite (Inflammation) de Faie",
+    "Démanteler les fragments de bas niveau en double pour accumuler des matériaux d'amélioration",
+    "Établir un équipement dédié à double arme pour les affrontements de boss"
+  ]}
+/>
+
+<Callout type="warning" title="Avertissement sur la gestion de l'endurance">
+Les magicites puissantes comme *Brave* augmentent considérablement vos dégâts mais augmentent également le coût en endurance du blocage ou de l'attaque. Surveillez de près votre barre d'endurance lors des combats de boss intenses ; manquer d'endurance laisse Elliot étourdi et extrêmement vulnérable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+Pour vous aider à maîtriser pleinement les systèmes de personnalisation des combats, nous avons rassemblé les questions les plus courantes concernant les configurations d'armes, la progression et l'optimisation des fragments.
+
+<FAQ items={[
+  {
+    question: "Comment puis-je acquérir et améliorer la magicite de The Adventures of Elliot: The Millennium Tales ?",
+    answer: "Les fragments de magicite se trouvent en explorant des donjons, en ouvrant des coffres cachés et en détruisant des objets du décor comme des caisses et des jarres à travers les quatre époques. Vous pouvez les améliorer en utilisant des matériaux obtenus en démantelant les éclats en double dans le menu personnalisé de la Magicite."
+  },
+  {
+    question: "Puis-je utiliser des magicites promotionnelles de données de sauvegarde sur des armes autres que l'Épée ?",
+    answer: "La plupart des magicites promotionnelles, telles que Guidance of the Sacred Flame and Brave, sont spécifiquement limitées à la boîte de magicite de l'Épée et du Bouclier. Cependant, des magicites utilitaires générales comme l'accessoire Broche de Départ (Departure Brooch) peuvent être équipées pour augmenter les butins globaux, quel que soit votre équipement d'arme."
+  },
+  {
+    question: "Les effets de la magicite sont-ils transférés lorsque je change d'arme en combat ?",
+    answer: "Les bonus passifs de statistiques des magicites ne s'appliquent que lorsque cette arme spécifique est activement dégainée ou utilisée dans un combo. Cependant, certaines magicites de spécialiste avancées accordent un bonus temporaire à votre arme secondaire immédiatement après avoir effectué une attaque de changement d'arme."
+  },
+  {
+    question: "Que se passe-t-il si je démantèle une magicite par erreur ?",
+    answer: "Le démantèlement est permanent et convertit l'éclat en poussière d'amélioration. Pour éviter les accidents, utilisez le menu de tri personnalisé pour verrouiller vos magicites préférées et les plus rares, garantissant ainsi qu'elles ne puissent pas être sélectionnées pour le démantèlement automatique."
+  }
+]} />
+
+<Callout type="success" title="Prêt pour l'aventure">
+Avec votre équipement de magicite entièrement optimisé, vous êtes prêt à affronter les anomalies temporelles, à résoudre les énigmes complexes des temples et à vaincre les Gardiens des Marques qui protègent les secrets du millénaire.
+</Callout>
+
+</Section>

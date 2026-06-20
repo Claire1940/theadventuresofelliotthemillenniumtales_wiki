@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Adventures of Elliot the Millennium Tales All Bosses: Guide",
+  description: "Master every boss fight in The Adventures of Elliot: The Millennium Tales. Learn combat mechanics, weapon pairings, and Faie magic strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=All+Bosses+Strategy+Guide",
+  date: "2026-06-21",
+  author: "the adventures of elliot the millennium tales Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Defeating **the adventures of elliot the millennium tales all bosses** requires mastering the real-time weapon-switching system and parry mechanics.
+- **Key Mechanic**: Juggling between two equipped weapons to exploit boss weaknesses while managing stamina and weapon durability.
+- **Fairy Support**: Utilizing Faie's magic (Warp, Ignite, Vacuum, Copy) to reposition Elliot, trigger environmental traps, and control the arena.
+- **Era Preparation**: Boss behaviors and arena layouts alter drastically across the game's four distinct historical eras.
+</Callout>
+
+<Section icon={Shield} title="Boss Combat Fundamentals & Difficulty Settings">
+
+In *The Adventures of Elliot: The Millennium Tales*, boss battles are intense, real-time tests of reflexes, positioning, and tactical planning. Unlike standard encounters, bosses possess massive health pools, multi-phase attack patterns, and devastating area-of-effect moves that can quickly overwhelm unprepared players. Succeeding against these formidable foes requires a firm grasp of defensive mechanics, starting with parrying.
+
+Guarding with your shield is your primary line of defense, but simply holding down the block button is rarely enough. Standard blocking drains your stamina bar, and if your stamina is completely depleted, Elliot will enter a stunned state, leaving him wide open to a boss's ultimate attack. Instead, you must practice perfect blocking. Initiating a block right as a boss's strike connects will trigger a perfect block, nullifying damage, conserving stamina, and occasionally staggering the boss to create a counterattack window.
+
+Before stepping through the time gate to face major encounters, it is highly recommended to select a difficulty setting that matches your playstyle. The game features four distinct difficulty levels, which can be adjusted to customize the combat experience.
+
+| Difficulty | Boss Health | Boss Damage | Key Strategy Adjustments |
+|---|---|---|---|
+| Easy | Reduced | Low | Focus on story progression, relaxed parry windows |
+| Normal | Standard | Moderate | Balanced experience requiring basic weapon switching |
+| Hard | Increased | High | Strict parry timing, heavy reliance on Magicite builds |
+| Very Hard | Maximum | Extremely High | Flawless execution needed, instant-kill hazards active |
+
+<Callout type="warning" title="Stamina Management">
+Never spam the dodge roll during boss fights. Dodging does not grant unlimited invincibility frames, and overusing it will deplete your stamina, preventing you from executing crucial perfect blocks when the boss unleashes unavoidable sweeping attacks.
+</Callout>
+
+For more combat discovery tips, you can read [Xbox Wire's combat discovery tips](https://news.xbox.com/en-us/2026/06/18/the-adventures-of-elliot-exploration-combat-discovery/) to refine your defensive maneuvers before tackling high-tier bosses.
+
+</Section>
+
+<Section icon={Swords} title="Weapon Matchups & Magicite Builds for All Bosses">
+
+Elliot can equip up to seven different weapon types, carrying two of them into battle at any given time. Swapping between these two equipped weapons in real time is the cornerstone of boss strategy. Each weapon has a unique attack rhythm, range, and utility function, making certain pairings highly effective against specific boss archetypes.
+
+For instance, slow, heavily armored bosses are highly susceptible to the Hammer's high-impact strikes, which can deplete their posture and knock them into a vulnerable staggered state. However, the Hammer's slow wind-up makes it dangerous to use during a boss's active phase. To counter this, you should pair the Hammer with a fast, defensive weapon like the Sword and Shield, allowing you to quickly parry incoming strikes before switching to the Hammer for a heavy counter-blow.
+
+<CardGrid cols={3}>
+  <Card title="Defense & Range Setup">
+    Pair the **Sword and Shield** with the **Bow**. This provides maximum safety, allowing you to block heavy physical boss sweeps while maintaining damage output from a distance during dangerous area-of-effect phases.
+  </Card>
+  <Card title="Heavy Stagger Setup">
+    Pair the **Hammer** with the **Spear**. Use the spear's extended reach to poke bosses safely, then switch to the hammer for slow, high-impact hits during stagger windows to deplete boss posture.
+  </Card>
+  <Card title="Crowd & Trap Setup">
+    Pair the **Chains and Sickles** with the **Bomb**. Pull smaller boss minions together using the chain pull, then drop timed bombs to clear the arena quickly and focus back on the main boss.
+  </Card>
+</CardGrid>
+
+To further optimize your loadout, you must utilize Magicite customization. By slotting Magicite fragments into your weapon's Magicite Boxes, you can alter their stats, add elemental effects, or trigger special combat buffs.
+
+| Weapon Type | Range Category | Best Boss Archetype | Critical Magicite Slot |
+|---|---|---|---|
+| Sword & Shield | Close Range | Fast, aggressive melee bosses | Counter Stance (increases block counter damage) |
+| Bow | Long Range | Flying or highly mobile bosses | Critical Hit (boosts ranged weak-point damage) |
+| Bomb | Area Effect | Bosses with summonable minions | Ignite Combo (triggers instant bomb detonations) |
+| Boomerang | Mid Range | Bosses with large, slow hitboxes | Multi-Projectile (adds extra returning paths) |
+| Spear | Mid-Long Range | Bosses with dangerous close-range auras | Reach Extension (increases safe poking distance) |
+| Hammer | Close Range | High-armor, shielded bosses | Heavy Impact (boosts posture-breaking potential) |
+| Chains & Sickles | Mid Range | Multiple target bosses | Pull Stun (briefly interrupts boss casting) |
+
+<Callout type="tip" title="Weapon Switch Combos">
+Initiating a combo with a fast weapon like the Sword and Shield, then switching to the Hammer for the final blow, allows you to bypass the Hammer's slow wind-up animation while still delivering maximum posture damage.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Faie's Tactical Support and Magic in Boss Battles">
+
+Faie, Elliot's fairy companion, is not merely a narrative guide; she is a vital combat asset. Controlled independently with the right stick (or by a second player in local 1-2 player co-op), Faie can scout the arena, distract bosses, and cast powerful spells that alter the flow of battle.
+
+As you explore the four eras, you will discover Shrines of the Mystic, which unlock new magic spells for Faie. Utilizing these spells in tandem with Elliot's physical attacks is essential for survival, especially when dealing with the environmental hazards present in many boss arenas.
+
+| Faie Magic | Core Function | Boss Battle Utility | Co-op Synergy |
+|---|---|---|---|
+| Warp | Teleports Elliot to Faie | Escapes grab attacks and reposition behind shields | Player 2 positions Faie while Player 1 warps in |
+| Ignite | Detonates explosives and melts ice | Instantly triggers Bomb weapons for burst damage | Player 2 times detonations to interrupt boss moves |
+| Vacuum | Pulls targets toward Faie | Gathers summonable minions for easy area clearing | Groups targets together for Elliot's Hammer sweeps |
+| Copy | Mirrors Elliot's actions | Doubles projectile output and triggers dual switches | Synchronizes heavy attacks for maximum stagger |
+
+For a deeper look into these cooperative mechanics and companion abilities, refer to the [PlayStation Blog's gameplay overview](https://blog.playstation.com/2026/05/18/time-travel-trials-and-treasure-awaits-in-the-adventures-of-elliot-the-millennium-tales/) for advanced tactical breakdowns.
+
+<Callout type="success" title="Co-op Advantage">
+In local co-op, the second player controlling Faie can freely move through boss attacks without taking damage. Use this to safely position Faie behind a boss, allowing the first player to warp directly behind the boss's guard for easy flanking damage.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Adventures of Elliot the Millennium Tales All Bosses Strategy">
+
+To give you a practical example of how these mechanics come together, let us examine the strategy for defeating the **Tag Guardians**, the major boss encounter found within the Doorway Ruins. This fight tests your ability to manage multiple targets, execute perfect parries, and coordinate with Faie's support magic.
+
+The Tag Guardians consist of two ancient stone constructs: a melee-focused guardian armed with a massive stone blade, and a ranged guardian that casts tracking energy projectiles from the center of the arena. Fighting them both simultaneously is highly dangerous, making crowd control and positioning your top priorities.
+
+<Steps>
+  <Step num="1" title="Isolate the Melee Guardian">
+    At the start of the fight, the melee guardian will aggressively charge Elliot. Immediately run to the outer edge of the arena, drawing the melee guardian away from the ranged guardian. This prevents their attack patterns from overlapping and allows you to focus on one target at a time.
+  </Step>
+  <Step num="2" title="Parry and Punish">
+    Focus on the melee guardian's physical sweeps. Watch for the red glow on its blade, which signals an incoming attack. Execute a perfect block with your Sword and Shield to stun the guardian, then quickly switch to your Hammer to deal heavy posture damage.
+  </Step>
+  <Step num="3" title="Deploy Faie's Warp Magic">
+    When the ranged guardian begins casting arena-wide energy waves, direct Faie to a safe zone behind the ranged guardian. Cast Warp to instantly teleport Elliot out of the hazard zone and directly into a flanking position behind the casting guardian.
+  </Step>
+  <Step num="4" title="Trigger Ignite Combos">
+    Equip your Bomb weapon and drop explosives at the base of the ranged guardian. Have Faie cast Ignite to detonate the bombs instantly, interrupting the guardian's casting animation and dealing massive burst damage to finish the phase.
+  </Step>
+</Steps>
+
+| Phase | Key Boss Attack | Warning Tell | Optimal Counter Action |
+|---|---|---|---|
+| Phase 1 | Melee Guardian Sweep | Red blade glow | Perfect block with Sword & Shield, counter with Hammer |
+| Phase 1 | Ranged Guardian Orbs | Purple energy charge | Run in a circular pattern, use Bow to chip damage |
+| Phase 2 | Dual Guardian Charge | Both guardians spark | Direct Faie to the far side of the arena and cast Warp |
+| Phase 2 | Arena-Wide Shockwave | Ground cracks open | Jump over the shockwave, deploy Vacuum to clear debris |
+
+<Callout type="info" title="Tag Guardians Weakness">
+The Tag Guardians are highly susceptible to elemental chain reactions. Using Faie's Ignite magic on a strategically placed Bomb weapon deals massive posture damage to both guardians simultaneously, cutting the fight duration in half.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="All Bosses Checklist & Preparation Guide">
+
+Before stepping into any boss arena across the four eras, proper preparation is key. Ensuring your gear is optimized, your resources are full, and your Magicite builds are tailored to the encounter will drastically increase your chances of success.
+
+Additionally, players can take advantage of official save-data bonuses. By linking save files from other eligible Square Enix titles at the title screen, you can claim powerful, exclusive Magicite rewards from the desk on the second floor of the orphanage in the Age of Safekeeping.
+
+<Checklist
+  id="boss-prep-checklist"
+  title="Pre-Boss Battle Checklist:"
+  items={[
+    "Equip two fully repaired weapons to prevent mid-fight durability breakage",
+    "Slot optimized Magicite fragments into your weapon Magicite Boxes",
+    "Collect enough tul in the current era to fund emergency Faie revives",
+    "Discover and activate the nearest adventuring guidepost for fast travel back to the arena",
+    "Claim any eligible save-data bonuses at the orphanage desk for early-game advantages"
+  ]}
+/>
+
+<Callout type="tip" title="Bonus Magicite">
+If you have save data for titles like *OCTOPATH TRAVELER 0* or *DRAGON QUEST I & II HD-2D Remake*, make sure to claim the *Guidance of the Sacred Flame* and *Critical Hit* sword Magicites early. They provide substantial damage boosts that make early boss fights significantly easier.
+</Callout>
+
+For full details on system requirements, platform performance, and language options before starting your adventure, check out the [Steam Store page](https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/) to ensure your setup is fully optimized.
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I defeat all bosses in The Adventures of Elliot: The Millennium Tales easily?",
+    answer: "To defeat all bosses, you must master the two-weapon switching system, perfect parrying, and Faie's support magic. Adjusting the difficulty level down to Easy or Normal can also help you focus on learning attack patterns without punishing failure."
+  },
+  {
+    question: "What happens if Elliot dies during a boss fight?",
+    answer: "If Elliot's health drops to zero, Faie can revive him by spending tul, which is collected from enemies and broken objects. If you run out of tul or Faie is unavailable, you will restart from the nearest adventuring guidepost."
+  },
+  {
+    question: "Can a second player help me defeat bosses?",
+    answer: "Yes, the game supports local 1-2 player co-op. The second player controls Faie directly, managing positioning, casting support magic like Warp, and distracting bosses while the first player controls Elliot."
+  },
+  {
+    question: "Do boss fights change across different eras?",
+    answer: "Yes, the environment and boss mechanics are heavily influenced by the four eras. A boss encountered in the Age of Safekeeping may have different environmental hazards or an altered moveset when fought in the Age of Magic."
+  }
+]} />
+
+<Callout type="info" title="Game Updates">
+Make sure to keep your game updated to the latest version to ensure all boss balance adjustments, bug fixes, and performance optimizations are active during your playthrough.
+</Callout>
+
+</Section>

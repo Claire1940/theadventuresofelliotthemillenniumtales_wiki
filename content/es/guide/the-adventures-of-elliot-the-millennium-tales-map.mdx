@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa de The Adventures of Elliot: The Millennium Tales - Guía de Eras",
+  description: "Domina la navegación a través de las cuatro eras con nuestra guía completa del mapa de The Adventures of Elliot: The Millennium Tales. Desbloquea el viaje rápido, los postes de guía y los secretos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15A7D0/fff?text=Millennium+Tales+Map+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Topografía de viaje en el tiempo**: El mapa del mundo cambia dinámicamente a través de cuatro eras distintas, alterando caminos, obstáculos y el diseño de los pueblos.
+- **Postes de guía de viaje rápido**: Debes descubrir y activar manualmente los postes de guía brillantes en cada era para registrarlos en tu mapa del mundo.
+- **Exploración con hada**: Usa a Faie para volar sobre abismos, revelar caminos ocultos del mapa y activar interruptores remotos.
+- **Progresión de mazmorras**: Las ubicaciones clave como las Ruinas del Portal contienen mapas de varios pisos que requieren herramientas de armas específicas para completarse por completo.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo el sistema de mapas multiera">
+
+Navegar por el mundo de este RPG de acción en HD-2D requiere una comprensión profunda de cómo funciona el mapa de **The Adventures of Elliot: The Millennium Tales** a través del tiempo. A diferencia de los juegos de rol tradicionales con mapas del mundo estáticos, tu viaje se desarrolla a lo largo de cuatro eras históricas distintas: la Era de la Salvaguardia, la Era de la Reconstrucción, la Era de la Magia y la Era del Florecimiento. Una sola coordenada geográfica en tu mapa puede verse completamente diferente según la era que estés explorando actualmente.
+
+Por ejemplo, un río caudaloso que bloquea tu camino en la Era de la Salvaguardia podría secarse y convertirse en un cañón polvoriento durante la Era de la Reconstrucción, abriendo senderos completamente nuevos y cuevas ocultas. De manera similar, un pueblo bullicioso en el pasado podría estar en ruinas en el futuro, lleno de monstruos peligrosos y cofres de tesoros raros. Para lograr el 100% de la exploración del mapa, debes aprender a contrastar tu ubicación física a lo largo de estas cuatro líneas temporales.
+
+| Nombre de la era | Características del mapa | Puntos de interés clave | Recursos únicos |
+| :--- | :--- | :--- | :--- |
+| **Era de la Salvaguardia** | Bosques verdes y frondosos, pueblos intactos, caminos pacíficos | Orfanato, Centro del pueblo | Fragmentos de magicita básica |
+| **Era de la Reconstrucción** | Sitios de construcción activos, andamios, terreno seco | Zonas de expansión | Mineral de hierro, moneda Tul |
+| **Era de la Magia** | Ruinas flotantes, flora ancestral brillante, tormentas mágicas | Santuario de la Mística | Magicita avanzada, cristales de maná |
+| **Era del Florecimiento** | Naturaleza desbordante, selvas densas, ruinas antiguas | Ruinas del Portal | Hierbas raras, materiales de alta calidad |
+
+<Callout type="tip" title="Topografía dinámica">
+Comprueba siempre la pantalla de tu mapa después de viajar a través del Portal del Tiempo. Los obstáculos que parecen intransitables en tu era actual a menudo se pueden esquivar viajando a un punto diferente de la historia y caminando por las mismas coordenadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo desbloquear el viaje rápido y los postes de guía">
+
+Para viajar de manera eficiente por el enorme mapa del mundo, debes localizar y activar los postes de guía de aventura. Estos pilares de piedra brillantes sirven como tu red principal de viaje rápido. Una vez que se activa un poste de guía, puedes teletransportarte instantáneamente a él desde cualquier ubicación, reduciendo las tediosas caminatas de regreso.
+
+Sin embargo, el viaje rápido está restringido por eras. Activar un poste de guía en la Era de la Salvaguardia no desbloquea automáticamente su contraparte en la Era de la Magia. Debes visitar físicamente y activar el poste de guía en cada era individual para trazar el mapa completo del mundo.
+
+<Steps>
+  <Step num="1" title="Localiza el pilar de piedra brillante">
+    Busca en el entorno pilares de piedra altos que emitan un brillo suave y cian. A menudo se encuentran cerca de los límites de las regiones, las entradas de las mazmorras y las plazas principales de los pueblos.
+  </Step>
+  <Step num="2" title="Interactúa para registrar el poste de guía">
+    Acércate al pilar controlando a Elliot y presiona el botón de interactuar. La piedra brillará con una intensa energía azul y una notificación confirmará que la ubicación se ha añadido a tu mapa.
+  </Step>
+  <Step num="3" title="Enlázalo con el Portal del Tiempo">
+    Una vez registrado, el poste de guía se puede seleccionar directamente desde la pantalla de tu mapa. Puedes usar estos puntos para regresar rápidamente al Portal del Tiempo cada vez que necesites cambiar de era.
+  </Step>
+  <Step num="4" title="Completa la red de la era">
+    Repite este proceso en las cuatro eras. Una región completamente mapeada mostrará iconos de postes de guía conectados en toda la interfaz de tu línea temporal.
+  </Step>
+</Steps>
+
+| Nombre de la región | Era de la Salvaguardia | Reconstrucción | Era de la Magia | Era del Florecimiento |
+| :--- | :--- | :--- | :--- | :--- |
+| **Afueras del orfanato** | Sí (Inicio predeterminado) | Sí (Caminos modificados) | No (Zona en ruinas) | No (Selva densa) |
+| **Ruinas del Portal** | Sí (Puerta cerrada) | Sí (En construcción) | Sí (Portal activo) | Sí (Arena de jefe) |
+| **Santuario de la Mística** | No (Aún no construido) | No (Solo cimientos) | Sí (Totalmente activo) | Sí (Ruinas antiguas) |
+| **Centro del pueblo** | Sí (Mercado bullicioso) | Sí (Diseño expandido) | Sí (Ruinas desiertas) | No (Completamente borrado) |
+
+<Callout type="success" title="Sinergia de distorsión">
+Una vez que desbloquees la magia de distorsión de Faie en el Santuario de la Mística, podrás usar su movimiento independiente para explorar repisas a gran altura y activar postes de guía de difícil acceso sin tener que subir por los caminos habituales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Secretos del mapa y habilidades de exploración de Faie">
+
+El mapa del mundo está lleno de acertijos ambientales, cofres de tesoros ocultos y caminos bloqueados que Elliot no puede despejar por sí solo. Aquí es donde tu compañera hada, Faie, se convierte en tu herramienta de mapeo más valiosa. Al usar el joystick analógico derecho, puedes tomar el control directo de Faie, lo que le permite volar libremente por la pantalla.
+
+Faie puede cruzar amplios abismos, explorar pasillos peligrosos e interactuar con objetos que están fuera del alcance físico de Elliot. Para maximizar la exploración de tu mapa, debes combinar los hechizos de apoyo únicos de Faie con los versátiles conjuntos de armas de Elliot.
+
+<CardGrid cols={3}>
+  <Card title="Magia de distorsión">
+    Aprendido en el Santuario de la Mística, este hechizo le permite a Elliot teletransportarse instantáneamente a la posición actual de Faie. Úsalo para cruzar puentes rotos y llegar a repisas aisladas.
+  </Card>
+  <Card title="Magia ígnea">
+    Este hechizo basado en fuego puede encender antorchas distantes, derretir barreras de hielo que bloquean el paso y detonar barriles explosivos para despejar caminos bloqueados en tu mapa.
+  </Card>
+  <Card title="Magia de vacío">
+    Atrae objetos cercanos, botín caído y pequeños interruptores hacia Faie. Excelente para agarrar cofres de tesoros fuera de tu alcance que flotan en profundos barrancos.
+  </Card>
+</CardGrid>
+
+Para resolver los obstáculos físicos del mapa, también debes equipar las herramientas de armas correctas. Elliot puede equipar hasta dos armas a la vez y alternar entre ellas en tiempo real. Aprovecha esta flexibilidad para despejar bloqueos físicos mientras exploras.
+
+| Tipo de obstáculo | Apariencia visual en el mapa | Herramienta de arma requerida | Magia de Faie requerida |
+| :--- | :--- | :--- | :--- |
+| **Paredes de piedra agrietadas** | Bloques de piedra grises con fisuras brillantes | Bomba (Herramienta explosiva) | Ígnea (Para detonar instantáneamente) |
+| **Estacas de madera** | Postes de madera altos y verticales que bloquean caminos | Martillo (Herramienta pesada) | Ninguna |
+| **Interruptores a distancia** | Orbes de cristal azul colocados en repisas altas | Arco o bumerán | Copia (Para doble activación) |
+| **Barreras congeladas** | Bloques gruesos de hielo azul sólido | Ninguna | Ígnea (Derrite el hielo al instante) |
+| **Cofres lejanos** | Cofres de tesoros colocados al otro lado de abismos anchos | Bumerán | Vacío (Atrae el botín hacia ti) |
+
+<Callout type="warning" title="Gestión de resistencia">
+El uso de armas pesadas como el Martillo o el uso de la magia avanzada de Faie consume resistencia y recursos mágicos. Vigila tus barras de energía cuando despejes múltiples obstáculos del mapa en rápida sucesión.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navegación de mazmorras y las Ruinas del Portal">
+
+Las mazmorras en este juego son laberintos intrincados de varios pisos que desafían tu percepción espacial y tu lógica de viaje en el tiempo. La mazmorra más destacada del inicio del juego son las Ruinas del Portal, ubicadas en la Era del Florecimiento. Navegar por estas ruinas requiere que cambies constantemente entre los estilos de combate de Elliot y las habilidades de apoyo de Faie para eludir los antiguos sistemas de seguridad y derrotar a jefes poderosos.
+
+Al explorar mazmorras, tu objetivo principal debe ser encontrar el mapa de la mazmorra y la brújula. Estos objetos revelan todo el diseño de las ruinas, destacando puertas cerradas, escaleras ocultas y la cámara del jefe Guardianes de la Marca.
+
+| Nombre de la mazmorra | Era principal | Nivel recomendado | Botín / Recompensas clave | Encuentro con jefe |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sótanos del orfanato** | Era de la Salvaguardia | Nivel 1+ | Magicita de espada básica | Enjambre de ratas gigantes |
+| **Ruinas del Portal** | Era del Florecimiento | Nivel 5+ | Magicita de espada: Valiente | Guardianes de la Marca |
+| **Santuario Místico** | Era de la Magia | Nivel 10+ | Magia de distorsión de Faie | Centinela Místico |
+
+<Checklist
+  id="dungeon-checklist"
+  title="Lista de verificación para completar el mapa de la mazmorra:"
+  items={[
+    "Localiza y abre el cofre del mapa de la mazmorra para revelar el diseño",
+    "Encuentra la brújula para resaltar habitaciones ocultas y objetos clave",
+    "Activa el poste de guía local cerca de la entrada para el viaje rápido",
+    "Usa bombas para romper paredes agrietadas que ocultan salas de cofres secretos",
+    "Derrota a los Guardianes de la Marca para desbloquear el portal temporal principal de la era"
+  ]}
+/>
+
+<Callout type="info" title="Consejo de rendimiento del sistema">
+Cargar mapas de mazmorras en HD-2D grandes y detallados puede sobrecargar los sistemas más antiguos. Si experimentas caídas de fotogramas en la versión de PC, asegúrate de que tu hardware cumpla con los requisitos del sistema recomendados (Windows 11, 16 GB de RAM y una GTX 1660 Ti o equivalente).
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el mapa completo del mundo en The Adventures of Elliot: The Millennium Tales?",
+    answer: "Para desbloquear todo el mapa del mundo, debes avanzar en la historia principal y activar el Portal del Tiempo. Esto te permitirá visitar las cuatro eras (Salvaguardia, Reconstrucción, Magia y Florecimiento) y activar manualmente los postes de guía repartidos por cada línea temporal."
+  },
+  {
+    question: "¿Puedo viajar rápidamente entre diferentes eras directamente desde la pantalla del mapa?",
+    answer: "No, no puedes teletransportarte directamente entre diferentes eras desde la pantalla del mapa. Primero debes viajar rápidamente al Portal del Tiempo en tu era actual, cruzar el portal para cambiar de línea temporal y luego viajar rápidamente a tu poste de guía deseado en la nueva era."
+  },
+  {
+    question: "¿Qué debo hacer si un camino en el mapa está bloqueado por una estaca de madera gigante?",
+    answer: "Los caminos bloqueados por estacas de madera requieren el Martillo para despejarse. Equipa el Martillo como una de tus armas activas, acércate a la estaca y usa el ataque de golpe hacia abajo para clavarla en el suelo, abriendo el camino de forma permanente."
+  },
+  {
+    question: "¿Vuelven a aparecer los cofres de tesoros cuando cambio de era en el mapa?",
+    answer: "No, los cofres de tesoros estándar no reaparecen al cambiar de era. Sin embargo, solo se puede acceder a ciertos cofres de acertijos únicos manipulando objetos en el pasado para alterar el entorno en el futuro."
+  }
+]} />
+
+<Callout type="success" title="Explorador maestro">
+Con este conocimiento del sistema de mapas multiera, los postes de guía de viaje rápido y las habilidades de apoyo de Faie, estás completamente preparado para descubrir cada secreto oculto a lo largo del milenio. ¡Feliz aventura!
+</Callout>
+
+</Section>

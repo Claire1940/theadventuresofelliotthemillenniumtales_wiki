@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de todos los jefes de The Adventures of Elliot: The Millennium Tales",
+  description: "Domina cada batalla contra jefes en The Adventures of Elliot: The Millennium Tales. Aprende mecánicas de combate, combinaciones de armas y estrategias con la magia de Faie.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=All+Bosses+Strategy+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Derrotar a **todos los jefes de The Adventures of Elliot: The Millennium Tales** requiere dominar el sistema de cambio de armas en tiempo real y las mecánicas de parry (desvío).
+- **Mecánica clave**: Alternar entre dos armas equipadas para explotar las debilidades de los jefes mientras gestionas la resistencia y la durabilidad de las armas.
+- **Soporte de hada**: Utilizar la magia de Faie (Warp, Ignite, Vacuum, Copy) para reposicionar a Elliot, activar trampas ambientales y controlar la arena.
+- **Preparación de eras**: Los comportamientos de los jefes y los diseños de las arenas cambian drásticamente a lo largo de las cuatro eras históricas del juego.
+</Callout>
+
+<Section icon={Shield} title="Fundamentos del combate contra jefes y ajustes de dificultad">
+
+En *The Adventures of Elliot: The Millennium Tales*, las batallas contra jefes son intensas pruebas en tiempo real de reflejos, posicionamiento y planificación táctica. A diferencia de los encuentros estándar, los jefes poseen enormes barras de vida, patrones de ataque de múltiples fases y devastadores movimientos de área de efecto que pueden abrumar rápidamente a los jugadores que no estén preparados. Triunfar contra estos formidables enemigos requiere un firme dominio de las mecánicas defensivas, comenzando por el parry.
+
+Protegerte con tu escudo es tu línea de defensa principal, pero mantener presionado el botón de bloqueo rara vez es suficiente. El bloqueo estándar agota tu barra de resistencia, y si esta se agota por completo, Elliot entrará en un estado de aturdimiento, dejándolo totalmente expuesto al ataque definitivo de un jefe. En su lugar, debes practicar el bloqueo perfecto. Iniciar un bloqueo justo cuando el golpe de un jefe conecta activará un bloqueo perfecto, anulando el daño, conservando la resistencia y, en ocasiones, desestabilizando al jefe para crear una ventana de contraataque.
+
+Antes de cruzar la puerta del tiempo para enfrentarte a los encuentros principales, se recomienda encarecidamente seleccionar un ajuste de dificultad que se adapte a tu estilo de juego. El juego cuenta con cuatro niveles de dificultad distintos, que se pueden ajustar para personalizar la experiencia de combate.
+
+| Dificultad | Salud del jefe | Daño del jefe | Ajustes clave de estrategia |
+|---|---|---|---|
+| Fácil | Reducida | Bajo | Enfocado en la progresión de la historia, ventanas de parry más permisivas |
+| Normal | Estándar | Moderado | Experiencia equilibrada que requiere un cambio básico de armas |
+| Difícil | Incrementada | Alto | Tiempos de parry estrictos, gran dependencia de configuraciones de Magicita |
+| Muy difícil | Máxima | Extremadamente alto | Se requiere una ejecución impecable, peligros de muerte instantánea activos |
+
+<Callout type="warning" title="Gestión de resistencia">
+Nunca abuses de la esquiva rodando durante las peleas contra jefes. Esquivar no otorga fotogramas de invencibilidad ilimitados, y usarlo en exceso agotará tu resistencia, impidiéndote realizar bloqueos perfectos cruciales cuando el jefe desate ataques de barrido inevitables.
+</Callout>
+
+Para más consejos de descubrimiento de combate, puedes leer los [consejos de descubrimiento de combate de Xbox Wire](https://news.xbox.com/en-us/2026/06/18/the-adventures-of-elliot-exploration-combat-discovery/) para perfeccionar tus maniobras defensivas antes de enfrentarte a jefes de alto nivel.
+
+</Section>
+
+<Section icon={Swords} title="Enfrentamientos de armas y configuraciones de Magicita para todos los jefes">
+
+Elliot puede equipar hasta siete tipos de armas diferentes, llevando dos de ellas al combate en cualquier momento. Alternar entre estas dos armas equipadas en tiempo real es la piedra angular de la estrategia contra los jefes. Cada arma tiene un ritmo de ataque, alcance y función de utilidad únicos, lo que hace que ciertas combinaciones sean muy efectivas contra arquetipos de jefes específicos.
+
+Por ejemplo, los jefes lentos y fuertemente blindados son muy susceptibles a los golpes de gran impacto del Martillo, que pueden agotar su postura y dejarlos en un estado vulnerable de aturdimiento. Sin embargo, la lenta preparación del Martillo hace que sea peligroso usarlo durante la fase activa de un jefe. Para contrarrestar esto, debes combinar el Martillo con un arma rápida y defensiva como la Espada y el Escudo, lo que te permitirá desviar rápidamente los ataques entrantes antes de cambiar al Martillo para un fuerte contragolpe.
+
+<CardGrid cols={3}>
+  <Card title="Configuración de defensa y alcance">
+    Combina la **Espada y el Escudo** con el **Arco**. Esto proporciona la máxima seguridad, permitiéndote bloquear barridos físicos pesados de los jefes mientras mantienes el daño a distancia durante las peligrosas fases de área de efecto.
+  </Card>
+  <Card title="Configuración de gran aturdimiento">
+    Combina el **Martillo** con la **Lanza**. Usa el gran alcance de la lanza para atacar a los jefes de forma segura y luego cambia al martillo para asestar golpes lentos y de gran impacto durante las ventanas de aturdimiento para agotar la postura del jefe.
+  </Card>
+  <Card title="Configuración de control de masas y trampas">
+    Combina las **Cadenas y Hoces** con la **Bomba**. Atrae a los esbirros más pequeños del jefe usando el tirón de cadena y luego suelta bombas de tiempo para limpiar la arena rápidamente y volver a concentrarte en el jefe principal.
+  </Card>
+</CardGrid>
+
+Para optimizar aún más tu equipamiento, debes utilizar la personalización de Magicita. Al colocar fragmentos de Magicita en las Cajas de Magicita de tu arma, puedes alterar sus estadísticas, añadir efectos elementales o activar mejoras de combate especiales.
+
+| Tipo de arma | Categoría de alcance | Mejor arquetipo de jefe | Ranura de Magicita crítica |
+|---|---|---|---|
+| Espada y Escudo | Corto alcance | Jefes cuerpo a cuerpo rápidos y agresivos | Postura de contraataque (aumenta el daño de contraataque tras bloqueo) |
+| Arco | Largo alcance | Jefes voladores o muy móviles | Golpe crítico (potencia el daño en puntos débiles a distancia) |
+| Bomba | Efecto de área | Jefes con esbirros invocables | Combo de ignición (activa detonaciones de bombas instantáneas) |
+| Búmeran | Medio alcance | Jefes con áreas de impacto grandes y lentas | Multiproyectil (añade trayectorias de retorno adicionales) |
+| Lanza | Alcance medio-largo | Jefes con auras peligrosas de corto alcance | Extensión de alcance (aumenta la distancia segura de ataque) |
+| Martillo | Corto alcance | Jefes con armadura pesada o escudo | Impacto pesado (potencia la capacidad de romper la postura) |
+| Cadenas y Hoces | Medio alcance | Jefes con múltiples objetivos | Aturdimiento por tirón (interrumpe brevemente la canalización del jefe) |
+
+<Callout type="tip" title="Combos de cambio de arma">
+Iniciar un combo con un arma rápida como la Espada y el Escudo, y luego cambiar al Martillo para el golpe final, te permite evitar la lenta animación de preparación del Martillo mientras sigues infligiendo el máximo daño a la postura.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Soporte táctico y magia de Faie en batallas contra jefes">
+
+Faie, la compañera hada de Elliot, no es simplemente una guía narrativa; es un activo de combate vital. Controlada de forma independiente con el joystick derecho (o por un segundo jugador en el modo cooperativo local para 1 o 2 jugadores), Faie puede explorar la arena, distraer a los jefes y lanzar poderosos hechizos que cambian el rumbo de la batalla.
+
+A medida que explores las cuatro eras, descubrirás los Santuarios del Místico, que desbloquean nuevos hechizos mágicos para Faie. Utilizar estos hechizos en conjunto con los ataques físicos de Elliot es esencial para la supervivencia, especialmente al lidiar con los peligros ambientales presentes en muchas arenas de jefes.
+
+| Magia de Faie | Función principal | Utilidad en batallas contra jefes | Sinergia cooperativa |
+|---|---|---|---|
+| Warp | Teletransporta a Elliot al lado de Faie | Escapa de ataques de agarre y reposiciona detrás de escudos | El jugador 2 posiciona a Faie mientras el jugador 1 se teletransporta |
+| Ignite | Detona explosivos y derrite hielo | Activa instantáneamente las bombas para causar daño de ráfaga | El jugador 2 calcula las detonaciones para interrumpir los movimientos del jefe |
+| Vacuum | Atrae a los objetivos hacia Faie | Reúne a los esbirros invocados para limpiar el área fácilmente | Agrupa a los objetivos para los barridos del Martillo de Elliot |
+| Copy | Imita las acciones de Elliot | Duplica la salida de proyectiles y activa cambios duales | Sincroniza ataques pesados para maximizar el aturdimiento |
+
+Para un análisis más profundo de estas mecánicas cooperativas y habilidades de acompañante, consulta la [descripción general del juego en el PlayStation Blog](https://blog.playstation.com/2026/05/18/time-travel-trials-and-treasure-awaits-in-the-adventures-of-elliot-the-millennium-tales/) para obtener desgloses tácticos avanzados.
+
+<Callout type="success" title="Ventaja cooperativa">
+En el modo cooperativo local, el segundo jugador que controla a Faie puede moverse libremente a través de los ataques de los jefes sin sufrir daño. Usa esto para posicionar a Faie de manera segura detrás de un jefe, lo que permitirá al primer jugador teletransportarse directamente detrás de la defensa del jefe para infligir daño por el flanco fácilmente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia para todos los jefes de The Adventures of Elliot: The Millennium Tales">
+
+Para ofrecerte un ejemplo práctico de cómo se combinan estas mecánicas, examinemos la estrategia para derrotar a los **Guardianes Tag**, el gran encuentro contra jefes que se encuentra dentro de las Ruinas del Umbral. Esta pelea pone a prueba tu capacidad para gestionar múltiples objetivos, realizar bloqueos perfectos y coordinarte con la magia de soporte de Faie.
+
+Los Guardianes Tag consisten en dos antiguos constructos de piedra: un guardián enfocado en el cuerpo a cuerpo armado con una enorme espada de piedra, y un guardián a distancia que lanza proyectiles de energía de seguimiento desde el centro de la arena. Combatir a ambos simultáneamente es muy peligroso, lo que hace que el control de masas y el posicionamiento sean tus principales prioridades.
+
+<Steps>
+  <Step num="1" title="Aísla al guardián cuerpo a cuerpo">
+    Al comienzo de la pelea, el guardián cuerpo a cuerpo cargará agresivamente contra Elliot. Corre inmediatamente hacia el borde exterior de la arena, atrayendo al guardián cuerpo a cuerpo lejos del guardián a distancia. Esto evita que sus patrones de ataque se superpongan y te permite concentrarte en un objetivo a la vez.
+  </Step>
+  <Step num="2" title="Desvía y castiga">
+    Concéntrate en los barridos físicos del guardián cuerpo a cuerpo. Presta atención al brillo rojo en su espada, que indica un ataque inminente. Realiza un bloqueo perfecto con tu Espada y Escudo para aturdir al guardián, luego cambia rápidamente a tu Martillo para infligir un gran daño a la postura.
+  </Step>
+  <Step num="3" title="Despliega la magia Warp de Faie">
+    Cuando el guardián a distancia comience a lanzar ondas de energía por toda la arena, dirige a Faie a una zona segura detrás de él. Lanza Warp para teletransportar instantáneamente a Elliot fuera de la zona de peligro y directamente a una posición de flanqueo detrás del guardián que está canalizando el ataque.
+  </Step>
+  <Step num="4" title="Activa combos de ignición">
+    Equipa tu Bomba y suelta explosivos en la base del guardián a distancia. Haz que Faie lance Ignite para detonar las bombas al instante, interrumpiendo la animación de canalización del guardián e infligiendo un daño masivo de ráfaga para terminar la fase.
+  </Step>
+</Steps>
+
+| Fase | Ataque clave del jefe | Señal de advertencia | Acción de contraataque óptima |
+|---|---|---|---|
+| Fase 1 | Barrido del guardián cuerpo a cuerpo | Brillo rojo en la espada | Bloqueo perfecto con Espada y Escudo, contraataque con Martillo |
+| Fase 1 | Orbes del guardián a distancia | Carga de energía morada | Corre en círculos, usa el Arco para causar daño progresivo |
+| Fase 2 | Carga dual de guardianes | Ambos guardianes chispean | Dirige a Faie al lado opuesto de la arena y lanza Warp |
+| Fase 2 | Onda de choque en toda la arena | El suelo se agrieta | Salta sobre la onda de choque, despliega Vacuum para limpiar los escombros |
+
+<Callout type="info" title="Debilidad de los Guardianes Tag">
+Los Guardianes Tag son muy susceptibles a las reacciones elementales en cadena. Usar la magia Ignite de Faie en una Bomba estratégicamente colocada inflige un daño masivo de postura a ambos guardianes simultáneamente, reduciendo la duración de la pelea a la mitad.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación y guía de preparación para todos los jefes">
+
+Antes de entrar en cualquier arena de jefe a lo largo de las cuatro eras, la preparación adecuada es clave. Asegurarte de que tu equipo esté optimizado, tus recursos estén llenos y tus configuraciones de Magicita estén adaptadas al encuentro aumentará drásticamente tus posibilidades de éxito.
+
+Además, los jugadores pueden aprovechar las bonificaciones oficiales por datos de guardado. Al vincular archivos de guardado de otros títulos elegibles de Square Enix en la pantalla de título, puedes reclamar poderosas y exclusivas recompensas de Magicita en el escritorio del segundo piso del orfanato en la Era de la Salvaguarda.
+
+<Checklist
+  id="boss-prep-checklist"
+  title="Lista de preparación antes de la batalla contra jefes:"
+  items={[
+    "Equipar dos armas completamente reparadas para evitar que se rompan por durabilidad a mitad de la pelea",
+    "Colocar fragmentos de Magicita optimizados en las Cajas de Magicita de tus armas",
+    "Recolectar suficiente tul en la era actual para financiar resurrecciones de emergencia de Faie",
+    "Descubrir y activar el poste de guía de aventura más cercano para viajar rápido de regreso a la arena",
+    "Reclamar cualquier bonificación de datos de guardado elegible en el escritorio del orfanato para obtener ventajas al inicio del juego"
+  ]}
+/>
+
+<Callout type="tip" title="Magicita de bonificación">
+Si tienes datos de guardado de títulos como *OCTOPATH TRAVELER 0* o *DRAGON QUEST I & II HD-2D Remake*, asegúrate de reclamar las Magicitas de espada *Guidance of the Sacred Flame* y *Critical Hit* desde el principio. Proporcionan aumentos de daño sustanciales que facilitan significativamente las primeras peleas contra jefes.
+</Callout>
+
+Para obtener todos los detalles sobre los requisitos del sistema, el rendimiento de la plataforma y las opciones de idioma antes de comenzar tu aventura, visita la [página de la tienda de Steam](https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/) para asegurarte de que tu configuración esté completamente optimizada.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo puedo derrotar a todos los jefes en The Adventures of Elliot: The Millennium Tales fácilmente?",
+    answer: "Para derrotar a todos los jefes, debes dominar el sistema de cambio de dos armas, el bloqueo perfecto y la magia de soporte de Faie. Ajustar el nivel de dificultad a Fácil o Normal también puede ayudarte a concentrarte en aprender los patrones de ataque sin que los fallos sean tan penalizados."
+  },
+  {
+    question: "¿Qué pasa si Elliot muere durante una batalla contra un jefe?",
+    answer: "Si la salud de Elliot llega a cero, Faie puede revivirlo gastando tul, que se recolecta de los enemigos y objetos destruidos. Si te quedas sin tul o Faie no está disponible, reiniciarás desde el poste de guía de aventura más cercano."
+  },
+  {
+    question: "¿Puede un segundo jugador ayudarme a derrotar a los jefes?",
+    answer: "Sí, el juego es compatible con el modo cooperativo local para 1 o 2 jugadores. El segundo jugador controla a Faie directamente, gestionando el posicionamiento, lanzando magia de soporte como Warp y distrayendo a los jefes mientras el primer jugador controla a Elliot."
+  },
+  {
+    question: "¿Cambian las batallas contra jefes en las diferentes eras?",
+    answer: "Sí, el entorno y las mecánicas de los jefes están fuertemente influenciados por las cuatro eras. Un jefe encontrado en la Era de la Salvaguarda puede tener diferentes peligros ambientales o un conjunto de movimientos alterado cuando se lucha contra él en la Era de la Magia."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones del juego">
+Asegúrate de mantener tu juego actualizado a la versión más reciente para garantizar que todos los ajustes de equilibrio de los jefes, correcciones de errores y optimizaciones de rendimiento estén activos durante tu partida.
+</Callout>
+
+</Section>

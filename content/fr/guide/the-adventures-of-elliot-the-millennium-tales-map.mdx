@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Carte de The Adventures of Elliot: The Millennium Tales : Guide des Ères",
+  description: "Maîtrisez la navigation à travers les quatre ères grâce à notre guide complet de la carte de The Adventures of Elliot: The Millennium Tales. Débloquez le voyage rapide, les jalons de voyage et les secrets.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15A7D0/fff?text=Millennium+Tales+Map+Guide",
+  date: "2026-06-21",
+  author: "L'équipe du Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Topographie du voyage dans le temps** : La carte du monde change de manière dynamique à travers quatre ères distinctes, modifiant les chemins, les obstacles et l'agencement des villes.
+- **Jalons de voyage rapide** : Vous devez découvrir et activer manuellement les jalons lumineux dans chaque ère pour les enregistrer sur votre carte du monde.
+- **Éclaireur fée** : Utilisez Faie pour voler au-dessus des gouffres, révéler des chemins cachés sur la carte et activer des interrupteurs à distance.
+- **Progression dans les donjons** : Les lieux clés comme les Ruines de la Porte (Doorway Ruins) contiennent des cartes sur plusieurs étages qui nécessitent des outils d'armes spécifiques pour être entièrement explorés.
+</Callout>
+
+<Section icon={Map} title="Comprendre le système de carte multi-ère">
+
+Naviguer dans le monde de cet action-RPG en HD-2D nécessite une compréhension approfondie du fonctionnement de la carte de **The Adventures of Elliot: The Millennium Tales** à travers le temps. Contrairement aux jeux de rôle traditionnels dotés de cartes du monde statiques, votre voyage s'étend sur quatre ères historiques distinctes : l'Ère de la Préservation (Age of Safekeeping), l'Ère de la Reconstruction (Age of Reconstruction), l'Ère de la Magie (Age of Magic) et l'Ère du Bourgeonnement (Age of Budding). Une seule coordonnée géographique sur votre carte peut avoir un aspect complètement différent selon l'ère que vous explorez actuellement.
+
+Par exemple, une rivière tumultueuse bloquant votre chemin dans l'Ère de la Préservation peut s'assécher pour devenir un canyon poussiéreux pendant l'Ère de la Reconstruction, ouvrant ainsi de tout nouveaux sentiers et des grottes cachées. De même, une ville animée du passé peut se retrouver en ruines dans le futur, regorgeant de monstres dangereux et de coffres au trésor rares. Pour terminer la carte à 100 %, vous devez apprendre à croiser les références de votre emplacement physique à travers ces quatre chronologies.
+
+| Nom de l'ère | Caractéristiques de la carte | Lieux d'intérêt clés | Ressources uniques |
+| :--- | :--- | :--- | :--- |
+| **Ère de la Préservation** | Forêts verdoyantes, villes intactes, sentiers paisibles | Orphelinat, Centre-ville | Fragments de Magicite de base |
+| **Ère de la Reconstruction** | Chantiers actifs, échafaudages, terrain sec | Zones d'expansion | Minerai de fer, monnaie Tul |
+| **Ère de la Magie** | Ruines flottantes, flore ancienne luminescente, tempêtes magiques | Sanctuaire du Mystique | Magicite avancée, cristaux de Mana |
+| **Ère du Bourgeonnement** | Nature sauvage luxuriante, jungles denses, ruines anciennes | Ruines de la Porte | Herbes rares, matériaux de haute qualité |
+
+<Callout type="tip" title="Topographie dynamique">
+Vérifiez toujours l'écran de votre carte après avoir franchi la Porte du Temps. Les obstacles qui semblent infranchissables à votre époque actuelle peuvent souvent être contournés en voyageant à un autre moment de l'histoire et en vous rendant aux mêmes coordonnées.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comment débloquer le voyage rapide et les jalons">
+
+Pour voyager efficacement sur l'immense carte du monde, vous devez localiser et activer les Jalons d'Aventure. Ces piliers de pierre luminescents constituent votre principal réseau de voyage rapide. Une fois un jalon activé, vous pouvez vous y téléporter instantanément depuis n'importe quel endroit, ce qui réduit les allers-retours fastidieux. 
+
+Cependant, le voyage rapide est limité par l'ère. L'activation d'un jalon dans l'Ère de la Préservation ne débloque pas automatiquement son homologue dans l'Ère de la Magie. Vous devez visiter physiquement et activer le jalon dans chaque ère individuelle pour cartographier entièrement le monde.
+
+<Steps>
+  <Step num="1" title="Localisez le pilier de pierre lumineux">
+    Explorez l'environnement à la recherche de grands piliers de pierre émettant une douce lueur cyan. Ils sont souvent placés près des frontières de région, des entrées de donjons et des places principales des villes.
+  </Step>
+  <Step num="2" title="Interagissez pour enregistrer le jalon">
+    Approchez-vous du pilier avec Elliot et appuyez sur le bouton d'interaction. La pierre brillera d'une énergie bleue éclatante, et une notification confirmera que le lieu a été ajouté à votre carte.
+  </Step>
+  <Step num="3" title="Liez-le à la Porte du Temps">
+    Une fois enregistré, le jalon peut être sélectionné directement depuis l'écran de votre carte. Vous pouvez utiliser ces points pour revenir rapidement à la Porte du Temps chaque fois que vous devez changer d'ère.
+  </Step>
+  <Step num="4" title="Complétez le réseau de l'ère">
+    Répétez ce processus dans les quatre ères. Une région entièrement cartographiée affichera des icônes de jalons connectées sur l'ensemble de votre interface temporelle.
+  </Step>
+</Steps>
+
+| Nom de la région | Ère de la Préservation | Reconstruction | Ère de la Magie | Ère du Bourgeonnement |
+| :--- | :--- | :--- | :--- | :--- |
+| **Périphérie de l'Orphelinat** | Oui (Départ par défaut) | Oui (Chemins modifiés) | Non (Zone en ruines) | Non (Jungle luxuriante) |
+| **Ruines de la Porte** | Oui (Portail verrouillé) | Oui (En construction) | Oui (Portail actif) | Oui (Arène de boss) |
+| **Sanctuaire du Mystique** | Non (Pas encore construit) | Non (Fondations uniquement) | Oui (Entièrement actif) | Oui (Ruines anciennes) |
+| **Centre-ville** | Oui (Marché animé) | Oui (Plan élargi) | Oui (Ruines désertes) | Non (Complètement effacé) |
+
+<Callout type="success" title="Synergie de Téléportation">
+Une fois que vous aurez débloqué la magie de Téléportation (Warp) de Faie au Sanctuaire du Mystique, vous pourrez utiliser ses mouvements indépendants pour explorer les corniches en hauteur et activer des jalons difficiles d'accès sans avoir à gravir les chemins habituels.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Secrets de cartographie et capacités d'éclaireur de Faie">
+
+La carte du monde regorge d'énigmes environnementales, de coffres au trésor cachés et de passages bloqués qui ne peuvent pas être dégagés par Elliot seul. C'est là que votre compagne fée, Faie, devient votre outil de cartographie le plus précieux. En utilisant le stick analogique droit, vous pouvez prendre le contrôle direct de Faie, lui permettant de voler librement à l'écran.
+
+Faie peut traverser de larges gouffres, explorer des couloirs dangereux et interagir avec des objets qui sont bien hors de portée physique d'Elliot. Pour maximiser votre exploration de la carte, vous devez combiner les sorts de soutien uniques de Faie avec les ensembles d'armes polyvalents d'Elliot.
+
+<CardGrid cols={3}>
+  <Card title="Magie de Téléportation">
+    Appris au Sanctuaire du Mystique, ce sort permet à Elliot de se téléporter instantanément à la position actuelle de Faie. Utilisez-le pour traverser des ponts brisés et atteindre des corniches isolées.
+  </Card>
+  <Card title="Magie d'Embrasement">
+    Ce sort basé sur le feu peut allumer des torches lointaines, faire fondre des barrières de glace bloquant le passage et faire exploser des barils d'explosifs pour dégager des chemins obstrués sur votre carte.
+  </Card>
+  <Card title="Magie d'Aspiration">
+    Attire les objets à proximité, le butin tombé au sol et les petits interrupteurs vers Faie. Excellent pour récupérer des coffres au trésor hors de portée flottant dans des ravins profonds.
+  </Card>
+</CardGrid>
+
+Pour surmonter les obstacles physiques de la carte, vous devez également vous équiper des bons outils d'armes. Elliot peut équiper jusqu'à deux armes à la fois et en changer en temps réel. Utilisez cette flexibilité pour éliminer les blocages physiques au fil de votre exploration.
+
+| Type d'obstacle | Apparence visuelle sur la carte | Outil d'arme requis | Magie de Faie requise |
+| :--- | :--- | :--- | :--- |
+| **Murs de pierre fissurés** | Blocs de pierre grise avec des fissures lumineuses | Bombe (Outil explosif) | Embrasement (Pour faire détoner instantanément) |
+| **Piquets en bois** | Grands poteaux en bois verticaux bloquant les chemins | Marteau (Outil lourd) | Aucune |
+| **Interrupteurs à distance** | Orbes de cristal bleu placés sur de hautes corniches | Arc ou Boomerang | Copie (Pour une double activation) |
+| **Barrières gelées** | Épais blocs de glace bleue solide | Aucun | Embrasement (Fait fondre la glace instantanément) |
+| **Coffres éloignés** | Coffres au trésor placés de l'autre côté de larges gouffres | Boomerang | Aspiration (Attire le butin vers vous) |
+
+<Callout type="warning" title="Gestion de l'endurance">
+L'utilisation d'armes lourdes comme le Marteau ou l'usage de la magie avancée de Faie consomment de l'endurance et des ressources magiques. Gardez un œil sur vos jauges lorsque vous dégagez plusieurs obstacles de carte en succession rapide.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navigation dans les donjons et Ruines de la Porte">
+
+Dans ce jeu, les donjons sont des labyrinthes complexes à plusieurs étages qui mettent à l'épreuve votre perception spatiale et votre logique de voyage dans le temps. Le donjon le plus marquant du début du jeu est celui des Ruines de la Porte (Doorway Ruins), situé dans l'Ère du Bourgeonnement. Naviguer dans ces ruines nécessite de basculer constamment entre les styles de combat d'Elliot et les capacités de soutien de Faie pour contourner les anciens systèmes de sécurité et vaincre de puissants boss.
+
+Lors de l'exploration des donjons, votre objectif principal doit être de trouver la Carte du donjon et la Boussole. Ces objets révèlent l'intégralité de l'agencement des ruines, mettant en évidence les portes verrouillées, les escaliers cachés et la chambre du boss des Gardiens de la Marque (Tag Guardians).
+
+| Nom du donjon | Ère principale | Niveau recommandé | Butin clé / Récompenses | Affrontement de boss |
+| :--- | :--- | :--- | :--- | :--- |
+| **Caves de l'Orphelinat** | Ère de la Préservation | Niveau 1+ | Magicite d'épée de base | Nuée de rats géants |
+| **Ruines de la Porte** | Ère du Bourgeonnement | Niveau 5+ | Magicite d'épée : Brave | Gardiens de la Marque |
+| **Sanctuaire Mystique** | Ère de la Magie | Niveau 10+ | Magie de Téléportation de Faie | Sentinelle Mystique |
+
+<Checklist
+  id="dungeon-checklist"
+  title="Liste de contrôle pour compléter la carte du donjon :"
+  items={[
+    "Localisez et ouvrez le coffre de la Carte du donjon pour révéler l'agencement",
+    "Trouvez la Boussole pour mettre en surbrillance les pièces cachées et les objets clés",
+    "Activez le jalon local près de l'entrée pour le voyage rapide",
+    "Utilisez des bombes pour briser les murs fissurés cachant des salles de coffres secrètes",
+    "Vainquez les Gardiens de la Marque pour débloquer le portail temporel principal de l'ère"
+  ]}
+/>
+
+<Callout type="info" title="Conseil de performance système">
+Le chargement de grandes cartes de donjons détaillées en HD-2D peut solliciter les configurations plus anciennes. Si vous constatez des chutes de framerate sur la version PC, assurez-vous que votre matériel respecte la configuration système recommandée (Windows 11, 16 Go de RAM et une GTX 1660 Ti ou équivalent).
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Comment débloquer l'intégralité de la carte du monde dans The Adventures of Elliot: The Millennium Tales ?",
+    answer: "Pour débloquer l'intégralité de la carte du monde, vous devez progresser dans l'histoire principale et activer la Porte du Temps. Cela vous permet de visiter les quatre ères (Préservation, Reconstruction, Magie et Bourgeonnement) et d'activer manuellement les jalons dispersés dans chaque chronologie."
+  },
+  {
+    question: "Puis-je voyager rapidement d'une ère à l'autre directement depuis l'écran de la carte ?",
+    answer: "Non, vous ne pouvez pas vous téléporter directement entre différentes ères depuis l'écran de la carte. Vous devez d'abord effectuer un voyage rapide vers la Porte du Temps de votre ère actuelle, franchir le portail pour changer de chronologie, puis effectuer un voyage rapide vers le jalon souhaité dans la nouvelle ère."
+  },
+  {
+    question: "Que dois-je faire si un chemin sur la carte est bloqué par un piquet en bois géant ?",
+    answer: "Les chemins bloqués par des piquets en bois nécessitent le Marteau pour être dégagés. Équipez le Marteau comme l'une de vos armes actives, approchez-vous du piquet et utilisez l'attaque d'écrasement vers le bas pour l'enfoncer dans le sol, ouvrant ainsi définitivement le chemin."
+  },
+  {
+    question: "Est-ce que les coffres au trésor réapparaissent lorsque je change d'ère sur la carte ?",
+    answer: "Non, les coffres au trésor standard ne réapparaissent pas lors d'un changement d'ère. Cependant, certains coffres à énigmes uniques ne sont accessibles qu'en manipulant des objets dans le passé pour modifier l'environnement dans le futur."
+  }
+]} />
+
+<Callout type="success" title="Maître Explorateur">
+Grâce à ces connaissances sur le système de carte multi-ère, les jalons de voyage rapide et les capacités de soutien de Faie, vous êtes paré pour découvrir tous les secrets cachés à travers le millénaire. Bonne aventure !
+</Callout>
+
+</Section>

@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Personajes de the adventures of elliot the millennium tales: Roles",
+  description: "Domina al dúo jugable, la magia de hadas y las mecánicas de jefes en esta guía detallada de los personajes de the adventures of elliot the millennium tales.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=Character+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de the adventures of elliot the millennium tales"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Dúo jugable**: Controla a Elliot para el combate físico y a Faie para la utilidad mágica.
+- **Opciones de cooperativo**: Juega en solitario usando los controles de doble palanca o invita a un segundo jugador local para controlar a Faie.
+- **Magia de Faie**: Desbloquea cuatro hechizos elementales y de utilidad en los Santuarios de lo Místico para resolver acertijos.
+- **Estrategias contra jefes**: Derrota a los Guardianes de Marca equilibrando los bloqueos con escudo y el cambio rápido de armas.
+</Callout>
+
+<Section icon={Swords} title="Elliot y Faie: Los protagonistas jugables">
+
+El núcleo de la experiencia de juego radica en la sinergia entre los dos personajes jugables principales: Elliot, el espadachín del sombrero rojo, y Faie, su brillante compañera hada. Desarrollado por Square Enix and Claytechworks, este RPG de acción en HD-2D implementa un esquema de control único de doble personaje que define cómo los jugadores abordan el combate en tiempo real y los acertijos ambientales. 
+
+Comprender los distintos roles de **los personajes de the adventures of elliot the millennium tales** es esencial para sobrevivir en las peligrosas mazmorras repartidas por las cuatro eras distintas del juego. Mientras Elliot se encarga de los encuentros físicos directos utilizando hasta siete tipos de armas personalizables, Faie funciona como un mecanismo de apoyo versátil, proporcionando presión a distancia, recuperación de objetos y utilidad mágica.
+
+| Personaje | Rol principal | Entrada de control | Mecánica clave de combate | Función en cooperativo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Elliot** | DPS cuerpo a cuerpo / Tanque | Palanca izquierda / Botones | Cambio de arma en tiempo real | Enfoque del jugador principal |
+| **Faie** | Apoyo mágico / Exploradora | Palanca derecha | Hechizos de hada y Teletransporte | Segundo jugador local opcional |
+
+El ciclo de combate de Elliot es de ritmo rápido y altamente ajustable. Los jugadores pueden equipar dos armas simultáneamente (como una Espada y Escudo combinados con un Martillo pesado o un Arco a distancia) y alternar entre ellos instantáneamente a mitad del combo. Esta flexibilidad de armas es esencial porque las diferentes clases de enemigos poseen vulnerabilidades específicas que solo ciertos tipos de armas pueden aprovechar.
+
+Faie, por otro lado, se controla de forma independiente con la palanca derecha del mando. Puede volar sobre peligros, explorar pasillos de riesgo antes que Elliot e interactuar con palancas distantes. En combate, actúa como atacante secundaria y proveedora de utilidad, distrayendo a los enemigos o preparando el terreno de juego para los ataques pesados de Elliot.
+
+<Callout type="success" title="Juego cooperativo local">
+El juego es compatible oficialmente con el modo cooperativo local para 1 o 2 jugadores. En este modo, el Jugador 1 asume el control total del movimiento y el combate físico de Elliot, mientras que el Jugador 2 controla el vuelo, las habilidades de exploración y la magia de apoyo de Faie. Esto hace que el cooperativo local sea una excelente manera de coordinar soluciones de acertijos complejos y estrategias contra jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Magia de Faie y habilidades de apoyo táctico">
+
+La contribución de Faie al juego va mucho más allá de los diálogos pasivos de compañera. Al descubrir los antiguos Santuarios de lo Místico ocultos a lo largo de las cuatro eras, los jugadores desbloquean poderosos hechizos mágicos que amplían drásticamente la utilidad de Faie tanto en la exploración como en el combate.
+
+Estas habilidades mágicas consumen tul o medidores de carga, lo que requiere que los jugadores equilibren el uso de hechizos con los ataques físicos. Cuando se usan correctamente, los hechizos de Faie pueden reposicionar a los enemigos, desencadenar reacciones en cadena explosivas o evitar por completo los peligros mortales de las mazmorras.
+
+| Nombre del hechizo | Efecto principal | Utilidad en acertijos | Sinergia en combate | Desbloqueo de objetivo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Warp** | Teletransporta a Elliot hacia Faie | Cruza puentes rotos | Escapa de trampas en esquinas | Santuario de lo Místico |
+| **Ignite** | Enciende antorchas / derrite hielo | Activa interruptores de fuego | Detona bombas colocadas | Santuario de lo Místico |
+| **Vacuum** | Atrae objetos y enemigos | Recoge botín lejano | Agrupa objetivos para daño de área | Santuario de lo Místico |
+| **Copy** | Imita las acciones de Elliot | Activa interruptores dobles | Duplica el lanzamiento de proyectiles | Santuario de lo Místico |
+
+Para maximizar el potencial de estos hechizos, los jugadores deben experimentar con combinaciones de armas y magia. Las mecánicas del juego fomentan la resolución creativa de problemas en lugar de depender de una única estrategia repetitiva.
+
+<CardGrid cols={3}>
+  <Card title="El combo de Bomba e Ignición">
+    Equipa a Elliot con el arma **Bomba** y lánzala cerca de un grupo de enemigos. Usa la magia **Ignite** de Faie para detonar el explosivo al instante, omitiendo el temporizador de retraso estándar para infligir un daño explosivo masivo.
+  </Card>
+  <Card title="La preparación de agrupación con Vacío">
+    Lanza la magia **Vacuum** de Faie para arrastrar a los enemigos dispersos hacia un grupo cerrado. Cambia inmediatamente a Elliot al **Martillo** o a las **Cadenas y hoces** para golpear a todos los objetivos agrupados simultáneamente.
+  </Card>
+  <Card title="La ruta de escape con Teletransporte">
+    Durante combates intensos contra jefes, vuela con Faie hacia una zona segura en el borde de la pantalla. Cuando el jefe inicie un ataque pesado de área de efecto, activa **Warp** para teletransportar instantáneamente a Elliot fuera de peligro.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de exploración de hada">
+Usa a Faie para volar a través de grietas estrechas en las paredes de las mazmorras. Puede explorar salas ocultas, identificar la ubicación de los enemigos y recuperar valiosos fragmentos de Magicita antes de que Elliot ponga un pie en la zona.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guardianes de Marca y encuentros con jefes principales">
+
+A medida que los jugadores viajan a través del Portal del Tiempo, se encontrarán con poderosos jefes conocidos como Guardianes de Marca. Estas antiguas entidades custodian las transiciones entre eras y representan la prueba definitiva de tu dominio tanto de las armas físicas de Elliot como de la magia de apoyo de Faie.
+
+Los Guardianes de Marca presentan patrones de ataque complejos, encuentros de múltiples fases y un alto daño de salida. Derrotarlos requiere un enfoque estratégico que combine la sincronización defensiva, la conciencia ambiental y una rápida adaptación de equipamiento.
+
+| Jefe | Era de ubicación | Amenaza principal | Vulnerabilidad | Armas recomendadas |
+| :--- | :--- | :--- | :--- | :--- |
+| **Guardián del Portal** | Ruinas del Portal | Fuertes golpes contra el suelo | Ventanas de recuperación lentas | Espada y escudo / Martillo |
+| **Guardián del Tiempo** | Era de la Magia | Ráfagas de proyectiles a distancia | Sincronización perfecta de bloqueo | Arco / Búmeran |
+| **Centinela de la Tumba** | Era de la Reconstrucción | Armadura frontal con escudo | Ataques traseros mediante Warp | Cadenas y hoces / Lanza |
+
+Para derrotar a estos formidables enemigos, los jugadores deben alternar fluidamente entre estilos de juego defensivos y ofensivos. La siguiente estrategia paso a paso es muy eficaz para enfrentarse a los Guardianes de Marca al principio y a mitad del juego.
+
+<Steps>
+  <Step num="1" title="Observar y explorar">
+    No ataques de inmediato. Mantén las distancias y usa a Faie para explorar la arena. Observa los patrones de movimiento del jefe para identificar los indicios de sus ataques pesados e imbloqueables.
+  </Step>
+  <Step num="2" title="Dominar el bloqueo perfecto">
+    Equipa la Espada y el Escudo. En lugar de esquivar presa del pánico, sincroniza tus bloqueos con precisión justo cuando los ataques físicos del jefe conecten. Un bloqueo perfecto reduce el daño recibido a cero y aturde al jefe.
+  </Step>
+  <Step num="3" title="Aplicar presión de aturdimiento">
+    Una vez que el jefe esté aturdido, cambia rápidamente a un arma pesada como el Martillo o la Lanza. Ejecuta ataques cargados para agotar la barra de resistencia del jefe, obligándolo a entrar en un estado vulnerable y derribado.
+  </Step>
+  <Step num="4" title="Coordinar los hechizos de Faie">
+    Mientras el jefe esté derribado, lanza la magia Copy o Vacuum de Faie para maximizar tu daño. Si el jefe comienza a recuperarse y a lanzar un contraataque, usa Warp para reposicionar a Elliot a un lugar seguro.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestión de resistencia">
+El uso de armas pesadas como el Martillo o la ejecución continua de bloqueos con escudo agota rápidamente la resistencia de Elliot. Vigila de cerca tu barra de resistencia; quedarse sin resistencia deja a Elliot temporariamente aturdido e indefenso ante los combos del jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="PNJs del Orfanato y personajes relacionados con la historia">
+
+Más allá del dúo jugable central y los imponentes Guardianes de Marca, el mundo está poblado por un encantador elenco de personajes no jugables (PNJs) que enriquecen la narrativa a través de las cuatro eras. Un punto neurálgico para estos personajes es el Orfanato, ubicado en la pacífica Era de la Custodia.
+
+El Orfanato sirve como un santuario donde los jugadores pueden interactuar con el personal, aceptar misiones secundarias y gestionar su colección de objetos raros. También es el lugar principal para reclamar bonificaciones promocionales exclusivas de datos de guardado. Al vincular archivos de guardado de otros títulos populares de Square Enix, los jugadores pueden desbloquear Magicita de espada única con temática de personajes desde el escritorio en el segundo piso del Orfanato.
+
+| Juego conectado | Temática del personaje | Magicita desbloqueada | Efecto en combate | Lugar de reclamación |
+| :--- | :--- | :--- | :--- | :--- |
+| **OCTOPATH TRAVELER 0** | Llama Sagrada | Guía de la Llama Sagrada | +10% de daño de espada a objetivos con PS bajos | Escritorio del Orfanato 2F |
+| **DRAGON QUEST I & II** | Héroe Legendario | Golpe Crítico | +6% de probabilidad de golpe crítico con espada | Escritorio del Orfanato 2F |
+| **BRAVELY DEFAULT** | Hada Voladora | Brave | +10% de daño de espada (mayor coste de resistencia) | Escritorio del Orfanato 2F |
+| **TRIANGLE STRATEGY** | Táctico Real | Postura de Contraataque | +10% de daño de espada cuando la guardia es alta | Escritorio del Orfanato 2F |
+
+Estos objetos de bonificación proporcionan ventajas en el juego temprano que permiten a los jugadores personalizar el estilo de combate de Elliot para adaptarlo a su enfoque táctico preferido.
+
+<Checklist
+  id="orphanage-unlocks"
+  title="Lista de tareas del escritorio del Orfanato:"
+  items={[
+    "Llega a la Era de la Custodia en la historia principal",
+    "Accede al segundo piso del edificio del Orfanato",
+    "Selecciona 'Bonificación promocional' en el menú de título del juego",
+    "Vincula datos de guardado elegibles de Square Enix en la misma familia de plataformas",
+    "Interactúa con el escritorio del Orfanato para reclamar tus recompensas de Magicita personalizadas"
+  ]}
+/>
+
+<Callout type="info" title="Disponibilidad de bonificaciones">
+Las bonificaciones promocionales de datos de guardado se pueden reclamar en cualquier momento de tu partida una vez que el Orfanato sea accesible en la historia. Si creas datos de guardado elegibles en tu consola más adelante, simplemente regresa al escritorio para recuperar tus recompensas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre los personajes de The Adventures of Elliot">
+
+Para ayudarte a dominar por completo el diverso elenco y las mecánicas, hemos recopilado respuestas a las preguntas más comunes sobre los personajes del juego y los sistemas de doble control.
+
+<FAQ items={[
+  {
+    question: "¿Puede el Jugador 2 personalizar los controles del personaje de Faie en el modo cooperativo local?",
+    answer: "Sí. Al jugar en cooperativo local para 1 o 2 jugadores, el Jugador 2 puede personalizar sus asignaciones de botones, volar de forma independiente de Elliot dentro de los límites de la pantalla y configurar accesos directos de lanzamiento rápido para hechizos desbloqueados como Warp e Ignite."
+  },
+  {
+    question: "¿Cómo cambian los atributos de los personajes de the adventures of elliot the millennium tales a lo largo de las cuatro eras?",
+    answer: "Aunque Elliot y Faie conservan sus niveles de combate principales y la Magicita desbloqueada en todas las eras, ciertos acertijos ambientales e interacciones con PNJs cambian según la era activa. For ejemplo, un PNJ conocido de niño en la Era de la Custodia puede aparecer como un guía anciano en la Era de la Reconstrucción, ofreciendo misiones únicas e información sobre la historia."
+  },
+  {
+    question: "¿Hay otros personajes jugables además de Elliot y Faie?",
+    answer: "Elliot y Faie son los únicos protagonistas totalmente jugables a lo largo de la campaña principal. Sin embargo, los jugadores pueden interactuar, ayudar y luchar junto a varios PNJs importantes para la historia y personajes invitados durante misiones específicas de cada era."
+  },
+  {
+    question: "¿Qué pasa si Elliot cae en batalla mientras Faie sigue activa?",
+    answer: "Si los puntos de salud de Elliot se agotan, Faie puede realizar una resurrección de emergencia consumiendo una cantidad determinada de tul. Esta mecánica anima a los jugadores a mantener a Faie activamente involucrada en el combate para garantizar que siempre tengan una opción de recuperación de respaldo durante los encuentros difíciles con jefes."
+  }
+]} />
+
+<Callout type="tip" title="Progreso de la demo prólogo">
+Si dudas en comprometerte con la aventura completa, descarga la demo gratuita del prólogo disponible en Steam, PS5, Xbox y Nintendo Switch 2. Todos los niveles de personaje, armas desbloqueadas y datos de guardado de la demo se transfieren sin problemas al lanzamiento comercial.
+</Callout>
+
+</Section>

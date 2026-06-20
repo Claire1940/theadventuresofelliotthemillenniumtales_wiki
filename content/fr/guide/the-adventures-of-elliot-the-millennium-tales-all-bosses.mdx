@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide de tous les boss de The Adventures of Elliot: The Millennium Tales",
+  description: "Maîtrisez chaque combat de boss dans The Adventures of Elliot: The Millennium Tales. Apprenez les mécaniques de combat, les associations d'armes et les stratégies magiques de Faie.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=All+Bosses+Strategy+Guide",
+  date: "2026-06-21",
+  author: "Équipe du Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal** : Vaincre **tous les boss de The Adventures of Elliot: The Millennium Tales** nécessite de maîtriser le système de changement d'arme en temps réel et les mécaniques de parade.
+- **Mécanique clé** : Jongler entre deux armes équipées pour exploiter les faiblesses des boss tout en gérant l'endurance et la durabilité des armes.
+- **Soutien de la fée** : Utiliser la magie de Faie (Warp, Ignite, Vacuum, Copy) pour repositionner Elliot, déclencher des pièges environnementaux et contrôler l'arène.
+- **Préparation des époques** : Le comportement des boss et la configuration des arènes changent radicalement à travers les quatre époques historiques distinctes du jeu.
+</Callout>
+
+<Section icon={Shield} title="Bases du combat de boss et paramètres de difficulté">
+
+Dans *The Adventures of Elliot: The Millennium Tales*, les combats de boss sont des tests intenses en temps réel combinant réflexes, positionnement et planification tactique. Contrairement aux affrontements standards, les boss possèdent d'immenses barres de vie, des schémas d'attaque en plusieurs phases et des attaques de zone dévastatrices qui peuvent rapidement submerger les joueurs non préparés. Triompher de ces redoutables adversaires nécessite une solide maîtrise des mécaniques défensives, à commencer par la parade.
+
+Se protéger avec votre bouclier est votre principale ligne de défense, mais se contenter de maintenir le bouton de garde enfoncé suffit rarement. Bloquer normalement consomme votre jauge d'endurance, et si celle-ci est complètement vidée, Elliot sera étourdi, le laissant totalement vulnérable à l'attaque ultime d'un boss. Au lieu de cela, vous devez vous entraîner au blocage parfait. Déclencher un blocage juste au moment où l'attaque du boss vous touche activera un blocage parfait, annulant les dégâts, préservant l'endurance et déstabilisant parfois le boss pour créer une opportunité de contre-attaque.
+
+Avant de franchir la porte temporelle pour affronter les boss majeurs, il est fortement recommandé de sélectionner un niveau de difficulté adapté à votre style de jeu. Le jeu propose quatre niveaux de difficulté distincts, qui peuvent être ajustés pour personnaliser l'expérience de combat.
+
+| Difficulté | Santé du boss | Dégâts du boss | Ajustements stratégiques clés |
+|---|---|---|---|
+| Facile | Réduite | Faibles | Concentration sur la progression de l'histoire, fenêtres de parade plus souples |
+| Normal | Standard | Modérés | Expérience équilibrée nécessitant un changement d'arme de base |
+| Difficile | Augmentée | Élevés | Timing de parade strict, forte dépendance aux builds de Magicite |
+| Très difficile | Maximale | Extrêmement élevés | Exécution parfaite requise, dangers de mort instantanée actifs |
+
+<Callout type="warning" title="Gestion de l'endurance">
+N'enchaînez jamais les roulades d'esquive pendant les combats de boss. L'esquive ne confère pas des frames d'invincibilité illimitées, et en abuser videra votre endurance, vous empêchant d'exécuter des blocages parfaits cruciaux lorsque le boss déclenche des attaques de balayage inévitables.
+</Callout>
+
+Pour plus d'astuces sur la découverte du combat, vous pouvez lire les [conseils de découverte du combat d'Xbox Wire](https://news.xbox.com/en-us/2026/06/18/the-adventures-of-elliot-exploration-combat-discovery/) afin de perfectionner vos manœuvres défensives avant d'affronter des boss de haut niveau.
+
+</Section>
+
+<Section icon={Swords} title="Associations d'armes et builds de Magicite pour tous les boss">
+
+Elliot peut équiper jusqu'à sept types d'armes différents, en portant deux au combat à tout moment. Passer de l'une à l'autre de ces deux armes équipées en temps réel est la pierre angulaire de la stratégie contre les boss. Chaque arme possède un rythme d'attaque, une portée et une fonction utilitaire uniques, ce qui rend certaines combinaisons particulièrement efficaces contre des archétypes de boss spécifiques.
+
+Par exemple, les boss lents et lourdement blindés sont très sensibles aux frappes à fort impact du Marteau, qui peuvent vider leur posture et les plonger dans un état de déstabilisation vulnérable. Cependant, la lenteur de préparation du Marteau le rend dangereux à utiliser pendant la phase active d'un boss. Pour contrer cela, vous devriez associer le Marteau à une arme rapide et défensive comme l'Épée et le Bouclier, ce qui vous permet de parer rapidement les attaques entrantes avant de passer au Marteau pour un contre puissant.
+
+<CardGrid cols={3}>
+  <Card title="Configuration Défensive et Portée">
+    Associez l'**Épée et le Bouclier** avec l'**Arc**. Cela offre une sécurité maximale, vous permettant de bloquer les balayages physiques lourds des boss tout en maintenant des dégâts à distance pendant les phases de zone dangereuses.
+  </Card>
+  <Card title="Configuration Choc Lourd">
+    Associez le **Marteau** avec la **Lance**. Utilisez la portée étendue de la lance pour harceler les boss en toute sécurité, puis passez au marteau pour infliger des coups lents et puissants pendant les fenêtres de déstabilisation afin de briser la posture du boss.
+  </Card>
+  <Card title="Configuration Contrôle et Pièges">
+    Associez les **Chaînes et Faucilles** avec la **Bombe**. Attirez les sbires du boss les uns vers les autres à l'aide de la chaîne, puis déposez des bombes à retardement pour nettoyer rapidement l'arène et vous concentrer à nouveau sur le boss principal.
+  </Card>
+</CardGrid>
+
+Pour optimiser davantage votre équipement, vous devez utiliser la personnalisation de la Magicite. En insérant des fragments de Magicite dans les emplacements de Magicite de votre arme, vous pouvez modifier ses statistiques, ajouter des effets élémentaires ou déclencher des bonus de combat spéciaux.
+
+| Type d'arme | Catégorie de portée | Meilleur archétype de boss | Emplacement de Magicite critique |
+|---|---|---|---|
+| Épée & Bouclier | Corps à corps | Boss de mêlée rapides et agressifs | Posture de contre (augmente les dégâts de contre après blocage) |
+| Arc | Longue portée | Boss volants ou très mobiles | Coup critique (augmente les dégâts sur les points faibles à distance) |
+| Bombe | Effet de zone | Boss avec sbires invocables | Combo d'ignition (déclenche des détonations de bombes instantanées) |
+| Boomerang | Moyenne portée | Boss avec de larges et lentes zones de collision | Multi-projectile (ajoute des trajectoires de retour supplémentaires) |
+| Lance | Portée moyenne à longue | Boss avec des auras de corps à corps dangereuses | Extension de portée (augmente la distance de harcèlement sécurisée) |
+| Marteau | Corps à corps | Boss lourdement blindés ou avec bouclier | Impact lourd (augmente le potentiel de brise-posture) |
+| Chaînes & Faucilles | Moyenne portée | Boss à cibles multiples | Étourdissement par traction (interrompt brièvement les incantations des boss) |
+
+<Callout type="tip" title="Combos de changement d'arme">
+Initier un combo avec une arme rapide comme l'Épée et le Bouclier, puis passer au Marteau pour le coup final, vous permet de contourner la lente animation de préparation du Marteau tout en infligeant un maximum de dégâts de posture.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Soutien tactique et magie de Faie dans les combats de boss">
+
+Faie, la fée qui accompagne Elliot, n'est pas un simple guide narratif ; elle est un atout de combat essentiel. Contrôlée indépendamment avec le stick droit (ou par un second joueur en coopération locale à 1 ou 2 joueurs), Faie peut explorer l'arène, distraire les boss et lancer de puissants sorts qui modifient le cours de la bataille.
+
+En explorant les quatre époques, vous découvrirez des Sanctuaires du Mystique, qui débloquent de nouveaux sorts magiques pour Faie. Utiliser ces sorts en tandem avec les attaques physiques d'Elliot est essentiel pour survivre, en particulier face aux dangers environnementaux présents dans de nombreuses arènes de boss.
+
+| Magie de Faie | Fonction principale | Utilité en combat de boss | Synergie en coop |
+|---|---|---|---|
+| Warp | Téléporte Elliot vers Faie | Échappe aux attaques de saisie et repositionne derrière les boucliers | Le joueur 2 positionne Faie tandis que le joueur 1 se téléporte |
+| Ignite | Fait exploser les explosifs et fondre la glace | Déclenche instantanément les bombes pour des dégâts de burst | Le joueur 2 synchronise les détonations pour interrompre les actions du boss |
+| Vacuum | Attire les cibles vers Faie | Rassemble les sbires invoqués pour un nettoyage de zone facile | Regroupe les cibles pour les balayages au Marteau d'Elliot |
+| Copy | Copie les actions d'Elliot | Double la production de projectiles et déclenche des doubles switchs | Synchronise les attaques lourdes pour un étourdissement maximal |
+
+Pour un aperçu plus approfondi de ces mécaniques coopératives et des capacités de compagnon, consultez la [présentation du gameplay sur le PlayStation Blog](https://blog.playstation.com/2026/05/18/time-travel-trials-and-treasure-awaits-in-the-adventures-of-elliot-the-millennium-tales/) pour des analyses tactiques avancées.
+
+<Callout type="success" title="Avantage de la coop">
+En coop locale, le second joueur qui contrôle Faie peut se déplacer librement à travers les attaques des boss sans subir de dégâts. Utilisez cela pour positionner Faie en toute sécurité derrière un boss, permettant au premier joueur de se téléporter directement derrière la garde du boss pour infliger facilement des dégâts de flanc.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Stratégie pour tous les boss de The Adventures of Elliot: The Millennium Tales">
+
+Pour vous donner un exemple concret de la manière dont ces mécaniques s'articulent, examinons la stratégie pour vaincre les **Gardiens des Sceaux (Tag Guardians)**, l'affrontement de boss majeur situé dans les Ruines de la Porte (Doorway Ruins). Ce combat met à l'épreuve votre capacité à gérer plusieurs cibles, à exécuter des parades parfaites et à vous coordonner avec la magie de soutien de Faie.
+
+Les Gardiens des Sceaux se composent de deux constructions de pierre antiques : un gardien de mêlée armé d'une gigantesque lame de pierre, et un gardien à distance qui tire des projectiles d'énergie à tête chercheuse depuis le centre de l'arène. Les combattre simultanément est extrêmement dangereux, ce qui fait du contrôle de foule et du positionnement vos priorités absolues.
+
+<Steps>
+  <Step num="1" title="Isolez le gardien de mêlée">
+    Au début du combat, le gardien de mêlée chargera agressivement Elliot. Courez immédiatement vers le bord extérieur de l'arène pour éloigner le gardien de mêlée du gardien à distance. Cela évite que leurs schémas d'attaque ne se superposent et vous permet de vous concentrer sur une seule cible à la fois.
+  </Step>
+  <Step num="2" title="Parer et punir">
+    Concentrez-vous sur les balayages physiques du gardien de mêlée. Surveillez la lueur rouge sur sa lame, qui signale une attaque imminente. Exécutez un blocage parfait avec votre Épée et votre Bouclier pour étourdir le gardien, puis passez rapidement à votre Marteau pour infliger de lourds dégâts de posture.
+  </Step>
+  <Step num="3" title="Déployez la magie Warp de Faie">
+    Lorsque le gardien à distance commence à projeter des ondes d'énergie sur toute l'arène, dirigez Faie vers une zone sûre derrière lui. Lancez Warp pour téléporter instantanément Elliot hors de la zone de danger et le placer directement dans une position de flanc derrière le gardien incantateur.
+  </Step>
+  <Step num="4" title="Déclenchez des combos d'Ignite">
+    Équipez votre Bombe et déposez des explosifs au pied du gardien à distance. Demandez à Faie de lancer Ignite pour faire exploser les bombes instantanément, ce qui interrompra l'animation d'incantation du gardien et infligera d'énormes dégâts de burst pour terminer la phase.
+  </Step>
+</Steps>
+
+| Phase | Attaque clé du boss | Indice d'avertissement | Action de contre optimale |
+|---|---|---|---|
+| Phase 1 | Balayage du gardien de mêlée | Lame rougeoyante | Blocage parfait avec Épée & Bouclier, contre au Marteau |
+| Phase 1 | Orbes du gardien à distance | Charge d'énergie violette | Courir en cercle, utiliser l'Arc pour infliger des dégâts continus |
+| Phase 2 | Double charge des gardiens | Étincelles sur les deux gardiens | Diriger Faie à l'opposé de l'arène et lancer Warp |
+| Phase 2 | Onde de choc sur toute l'arène | Le sol se fissure | Sauter par-dessus l'onde de choc, utiliser Vacuum pour dégager les débris |
+
+<Callout type="info" title="Faiblesse des Gardiens des Sceaux">
+Les Gardiens des Sceaux sont extrêmement sensibles aux réactions élémentaires en chaîne. Utiliser la magie Ignite de Faie sur une Bombe stratégiquement placée inflige d'immenses dégâts de posture aux deux gardiens simultanément, réduisant de moitié la durée du combat.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Aide-mémoire et guide de préparation pour tous les boss">
+
+Avant de pénétrer dans l'arène d'un boss à travers les quatre époques, une bonne préparation est essentielle. Vous assurer que votre équipement est optimisé, que vos ressources sont au maximum et que vos builds de Magicite sont adaptés à l'affrontement augmentera considérablement vos chances de succès.
+
+De plus, les joueurs peuvent profiter de bonus officiels liés aux données de sauvegarde. En associant des fichiers de sauvegarde d'autres titres Square Enix éligibles depuis l'écran titre, vous pouvez récupérer de puissantes récompenses de Magicite exclusives sur le bureau situé au deuxième étage de l'orphelinat dans l'Ère de la Sauvegarde (Age of Safekeeping).
+
+<Checklist
+  id="boss-prep-checklist"
+  title="Aide-mémoire avant un combat de boss :"
+  items={[
+    "Équiper deux armes entièrement réparées pour éviter qu'elles ne se brisent en plein combat",
+    "Insérer des fragments de Magicite optimisés dans les emplacements de Magicite de vos armes",
+    "Collecter suffisamment de tul dans l'époque actuelle pour financer les réanimations d'urgence de Faie",
+    "Découvrir et activer le point de repère d'aventure le plus proche pour un voyage rapide vers l'arène",
+    "Récupérer tous les bonus de données de sauvegarde éligibles sur le bureau de l'orphelinat pour obtenir des avantages en début de partie"
+  ]}
+/>
+
+<Callout type="tip" title="Magicite bonus">
+Si vous possédez des données de sauvegarde pour des titres comme *OCTOPATH TRAVELER 0* ou *DRAGON QUEST I & II HD-2D Remake*, veillez à récupérer rapidement les Magicites d'épée *Guidance of the Sacred Flame* et *Critical Hit*. Elles fournissent d'importants bonus de dégâts qui facilitent grandement les premiers combats de boss.
+</Callout>
+
+Pour obtenir tous les détails sur la configuration système requise, les performances sur plateforme et les options de langue avant de commencer votre aventure, consultez la [page de la boutique Steam](https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/) pour vous assurer que votre installation est parfaitement optimisée.
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment vaincre facilement tous les boss de The Adventures of Elliot: The Millennium Tales ?",
+    answer: "Pour vaincre tous les boss, vous devez maîtriser le système de changement de deux armes, le blocage parfait et la magie de soutien de Faie. Réduire le niveau de difficulté à Facile ou Normal peut également vous aider à vous concentrer sur l'apprentissage des schémas d'attaque sans subir de punitions trop sévères en cas d'échec."
+  },
+  {
+    question: "Que se passe-t-il si Elliot meurt pendant un combat de boss ?",
+    answer: "Si la santé d'Elliot tombe à zéro, Faie peut le réanimer en dépensant des tul, que l'on collecte sur les ennemis et les objets brisés. Si vous n'avez plus de tul ou si Faie n'est pas disponible, vous recommencerez depuis le point de repère d'aventure le plus proche."
+  },
+  {
+    question: "Un deuxième joueur peut-il m'aider à vaincre les boss ?",
+    answer: "Oui, le jeu prend en charge la coopération locale à 1 ou 2 joueurs. Le second joueur contrôle directement Faie, gérant son positionnement, lançant des sorts de soutien comme Warp, et distrayant les boss pendant que le premier joueur contrôle Elliot."
+  },
+  {
+    question: "Les combats de boss changent-ils d'une époque à l'autre ?",
+    answer: "Oui, l'environnement et les mécaniques des boss sont fortement influencés par les quatre époques. Un boss rencontré dans l'Ère de la Sauvegarde (Age of Safekeeping) peut présenter des dangers environnementaux différents ou un ensemble de mouvements modifié lorsqu'il est affronté dans l'Ère de la Magie (Age of Magic)."
+  }
+]} />
+
+<Callout type="info" title="Mises à jour du jeu">
+Assurez-vous de garder votre jeu mis à jour vers la dernière version pour garantir que tous les ajustements d'équilibrage des boss, les corrections de bugs et les optimisations de performances soient actifs pendant votre partie.
+</Callout>
+
+</Section>

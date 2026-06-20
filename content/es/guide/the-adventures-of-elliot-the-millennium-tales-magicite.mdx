@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Adventures of Elliot: The Millennium Tales - Guía de builds de magicita",
+  description: "Optimiza tu equipamiento con nuestra guía de builds de magicita de The Adventures of Elliot: The Millennium Tales. Aprende sobre sinergias de armas, consejos de cultivo y bonificaciones de guardado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15A7D0/fff?text=Magicite+Builds+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Núcleo del sistema**: Personalizar tus armas con las ranuras de **magicita de The Adventures of Elliot: The Millennium Tales** te permite modificar el comportamiento de las armas, sus estadísticas y los desencadenantes elementales.
+- **Recompensas de datos de guardado**: Vincula títulos elegibles de Square Enix como Octopath Traveler 0 y Dragon Quest I & II Remake para reclamar magicitas iniciales exclusivas desde el escritorio del orfanato.
+- **Equipamientos duales**: Equipa hasta dos armas simultáneamente y crea conjuntos de magicita complementarios para cubrir tanto el combate cuerpo a cuerpo defensivo como el control de masas a distancia.
+- **Calidad de vida**: El lanzamiento comercial presenta una clasificación de inventario mejorada, cajas de armas dedicadas y desmantelamiento automático de duplicados para una progresión más fluida.
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas principales del sistema de magicita">
+
+En el RPG de acción HD-2D desarrollado por Square Enix y Claytechworks, la personalización del combate se basa completamente en la magicita. Estos fragmentos antiguos y brillantes se incrustan directamente en las armas de Elliot para alterar sus propiedades, aumentar las estadísticas base y activar efectos de combate especiales. A diferencia de los sistemas de RPG tradicionales donde las estadísticas están estrictamente ligadas a los niveles de los personajes, tu eficiencia en combate en este juego depende en gran medida de cómo configures tus cajas de magicita específicas para cada arma.
+
+El sistema es sumamente flexible, lo que te permite cambiar las configuraciones de magicita en tiempo real para adaptarte a diferentes eras, mazmorras y encuentros con jefes. Tras los comentarios de la encuesta de la demo de debut, los desarrolladores implementaron varias mejoras de calidad de vida para el lanzamiento final el 18 de junio de 2026. Estas incluyen una interfaz de usuario dedicada para la caja de magicita de cada uno de los siete tipos de armas, filtros avanzados de clasificación de inventario y un sistema de desmantelamiento automático de duplicados que convierte los fragmentos sobrantes en materiales de mejora.
+
+| Característica del sistema | Descripción de la mecánica | Calificación de prioridad |
+| :--- | :--- | :--- |
+| **Fragmentos de magicita** | Se encuentran en cofres, mazmorras y objetos rompibles para incrustar en las armas | Alta |
+| **Cajas de magicita** | Ranuras de personalización específicas de armas que restringen o mejoran ciertas builds | Alta |
+| **Desmantelamiento automático** | Descompone automáticamente las magicitas duplicadas en materiales de mejora útiles | Media |
+| **Clasificación personalizada** | Filtra magicitas por tipo de arma, efecto elemental o aumento de estadísticas | Media |
+
+Para maximizar tu potencial de combate, debes recolectar fragmentos de magicita esparcidos por las cuatro eras históricas distintas: la Era de la Custodia, la Era de la Reconstrucción, la Era de la Magia y la Era del Brote. Incrustar una magicita no solo ofrece aumentos pasivos de estadísticas; puede cambiar fundamentalmente el comportamiento de los ataques especiales de un arma. Por ejemplo, un tajo estándar puede transformarse en una onda de proyectil a distancia, o un fuerte golpe de martillo puede provocar ondas de choque localizadas.
+
+<Callout type="info" title="Restricciones de la caja de magicita">
+Cada arma tiene un número limitado de ranuras de magicita. Algunas ranuras están bloqueadas detrás de niveles específicos de mejora de armas, mientras que otras están restringidas a ciertos tipos elementales o de utilidad. Planifica siempre tu build en función de las ranuras disponibles de tus armas principales y secundarias.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Magicitas promocionales exclusivas de datos de guardado">
+
+Los jugadores que hayan apoyado lanzamientos anteriores de Square Enix y Team Asano pueden reclamar magicitas potentes y exclusivas justo al comienzo de su aventura. Estas recompensas promocionales proporcionan una ventaja significativa durante los desafiantes primeros capítulos del juego, particularmente al explorar áreas peligrosas como las Ruinas del Portal. 
+
+Estas bonificaciones se canjean a través del flujo de Bonificación Promocional en la pantalla de título principal. Once vinculadas, puedes reclamar los objetos físicos desde el escritorio en el segundo piso del orfanato dentro de la Era de la Custodia.
+
+| Origen del título | Nombre de la magicita | Efecto principal | Lugar de reclamo |
+| :--- | :--- | :--- | :--- |
+| **OCTOPATH TRAVELER 0** | Guía de la Llama Sagrada | +10% de daño de espada a enemigos con menos del 30% de PS | Escritorio del orfanato |
+| **DRAGON QUEST I & II** | Golpe crítico | Aumenta la probabilidad de golpe crítico de la espada en un 6% | Escritorio del orfanato |
+| **BRAVELY DEFAULT** | Brave | +10% de daño de espada, consume más resistencia de escudo al bloquear | Escritorio del orfanato |
+| **VARIOUS DAYLIFE** | Sabiduría expedicionaria | Reduce el tiempo de carga de la espada en un 10% | Escritorio del orfanato |
+| **TRIANGLE STRATEGY** | Postura de contraataque | +10% de daño de espada cuando la resistencia del escudo es del 90% o más | Escritorio del orfanato |
+
+<CardGrid cols={2}>
+  <Card title="Bonificación de OCTOPATH TRAVELER 0">
+    - **Magicita**: Guía de la Llama Sagrada
+    - **Efecto**: Aumenta el daño de la espada a objetivos con poca vitalidad. Excelente para acabar con monstruos de élite y fases de jefes.
+    - **Mejor combinación**: Combínala con armas de un solo golpe de gran daño como el Martillo.
+  </Card>
+  <Card title="Bonificación de DRAGON QUEST I & II">
+    - **Magicita**: Golpe crítico
+    - **Efecto**: Aumenta la probabilidad de golpe crítico. Altamente efectivo cuando se combina con tipos de armas de ataque rápido.
+    - **Mejor combinación**: Combínala con las Cadenas y hoces para activar rápidos críticos de múltiples golpes.
+  </Card>
+  <Card title="Bonificación de BRAVELY DEFAULT">
+    - **Magicita**: Brave
+    - **Efecto**: Otorga un aumento de daño plano a costa de un mayor consumo de resistencia al bloquear.
+    - **Mejor combinación**: Ideal para estilos de juego agresivos y basados en esquives que evitan el bloqueo con escudo.
+  </Card>
+  <Card title="Bonificación de TRIANGLE STRATEGY">
+    - **Magicita**: Postura de contraataque
+    - **Efecto**: Recompensa el bloqueo perfecto aumentando el daño cuando la resistencia de tu escudo está casi llena.
+    - **Mejor combinación**: Esencial para configuraciones defensivas de Espada y escudo.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ventaja al inicio del juego">
+Si posees varios archivos de guardado elegibles, puedes equipar varias magicitas promocionales en tu Espada y escudo simultáneamente. Esto crea una build increíblemente potente para el inicio del juego que combina altas tasas de críticos, tiempos de carga reducidos y un daño de ejecución masivo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds específicas de armas y sinergias de magicita">
+
+Con siete tipos de armas distintos disponibles, crear una build cohesiva requiere comprender cómo interactúa la magicita con las mecánicas de las armas y la compañera de Elliot, Faie. Dado que Elliot puede equipar dos armas a la vez y cambiarlas en tiempo real durante el combate, las builds más efectivas utilizan un arma principal que inflige daño emparejada con un arma secundaria centrada en la utilidad.
+
+| Arma principal | Arma secundaria | Estrategia de magicita sinérgica | Build recomendada |
+| :--- | :--- | :--- | :--- |
+| **Espada y escudo** | Arco | Magicita de espada centrada en la guardia emparejada con iniciadores de daño a distancia | Cuerpo a cuerpo equilibrado |
+| **Bomba** | Búmeran | Magicita de ráfaga retardada emparejada con configuraciones de proyectiles que regresan | Ráfaga de utilidad |
+| **Lanza** | Martillo | Magicita de lanza que extiende el alcance combinada con ranuras de martillo de golpe pesado | Combate especialista |
+| **Cadenas y hoces** | Bomba | Magicita de atracción para control de masas emparejada con explosiones de bombas de alto impacto | Control avanzado |
+
+### La build de cuerpo a cuerpo equilibrada (Espada y escudo + Arco)
+Esta build es la opción inicial más segura para la exploración general. Incrustar la magicita de *Postura de contraataque* o *Brave* en tu Espada y escudo garantiza un alto daño cuerpo a cuerpo durante los enfrentamientos a corta distancia. Mientras tanto, equipar tu Arco con magicita de utilidad te permite activar interruptores, golpear a enemigos voladores distantes y aplicar estados alterados antes de volver al alcance cuerpo a cuerpo.
+
+### La build de combo de ignición (Bomba + Búmeran)
+Esta configuración avanzada depende en gran medida de la cooperación con Faie. Al incrustar magicita centrada en la explosión en tu equipamiento de Bomba, aumentas el radio de explosión y el daño de tus explosivos. Usa el Búmeran para agrupar a los enemigos, suelta una bomba y luego haz que Faie use su magia de *Ignición* para detonar los explosivos instantáneamente, saltándose el temporizador de retraso estándar.
+
+<Callout type="tip" title="Integración de la magia de hada">
+Las habilidades de apoyo de Faie, como *Atracción* y *Copia*, se pueden mejorar con builds de magicita específicas. Incrustar magicita de expansión de proyectiles en tu Búmeran o Arco permite que la magia de *Copia* de Faie replique múltiples proyectiles, llenando la pantalla con cajas de impacto dañinas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Creación de builds de magicita paso a paso">
+
+Crear un equipamiento personalizado desde cero puede parecer abrumador con la enorme variedad de fragmentos de magicita que se encuentran en las cuatro eras. Sigue este proceso sistemático para construir una build optimizada y de alto rendimiento para cualquier escenario de combate.
+
+<Steps>
+  <Step num="1" title="Identifica tu rol de combate principal">
+    Decide si quieres concentrarte en una defensa cuerpo a cuerpo de alta durabilidad, un hostigamiento seguro a distancia o un daño de ráfaga de alto riesgo. Esta elección determina tu arma principal y su correspondiente caja de magicita.
+  </Step>
+  <Step num="2" title="Equipa magicitas de datos de guardado que aumenten la sinergia">
+    Incrusta tus magicitas promocionales disponibles en tu arma principal. Por ejemplo, si usas la Espada y el escudo, equipa *Golpe crítico* y *Guía de la Llama Sagrada* para establecer una base sólida de daño.
+  </Step>
+  <Step num="3" title="Selecciona un arma secundaria complementaria">
+    Elige un arma secundaria que cubra las debilidades de tu arma principal. Si tu arma principal es lenta (como el Martillo), selecciona un arma rápida (como la Lanza o el Arco) e incrusta en ella magicitas centradas en la seguridad o en el aumento de velocidad.
+  </Step>
+  <Step num="4" title="Coordínate con la magia activa de Faie">
+    Haz coincidir tus efectos de magicita con el hechizo mágico actual de Faie (Teletransporte, Ignición, Atracción o Copia). Si usas la magia de Atracción para agrupar enemigos, asegúrate de que tus armas tengan ranuras con magicitas de área de efecto o de múltiples objetivos.
+  </Step>
+</Steps>
+
+<Checklist
+  id="magicite-progression-goals"
+  title="Hitos de progresión:"
+  items={[
+    "Desbloquea todas las ranuras de magicita en tu arma principal mediante mejoras",
+    "Recolecta las cinco magicitas promocionales de datos de guardado del escritorio del orfanato",
+    "Descubre los Santuarios del Místico para desbloquear la magia de Teletransporte e Ignición de Faie",
+    "Desmantela fragmentos duplicados de nivel bajo para acumular materiales de mejora",
+    "Establece un equipamiento dedicado de doble arma para los encuentros con jefes"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia de gestión de resistencia">
+Las magicitas poderosas como *Brave* aumentan significativamente tu daño, pero también elevan el costo de resistencia al bloquear o atacar. Vigila de cerca tu barra de resistencia durante las peleas intensas contra jefes; quedarte sin resistencia dejará a Elliot aturdido y altamente vulnerable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+Para ayudarte a dominar por completo los sistemas de personalización de combate, hemos recopilado las preguntas más comunes sobre configuraciones de armas, progresión y optimización de fragmentos.
+
+<FAQ items={[
+  {
+    question: "¿Cómo adquiero y mejoro la magicita de The Adventures of Elliot: The Millennium Tales?",
+    answer: "Los fragmentos de magicita se encuentran explorando mazmorras, abriendo cofres ocultos y rompiendo objetos del entorno como cajas y vasijas en las cuatro eras. Puedes mejorarlos usando materiales obtenidos al desmantelar fragmentos duplicados en el menú personalizado de magicita."
+  },
+  {
+    question: "¿Puedo usar magicitas promocionales de datos de guardado en armas que no sean la espada?",
+    answer: "La mayoría de las magicitas promocionales, como Guía de la Llama Sagrada y Brave, están restringidas específicamente a la caja de magicita de Espada y escudo. Sin embargo, las magicitas de utilidad general, como el accesorio Broche de partida, se pueden equipar para aumentar los botines generales independientemente de tu equipamiento de armas."
+  },
+  {
+    question: "¿Se transfieren los efectos de la magicita al cambiar de arma en combate?",
+    answer: "Los aumentos pasivos de estadísticas de las magicitas solo se aplican mientras esa arma específica está desenvainada activamente o se usa en un combo. Sin embargo, algunas magicitas de especialista avanzadas otorgan una mejora temporal a tu arma secundaria inmediatamente después de realizar un ataque de cambio de arma."
+  },
+  {
+    question: "¿Qué pasa si desmantelo una magicita por error?",
+    answer: "El desmantelamiento es permanente y convierte el fragmento en polvo de mejora. Para evitar accidentes, usa el menú de clasificación personalizado para bloquear tus magicitas favoritas y más raras, asegurándote de que no puedan ser seleccionadas para el desmantelamiento automático."
+  }
+]} />
+
+<Callout type="success" title="Listo para la aventura">
+Con tu equipamiento de magicita completamente optimizado, estás listo para enfrentar las anomalías temporales, resolver desafiantes acertijos de templos y derrotar a los Guardianes de la Marca que custodian los secretos del milenio.
+</Callout>
+
+</Section>

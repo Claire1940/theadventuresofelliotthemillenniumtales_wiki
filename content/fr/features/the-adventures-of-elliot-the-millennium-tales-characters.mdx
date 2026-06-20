@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Les personnages de the adventures of elliot the millennium tales : Rôles",
+  description: "Maîtrisez le duo jouable, la magie de la fée et les mécanismes des boss dans ce guide détaillé sur les personnages de the adventures of elliot the millennium tales.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=Character+Guide",
+  date: "2026-06-21",
+  author: "L'équipe du Wiki de the adventures of elliot the millennium tales"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Duo jouable** : Contrôlez Elliot pour le combat physique et Faie pour l'utilité magique.
+- **Options coop** : Jouez en solo en utilisant les commandes à deux joysticks ou invitez un deuxième joueur en local pour contrôler Faie.
+- **Magie de Faie** : Débloquez quatre sorts élémentaires et utilitaires aux Sanctuaires du Mystique pour résoudre des énigmes.
+- **Stratégies de boss** : Battez les Gardiens de Balises en équilibrant les blocages au bouclier et le changement rapide d'arme.
+</Callout>
+
+<Section icon={Swords} title="Elliot et Faie : Les protagonistes jouables">
+
+Le cœur de l'expérience de jeu réside dans la synergie entre les deux principaux personnages jouables : Elliot, l'épéiste au chapeau rouge, et Faie, sa compagne fée lumineuse. Développé par Square Enix et Claytechworks, cet action-RPG en HD-2D propose un système unique de contrôle à double personnage qui façonne la manière dont les joueurs abordent les combats en temps réel et les énigmes environnementales.
+
+Comprendre les rôles distincts des **personnages de the adventures of elliot the millennium tales** est essentiel pour survivre aux redoutables donjons disséminés à travers les quatre époques distinctes du jeu. Tandis qu'Elliot gère les affrontements physiques directs à l'aide de sept types d'armes personnalisables, Faie fait office de mécanisme de soutien polyvalent, offrant une pression à distance, la récupération d'objets et une utilité magique.
+
+| Personnage | Rôle principal | Commande | Mécanique de combat clé | Fonction coop |
+| :--- | :--- | :--- | :--- | :--- |
+| **Elliot** | DPS de mêlée / Tank | Joystick gauche / Boutons | Changement d'arme en temps réel | Focus du joueur principal |
+| **Faie** | Soutien magique / Éclaireur | Joystick droit | Sorts de fée & Téléportation | Joueur 2 local optionnel |
+
+Le cycle de combat d'Elliot est dynamique et hautement personnalisable. Les joueurs peuvent équiper deux armes simultanément (comme une Épée et un Bouclier associés à un lourd Marteau ou un Arc à distance) et passer de l'une à l'autre instantanément en plein combo. Cette flexibilité d'armement est essentielle car différentes classes d'ennemis possèdent des vulnérabilités spécifiques que seuls certains types d'armes peuvent exploiter.
+
+Faie, quant à elle, est contrôlée indépendamment à l'aide du joystick droit de la manette. Elle peut survoler les dangers, explorer les couloirs risqués en amont d'Elliot et interagir avec des leviers éloignés. En combat, elle agit comme attaquante secondaire et fournisseur d'utilitaires, distrayant les ennemis ou préparant le terrain pour les attaques lourdes d'Elliot.
+
+<Callout type="success" title="Jeu en coop locale">
+Le jeu prend officiellement en charge la coop locale de 1 à 2 joueurs. Dans ce mode, le Joueur 1 prend le contrôle total des mouvements et du combat physique d'Elliot, tandis que le Joueur 2 contrôle le vol de Faie, ses capacités d'éclaireur et sa magie de fée de soutien. Cela fait de la coop locale un excellent moyen de coordonner la résolution d'énigmes complexes et les stratégies de boss.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="La magie de Faie et les capacités de soutien tactique">
+
+La contribution de Faie au gameplay va bien au-delà des simples dialogues passifs. En découvrant d'anciens Sanctuaires du Mystique cachés à travers les quatre âges, les joueurs débloquent de puissants sorts magiques qui étendent considérablement l'utilité de Faie, tant pour l'exploration que pour le combat.
+
+Ces capacités magiques consomment du tul ou des jauges de charge, obligeant les joueurs à équilibrer l'utilisation des sorts avec les attaques physiques. Lorsqu'ils sont utilisés correctement, les sorts de Faie peuvent repositionner les ennemis, déclencher des réactions en chaîne explosives ou contourner entièrement les dangers mortels des donjons.
+
+| Nom du sort | Effet principal | Utilité pour les énigmes | Synergie de combat | Obtention |
+| :--- | :--- | :--- | :--- | :--- |
+| **Téléportation** (Warp) | Téléporte Elliot vers Faie | Traverse les ponts brisés | Échappe aux pièges dans les coins | Sanctuaire du Mystique |
+| **Embrasement** (Ignite) | Allume les torches / fait fondre la glace | Active les interrupteurs de feu | Fait exploser les bombes posées | Sanctuaire du Mystique |
+| **Aspiration** (Vacuum) | Attire les objets & les ennemis | Récupère le butin éloigné | Regroupe les cibles pour les zones d'effet | Sanctuaire du Mystique |
+| **Copie** (Copy) | Imite les actions d'Elliot | Active les doubles interrupteurs | Double le nombre de projectiles | Sanctuaire du Mystique |
+
+Pour maximiser le potentiel de ces sorts, les joueurs doivent expérimenter différentes combinaisons d'armes et de magie. Les mécaniques du jeu encouragent la résolution créative de problèmes plutôt que de s'en remettre à une seule stratégie répétitive.
+
+<CardGrid cols={3}>
+  <Card title="Le combo Bombe & Embrasement">
+    Équipez Elliot de l'arme **Bombe** et jetez-la près d'un groupe d'ennemis. Utilisez la magie **Embrasement** de Faie pour faire exploser instantanément l'explosif, contournant le délai d'attente standard pour infliger d'énormes dégâts de zone.
+  </Card>
+  <Card title="Le regroupement par Aspiration">
+    Lancez la magie **Aspiration** de Faie pour attirer les ennemis dispersés en un groupe compact. Faites immédiatement passer Elliot au **Marteau** ou aux **Chaînes et Faucilles** pour frapper toutes les cibles regroupées en même temps.
+  </Card>
+  <Card title="L'échappatoire par Téléportation">
+    Lors des combats de boss intenses, faites voler Faie vers une zone sûre au bord de l'écran. Lorsque le boss lance une lourde attaque de zone, déclenchez la **Téléportation** pour ramener instantanément Elliot hors de danger.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Astuce d'éclaireur fée">
+Utilisez Faie pour voler à travers les fissures étroites des murs des donjons. Elle peut explorer des pièces cachées, identifier l'emplacement des ennemis et récupérer de précieux fragments de Magicite avant même qu'Elliot ne mette les pieds dans la zone.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gardiens de Balises et affrontements de boss majeurs">
+
+Au cours de leur voyage à travers la Porte du Temps, les joueurs rencontreront de puissants boss appelés Gardiens de Balises. Ces entités anciennes gardent les transitions entre les époques et représentent le test ultime de votre maîtrise des armes physiques d'Elliot et de la magie de soutien de Faie.
+
+Les Gardiens de Balises présentent des schémas d'attaque complexes, des affrontements en plusieurs phases et des dégâts élevés. Les vaincre nécessite une approche stratégique qui combine le timing défensif, la conscience environnementale et une adaptation rapide de votre équipement.
+
+| Boss | Époque | Menace principale | Vulnérabilité | Armes recommandées |
+| :--- | :--- | :--- | :--- | :--- |
+| **Gardien de la Porte** | Ruines de la Porte | Lourds impacts au sol | Fenêtres de récupération lentes | Épée & Bouclier / Marteau |
+| **Gardien du Temps** | Âge de la Magie | Rafales de projectiles à distance | Timing de blocage parfait | Arc / Boomerang |
+| **Sentinelle du Tombeau** | Âge de la Reconstruction | Armure frontale blindée | Attaques par l'arrière via Téléportation | Chaînes & Faucilles / Lance |
+
+Pour vaincre ces redoutables adversaires, les joueurs doivent passer de manière fluide d'un style de jeu défensif à offensif. La stratégie étape par étape suivante est particulièrement effective pour affronter les Gardiens de Balises du début et du milieu de partie.
+
+<Steps>
+  <Step num="1" title="Observer et explorer">
+    N'attaquez pas immédiatement. Gardez vos distances et utilisez Faie pour explorer l'arène. Observez les mouvements du boss pour identifier les signes annonciateurs de ses attaques lourdes et imparables.
+  </Step>
+  <Step num="2" title="Maîtriser le blocage parfait">
+    Équipez l'Épée et le Bouclier. Au lieu d'esquiver dans la panique, anticipez vos blocages précisément au moment où les frappes physiques du boss se connectent. Un blocage parfait réduit les dégâts subis à zéro et déstabilise le boss.
+  </Step>
+  <Step num="3" title="Appliquer une pression de déstabilisation">
+    Une fois le boss déstabilisé, passez rapidement à une arme lourde comme le Marteau ou la Lance. Exécutez des attaques chargées pour vider sa jauge d'endurance, le forçant à passer dans un état de vulnérabilité au sol.
+  </Step>
+  <Step num="4" title="Coordonner les sorts de Faie">
+    Pendant que le boss est au sol, lancez la magie Copie ou Aspiration de Faie pour maximiser vos dégâts. Si le boss commence à se relever et à lancer une contre-attaque, utilisez la Téléportation pour repositionner Elliot en sécurité.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestion de l'endurance">
+L'utilisation d'armes lourdes comme le Marteau ou l'exécution de blocages continus au bouclier épuisent rapidement l'endurance d'Elliot. Surveillez de près votre jauge d'endurance ; se retrouver à court d'endurance laisse Elliot temporairement étourdi et sans défense face aux combos du boss.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="PNJ de l'orphelinat et personnages liés à l'histoire">
+
+Au-delà du duo jouable de base et des imposants Gardiens de Balises, le monde est peuplé d'une charmante galerie de personnages non jouables (PNJ) qui enrichissent le récit à travers les quatre âges. L'Orphelinat, situé dans le paisible Âge de la Préservation, constitue un carrefour central pour ces personnages.
+
+L'Orphelinat sert de sanctuaire où les joueurs peuvent interagir avec le personnel, accepter des quêtes secondaires et gérer leur collection d'objets rares. C'est également le lieu principal pour réclamer des bonus promotionnels exclusifs liés aux données de sauvegarde. En liant des fichiers de sauvegarde d'autres titres populaires de Square Enix, les joueurs peuvent débloquer des Magicites d'Épée uniques sur le thème des personnages, disponibles sur le bureau au deuxième étage de l'Orphelinat.
+
+| Jeu connecté | Thème du personnage | Magicite débloquée | Effet de combat | Lieu de récupération |
+| :--- | :--- | :--- | :--- | :--- |
+| **OCTOPATH TRAVELER 0** | Flamme sacrée | Guidance de la Flamme sacrée | +10% de dégâts d'épée sur les cibles à PV bas | Bureau de l'Orphelinat (2e étage) |
+| **DRAGON QUEST I & II** | Héros légendaire | Coup critique | +6% de taux de coups critiques à l'épée | Bureau de l'Orphelinat (2e étage) |
+| **BRAVELY DEFAULT** | Fée volante | Brave | +10% de dégâts d'épée (coût en endurance plus élevé) | Bureau de l'Orphelinat (2e étage) |
+| **TRIANGLE STRATEGY** | Tacticien royal | Posture de contre | +10% de dégâts d'épée quand la garde est haute | Bureau de l'Orphelinat (2e étage) |
+
+Ces objets bonus offrent des avantages en début de partie qui permettent aux joueurs de personnaliser le style de combat d'Elliot afin de correspondre à leur approche tactique préférée.
+
+<Checklist
+  id="orphanage-unlocks"
+  title="Liste de vérification du Bureau de l'Orphelinat :"
+  items={[
+    "Atteindre l'Âge de la Préservation dans l'histoire principale",
+    "Accéder au deuxième étage du bâtiment de l'Orphelinat",
+    "Sélectionner « Bonus promotionnel » depuis le menu principal du jeu",
+    "Lier des données de sauvegarde Square Enix éligibles sur la même famille de plateformes",
+    "Interagir avec le Bureau de l'Orphelinat pour récupérer vos récompenses de Magicite personnalisées"
+  ]}
+/>
+
+<Callout type="info" title="Disponibilité des bonus">
+Les bonus promotionnels de données de sauvegarde peuvent être réclamés à tout moment de votre aventure une fois que l'Orphelinat devient accessible dans l'histoire. Si vous créez des données de sauvegarde éligibles sur votre console ultérieurement, retournez simplement au bureau pour récupérer vos récompenses.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ sur les personnages de The Adventures of Elliot">
+
+Pour vous aider à maîtriser pleinement la diversité des personnages et des mécaniques, nous avons rassemblé les réponses aux questions les plus fréquentes concernant le système de double contrôle du jeu.
+
+<FAQ items={[
+  {
+    question: "Le Joueur 2 peut-il personnaliser les commandes de Faie en coop locale ?",
+    answer: "Oui. Lors de parties en coop locale de 1 à 2 joueurs, le Joueur 2 peut personnaliser l'attribution de ses touches, voler indépendamment d'Elliot dans les limites de l'écran et configurer des raccourcis de lancement rapide pour les sorts débloqués comme Téléportation et Embrasement."
+  },
+  {
+    question: "Comment les attributs des personnages de the adventures of elliot the millennium tales changent-ils à travers les quatre âges ?",
+    answer: "Bien qu'Elliot et Faie conservent leurs niveaux de combat de base et leurs Magicites débloquées à travers toutes les époques, certaines énigmes environnementales et interactions avec les PNJ changent selon l'âge actif. For exemple, un PNJ rencontré enfant à l'Âge de la Préservation peut apparaître comme un guide âgé à l'Âge de la Reconstruction, proposant des quêtes uniques et des informations sur l'histoire."
+  },
+  {
+    question: "Y a-t-il d'autres personnages jouables en dehors d'Elliot et Faie ?",
+    answer: "Elliot et Faie sont les seuls protagonistes entièrement jouables tout au long de la campagne principale. Cependant, les joueurs peuvent interagir, aider et combattre aux côtés de divers PNJ importants pour l'histoire et de personnages invités lors de quêtes spécifiques à certaines époques."
+  },
+  {
+    question: "Que se passe-t-il si Elliot tombe au combat alors que Faie est toujours active ?",
+    answer: "Si les points de vie d'Elliot sont épuisés, Faie peut effectuer une réanimation d'urgence en consommant une quantité définie de tul. Ce mécanisme encourage les joueurs à maintenir Faie activement engagée dans le combat pour s'assurer de toujours disposer d'une option de récupération de secours lors des affrontements de boss difficiles."
+  }
+]} />
+
+<Callout type="tip" title="Progression de la démo du prologue">
+Si vous hésitez à vous lancer dans l'aventure complète, téléchargez la démo gratuite du prologue disponible sur Steam, PS5, Xbox et Nintendo Switch 2. Tous les niveaux des personnages, les armes débloquées et les données de sauvegarde de la démo sont transférés de manière transparente vers la version finale.
+</Callout>
+
+</Section>
