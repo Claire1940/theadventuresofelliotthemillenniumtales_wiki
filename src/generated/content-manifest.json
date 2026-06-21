@@ -1,0 +1,786 @@
+{
+  "en": {
+    "demo": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-length",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-length"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-ps5",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-ps5"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-steam"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-walkthrough",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-walkthrough"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-wont-start-crash-on-start-up",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-wont-start-crash-on-start-up"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-xbox",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-xbox"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo"
+      }
+    ],
+    "edition": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-amazon-exclusive-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-amazon-exclusive-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-collector-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-collector-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-deluxe-edition-bonuses",
+        "file": "the-adventures-of-elliot-the-millennium-tales-deluxe-edition-bonuses"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-digital-deluxe-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-digital-deluxe-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-physical-copy",
+        "file": "the-adventures-of-elliot-the-millennium-tales-physical-copy"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-preorder-bonus",
+        "file": "the-adventures-of-elliot-the-millennium-tales-preorder-bonus"
+      }
+    ],
+    "features": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-characters",
+        "file": "the-adventures-of-elliot-the-millennium-tales-characters"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-coop",
+        "file": "the-adventures-of-elliot-the-millennium-tales-coop"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-multiplayer",
+        "file": "the-adventures-of-elliot-the-millennium-tales-multiplayer"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-soundtrack",
+        "file": "the-adventures-of-elliot-the-millennium-tales-soundtrack"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-achievements",
+        "file": "the-adventures-of-elliot-the-millennium-tales-achievements"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-all-bosses",
+        "file": "the-adventures-of-elliot-the-millennium-tales-all-bosses"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-all-weapon-locations",
+        "file": "the-adventures-of-elliot-the-millennium-tales-all-weapon-locations"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-get-scythe",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-get-scythe"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-save",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-save"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-warp",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-warp"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-magicite",
+        "file": "the-adventures-of-elliot-the-millennium-tales-magicite"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-map",
+        "file": "the-adventures-of-elliot-the-millennium-tales-map"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-misr-ruins-chest",
+        "file": "the-adventures-of-elliot-the-millennium-tales-misr-ruins-chest"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-trophy-guide",
+        "file": "the-adventures-of-elliot-the-millennium-tales-trophy-guide"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-walkthrough",
+        "file": "the-adventures-of-elliot-the-millennium-tales-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-pc",
+        "file": "the-adventures-of-elliot-the-millennium-tales-pc"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-platforms",
+        "file": "the-adventures-of-elliot-the-millennium-tales-platforms"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-ps5",
+        "file": "the-adventures-of-elliot-the-millennium-tales-ps5"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-steam"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-switch-1",
+        "file": "the-adventures-of-elliot-the-millennium-tales-switch-1"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-switch-2",
+        "file": "the-adventures-of-elliot-the-millennium-tales-switch-2"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-xbox",
+        "file": "the-adventures-of-elliot-the-millennium-tales-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-countdown",
+        "file": "the-adventures-of-elliot-the-millennium-tales-countdown"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-embargo",
+        "file": "the-adventures-of-elliot-the-millennium-tales-embargo"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-release-date",
+        "file": "the-adventures-of-elliot-the-millennium-tales-release-date"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-release-time-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-release-time-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-famitsu-review",
+        "file": "the-adventures-of-elliot-the-millennium-tales-famitsu-review"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-ign",
+        "file": "the-adventures-of-elliot-the-millennium-tales-ign"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-metacritic",
+        "file": "the-adventures-of-elliot-the-millennium-tales-metacritic"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-opencritic",
+        "file": "the-adventures-of-elliot-the-millennium-tales-opencritic"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-review",
+        "file": "the-adventures-of-elliot-the-millennium-tales-review"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-user-reviews",
+        "file": "the-adventures-of-elliot-the-millennium-tales-user-reviews"
+      }
+    ]
+  },
+  "es": {
+    "demo": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-length",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-length"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-ps5",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-ps5"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-steam"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-walkthrough",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-walkthrough"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-wont-start-crash-on-start-up",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-wont-start-crash-on-start-up"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-xbox",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-xbox"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo"
+      }
+    ],
+    "edition": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-amazon-exclusive-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-amazon-exclusive-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-collector-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-collector-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-deluxe-edition-bonuses",
+        "file": "the-adventures-of-elliot-the-millennium-tales-deluxe-edition-bonuses"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-digital-deluxe-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-digital-deluxe-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-physical-copy",
+        "file": "the-adventures-of-elliot-the-millennium-tales-physical-copy"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-preorder-bonus",
+        "file": "the-adventures-of-elliot-the-millennium-tales-preorder-bonus"
+      }
+    ],
+    "features": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-characters",
+        "file": "the-adventures-of-elliot-the-millennium-tales-characters"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-coop",
+        "file": "the-adventures-of-elliot-the-millennium-tales-coop"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-multiplayer",
+        "file": "the-adventures-of-elliot-the-millennium-tales-multiplayer"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-soundtrack",
+        "file": "the-adventures-of-elliot-the-millennium-tales-soundtrack"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-achievements",
+        "file": "the-adventures-of-elliot-the-millennium-tales-achievements"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-all-bosses",
+        "file": "the-adventures-of-elliot-the-millennium-tales-all-bosses"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-all-weapon-locations",
+        "file": "the-adventures-of-elliot-the-millennium-tales-all-weapon-locations"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-get-scythe",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-get-scythe"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-save",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-save"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-warp",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-warp"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-magicite",
+        "file": "the-adventures-of-elliot-the-millennium-tales-magicite"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-map",
+        "file": "the-adventures-of-elliot-the-millennium-tales-map"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-misr-ruins-chest",
+        "file": "the-adventures-of-elliot-the-millennium-tales-misr-ruins-chest"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-trophy-guide",
+        "file": "the-adventures-of-elliot-the-millennium-tales-trophy-guide"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-walkthrough",
+        "file": "the-adventures-of-elliot-the-millennium-tales-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-pc",
+        "file": "the-adventures-of-elliot-the-millennium-tales-pc"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-platforms",
+        "file": "the-adventures-of-elliot-the-millennium-tales-platforms"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-ps5",
+        "file": "the-adventures-of-elliot-the-millennium-tales-ps5"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-steam"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-switch-1",
+        "file": "the-adventures-of-elliot-the-millennium-tales-switch-1"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-switch-2",
+        "file": "the-adventures-of-elliot-the-millennium-tales-switch-2"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-xbox",
+        "file": "the-adventures-of-elliot-the-millennium-tales-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-countdown",
+        "file": "the-adventures-of-elliot-the-millennium-tales-countdown"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-embargo",
+        "file": "the-adventures-of-elliot-the-millennium-tales-embargo"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-release-date",
+        "file": "the-adventures-of-elliot-the-millennium-tales-release-date"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-release-time-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-release-time-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-famitsu-review",
+        "file": "the-adventures-of-elliot-the-millennium-tales-famitsu-review"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-ign",
+        "file": "the-adventures-of-elliot-the-millennium-tales-ign"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-metacritic",
+        "file": "the-adventures-of-elliot-the-millennium-tales-metacritic"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-opencritic",
+        "file": "the-adventures-of-elliot-the-millennium-tales-opencritic"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-review",
+        "file": "the-adventures-of-elliot-the-millennium-tales-review"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-user-reviews",
+        "file": "the-adventures-of-elliot-the-millennium-tales-user-reviews"
+      }
+    ]
+  },
+  "fr": {
+    "demo": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-length",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-length"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-ps5",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-ps5"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-steam"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-walkthrough",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-walkthrough"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-wont-start-crash-on-start-up",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-wont-start-crash-on-start-up"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-xbox",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-xbox"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo"
+      }
+    ],
+    "edition": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-amazon-exclusive-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-amazon-exclusive-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-collector-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-collector-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-deluxe-edition-bonuses",
+        "file": "the-adventures-of-elliot-the-millennium-tales-deluxe-edition-bonuses"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-digital-deluxe-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-digital-deluxe-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-physical-copy",
+        "file": "the-adventures-of-elliot-the-millennium-tales-physical-copy"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-preorder-bonus",
+        "file": "the-adventures-of-elliot-the-millennium-tales-preorder-bonus"
+      }
+    ],
+    "features": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-characters",
+        "file": "the-adventures-of-elliot-the-millennium-tales-characters"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-coop",
+        "file": "the-adventures-of-elliot-the-millennium-tales-coop"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-multiplayer",
+        "file": "the-adventures-of-elliot-the-millennium-tales-multiplayer"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-soundtrack",
+        "file": "the-adventures-of-elliot-the-millennium-tales-soundtrack"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-achievements",
+        "file": "the-adventures-of-elliot-the-millennium-tales-achievements"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-all-bosses",
+        "file": "the-adventures-of-elliot-the-millennium-tales-all-bosses"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-all-weapon-locations",
+        "file": "the-adventures-of-elliot-the-millennium-tales-all-weapon-locations"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-get-scythe",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-get-scythe"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-save",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-save"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-warp",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-warp"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-magicite",
+        "file": "the-adventures-of-elliot-the-millennium-tales-magicite"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-map",
+        "file": "the-adventures-of-elliot-the-millennium-tales-map"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-misr-ruins-chest",
+        "file": "the-adventures-of-elliot-the-millennium-tales-misr-ruins-chest"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-trophy-guide",
+        "file": "the-adventures-of-elliot-the-millennium-tales-trophy-guide"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-walkthrough",
+        "file": "the-adventures-of-elliot-the-millennium-tales-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-pc",
+        "file": "the-adventures-of-elliot-the-millennium-tales-pc"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-platforms",
+        "file": "the-adventures-of-elliot-the-millennium-tales-platforms"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-ps5",
+        "file": "the-adventures-of-elliot-the-millennium-tales-ps5"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-steam"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-switch-1",
+        "file": "the-adventures-of-elliot-the-millennium-tales-switch-1"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-switch-2",
+        "file": "the-adventures-of-elliot-the-millennium-tales-switch-2"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-xbox",
+        "file": "the-adventures-of-elliot-the-millennium-tales-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-countdown",
+        "file": "the-adventures-of-elliot-the-millennium-tales-countdown"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-embargo",
+        "file": "the-adventures-of-elliot-the-millennium-tales-embargo"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-release-date",
+        "file": "the-adventures-of-elliot-the-millennium-tales-release-date"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-release-time-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-release-time-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-famitsu-review",
+        "file": "the-adventures-of-elliot-the-millennium-tales-famitsu-review"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-ign",
+        "file": "the-adventures-of-elliot-the-millennium-tales-ign"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-metacritic",
+        "file": "the-adventures-of-elliot-the-millennium-tales-metacritic"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-opencritic",
+        "file": "the-adventures-of-elliot-the-millennium-tales-opencritic"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-review",
+        "file": "the-adventures-of-elliot-the-millennium-tales-review"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-user-reviews",
+        "file": "the-adventures-of-elliot-the-millennium-tales-user-reviews"
+      }
+    ]
+  },
+  "ja": {
+    "demo": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-length",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-length"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-ps5",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-ps5"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-steam"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-walkthrough",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-walkthrough"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-wont-start-crash-on-start-up",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-wont-start-crash-on-start-up"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo-xbox",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo-xbox"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-demo",
+        "file": "the-adventures-of-elliot-the-millennium-tales-demo"
+      }
+    ],
+    "edition": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-amazon-exclusive-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-amazon-exclusive-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-collector-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-collector-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-deluxe-edition-bonuses",
+        "file": "the-adventures-of-elliot-the-millennium-tales-deluxe-edition-bonuses"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-digital-deluxe-edition",
+        "file": "the-adventures-of-elliot-the-millennium-tales-digital-deluxe-edition"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-physical-copy",
+        "file": "the-adventures-of-elliot-the-millennium-tales-physical-copy"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-preorder-bonus",
+        "file": "the-adventures-of-elliot-the-millennium-tales-preorder-bonus"
+      }
+    ],
+    "features": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-characters",
+        "file": "the-adventures-of-elliot-the-millennium-tales-characters"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-coop",
+        "file": "the-adventures-of-elliot-the-millennium-tales-coop"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-multiplayer",
+        "file": "the-adventures-of-elliot-the-millennium-tales-multiplayer"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-soundtrack",
+        "file": "the-adventures-of-elliot-the-millennium-tales-soundtrack"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-achievements",
+        "file": "the-adventures-of-elliot-the-millennium-tales-achievements"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-all-bosses",
+        "file": "the-adventures-of-elliot-the-millennium-tales-all-bosses"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-all-weapon-locations",
+        "file": "the-adventures-of-elliot-the-millennium-tales-all-weapon-locations"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-get-scythe",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-get-scythe"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-save",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-save"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-how-to-warp",
+        "file": "the-adventures-of-elliot-the-millennium-tales-how-to-warp"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-magicite",
+        "file": "the-adventures-of-elliot-the-millennium-tales-magicite"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-map",
+        "file": "the-adventures-of-elliot-the-millennium-tales-map"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-misr-ruins-chest",
+        "file": "the-adventures-of-elliot-the-millennium-tales-misr-ruins-chest"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-trophy-guide",
+        "file": "the-adventures-of-elliot-the-millennium-tales-trophy-guide"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-walkthrough",
+        "file": "the-adventures-of-elliot-the-millennium-tales-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-pc",
+        "file": "the-adventures-of-elliot-the-millennium-tales-pc"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-platforms",
+        "file": "the-adventures-of-elliot-the-millennium-tales-platforms"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-ps5",
+        "file": "the-adventures-of-elliot-the-millennium-tales-ps5"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-steam"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-switch-1",
+        "file": "the-adventures-of-elliot-the-millennium-tales-switch-1"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-switch-2",
+        "file": "the-adventures-of-elliot-the-millennium-tales-switch-2"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-xbox",
+        "file": "the-adventures-of-elliot-the-millennium-tales-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-countdown",
+        "file": "the-adventures-of-elliot-the-millennium-tales-countdown"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-embargo",
+        "file": "the-adventures-of-elliot-the-millennium-tales-embargo"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-release-date",
+        "file": "the-adventures-of-elliot-the-millennium-tales-release-date"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-release-time-steam",
+        "file": "the-adventures-of-elliot-the-millennium-tales-release-time-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-famitsu-review",
+        "file": "the-adventures-of-elliot-the-millennium-tales-famitsu-review"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-ign",
+        "file": "the-adventures-of-elliot-the-millennium-tales-ign"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-metacritic",
+        "file": "the-adventures-of-elliot-the-millennium-tales-metacritic"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-opencritic",
+        "file": "the-adventures-of-elliot-the-millennium-tales-opencritic"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-review",
+        "file": "the-adventures-of-elliot-the-millennium-tales-review"
+      },
+      {
+        "slug": "the-adventures-of-elliot-the-millennium-tales-user-reviews",
+        "file": "the-adventures-of-elliot-the-millennium-tales-user-reviews"
+      }
+    ]
+  }
+}
