@@ -1,0 +1,134 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Adventures of Elliot: The Millennium Tales Best Weapons & Build Guide",
+  description: "Master combat in The Adventures of Elliot: The Millennium Tales with our guide to the best weapon types, loadout strategies, and magicite builds for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15A7D0/fff?text=Weapon+Build+Guide",
+  date: "2026-06-22",
+  author: "the adventures of elliot the millennium tales Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide: Weapon Mastery">
+- **The Adventures of Elliot: The Millennium Tales best weapons** depend on your current combat needs and playstyle.
+- Equip **two weapons** simultaneously to switch between melee and ranged options for tactical flexibility.
+- Use **Magicite customization** to enhance your damage output and unlock unique weapon-specific combat effects.
+- **Perfect blocking** is essential to survive challenging encounters and create openings for powerful counterattacks.
+- Prioritize **Sword and Shield** for balanced play, while using **Bombs** and **Boomerangs** for puzzle utility.
+</Callout>
+
+<Section icon={Swords} title="Understanding Weapon Types">
+
+Combat in *The Adventures of Elliot: The Millennium Tales* revolves around seven distinct weapon types. Each tool serves a specific purpose, from close-quarters defense to ranged puzzle-solving and crowd control.
+
+| Weapon Type | Primary Role | Best Usage |
+| :--- | :--- | :--- |
+| **Sword & Shield** | Melee Defense | Balanced combat, blocking, counterplay |
+| **Bow** | Ranged Pressure | Safe enemy control, distant targets |
+| **Bomb** | Explosive Burst | Breaking walls, high-impact damage |
+| **Boomerang** | Projectile Control | Path utility, multi-hit maneuvers |
+| **Spear** | Reach Pressure | Keeping distance, forward charges |
+| **Hammer** | Heavy Stagger | Heavy hits, peg-based puzzles |
+| **Chains & Sickles** | Area Control | Pulling enemies, surrounding attacks |
+
+<Callout type="tip" title="Weapon Synergy">
+Always keep one "Core" weapon (like the Sword) for defense and one "Utility" weapon (like the Bomb or Boomerang) to handle environmental obstacles and specific enemy weaknesses.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Top Weapon Loadouts for 2026">
+
+To optimize your performance, consider these proven loadout combinations based on current meta trends and dungeon requirements.
+
+<CardGrid cols={3}>
+  <Card title="The Vanguard">
+    - **Weapons:** Sword & Spear
+    - **Focus:** Defensive melee spacing
+    - **Strategy:** Use the Spear for safe pokes, then switch to the Sword for sustained damage.
+  </Card>
+  <Card title="The Saboteur">
+    - **Weapons:** Bomb & Boomerang
+    - **Focus:** Puzzle and area control
+    - **Strategy:** Clear obstacles with Bombs while using the Boomerang to manage crowd positioning.
+  </Card>
+  <Card title="The Tactician">
+    - **Weapons:** Bow & Chains
+    - **Focus:** Ranged, high-control
+    - **Strategy:** Pull enemies close with the Chains, then finish them with the Bow's special fan-shot.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Durability Management">
+Remember to monitor your weapon durability. Switching between two weapons effectively prevents you from being caught with a broken tool during intense boss fights.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Magicite Customization Basics">
+
+Magicite is the heart of your build. By slotting fragments into your weapons, you can transform their behavior.
+
+<Steps>
+  <Step num="1" title="Collect Fragments">
+    Explore dungeons and break environmental objects like pots and crates to find rare Magicite fragments.
+  </Step>
+  <Step num="2" title="Access Menu">
+    Open the Magicite menu to view weapon-specific slots and available passive or active bonuses.
+  </Step>
+  <Step num="3" title="Slot and Enhance">
+    Equip fragments that complement your weapon's role, such as "Guard-focused" for Swords or "Reach-extension" for Spears.
+  </Step>
+  <Step num="4" title="Dismantle Duplicates">
+    Use the auto-dismantle feature to clear inventory space and gain upgrade materials from duplicate pieces.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Build Idea: The Counter-Striker">
+Combine a **Sword** with **Counter-Stance Magicite** to gain a 10% damage bonus when your shield stamina is over 90%. This reward-based build turns defensive play into an offensive powerhouse.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Faie's Tactical Support">
+
+Faie is more than a story companion; she is a vital part of your combat loadout. Her magic can drastically change your approach to dungeons and boss encounters.
+
+| Magic Ability | Strategic Use Case | Best Pairings |
+| :--- | :--- | :--- |
+| **Warp** | Repositioning, puzzle shortcuts | Hammer, Spear |
+| **Ignite** | Lighting torches, detonating bombs | Bomb |
+| **Vacuum** | Loot collection, enemy grouping | Chains, Sword |
+| **Copy** | Synchronized puzzle actions | Bow, Boomerang |
+
+<Callout type="info" title="Co-op Advantage">
+In local co-op, having a second player control Faie significantly boosts your combat efficiency. They can focus on grouping enemies with Vacuum while you deliver heavy hits with the Hammer or Sword.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the best weapons for early-game exploration?",
+    answer: "The Sword and Shield are the most reliable early-game choice due to their versatility in both attacking and blocking. Pairing them with the Boomerang provides excellent utility for puzzles."
+  },
+  {
+    question: "How do I increase my weapon damage?",
+    answer: "Focus on slotting offensive Magicite fragments into your weapons. Additionally, completing side quests and exploring for better-tier weapons will provide higher base stats."
+  },
+  {
+    question: "Can I swap weapons during a boss fight?",
+    answer: "Yes, you can swap between your two equipped weapons in real time during combat. This is highly recommended to adapt to different attack phases of boss encounters."
+  }
+]} />
+
+</Section>

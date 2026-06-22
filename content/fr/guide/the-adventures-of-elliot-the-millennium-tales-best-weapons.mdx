@@ -1,0 +1,134 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Adventures of Elliot: The Millennium Tales - Guide des meilleures armes et builds",
+  description: "Maîtrisez le combat dans The Adventures of Elliot: The Millennium Tales grâce à notre guide des meilleurs types d'armes, stratégies d'équipement et builds de magicite pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15A7D0/fff?text=Weapon+Build+Guide",
+  date: "2026-06-22",
+  author: "L'équipe du Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guide rapide : Maîtrise des armes">
+- **Les meilleures armes de The Adventures of Elliot: The Millennium Tales** dépendent de vos besoins de combat actuels et de votre style de jeu.
+- Équipez **deux armes** simultanément pour basculer entre les options de mêlée et à distance pour une plus grande flexibilité tactique.
+- Utilisez la **personnalisation de la Magicite** pour augmenter vos dégâts et débloquer des effets de combat uniques spécifiques à chaque arme.
+- Le **blocage parfait** est essentiel pour survivre aux affrontements difficiles et créer des ouvertures pour de puissantes contre-attaques.
+- Priorisez l'**Épée et le Bouclier** pour un jeu équilibré, tout en utilisant les **Bombes** et les **Boomerangs** pour résoudre les énigmes.
+</Callout>
+
+<Section icon={Swords} title="Comprendre les types d'armes">
+
+Le combat dans *The Adventures of Elliot: The Millennium Tales* s'articule autour de sept types d'armes distincts. Chaque outil remplit un rôle spécifique, de la défense au corps à corps à la résolution d'énigmes à distance et au contrôle de foule.
+
+| Type d'arme | Rôle principal | Meilleure utilisation |
+| :--- | :--- | :--- |
+| **Épée & Bouclier** | Défense au corps à corps | Combat équilibré, blocage, contre-attaque |
+| **Arc** | Pression à distance | Contrôle sûr des ennemis, cibles éloignées |
+| **Bombe** | Explosion dévastatrice | Destruction de murs, dégâts à fort impact |
+| **Boomerang** | Contrôle de projectile | Utilité de trajectoire, manœuvres à coups multiples |
+| **Lance** | Pression à portée | Maintien de la distance, charges vers l'avant |
+| **Marteau** | Étourdissement lourd | Coups puissants, énigmes de piquets |
+| **Chaînes & Faucilles** | Contrôle de zone | Attraction des ennemis, attaques circulaires |
+
+<Callout type="tip" title="Synergie des armes">
+Gardez toujours une arme « Principale » (comme l'Épée) pour la défense et une arme d'« Utilité » (comme la Bombe ou le Boomerang) pour gérer les obstacles environnementaux et les faiblesses spécifiques des ennemis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meilleurs équipements d'armes pour 2026">
+
+Pour optimiser vos performances, considérez ces combinaisons d'équipements éprouvées basées sur les tendances actuelles de la méta et les exigences des donjons.
+
+<CardGrid cols={3}>
+  <Card title="L'Avant-garde">
+    - **Armes :** Épée & Lance
+    - **Spécialité :** Gestion de l'espace en mêlée défensive
+    - **Stratégie :** Utilisez la Lance pour des attaques sûres à distance, puis passez à l'Épée pour infliger des dégâts continus.
+  </Card>
+  <Card title="Le Saboteur">
+    - **Armes :** Bombe & Boomerang
+    - **Spécialité :** Énigmes et contrôle de zone
+    - **Stratégie :** Éliminez les obstacles avec les Bombes tout en utilisant le Boomerang pour gérer le positionnement de la foule.
+  </Card>
+  <Card title="Le Tacticien">
+    - **Armes :** Arc & Chaînes
+    - **Spécialité :** Combat à distance, contrôle élevé
+    - **Stratégie :** Attirez les ennemis avec les Chaînes, puis achevez-les avec le tir en éventail spécial de l'Arc.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestion de la durabilité">
+N'oubliez pas de surveiller la durabilité de vos armes. Basculer efficacement entre deux armes vous évite de vous retrouver avec un outil brisé lors des combats de boss intenses.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Bases de la personnalisation de la Magicite">
+
+La Magicite est le cœur de votre build. En insérant des fragments dans vos armes, vous pouvez transformer leur comportement.
+
+<Steps>
+  <Step num="1" title="Collecter des fragments">
+    Explorez les donjons et détruisez les objets de l'environnement comme les pots et les caisses pour trouver de rares fragments de Magicite.
+  </Step>
+  <Step num="2" title="Accéder au menu">
+    Ouvrez le menu de la Magicite pour voir les emplacements spécifiques aux armes et les bonus passifs ou actifs disponibles.
+  </Step>
+  <Step num="3" title="Équiper et améliorer">
+    Équipez des fragments qui complètent le rôle de votre arme, comme « Axé sur la garde » pour les Épées ou « Extension de portée » pour les Lances.
+  </Step>
+  <Step num="4" title="Démanteler les doublons">
+    Utilisez la fonction de démantèlement automatique pour libérer de l'espace dans l'inventaire et obtenir des matériaux d'amélioration à partir des pièces en double.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Idée de build : Le Contre-attaquant">
+Combinez une **Épée** avec la **Magicite de posture de contre** pour obtenir un bonus de dégâts de 10 % lorsque l'endurance de votre bouclier est supérieure à 90 %. Ce build basé sur la récompense transforme le jeu défensif en une force offensive redoutable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Soutien tactique de Faie">
+
+Faie est bien plus qu'une simple compagne d'aventure ; elle est un élément essentiel de votre équipement de combat. Sa magie peut radicalement changer votre approche des donjons et des boss.
+
+| Capacité magique | Cas d'utilisation stratégique | Meilleures associations |
+| :--- | :--- | :--- |
+| **Téléportation** | Repositionnement, raccourcis d'énigmes | Marteau, Lance |
+| **Enflammer** | Allumer des torches, faire détoner des bombes | Bombe |
+| **Aspiration** | Collecte de butin, regroupement d'ennemis | Chaînes, Épée |
+| **Copie** | Actions d'énigmes synchronisées | Arc, Boomerang |
+
+<Callout type="info" title="Avantage de la coop">
+En coopération locale, avoir un second joueur qui contrôle Faie augmente considérablement votre efficacité au combat. Il peut se concentrer sur le regroupement des ennemis avec Aspiration pendant que vous infligez de lourds dégâts avec le Marteau ou l'Épée.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quelles sont les meilleures armes pour l'exploration en début de jeu ?",
+    answer: "L'Épée et le Bouclier sont le choix le plus fiable en début de jeu en raison de leur polyvalence pour attaquer et bloquer. Les associer au Boomerang offre une excellente utilité pour les énigmes."
+  },
+  {
+    question: "Comment puis-je augmenter les dégâts de mes armes ?",
+    answer: "Concentrez-vous sur l'insertion de fragments de Magicite offensifs dans vos armes. De plus, accomplir des quêtes secondaires et explorer pour trouver des armes de niveau supérieur vous fournira de meilleures statistiques de base."
+  },
+  {
+    question: "Puis-je changer d'arme pendant un combat de boss ?",
+    answer: "Oui, vous pouvez basculer en temps réel entre vos deux armes équipées pendant le combat. Cela est fortement recommandé pour vous adapter aux différentes phases d'attaque des boss."
+  }
+]} />
+
+</Section>
