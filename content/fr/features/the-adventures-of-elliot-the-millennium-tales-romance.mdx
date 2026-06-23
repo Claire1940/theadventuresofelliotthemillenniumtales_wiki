@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Adventures of Elliot the Millennium Tales Romance : Conseils",
+  description: "Maîtrisez the adventures of elliot the millennium tales romance grâce à notre guide sur les armes, les builds de magicite, la magie de Faie, les bonus de démo et les performances sur plateforme.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/15a7d0/fff?text=Elliot+Millennium+Tales",
+  date: "2026-06-23",
+  author: "L'équipe Wiki de the adventures of elliot the millennium tales"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Aventure principale** : Vivez **the adventures of elliot the millennium tales romance** à travers des combats en temps réel intenses et des mécaniques de voyage dans le temps.
+- **Changement d'arme** : Équipez jusqu'à **deux armes distinctes** simultanément pour vous adapter à divers scénarios de combat.
+- **Soutien de la fée** : Utilisez les **capacités magiques de Faie** comme Téléportation et Enflammer pour résoudre des énigmes complexes dans les donjons.
+- **Objectifs de performance** : Visez un **gameplay à 60 FPS** sur les consoles modernes et jusqu'à **120 FPS sur PC**.
+</Callout>
+
+<Section icon={Sparkles} title="Histoire et Éditions de The Adventures of Elliot the Millennium Tales Romance">
+
+Le grand voyage de **the adventures of elliot the millennium tales romance** a officiellement commencé le 18 juin 2026. Développé par Square Enix et Claytechworks, cet action-RPG en HD-2D tisse un récit d'héroïsme à travers le voyage temporel sur quatre époques distinctes : l'Âge de la Protection, l'Âge de la Reconstruction, l'Âge de la Magie et l'Âge du Bourgeonnement. Les joueurs incarnent Elliot, un orphelin destiné à ouvrir la Porte du Temps, aux côtés de sa mystérieuse compagne fée, Faie. 
+
+Le jeu est disponible sur PlayStation 5, Xbox Series X|S, Nintendo Switch 2 et PC via Steam et le Windows Store. Les prix débutent à 59,99 $ pour l'Édition Standard, avec des packs premium offrant des avantages exclusifs en début de partie et des objets de collection physiques.
+
+| Édition | Prix | Contenu clé | Disponibilité des plateformes |
+|---|---|---|---|
+| Édition Standard | 59,99 $ | Jeu de base, licence numérique standard | Toutes les plateformes |
+| Édition Deluxe Numérique | 69,99 $ | Jeu de base, Bracelet de Fée, Chevillère de Cerisier en Fleurs, Anneau de Roselle | Boutiques numériques |
+| Mise à niveau Deluxe | 10,00 $ | Pack d'accessoires Deluxe Numérique | Extension pour les propriétaires de l'Édition Standard |
+| Édition Collector | Régional | Jeu physique, bande originale, horloge de bureau Faie & Porte du Temps | Boutique Square Enix |
+
+<Callout type="success" title="Mise à niveau Deluxe">
+Si vous achetez l'Édition Standard et décidez plus tard que vous voulez les accessoires exclusifs, la mise à niveau Deluxe à 10,00 $ est disponible à l'achat séparément sur toutes les boutiques numériques. Cela vous évite d'avoir à acheter deux fois l'Édition Deluxe Numérique complète.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier List des Armes et Configurations Tactiques">
+
+En combat, Elliot peut équiper jusqu'à deux armes à la fois et basculer entre elles en temps réel. Cette mécanique permet aux joueurs de créer des configurations polyvalentes combinant défense, attaque au corps à corps et utilité à distance. Le jeu propose sept types d'armes distincts, chacun ayant son propre rythme de combat, ses attaques spéciales et ses fonctions d'exploration. 
+
+Comprendre l'interaction entre ces armes est crucial pour survivre aux combats de boss difficiles et naviguer dans des donjons complexes.
+
+| Type d'arme | Rôle principal | Attaque spéciale | Utilité en exploration |
+|---|---|---|---|
+| Épée et Bouclier | Mêlée défensive, contre-attaque | Charge tranchante vers l'avant | Bloque les dangers frontaux |
+| Arc | Pression à distance, kiting | Tir en éventail de flèches multiples | Active les interrupteurs éloignés |
+| Bombe | Explosion de zone | Détonation retardée | Démolit les murs fissurés |
+| Boomerang | Projectile multi-coups | Trajectoire de retour | Attrape les objets éloignés |
+| Lance | Portée en mêlée, espacement | Estoc perçant vers l'avant | Active les plaques de pression au sol étroites |
+| Marteau | Étourdissement lourd, brise-bouclier | Frappe au sol | Enfonce les piquets en bois |
+| Chaînes et Faucilles | Contrôle de foule, regroupement | Attire les ennemis | S'accroche aux anneaux de traversée |
+
+<CardGrid cols={2}>
+  <Card title="Configuration de base pour débutant">
+    - **Épée et Bouclier** pour une défense fiable et des contre-attaques.
+    - **Arc** pour éliminer en toute sécurité les ennemis volants et activer les cibles éloignées.
+    - Fortement recommandé pour les débutants durant les premières heures de jeu.
+  </Card>
+  <Card title="Configuration Utilitaire & Énigmes">
+    - **Bombe** pour briser les barrières destructibles et infliger de lourds dégâts de zone.
+    - **Boomerang** pour toucher plusieurs cibles et récupérer des objets hors de portée.
+    - Parfait pour l'exploration des donjons et la collecte de ressources.
+  </Card>
+  <Card title="Configuration de Combat Spécialisée">
+    - **Lance** pour maintenir une distance de sécurité face aux ennemis de mêlée agressifs.
+    - **Marteau** pour briser la garde ennemie et infliger d'importants dégâts d'étourdissement.
+    - Idéal pour les affrontements contre les boss nécessitant un positionnement précis.
+  </Card>
+  <Card title="Configuration de Contrôle Avancée">
+    - **Chaînes et Faucilles** pour regrouper les ennemis.
+    - **Bombe** pour faire exploser les cibles regroupées simultanément.
+    - Nécessite une grande conscience spatiale mais offre un excellent contrôle de foule.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de synergie d'armes">
+Associez toujours une arme à grande mobilité ou à distance avec une option défensive ou lourde. Par exemple, utiliser la Lance et le Marteau vous permet de harceler à distance, puis de passer au Marteau pour infliger un coup d'étourdissement dévastateur une fois la garde de l'ennemi brisée.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Personnalisation de la Magicite et Stratégies de Build">
+
+Les fragments de magicite sont des objets de collection trouvés à travers les quatre époques qui peuvent être insérés dans des boîtes de magicite spécifiques aux armes. Ce système de personnalisation vous permet de modifier le comportement des armes, d'augmenter les statistiques de base et d'introduire des effets passifs. Square Enix a également lancé une campagne de bonus de données de sauvegarde, récompensant les joueurs ayant joué à de précédents titres de Square Enix avec de la magicite d'épée exclusive.
+
+| Données de sauvegarde éligibles | Récompense de magicite | Effet de combat spécial |
+|---|---|---|
+| Octopath Traveler 0 | Guidance de la Flamme Sacrée | +10% de dégâts d'épée sur les ennemis ayant moins de 30% de PV |
+| Dragon Quest I & II Remake | Coup Critique | Augmente le taux de coups critiques à l'épée de 6% |
+| Bravely Default Flying Fairy | Brave | +10% de dégâts d'épée, augmente le coût en endurance du bouclier |
+| Various Daylife | Sagesse Expéditionnaire | Réduit le temps d'attaque chargée à l'épée de 10% |
+| Triangle Strategy | Posture de Contre | +10% de dégâts d'épée lorsque l'endurance du bouclier est supérieure à 90% |
+| Trials of Mana | Plumage Laurentien | Objet ornemental qui déclenche une rencontre spéciale en ville |
+
+<Steps>
+  <Step num="1" title="Vérifier le lien des données de sauvegarde">
+    Assurez-vous que vos fichiers de sauvegarde Square Enix éligibles sont stockés sur la même famille de plateformes et le même profil que votre sauvegarde de jeu actuelle.
+  </Step>
+  <Step num="2" title="Activer le bonus promotionnel">
+    Sélectionnez l'option Bonus Promotionnel dans le menu principal pour analyser votre système à la recherche de sauvegardes de jeu éligibles.
+  </Step>
+  <Step num="3" title="Visiter l'orphelinat">
+    Progressez dans l'histoire principale jusqu'à ce que vous accédiez à l'orphelinat dans l'Âge de la Protection.
+  </Step>
+  <Step num="4" title="Récupérer au bureau">
+    Allez au deuxième étage de l'orphelinat et interagissez avec le bureau pour récupérer vos magicites et objets offerts.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Limitations de plateforme">
+Les bonus de données de sauvegarde sont strictement limités à la même famille de plateformes. Par exemple, vous ne pouvez pas réclamer un bonus sur PlayStation 5 en utilisant un fichier de sauvegarde situé sur votre Nintendo Switch 2. Les joueurs Steam doivent posséder les jeux éligibles dans leur historique d'achats Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Magie de Faie et Exploration en Coop">
+
+Faie n'est pas seulement une compagne pour l'histoire ; elle est un pilier central du gameplay. Les joueurs peuvent contrôler Faie indépendamment à l'aide du stick analogique droit, ou un deuxième joueur peut en prendre le contrôle en mode coopératif local pour 1 à 2 joueurs. Faie utilise des capacités magiques uniques apprises dans les Sanctuaires du Mystique pour aider au combat, aux énigmes et à la traversée.
+
+| Type de magie | Fonction en combat | Utilisation pour énigmes et exploration |
+|---|---|---|
+| Téléportation | Repositionne Elliot instantanément | Traverse de grands fossés et contourne les pièges |
+| Enflammer | Fait exploser les bombes et enflamme les ennemis | Fait fondre les blocs de glace et allume les torches |
+| Aspiration | Attire les ennemis en un groupe serré | Collecte le butin tombé et les clés éloignées |
+| Copie | Imite les actions principales d'Elliot | Active les plaques de pression synchronisées |
+
+<Checklist
+  id="early-faie-goals"
+  title="Objectifs initiaux essentiels avec Faie :"
+  items={[
+    "Trouver le premier Sanctuaire du Mystique pour débloquer la magie de Téléportation",
+    "S'entraîner à la reconnaissance indépendante dans les Ruines de la Porte",
+    "Utiliser Enflammer pour déclencher des combos de barils explosifs en combat",
+    "Configurer la coop locale pour coordonner facilement la résolution des énigmes"
+  ]}
+/>
+
+<Callout type="info" title="Mécanique de réanimation en coop">
+En coop locale, si Elliot tombe au combat, le joueur contrôlant Faie peut le réanimer en dépensant des tul (la monnaie du jeu). Cela fait du jeu en coop une excellente option pour guider les joueurs plus jeunes ou moins expérimentés à travers des donjons difficiles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Configuration Requise et Performances sur Plateforme">
+
+Le jeu fonctionne à merveille sur les consoles modernes et sur PC. Les joueurs PC doivent prêter une attention particulière à la configuration requise, notamment au système d'exploitation, car Windows 11 est strictement requis pour la compatibilité. Les joueurs sur console peuvent profiter de visuels haute résolution et de taux de rafraîchissement stables adaptés à leur matériel respectif.
+
+| Plateforme | Résolution | Taux de rafraîchissement cible | Espace de stockage requis | Fonctionnalités clés |
+|---|---|---|---|---|
+| PC Steam | Jusqu'à 4K | 60 à 120 FPS | 20 Go d'espace disponible | Succès, Sauvegardes dans le cloud, Partage familial |
+| PlayStation 5 | Jusqu'à 4K | 60 FPS | 15,5 Go d'espace | Vibrations DualSense, Lecture à distance, 21 options d'accessibilité |
+| Xbox Series X | Jusqu'à 4K | 60+ FPS | 16,1 Go d'espace | Play Anywhere, 4K Ultra HD, Smart Delivery |
+| Xbox Series S | Jusqu'à 1080p | 60 FPS | 16,1 Go d'espace | Play Anywhere, performances optimisées |
+| Nintendo Switch 2 | Jusqu'à 1080p | 30 à 60 FPS | 16,6 Go d'espace | Modes Téléviseur, Table et Portable, Sauvegardes dans le cloud |
+
+<Callout type="tip" title="Optimisation PC">
+Si vous avez du mal à maintenir un taux de 60 FPS stable sur PC, assurez-vous que vos pilotes graphiques sont à jour et essayez d'abord de baisser la qualité des ombres et les paramètres de post-traitement, car ces options ont un impact important sur les performances dans les environnements HD-2D denses.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Foire Aux Questions">
+
+<Callout type="tip" title="Soutien de la communauté">
+Pour plus de stratégies, le partage de builds et de l'aide sur les énigmes, pensez à visiter le hub officiel de la communauté Steam ou à consulter le portail d'assistance de Square Enix.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quand le jeu est-il sorti et sur quelles plateformes est-il disponible ?",
+    answer: "Le jeu est officiellement sorti le 18 juin 2026. Il est disponible sur PlayStation 5, Xbox Series X|S, Nintendo Switch 2 et PC via Steam et le Windows Store."
+  },
+  {
+    question: "Comment puis-je réclamer mes bonus promotionnels de données de sauvegarde ?",
+    answer: "Analysez votre système à la recherche de fichiers de sauvegarde éligibles via le menu Bonus Promotionnel de l'écran titre, progressez jusqu'à l'Âge de la Protection, et récupérez les objets sur le bureau situé au deuxième étage de l'orphelinat."
+  },
+  {
+    question: "Le jeu prend-il en charge le multijoueur local ?",
+    answer: "Oui, le jeu prend en charge le mode coopératif local pour 1 à 2 joueurs. Le joueur 1 contrôle Elliot tandis que le joueur 2 contrôle sa compagne fée, Faie, pour l'aider dans les combats, les énigmes et l'exploration."
+  },
+  {
+    question: "Comment le voyage dans le temps est-il géré dans the adventures of elliot the millennium tales romance ?",
+    answer: "Dans the adventures of elliot the millennium tales romance, les joueurs utilisent la Porte du Temps pour voyager à travers quatre époques distinctes. Les actions menées dans les époques antérieures, comme planter une graine ou modifier une structure, ont un impact direct sur la configuration, les énigmes et l'environnement des époques ultérieures."
+  }
+]} />
+
+</Section>
