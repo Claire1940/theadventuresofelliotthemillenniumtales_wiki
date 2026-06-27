@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desarrollador de The Adventures of Elliot: The Millennium Tales: Perspectivas del equipo",
+  description: "Explora cómo Team Asano y Claytechworks, desarrolladores de The Adventures of Elliot: The Millennium Tales, diseñaron este RPG de acción en tiempo real.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Developer+Behind+the+Scenes",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de The Adventures of Elliot: The Millennium Tales"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Colaboración de desarrollo**: Codesarrollado por Square Enix Creative Studio 5 (Team Asano) y Claytechworks.
+- **Cambio en el combate**: Presenta un combate fluido en tiempo real con siete clases de armas distintas en lugar de las mecánicas por turnos tradicionales.
+- **Narrativa de viajes en el tiempo**: Incluye una historia ramificada con tres finales únicos, incluido un Final de Oro oculto.
+- **Juego cooperativo**: Admite cooperativo local donde un segundo jugador puede controlar a la hada compañera de Elliot, Faie.
+</Callout>
+
+<Section icon={Sparkles} title="El desarrollador y la visión de The Adventures of Elliot: The Millennium Tales">
+
+El panorama de los videojuegos experimentó un gran cambio el 18 de junio de 2026 con el lanzamiento mundial de la última epopeya de fantasía de Square Enix. Detrás de este ambicioso proyecto se encuentra la colaboración del **desarrollador de The Adventures of Elliot: The Millennium Tales**, compuesta por Creative Studio 5 de Square Enix, ampliamente conocido como Team Asano, y los expertos técnicos de Claytechworks. Liderada por el desarrollador principal Tomoya Asano, esta colaboración tenía como objetivo ofrecer una experiencia de RPG de acción altamente accesible que conserve la profundidad táctica de las aventuras de fantasía clásicas mientras introduce sistemas modernos de combate en tiempo real.
+
+Históricamente, Team Asano ha sido sinónimo de los JRPG tradicionales por turnos. Su característico estilo artístico HD-2D ha definido queridos clásicos modernos, pero este proyecto representa un audaz alejamiento de su fórmula establecida. En lugar de utilizar un sistema basado en grupos (party-based), los desarrolladores se centraron en un modelo de progresión de un solo personaje que enfatiza la habilidad del jugador, el posicionamiento espacial y el cambio rápido de armas.
+
+| Juego | Desarrollador | Sistema de combate | Estilo artístico |
+|---|---|---|---|
+| Octopath Traveler | Team Asano, Acquire | Por turnos | HD-2D |
+| Live A Live | Team Asano, historica | Por turnos (cuadrícula) | HD-2D |
+| The Adventures of Elliot | Team Asano, Claytechworks | Acción en tiempo real | HD-2D |
+
+<CardGrid cols={3}>
+  <Card title="Identidad visual">
+    - **Estilo artístico HD-2D registrado**
+    - Sistemas de iluminación dinámica
+    - Entornos de 16 bits ricamente detallados
+  </Card>
+  <Card title="Filosofía de combate">
+    - **Mecánicas de acción en tiempo real**
+    - Siete categorías de armas distintas
+    - Bloqueo y desvío (parry) activos
+  </Card>
+  <Card title="Integración cooperativa">
+    - **Multijugador local de entrada y salida libre (drop-in)**
+    - El segundo jugador controla a Faie
+    - Mecánicas combinadas de resolución de acertijos
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Filosofía de desarrollo">
+Tomoya Asano enfatizó que el objetivo principal era crear una jugabilidad simple y fácil de entender. Esta filosofía de diseño aseguró que tanto los veteranos de los RPG de acción como los recién llegados pudieran comprender fácilmente las mecánicas principales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominando el combate en tiempo real y los sistemas de armas">
+
+El combate en Philabieldia requiere reflejos rápidos y planificación estratégica. A diferencia de los títulos anteriores en HD-2D, los jugadores luchan contra los enemigos en batallas en tiempo real. Elliot tiene acceso a siete tipos de armas diferentes, que incluyen espadas, arcos, cadenas y hoces. Los jugadores pueden equipar dos armas en cualquier momento y alternar libremente entre ellas a mitad del combate para crear combinaciones devastadoras.
+
+El conjunto de herramientas defensivas es igualmente robusto. Los jugadores pueden utilizar el escudo de Elliot para bloquear los ataques entrantes, realizar desvíos (parries) precisos para desestabilizar a los jefes y usar una habilidad de teletransporte para viajar instantáneamente a la ubicación de Faie. Esta mecánica de teletransporte es vital tanto para evadir peligrosos ataques de área de efecto como para navegar por secciones complejas de plataformas.
+
+| Tipo de arma | Alcance | Estilo de juego | Característica clave |
+|---|---|---|---|
+| Espada | Cuerpo a cuerpo | Defensa y ataque equilibrados | Recuperación rápida tras desvío |
+| Arco | Largo | Precisión a distancia y seguridad | Disparos perforantes cargados |
+| Cadena y hoz | Medio | Control de masas y movilidad | Atrae a los enemigos |
+| Martillo pesado | Cuerpo a cuerpo | Daño lento y de alto impacto | Rompe la armadura enemiga |
+
+<Steps>
+  <Step num="1" title="Selecciona tu equipamiento">
+    Equipa dos armas complementarias, como una espada rápida para el cuerpo a cuerpo y un arco de largo alcance, para cubrir todas las distancias de combate.
+  </Step>
+  <Step num="2" title="Reúne fragmentos de magicita">
+    Explora santuarios de acertijos y mazmorras ocultas por toda Philabieldia para recolectar fragmentos de magicita.
+  </Step>
+  <Step num="3" title="Mejora tus armas">
+    Visita a los herreros locales para engarzar fragmentos de magicita en tus armas, agregando daño elemental o modificadores de golpe crítico.
+  </Step>
+  <Step num="4" title="Coordínate con Faie">
+    En el modo de un jugador o cooperativo, coordínate con Faie para activar trampas ambientales o recuperar objetos de curación fuera de tu alcance.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Sinergia de combate">
+Inicia siempre el combate con un arma a distancia para debilitar a los enemigos de élite antes de cambiar a un arma cuerpo a cuerpo para acabar con ellos. Engarzar magicita de rayo en tu arco puede aturdir a los objetivos, haciéndolos vulnerables a potentes ataques cuerpo a cuerpo de seguimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Diseño narrativo y mecánicas de viaje en el tiempo">
+
+La narrativa de Philabieldia está profundamente entrelazada con su división histórica en distintas Eras. Los jugadores viajan a través de la Era del Mito, la Era del Brote, la Era de la Magia, la Era de la Reconstrucción y la Era actual de la Salvaguardia. Bajo las órdenes del rey Hichard, Elliot explora ruinas recién descubiertas, encontrando una misteriosa puerta que conduce directamente al pasado.
+
+La trama se complica cuando el ministro Kaifried roba una poderosa espada mágica y mata a Elliot, quien posteriormente es revivido por la hada Faie. Para detener a Kaifried y levantar una maldición de congelación de la princesa Heuria, Elliot must viajar de un lado a otro en el tiempo. Este sistema de viaje en el tiempo no es un mero recurso narrativo; afecta directamente al mundo del juego, permitiendo a Elliot alterar eventos pasados para abrir nuevos caminos en el presente.
+
+| Final | Requisitos | Resultado narrativo | Estado familiar |
+|---|---|---|---|
+| Final de Bronce | Derrotar a Māo en el pasado | La maldición de Heuria se rompe, pero ella permanece inconsciente | Separados |
+| Final de Plata | Sellar a Māo usando magia antigua | Heuria se recupera por completo, pero Māo permanece prisionera | Sin resolver |
+| Final de Oro | Salvar a Carter en el pasado | Demise es destruido, Heuria es salvada, la familia se reúne | Totalmente restaurada |
+
+<Callout type="warning" title="Contenido que se puede perder">
+El Final de Oro es el verdadero final del juego. Para desbloquearlo, debes localizar y salvar a Carter en el pasado. Si no lo haces, quedarás bloqueado en los finales de Bronce o Plata.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Historial de lanzamiento y recepción de la crítica">
+
+El camino hacia el lanzamiento comenzó con un anuncio durante una transmisión en vivo de Nintendo Direct el 31 de julio de 2025. Para recopilar los comentarios de los jugadores, el desarrollador lanzó una demostración de 90 minutos en la eShop de Nintendo Switch 2 ese mismo día. Este proceso de desarrollo impulsado por encuestas permitió al equipo ajustar las mecánicas del juego antes de su lanzamiento oficial el 18 de junio de 2026.
+
+Tras su lanzamiento, el juego recibió críticas generalmente favorables, asegurando una tasa de recomendación del 86% en OpenCritic. Los críticos elogiaron el magnífico diseño visual, la profundidad del sistema de personalización de magicita y las batallas contra jefes constantemente desafiantes. Sin embargo, some críticos señalaron que el juego sufría de una variedad limitada de enemigos y de elementos ambientales repetitivos.
+
+| Publicación | Puntuación | Principal elogio | Principal crítica |
+|---|---|---|---|
+| RPGamer | 4 / 5 | Exploración gratificante, profundidad de magicita | Variedad de enemigos limitada |
+| IGN | 8 / 10 | Excelentes batallas contra jefes, estilo artístico | Entornos repetitivos |
+| PC Gamer | 76 / 100 | Mecánicas de combate de alta intensidad | Diálogos repetitivos de la compañera |
+
+<Callout type="success" title="Recepción de la comunidad">
+El continente ficticio de Philabieldia se convirtió en una sensación viral durante la revelación inicial debido a su similitud fonética con la ciudad de Filadelfia (Philadelphia), lo que desató numerosos memes divertidos en la comunidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación esencial para la progresión del jugador">
+
+Para garantizar un viaje sin contratiempos por las peligrosas tierras de Philabieldia, los jugadores deben centrarse en hitos clave que desbloquean capacidades esenciales de combate y exploración. Utiliza la siguiente lista de verificación para seguir tu progreso.
+
+<Checklist
+  id="elliot-progression"
+  title="Hitos de la campaña:"
+  items={[
+    "Recuperar el antiguo escudo mágico de las ruinas reales de Huther",
+    "Localizar a Māo y asegurar su ayuda para restaurar el escudo",
+    "Encontrar y rescatar a Carter en el pasado para desbloquear la ruta del Final Verdadero",
+    "Despertar al fénix Credel dentro de la región volcánica",
+    "Derrotar al antiguo dragón Demise para asegurar la paz en Philabieldia"
+  ]}
+/>
+
+<Callout type="info" title="Mecánicas del escudo">
+El escudo de Elliot es tu herramienta principal para la supervivencia. A diferencia del bloqueo estándar, realizar un desvío (parry) perfecto justo antes de que impacte un ataque enemigo anulará por completo el daño y abrirá una oportunidad para un contraataque crítico.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+Para los jugadores que buscan respuestas rápidas sobre el desarrollo, las mecánicas y las plataformas de este título de fantasía, hemos recopilado las preguntas más comunes a continuación.
+
+<FAQ items={[
+  {
+    question: "¿Quién es el desarrollador de The Adventures of Elliot: The Millennium Tales?",
+    answer: "El juego fue codesarrollado por Square Enix Creative Studio 5 (Team Asano) y Claytechworks, utilizando su característico estilo artístico HD-2D registrado."
+  },
+  {
+    question: "¿Hay un modo multijugador disponible?",
+    answer: "Sí, el juego cuenta con un modo cooperativo local en el que un segundo jugador puede controlar a la hada compañera de Elliot, Faie, para ayudar en el combate y en la resolución de acertijos."
+  },
+  {
+    question: "¿En qué plataformas puedo jugar al juego?",
+    answer: "El juego se lanzó el 18 de junio de 2026 para Nintendo Switch 2, PlayStation 5, Xbox Series X/S y Windows PC."
+  },
+  {
+    question: "¿Cómo desbloqueo el Final de Oro Verdadero?",
+    answer: "Debes viajar al pasado y salvar a Carter, lo que le permite a Elliot ayudar a su madre Māo a recuperar el sentido, reunir a su familia y despertar al fénix Credel."
+  }
+]} />
+
+<Callout type="tip" title="Recursos adicionales">
+Para obtener desgloses más detallados sobre estrategias específicas de jefes, ubicaciones de obtención de armas y rutas de speedrun, consulta la entrada oficial de [Wikipedia](https://en.wikipedia.org/wiki/The_Adventures_of_Elliot:_The_Millennium_Tales) o las wikis gestionadas por la comunidad.
+</Callout>
+
+</Section>
